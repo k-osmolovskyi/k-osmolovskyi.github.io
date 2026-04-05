@@ -4,7 +4,7 @@ title: ""
 
 ---
 
-Independent researcher of cognitive architectures
+Independent researcher working on cognitive architectures, structural coherence, and self-regulating systems.
 
 ---
 
@@ -21,9 +21,7 @@ arbitrary paragraph
 ---
 
 ### Current research
-Working on cognitive architectures, structural coherence, and the limits of updating in self-regulating systems. Focuses on developing formal theoretical models that connect cognition, regulation, invariants, and structural transformation within a unified framework.
-
-Current research is centered on the development of a general theory of cognitive structuring and a series of related theoretical papers. I work independently, with a strong focus on conceptual precision, formal consistency, and long-range theoretical integration.
+Currently developing a general theory of cognitive structuring and a series of formal theoretical papers.
 
 ---
 
