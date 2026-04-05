@@ -4,6 +4,10 @@ title: ""
 
 ---
 
+Independent researcher of cognitive architectures
+
+---
+
 ### Recent Papers
 *   [Example Name 1](https://example1.com) — *Journal Name, 2024*
 *   [Example Name 2](https://example1.com) — *Conference ABC, 2023*
@@ -16,12 +20,10 @@ arbitrary paragraph
 
 ---
 
-### About
-I am an independent researcher working on cognitive architectures, structural coherence, and the limits of updating in self-regulating systems. My work focuses on developing formal theoretical models that connect cognition, regulation, invariants, and structural transformation within a unified framework.
+### Current research
+Working on cognitive architectures, structural coherence, and the limits of updating in self-regulating systems. Focuses on developing formal theoretical models that connect cognition, regulation, invariants, and structural transformation within a unified framework.
 
-My academic background includes psychology, as well as public administration and local self-government, which shaped my attention to structure, form, and the organization of complex systems.
-
-My current research is centered on the development of a general theory of cognitive structuring and a series of related theoretical papers. I work independently, with a strong focus on conceptual precision, formal consistency, and long-range theoretical integration.
+Current research is centered on the development of a general theory of cognitive structuring and a series of related theoretical papers. I work independently, with a strong focus on conceptual precision, formal consistency, and long-range theoretical integration.
 
 ---
 
