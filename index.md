@@ -1,9 +1,6 @@
 ---
 layout: home
----
-
-# Kostiantyn Osmolovskyi
-**[Independent Researcher, Ukraine]**
+title: Kostiantyn Osmolovskyi
 
 ---
 
@@ -28,7 +25,7 @@ My current research is centered on the development of a general theory of cognit
 
 ---
 
-### Контакты
+### Contacts
 [Email](mailto:your-email@example.com) | [Telegram](https://t.me) | [Google Scholar](https://google.com) | [LinkedIn](https://linkedin.com)
 
 ---
