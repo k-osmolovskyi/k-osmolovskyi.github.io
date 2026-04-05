@@ -1,6 +1,5 @@
 ---
 layout: home
-Independent researcher working on cognitive architectures, structural coherence, and the limits of updating in self-regulating systems.
 
 ---
 
@@ -17,7 +16,7 @@ arbitrary paragraph
 ---
 
 ### About
-My work focuses on developing formal theoretical models that connect cognition, regulation, invariants, and structural transformation within a unified framework.
+I am an independent researcher working on cognitive architectures, structural coherence, and the limits of updating in self-regulating systems. My work focuses on developing formal theoretical models that connect cognition, regulation, invariants, and structural transformation within a unified framework.
 
 My academic background includes psychology, as well as public administration and local self-government, which shaped my attention to structure, form, and the organization of complex systems.
 
