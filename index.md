@@ -3,12 +3,11 @@ layout: home
 title: ""
 
 ---
-
-Independent researcher working on cognitive architectures, structural coherence, and self-regulating systems.
+Independent Researcher, Ukraine.
 
 ---
 
-### Recent Papers
+#### Recent Papers
 *   [Trajectory-Dependent Regulation in Cognitive Systems](https://zenodo.org/records/19468034) — *Zenodo, Technical Report No. 2026-5*
 *   [Overload Formation in Cognitive Processing](https://zenodo.org/records/19467914) — *Zenodo, Technical Report No. 2026-4*
 *   [Structural Admissibility in Cognitive Systems](https://zenodo.org/records/19467882) — *Zenodo, Technical Report No. 2026-3*
@@ -17,23 +16,20 @@ Independent researcher working on cognitive architectures, structural coherence,
 
 ---
 
-### Current information
 I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** category in order to submit my work there. If you are able to endorse submissions in this category, or could help me navigate this step, please feel free to contact me by email. I would be very grateful for any assistance.
-
 
 ---
 
-### Current research
-Currently developing a general theory of cognitive structuring and a series of formal theoretical papers.
+I am developing a general theory of cognitive structuring and a series of formal theoretical papers.
 
 [Cognitive Architecture and Structural Regulation](https://zenodo.org/communities/gtc/records) — *Zenodo, Community*
 
 ---
 
-### Contacts
+#### Contacts
 [Email](mailto:constantinosmol@gmail.com)
 
 ---
 
-### Blog posts
+##### Blog
 *(posts from _posts)*
