@@ -9,24 +9,29 @@ Independent researcher working on cognitive architectures, structural coherence,
 ---
 
 ### Recent Papers
-*   [Example Name 1](https://example1.com) — *Journal Name, 2024*
-*   [Example Name 2](https://example1.com) — *Conference ABC, 2023*
-*   [Example Name 3](https://example1.com) — *Arxiv, 2023*
+*   [Trajectory-Dependent Regulation in Cognitive Systems](https://zenodo.org/records/19468034) — *Zenodo, Technical Report No. 2026-5*
+*   [Overload Formation in Cognitive Processing](https://zenodo.org/records/19467914) — *Zenodo, Technical Report No. 2026-4*
+*   [Structural Admissibility in Cognitive Systems](https://zenodo.org/records/19467882) — *Zenodo, Technical Report No. 2026-3*
+*   [Coherence Evaluation in Cognitive Systems](https://zenodo.org/records/19467771) — *Zenodo, Technical Report No. 2026-2*
+*   [General Theory of Cognitive Structuring](https://zenodo.org/records/19467208) — *Zenodo, Technical Report No. 2026-1*
 
 ---
 
 ### Current information
-arbitrary paragraph
+I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** category in order to submit my work there. If you are able to endorse submissions in this category, or could help me navigate this step, please feel free to contact me by email. I would be very grateful for any assistance.
+
 
 ---
 
 ### Current research
 Currently developing a general theory of cognitive structuring and a series of formal theoretical papers.
 
+[Cognitive Architecture and Structural Regulation](https://zenodo.org/communities/gtc/records) — *Zenodo, Community*
+
 ---
 
 ### Contacts
-[Email](mailto:your-email@example.com) | [Telegram](https://t.me) | [Google Scholar](https://google.com) | [LinkedIn](https://linkedin.com)
+[Email](mailto:constantinosmol@gmail.com)
 
 ---
 
