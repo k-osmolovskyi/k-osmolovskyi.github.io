@@ -20,7 +20,7 @@ https://arxiv.org/auth/endorse?x=Q6E93A
 
 Although the papers within [the General Theory framework](https://zenodo.org/communities/gtc/records) are becoming available within a relatively short period of time, the series itself was developed over a much longer span. The work has its own internal evolution. Below is an auxiliary list indicating the order corresponding to the stages in which the papers emerged. Please use this sequence as a guide in order to follow the natural direction of the formal development.
 
-0. [General Theory of Cognitive Structuring](https://zenodo.org/records/19467208)
+[General Theory of Cognitive Structuring](https://zenodo.org/records/19467208)
 1. Admissibility of Structural Updating - *Unpublished manuscript*
 2. [Coherence Evaluation in Cognitive Systems](https://zenodo.org/records/19467771)
 3. [Structural Admissibility in Cognitive Systems](https://zenodo.org/records/19467882)
