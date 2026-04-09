@@ -3,8 +3,7 @@ layout: home
 title: ""
 
 ---
-Independent Researcher, Ukraine
-My research focuses on cognitive architecture and structural regulation
+Independent Researcher, Ukraine. My research focuses on cognitive architecture and structural regulation.
 
 ---
 #### Updates
