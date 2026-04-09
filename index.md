@@ -7,9 +7,9 @@ Independent Researcher, Ukraine.
 
 ---
 #### Updates
+*   [Invariants in Cognitive Architectures](https://zenodo.org/records/19480012) — *Zenodo, TR*
 *   [Identity as a Regulatory Attractor](https://zenodo.org/records/19476668) — *Zenodo, TR*
 *   [Trajectory-Dependent Regulation in Cognitive Systems](https://zenodo.org/records/19468034) — *Zenodo, TR*
-*   [Overload Formation in Cognitive Processing](https://zenodo.org/records/19467914) — *Zenodo, TR*
   
 ---
 I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** category in order to submit my work there. If you are able to endorse submissions in this category, or could help me navigate this step, please feel free to contact me by email. I would be very grateful for any assistance.
@@ -27,7 +27,8 @@ Although the papers within [the General Theory framework](https://zenodo.org/com
 4. [Overload Formation in Cognitive Processing](https://zenodo.org/records/19467914)
 5. [Trajectory-Dependent Regulation in Cognitive Systems](https://zenodo.org/records/19468034)
 6. [Identity as a Regulatory Attractor](https://zenodo.org/records/19476668)
-7. ...
+7. [Invariants in Cognitive Architectures](https://zenodo.org/records/19480012)
+8. ...
 
 
 ---
