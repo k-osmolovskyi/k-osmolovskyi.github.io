@@ -4,6 +4,7 @@ title: ""
 
 ---
 Independent Researcher, Ukraine
+My research focuses on cognitive architecture and structural regulation
 
 ---
 #### Updates
