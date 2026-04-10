@@ -7,9 +7,9 @@ Independent Researcher, Ukraine. Focus on cognitive architecture and structural 
 
 ---
 #### Updates
+*   [Pre-Symbolic Admissibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19499594) — *Zenodo, TR*
 *   [Coherence Representation in Multi-System Regulation](https://doi.org/10.5281/zenodo.19493295) — *Zenodo, TR*
 *   [Emergence of Coherence Representation](https://doi.org/10.5281/zenodo.19488085) — *Zenodo, TR*
-*   [Structural Compression in Cognitive Architectures](https://doi.org/10.5281/zenodo.19481796) — *Zenodo, TR*
   
 ---
 I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** category in order to submit my work there. If you are able to endorse submissions in this category, or could help me navigate this step, please feel free to contact me by email. I would be very grateful for any assistance.
@@ -31,7 +31,8 @@ I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence
 8. [Structural Compression in Cognitive Architectures](https://doi.org/10.5281/zenodo.19481796)
 9. [Emergence of Coherence Representation](https://doi.org/10.5281/zenodo.19488085)
 10. [Coherence Representation in Multi-System Regulation](https://doi.org/10.5281/zenodo.19493295)
-11. ...
+11. [Pre-Symbolic Admissibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19499594)
+12. ...
 
 
 ---
