@@ -38,7 +38,7 @@ I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence
 ---
 
 #### Educations
-- 2022, Master in Public administration and local self-government / Polytechnic University: Odesa, UA
+- 2022, Master in Public administration and local self-government / Polytechnic National University: Odesa, UA
 - 2021, Master in Public management and administration / Regional institute of National Academy for Public Administration: Odesa, UA
 - 2017, Bachelor in Psychology / I. I. Mechnikov National University: Odesa, UA
 
