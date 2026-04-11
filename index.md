@@ -7,9 +7,9 @@ Independent Researcher, Ukraine. Focus on cognitive architecture and structural 
 
 ---
 #### Updates
+*   [Inter-System Conflict Geometry in Cognitive Systems](https://doi.org/10.5281/zenodo.19509685) — *Zenodo, TR*
 *   [Restricted Accessibility of Coherence in Cognitive Systems](https://doi.org/10.5281/zenodo.19508182) — *Zenodo, TR*
 *   [Pre-Symbolic Admissibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19499593) — *Zenodo, TR*
-*   [Coherence Representation in Multi-System Regulation](https://doi.org/10.5281/zenodo.19493294) — *Zenodo, TR*
   
 ---
 I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** category in order to submit my work there. If you are able to endorse submissions in this category, or could help me navigate this step, please feel free to contact me by email. I would be very grateful for any assistance.
@@ -32,7 +32,7 @@ I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence
 10. [Coherence Representation in Multi-System Regulation](https://doi.org/10.5281/zenodo.19493294)
 11. [Pre-Symbolic Admissibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19499593)
 12. [Restricted Accessibility of Coherence in Cognitive Systems](https://doi.org/10.5281/zenodo.19508182)
-13. ...
+13. [Inter-System Conflict Geometry in Cognitive Systems](https://doi.org/10.5281/zenodo.19509685)
 14. [General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19467207)
 
 ---
