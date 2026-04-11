@@ -36,6 +36,7 @@ I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence
 14. [General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19467207)
 
 ---
+
 | No. | Paper                                                          | Role in the series                                            | Main contribution                                                                                                                                                                         | Key concept                                            |
 | --- | -------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
 | 1   | **Admissibility of Structural Updating** *Unpublished manuscript*                      | Theoretical entry point to the series                         | Identifies the gap of admissibility: structural updating cannot be explained solely through pressure, conflict, or state change; a separate principle of update admissibility is required | **Structural admissibility** as an independent problem |
