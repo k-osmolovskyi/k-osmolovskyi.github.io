@@ -35,8 +35,12 @@ I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence
 13. ...
 14. [General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19467207)
 
-
 ---
+
+#### Educations
+- 2022, Master in Public administration and local self-government / Polytechnic University: Odesa, UA
+- 2021, Master in Public management and administration / Regional institute of National Academy for Public Administration: Odesa, UA
+- 2017, Bachelor in Psychology / I. I. Mechnikov National University: Odesa, UA
 
 #### Contacts
 [Email](mailto:constantinosmol@gmail.com)
