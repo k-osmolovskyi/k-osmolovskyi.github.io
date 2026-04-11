@@ -20,7 +20,6 @@ I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence
 
 [The general theory framework](https://zenodo.org/communities/gtc/records) has its own internal evolution. Below is an auxiliary list indicating the order corresponding to the stages in which the papers emerged. Please use this sequence as a guide in order to follow the natural direction of the formal development.
 
----
 
 | No. | Paper                                                          | Role in the series                                            | Main contribution                                                                                                                                                                         | Key concept                                            |
 | --- | -------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
