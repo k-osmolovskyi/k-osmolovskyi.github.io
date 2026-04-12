@@ -42,8 +42,8 @@ I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence
 ---
 
 
-#### Contacts
-[Email](mailto:constantinosmol@gmail.com)
+#### Links
+[Email](mailto:constantinosmol@gmail.com)    [ORCID](https://orcid.org/0009-0006-3144-7237)   [Zenobo](https://zenodo.org/communities/gtc/records)
 
 ---
 
