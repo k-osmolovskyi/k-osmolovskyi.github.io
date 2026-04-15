@@ -7,9 +7,8 @@ Independent Researcher, Ukraine. Focus on cognitive architecture and structural 
 
 ---
 #### Updates
-*   [Inter-System Conflict Geometry in Cognitive Systems](https://doi.org/10.5281/zenodo.19509685) — *Zenodo, TR*
-*   [Restricted Accessibility of Coherence in Cognitive Systems](https://doi.org/10.5281/zenodo.19508182) — *Zenodo, TR*
-*   [Pre-Symbolic Admissibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19499593) — *Zenodo, TR*
+*   [Inner Manifestation Beyond Admissible Processing: A Formal Distinction in Cognitive Systems](https://doi.org/10.5281/zenodo.19583268) — *Zenodo, TR*
+
   
 ---
 I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** category in order to submit my work there. If you are able to endorse submissions in this category, or could help me navigate this step, please feel free to contact me by email. I would be very grateful for any assistance.
@@ -40,6 +39,8 @@ I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence
 
 
 ---
+#### 
+[Inner Manifestation Beyond Admissible Processing: A Formal Distinction in Cognitive Systems](https://doi.org/10.5281/zenodo.19583268) — *Zenodo, TR*
 
 
 #### Links
