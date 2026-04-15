@@ -39,7 +39,7 @@ I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence
 
 
 ---
-#### 
+#### Branch
 [Inner Manifestation Beyond Admissible Processing: A Formal Distinction in Cognitive Systems](https://doi.org/10.5281/zenodo.19583268) — *Zenodo, TR*
 
 
