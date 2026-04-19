@@ -3,7 +3,10 @@ layout: home
 title: ""
 
 ---
-Independent Researcher, Ukraine. Focus on cognitive architecture and structural regulation.
+#### Start here
+**Overview**
+**Entry paper** [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676)
+
 
 ---
 #### Updates
