@@ -7,6 +7,7 @@ title: ""
 [Overview of the General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19646969)
 
 ---
+
 #### Updates
 *   [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
 *   [Parametric Realizations of Coherence Evaluation in Minimal Systems](https://doi.org/10.5281/zenodo.19656664) — *TN, minimal computational template* 
@@ -16,6 +17,7 @@ title: ""
 
 
 ---
+
 #### General theory of cognitive structuring and a series of formal theoretical papers
 
 [The general theory framework](https://zenodo.org/communities/gtc/records) has its own internal evolution. Below is an auxiliary list indicating the order corresponding to the stages in which the papers emerged. Please use this sequence as a guide in order to follow the natural direction of the formal development.
@@ -40,11 +42,13 @@ title: ""
 
 
 ---
+
 #### Branch
 [Inner Manifestation Beyond Admissible Processing: A Formal Distinction in Cognitive Systems](https://doi.org/10.5281/zenodo.19583268) — *Zenodo, TR*
 
 
 ---
+
 #### Concept Papers
 [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
 
