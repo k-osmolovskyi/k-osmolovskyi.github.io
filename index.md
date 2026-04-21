@@ -1,58 +1,65 @@
 ---
 layout: home
-title: General Theory of Cognitive Structuring
-description: Formal framework for regulatory dynamics in cognitive architectures under bounded resources.
-keywords: cognitive architecture, regulatory dynamics, structural admissibility, invariant-based modeling, coherence geometry, overload memory, trajectory dependence, pre-symbolic filtering, structural compression, identity as attractor, multi-system regulation, order alignment, partial observability, bounded rationality, theoretical cognitive science, AI safety, complex systems, dynamical systems, hysteresis, formal methods, open science
----
-
-**Author:** [Kostiantyn Osmolovskyi](https://orcid.org/0009-0006-3144-7237)  
-**Affiliation:** Independent Researcher, Ukraine  
-**Contact:** [constantinosmol@gmail.com](mailto:constantinosmol@gmail.com)  
-**Zenodo Community:** [https://zenodo.org/communities/gtc](https://zenodo.org/communities/gtc)
+title: ""
 
 ---
 
-## Overview
+[Overview of the General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19646969)
 
-This open series presents a formal, substrate-independent framework for analyzing regulatory dynamics in cognitive architectures operating under bounded resources. The theory introduces a unified mathematical language for describing how structural constraints, overload accumulation, trajectory-dependent regulation, and layered admissibility conditions govern stability, structural change, and the emergence of persistent behavioral patterns (identity) across biological, artificial, and complex adaptive systems.
+---
+#### Updates
+*   [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
+*   [Parametric Realizations of Coherence Evaluation in Minimal Systems](https://doi.org/10.5281/zenodo.19656664) — *TN, minimal computational template* 
+*   [Trajectory-Dependent Regulation in Cognitive Systems](https://doi.org/10.5281/zenodo.19468033) — *Version 1.1: added a minimal simulation section* → [https://colab.research.google.com](https://colab.research.google.com/drive/1nygtv6vDgfWVdMngZ6W8FBb9xfG2to12?usp=sharing)
+*   [Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) — *Zenodo, Concept Paper*
+*   [Inner Manifestation Beyond Admissible Processing: A Formal Distinction in Cognitive Systems](https://doi.org/10.5281/zenodo.19583268) — *Zenodo, TR*
 
-Core distinction: **geometric coherence ≠ regulatory accessibility ≠ structural updating**.
+
+---
+#### General theory of cognitive structuring and a series of formal theoretical papers
+
+[The general theory framework](https://zenodo.org/communities/gtc/records) has its own internal evolution. Below is an auxiliary list indicating the order corresponding to the stages in which the papers emerged. Please use this sequence as a guide in order to follow the natural direction of the formal development.
+
+
+| No. | Paper                                                          | Role in the series                                            | Main contribution                                                                                                                                                                         | Key concept                                            |
+| --- | -------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| 1   | **[Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676)**                     | Theoretical entry point to the series                         | Shows that access to processing should be distinguished from the availability of structural updating, and introduces admissibility of structural updating. | **Structural updating** |
+| 2   | **[Coherence Evaluation in Cognitive Systems](https://doi.org/10.5281/zenodo.19467770)**                  | Geometric foundation of the series                            | Formalizes coherence as the relation between the current configuration and the region of stable processing                                                                                | **Coherence geometry**                                 |
+| 3   | **[Structural Admissibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19467881)**              | Formalization of the limit of structural updating             | Shows when structural updating becomes admissible under accumulated tension and architectural constraints                                                                                 | **Admissibility operator**                             |
+| 4   | **[Overload Formation in Cognitive Processing](https://doi.org/10.5281/zenodo.19467913)**                 | Formalization of regulatory overload                          | Explains how non-compensable tension becomes accumulated overload                                                                                                                         | **Overload**                                           |
+| 5   | **[Trajectory-Dependent Regulation in Cognitive Systems](https://doi.org/10.5281/zenodo.19468033)**       | Introduction of the historical dependence of regulation       | Demonstrates that the regulatory state depends not only on the current point, but also on the path by which it was reached                                                                | **Trajectory dependence**                              |
+| 6   | **[Identity as a Regulatory Attractor](https://doi.org/10.5281/zenodo.19476667)**                         | Introduction of a stable core of regulation                   | Shows identity as a stable regulatory configuration rather than a content-based description                                                                                               | **Identity as a regulatory attractor**                 |
+| 7   | **[Invariants in Cognitive Architectures](https://doi.org/10.5281/zenodo.19480011)**                      | Formalization of stable architectural constraints             | Defines invariants as what stabilizes admissible forms of further processing                                                                                                              | **Invariants**                                         |
+| 8   | **[Structural Compression in Cognitive Architectures](https://doi.org/10.5281/zenodo.19481795)**          | Mechanism of stable structure formation                       | Shows how recurrent regulatorily significant relations are compressed into compact architectural formations                                                                               | **Structural compression**                             |
+| 9   | **[Emergence of Coherence Representation](https://doi.org/10.5281/zenodo.19488084)**                      | Transition from geometry to an internal regulatory variable   | Explains how an internal variable arises from locally available signals and makes regulation possible without direct access to full coherence geometry                                    | **Coherence representation**                           |
+| 10  | **[Coherence Representation in Multi-System Regulation](https://doi.org/10.5281/zenodo.19493294)**        | Transition to inter-system regulation                         | Shows how systems can relate regulatory states not through shared geometry but through alignment of regulatory significance order                                                         | **Inter-system order alignment**                       |
+| 11  | **[Pre-Symbolic Admissibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19499593)**            | Earliest layer of regulatory selection                        | Formalizes which local discrepancies are admitted to further regulatory processing before representation and before structural updating                                                   | **Pre-symbolic admissibility**                         |
+| 12  | **[Restricted Accessibility of Coherence in Cognitive Systems](https://doi.org/10.5281/zenodo.19508182)** | Distinction between geometric coherence and its accessibility | Shows that coherence may be geometrically defined without being regulatorily accessible to the system                                                                                     | **Restricted accessibility of coherence**              |
+| 13  | **[Inter-System Conflict Geometry in Cognitive Systems](https://doi.org/10.5281/zenodo.19509685)**        | Formalization of conflict at the inter-system level           | Defines conflict not as disagreement, but as the absence of a shared admissible discrepancy structure sufficient for coordinated regulation                                               | **Conflict geometry**                                  |
+| 14  | **[General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19467207)**                    | Synthetic work of the series                                  | Integrates the separate formalizations into a unified theory of stability, constraints, trajectories, invariants, representations, and conflict                                           | **General theory of cognitive structuring**            |
+
+
+---
+#### Branch
+[Inner Manifestation Beyond Admissible Processing: A Formal Distinction in Cognitive Systems](https://doi.org/10.5281/zenodo.19583268) — *Zenodo, TR*
+
+
+---
+#### Concept Papers
+[Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
+
+[Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) — *Zenodo, Concept Paper*
+
+---
+I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** category in order to submit my work there. If you are able to endorse submissions in this category, or could help me navigate this step, please feel free to contact me by email. I would be very grateful for any assistance.
+[https://arxiv.org/auth/endorse?x=Q6E93A](https://arxiv.org/auth/endorse?x=Q6E93A)
+
+
+
+#### Links
+[Email](mailto:constantinosmol@gmail.com)    [ORCID](https://orcid.org/0009-0006-3144-7237)   [Zenobo](https://zenodo.org/communities/gtc/records)
 
 ---
 
-## Minimal Reading Path
-
-For first-time readers:
-
-1. [2026-1: General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.xxxxxxx) — unifying language, layered admissibility
-2. [2026-2: Coherence Evaluation](https://doi.org/10.5281/zenodo.xxxxxxx) — geometry: coherence as distance to stability region
-3. [2026-3: Structural Admissibility](https://doi.org/10.5281/zenodo.xxxxxxx) — operator A(·), phase space (T, L)
-4. [2026-5: Trajectory-Dependent Regulation](https://doi.org/10.5281/zenodo.xxxxxxx) — hysteresis, drift to boundary, concentration near minimal overload
-
-Full corpus: read sequentially 2026-1 → 2026-14. Definitions and axioms are built incrementally.
-
----
-
-## Key Concepts
-
-- `Invariants`: historically constituted architectural constraints
-- `Coherence`: geometric distance to invariant-induced stability region
-- `Structural tension`: instantaneous regulatory pressure (K + C)
-- `Overload memory`: trajectory-dependent accumulation of non-compensated tension
-- `Pre-symbolic admissibility`: filter determining which discrepancies enter regulatory processing
-- `Coherence representation`: internal regulatory variable constructed from admissible signals
-- `Structural compression`: mechanism for invariant formation that reduces expected overload
-- `Identity as attractor`: persistent low-overload region emerging from bounded regulation
-- `Order alignment`: condition for multi-system co-regulation without shared geometry
-
----
-
-## Code & Reproducibility
-
-Minimal Python simulations accompany relevant reports to illustrate core mechanisms (e.g., trajectory dependence). Parameters are explicitly documented. Simulations are strictly illustrative, not exhaustive computational studies.
-
-- [`assets/trajectory_regulation_v2.py`](assets/trajectory_regulation_v2.py) — minimal demo of trajectory-dependent regulation
-
-```bash
-pip install numpy matplotlib
-python assets/trajectory_regulation_v2.py
+##### Blog
+*(posts from _posts)*
