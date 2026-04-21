@@ -1,2 +1,13 @@
-remote_theme: jekyll/minima
-title: Kostiantyn Osmolovskyi
+title: General Theory of Cognitive Structuring
+description: A substrate-independent regulatory stack for cognitive architectures under bounded resources.
+theme: minima
+author:
+  name: Kostiantyn Osmolovskyi
+  email: constantinosmol@gmail.com
+  orcid: 0009-0006-3144-7237
+repository: your-username/your-repo
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+markdown: kramdown
+permalink: pretty
