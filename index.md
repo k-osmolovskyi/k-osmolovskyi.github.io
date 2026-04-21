@@ -4,7 +4,7 @@ title: ""
 
 ---
 
-[Overview of the General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19646969)
+[Overview of the Theory](https://doi.org/10.5281/zenodo.19646969)
 
 ---
 
