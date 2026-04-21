@@ -6,9 +6,6 @@ title: ""
 
 **Overview** [Overview of the General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19646969)
 
-**Entry paper** [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676)
-
-
 ---
 #### Updates
 *   [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
