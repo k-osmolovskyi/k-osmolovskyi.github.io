@@ -1,6 +1,6 @@
+---
 layout: home
 title: ""
-
 ---
 
 [Overview of the Theory](https://doi.org/10.5281/zenodo.19646969)
