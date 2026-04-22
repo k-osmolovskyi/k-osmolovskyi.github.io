@@ -40,7 +40,9 @@ Researchers in theoretical cognitive science, AI architecture & safety, complex 
 
 **Full Understanding**: Read sequentially (TR #2026-1 through 2026-14 + Technical Notes). Definitions, axioms, and theorems are built incrementally; later reports presuppose earlier formalizations.
 
-**Map of the series**: [Overview of the theory](https://doi.org/10.5281/zenodo.19646969)
+**A Verification-Oriented Auxiliary Note** Public [Glossary of Core Terms](https://doi.org), a notation companion, a disallowed substitutions table, a minimal verification protocol, and a cross-paper mapping of major concepts and formal components.
+
+**Quick map of the series**: [Overview of the theory](https://doi.org/10.5281/zenodo.19646969)
 
 **Minimal Python simulations** e.g., [trajectory_regulation_v2.py](https://colab.research.google.com/drive/1nygtv6vDgfWVdMngZ6W8FBb9xfG2to12?usp=sharing) accompany relevant reports to illustrate trajectory dependence and admissibility dynamics. Parameters are explicitly documented. Simulations are strictly illustrative and are not intended as exhaustive computational studies or empirical validations.
 
@@ -66,6 +68,7 @@ TR_26\12     | [Restricted Accessibility of Coherence](https://doi.org/10.5281/z
 TR_26\13     | [Inter-System Conflict Geometry ](https://doi.org/10.5281/zenodo.19509685)          | conflict as incompatibility of admissibility structures
 TR_26\14     | [Inner Manifestation](https://doi.org/10.5281/zenodo.19583268)                      | PSA constrains enactment, not manifestation
 TN_26\1      | [Parametric Realizations of Coherence](https://doi.org/10.5281/zenodo.19656664)     | minimal computational template
+TN_26\2      | [Glossary of Core Terms](https://doi.org/)                   | glossary of core terms, a notation companion, a disallowed substitutions table, a minimal verification protocol, and a cross-paper mapping
 
 ---
 
