@@ -68,7 +68,7 @@ TR_26\12     | [Restricted Accessibility of Coherence](https://doi.org/10.5281/z
 TR_26\13     | [Inter-System Conflict Geometry ](https://doi.org/10.5281/zenodo.19509685)          | conflict as incompatibility of admissibility structures
 TR_26\14     | [Inner Manifestation](https://doi.org/10.5281/zenodo.19583268)                      | PSA constrains enactment, not manifestation
 TN_26\1      | [Parametric Realizations of Coherence](https://doi.org/10.5281/zenodo.19656664)     | minimal computational template
-TN_26\2      | [Glossary of Core Terms](https://doi.org/10.5281/zenodo.19689203)                   | glossary of core terms, a notation companion, a disallowed substitutions table, a minimal verification protocol, and a cross-paper mapping
+TN_26\2      | [Glossary of Core Terms](https://doi.org/10.5281/zenodo.19689203)                   | glossary of core terms, a verification-oriented auxiliary note
 
 ---
 
