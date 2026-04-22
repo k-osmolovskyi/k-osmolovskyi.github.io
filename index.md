@@ -12,9 +12,9 @@ Unlike models that assume full observability or treat structural change as conti
 
 Identity is derived not as a representational primitive, but as a structural attractor emerging from long-run overload minimization under bounded regulation.
 
-*Domain* [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721)
+*Domain*: [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721)
 
-*Concept* [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676)
+*Concept*: [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676)
 
 ---
 
