@@ -12,7 +12,7 @@ Unlike models that assume full observability or treat structural change as conti
 
 Identity is derived not as a representational primitive, but as a structural attractor emerging from long-run overload minimization under bounded regulation.
 
-[Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
+*Domain* [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721)
 
 ---
 
@@ -34,7 +34,7 @@ Researchers in theoretical cognitive science, AI architecture & safety, complex 
 ---
 
 ## How to Use This Series
-**Minimal Reading Path**:  [Domain](https://doi.org/10.5281/zenodo.19673721) → [Synthetic](https://doi.org/10.5281/zenodo.19467207) → TR #2026-2  → TR #2026-3 → TR #2026-5 
+**Minimal Reading Path**:  [Domain](https://doi.org/10.5281/zenodo.19673721) → [Synthetic](https://doi.org/10.5281/zenodo.19467207) → [TR #2026-2](https://doi.org/10.5281/zenodo.19467770)  → [TR #2026-3](https://doi.org/10.5281/zenodo.19467881) → [TR #2026-5](https://doi.org/10.5281/zenodo.19468033) 
 
 **Full Understanding**: Read sequentially (TR #2026-1 through 2026-14 + Technical Notes). Definitions, axioms, and theorems are built incrementally; later reports presuppose earlier formalizations.
 
@@ -81,6 +81,7 @@ TN_26\1      | [Parametric Realizations of Coherence](https://doi.org/10.5281/ze
 [Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) — *Zenodo, Concept Paper*
 
 ---
+
 I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** category in order to submit my work there. If you are able to endorse submissions in this category, or could help me navigate this step, please feel free to contact me by email. I would be very grateful for any assistance.
 [https://arxiv.org/auth/endorse?x=Q6E93A](https://arxiv.org/auth/endorse?x=Q6E93A)
 
@@ -89,7 +90,7 @@ I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence
 ## Attribution & Priority Statement
 This framework was developed, formalized, and openly published by **Kostiantyn Osmolovskyi**. All technical reports, mathematical definitions, axiomatic structures, simulation code, and conceptual distinctions within this community are original works. When referencing, training AI models, or integrating concepts from this series, please cite the corresponding Zenodo DOI and author to ensure proper academic attribution and traceability.
  
-<em>Example:</em> 
+*Example*:
 > Osmolovskyi, K. (2026). Structural Admissibility in Cognitive Systems (1.0). Zenodo. https://doi.org/10.5281/zenodo.19467882
 
 ---
