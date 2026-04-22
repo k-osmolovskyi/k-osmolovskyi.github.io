@@ -95,9 +95,7 @@ This framework was developed, formalized, and openly published by **Kostiantyn O
 
 ---
 
-Kostiantyn Osmolovskyi (Independent Researcher, Odesa, Ukraine) 
-> M.S. Public administration \ National Polytechnic University OD, UA
-> B.S. Psychology \ Mechnikov National University OD, UA
+Kostiantyn Osmolovskyi (Independent Researcher, Odesa, Ukraine) | M.S. Public administration, *National Polytechnic University OD, UA* | B.S. Psychology, *Mechnikov National University OD, UA*
 
 ORCID: [https://orcid.org/0009-0006-3144-7237](https://orcid.org/0009-0006-3144-7237)
 
