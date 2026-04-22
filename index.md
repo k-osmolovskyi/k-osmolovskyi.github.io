@@ -44,7 +44,7 @@ Researchers in theoretical cognitive science, AI architecture & safety, complex 
 
 **Minimal Python simulations** e.g., [trajectory_regulation_v2.py](https://colab.research.google.com/drive/1nygtv6vDgfWVdMngZ6W8FBb9xfG2to12?usp=sharing) accompany relevant reports to illustrate trajectory dependence and admissibility dynamics. Parameters are explicitly documented. Simulations are strictly illustrative and are not intended as exhaustive computational studies or empirical validations.
 
-**Quick map of the series**: [Overview of the theory](https://doi.org/10.5281/zenodo.19646969)
+**Map of the series**: [Overview of the theory](https://doi.org/10.5281/zenodo.19646969)
 
 ---
 
