@@ -3,7 +3,36 @@ layout: home
 title: ""
 ---
 
-[Overview of the Theory](https://doi.org/10.5281/zenodo.19646969)
+# Theory of Cognitive Structuring  – Open Research Series
+This open series presents a formal, substrate-independent framework for analyzing regulatory dynamics in cognitive architectures operating under bounded resources. The theory introduces a unified mathematical language for describing how structural constraints, overload accumulation, trajectory-dependent regulation, and layered admissibility conditions govern stability, structural change, and the emergence of persistent behavioral patterns (identity) across biological, artificial, and complex adaptive systems.
+Unlike models that assume full observability or treat structural change as continuous optimization, this framework formalizes cognitive systems as architectures that:
+* Operate over restricted discrepancy domains rather than complete state spaces;
+* Accumulate non-compensated structural pressure through trajectory-dependent overload memory;
+* Permit structural updating only when joint regulatory states cross admissibility boundaries.
+Identity is derived not as a representational primitive, but as a structural attractor emerging from long-run overload minimization under bounded regulation.
+
+---
+
+### Key Concepts
+- `Invariants` &mdash; historically formed architectural constraints that remain preserved under ordinary processing;
+- `Coherence` &mdash; the geometric distance between the current configuration and the region of structural stability induced by the active invariants;
+- `Structural tension and overload` &mdash; immediate regulatory pressure and its accumulated memory, making system dynamics trajectory-dependent rather than reducible to the present state alone;
+- `Structural admissibility` &mdash; a multi-level condition determining which discrepancies enter the regulatory domain and under what conditions structural updating becomes possible;
+- `Pre-symbolic admissibility` &mdash; a filter operating prior to representation, determining which signals can participate in regulation at all;
+- `Compression` &mdash; a mechanism through which new invariants are formed, reducing expected overload and potentially transforming the geometry of admissibility;
+- `Identity as a regulatory attractor` &mdash; a stable region of configurations toward which trajectories tend to converge through the minimization of long-term regulatory pressure;
+- `Inter-system order alignment` &mdash; a condition for the co-regulation of heterogeneous architectures without requiring a shared metric or common representational format.
+
+---
+
+### How to Use This Series
+**Minimal Reading Path**:  [Domain](https://doi.org/10.5281/zenodo.19673721) → [Synthetic](https://doi.org/10.5281/zenodo.19467207) → TR #2026-2  → TR #2026-3 → TR #2026-5 
+
+**Full Understanding**: Read sequentially (TR #2026-1 through 2026-14 + Technical Notes). Definitions, axioms, and theorems are built incrementally; later reports presuppose earlier formalizations.
+
+**Map of the series**: [Overview of the theory](https://doi.org/10.5281/zenodo.19646969)
+
+**Minimal Python simulations** e.g., [trajectory_regulation_v2.py](https://colab.research.google.com/drive/1nygtv6vDgfWVdMngZ6W8FBb9xfG2to12?usp=sharing) accompany relevant reports to illustrate trajectory dependence and admissibility dynamics. Parameters are explicitly documented. Simulations are strictly illustrative and are not intended as exhaustive computational studies or empirical validations.
 
 ---
 
