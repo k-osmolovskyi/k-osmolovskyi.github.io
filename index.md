@@ -9,6 +9,7 @@ Unlike models that assume full observability or treat structural change as conti
 * Operate over restricted discrepancy domains rather than complete state spaces;
 * Accumulate non-compensated structural pressure through trajectory-dependent overload memory;
 * Permit structural updating only when joint regulatory states cross admissibility boundaries.
+
 Identity is derived not as a representational primitive, but as a structural attractor emerging from long-run overload minimization under bounded regulation.
 
 ---
@@ -43,6 +44,29 @@ Identity is derived not as a representational primitive, but as a structural att
 *   [Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) — *Zenodo, Concept Paper*
 *   [Inner Manifestation Beyond Admissible Processing: A Formal Distinction in Cognitive Systems](https://doi.org/10.5281/zenodo.19583268) — *Zenodo, TR*
 
+
+---
+
+###Formalizations
+The theory framework has its own internal evolution. Below is an auxiliary list indicating the order corresponding to the stages in which the papers emerged. Please use this sequence as a guide in order to follow the natural direction of the formal development.
+
+No.          | Paper                                    | Role
+------------ | ---------------------------------------- | -------------
+TR_26\1      | General Theory                           | unifying language, layered admissibility principle
+TR_26\2      | Coherence Evaluation                     | geometry: coherence as distance to stability region
+TR_26\3      | Structural Admissibility                 | structural admissibility operator, phase space, level as geometry
+TR_26\4      | Overload Formation                       | compensability threshold, instantaneous overload, memory
+TR_26\5      | Trajectory-Dependent Regulation          | hysteresis, drift to boundary, concentration near minimal overload
+TR_26\6      | Identity as a Regulatory Attractor       | identity-core as cost-separated low-overload attractor
+TR_26\7      | Invariants                               | axiomatic core, interaction structure, invariant-induced geometry
+TR_26\8      | Structural Compression                   | compression vs. simplification; level-preserving vs. level-forming
+TR_26\9      | Emergence of Coherence Representation    | order-preserving regulatory variable under partial observability
+TR_26\10     | Coherence Representation in Multi-System | order alignment, co-regulation without shared geometry
+TR_26\11     | Pre-Symbolic Admissibility               | pre-representational filtering of discrepancies that determines which signals can enter regulation
+TR_26\12     | Restricted Accessibility of Coherence    | geometric coherence exists globally; regulatory access is domain-constrained
+TR_26\13     | Inter-System Conflict Geometry           | conflict as incompatibility of admissibility structures
+TR_26\14     | Inner Manifestation                      | PSA constrains enactment, not manifestation
+TN_26\1      | Parametric Realizations of Coherence     | minimal computational template
 
 ---
 
