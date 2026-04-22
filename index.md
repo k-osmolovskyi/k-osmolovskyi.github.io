@@ -3,7 +3,7 @@ layout: home
 title: ""
 ---
 
-# Theory of Cognitive Structuring  – Open Research Series
+# Theory of Cognitive Structuring - *Open Research Series*
 This open series presents a formal, substrate-independent framework for analyzing regulatory dynamics in cognitive architectures operating under bounded resources. The theory introduces a unified mathematical language for describing how structural constraints, overload accumulation, trajectory-dependent regulation, and layered admissibility conditions govern stability, structural change, and the emergence of persistent behavioral patterns (identity) across biological, artificial, and complex adaptive systems.
 Unlike models that assume full observability or treat structural change as continuous optimization, this framework formalizes cognitive systems as architectures that:
 * Operate over restricted discrepancy domains rather than complete state spaces;
