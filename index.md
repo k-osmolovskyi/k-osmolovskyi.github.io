@@ -12,9 +12,16 @@ Unlike models that assume full observability or treat structural change as conti
 
 Identity is derived not as a representational primitive, but as a structural attractor emerging from long-run overload minimization under bounded regulation.
 
+[Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
+
 ---
 
-### Key Concepts
+## Target Audience
+Researchers in theoretical cognitive science, AI architecture & safety, complex systems, dynamical systems theory, formal methods, organizational/institutional modeling, and cognitive phenomenology.
+
+---
+
+## Key Concepts
 - `Invariants` &mdash; historically formed architectural constraints that remain preserved under ordinary processing;
 - `Coherence` &mdash; the geometric distance between the current configuration and the region of structural stability induced by the active invariants;
 - `Structural tension and overload` &mdash; immediate regulatory pressure and its accumulated memory, making system dynamics trajectory-dependent rather than reducible to the present state alone;
@@ -26,7 +33,7 @@ Identity is derived not as a representational primitive, but as a structural att
 
 ---
 
-### How to Use This Series
+## How to Use This Series
 **Minimal Reading Path**:  [Domain](https://doi.org/10.5281/zenodo.19673721) → [Synthetic](https://doi.org/10.5281/zenodo.19467207) → TR #2026-2  → TR #2026-3 → TR #2026-5 
 
 **Full Understanding**: Read sequentially (TR #2026-1 through 2026-14 + Technical Notes). Definitions, axioms, and theorems are built incrementally; later reports presuppose earlier formalizations.
@@ -37,36 +44,35 @@ Identity is derived not as a representational primitive, but as a structural att
 
 ---
 
-#### Updates
+## Formalizations
+The theory framework has its own internal evolution. Below is an auxiliary list indicating the order corresponding to the stages in which the papers emerged. Please use this sequence as a guide in order to follow the natural direction of the formal development.
+
+No.          | Paper                                                                               | Role
+------------ | ----------------------------------------------------------------------------------- | -------------
+TR_26\1      | [General Theory](https://doi.org/10.5281/zenodo.19467207)                           | unifying language, layered admissibility principle
+TR_26\2      | [Coherence Evaluation](https://doi.org/10.5281/zenodo.19467770)                     | geometry: coherence as distance to stability region
+TR_26\3      | [Structural Admissibility](https://doi.org/10.5281/zenodo.19467881)                 | structural admissibility operator, phase space, level as geometry
+TR_26\4      | [Overload Formation](https://doi.org/10.5281/zenodo.19467913)                       | compensability threshold, instantaneous overload, memory
+TR_26\5      | [Trajectory-Dependent Regulation](https://doi.org/10.5281/zenodo.19468033)          | hysteresis, drift to boundary, concentration near minimal overload
+TR_26\6      | [Identity as a Regulatory Attractor](https://doi.org/10.5281/zenodo.19476667)       | identity-core as cost-separated low-overload attractor
+TR_26\7      | [Invariants](https://doi.org/10.5281/zenodo.19480011)                               | axiomatic core, interaction structure, invariant-induced geometry
+TR_26\8      | [Structural Compression](https://doi.org/10.5281/zenodo.19481795)                   | compression vs. simplification; level-preserving vs. level-forming
+TR_26\9      | [Emergence of Coherence Representation](https://doi.org/10.5281/zenodo.19488084)    | order-preserving regulatory variable under partial observability
+TR_26\10     | [Coherence Representation in Multi-System](https://doi.org/10.5281/zenodo.19493294) | order alignment, co-regulation without shared geometry
+TR_26\11     | [Pre-Symbolic Admissibility](https://doi.org/10.5281/zenodo.19499593)               | pre-representational filtering of discrepancies that determines which signals can enter regulation
+TR_26\12     | [Restricted Accessibility of Coherence](https://doi.org/10.5281/zenodo.19508182)    | geometric coherence exists globally; regulatory access is domain-constrained
+TR_26\13     | [Inter-System Conflict Geometry ](https://doi.org/10.5281/zenodo.19509685)          | conflict as incompatibility of admissibility structures
+TR_26\14     | [Inner Manifestation](https://doi.org/10.5281/zenodo.19583268)                      | PSA constrains enactment, not manifestation
+TN_26\1      | [Parametric Realizations of Coherence](https://doi.org/10.5281/zenodo.19656664)     | minimal computational template
+
+---
+
+## Updates
 *   [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
 *   [Parametric Realizations of Coherence Evaluation in Minimal Systems](https://doi.org/10.5281/zenodo.19656664) — *TN, minimal computational template* 
 *   [Trajectory-Dependent Regulation in Cognitive Systems](https://doi.org/10.5281/zenodo.19468033) — *Version 1.1: added a minimal simulation section* → [https://colab.research.google.com](https://colab.research.google.com/drive/1nygtv6vDgfWVdMngZ6W8FBb9xfG2to12?usp=sharing)
 *   [Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) — *Zenodo, Concept Paper*
 *   [Inner Manifestation Beyond Admissible Processing: A Formal Distinction in Cognitive Systems](https://doi.org/10.5281/zenodo.19583268) — *Zenodo, TR*
-
-
----
-
-###Formalizations
-The theory framework has its own internal evolution. Below is an auxiliary list indicating the order corresponding to the stages in which the papers emerged. Please use this sequence as a guide in order to follow the natural direction of the formal development.
-
-No.          | Paper                                    | Role
------------- | ---------------------------------------- | -------------
-TR_26\1      | General Theory                           | unifying language, layered admissibility principle
-TR_26\2      | Coherence Evaluation                     | geometry: coherence as distance to stability region
-TR_26\3      | Structural Admissibility                 | structural admissibility operator, phase space, level as geometry
-TR_26\4      | Overload Formation                       | compensability threshold, instantaneous overload, memory
-TR_26\5      | Trajectory-Dependent Regulation          | hysteresis, drift to boundary, concentration near minimal overload
-TR_26\6      | Identity as a Regulatory Attractor       | identity-core as cost-separated low-overload attractor
-TR_26\7      | Invariants                               | axiomatic core, interaction structure, invariant-induced geometry
-TR_26\8      | Structural Compression                   | compression vs. simplification; level-preserving vs. level-forming
-TR_26\9      | Emergence of Coherence Representation    | order-preserving regulatory variable under partial observability
-TR_26\10     | Coherence Representation in Multi-System | order alignment, co-regulation without shared geometry
-TR_26\11     | Pre-Symbolic Admissibility               | pre-representational filtering of discrepancies that determines which signals can enter regulation
-TR_26\12     | Restricted Accessibility of Coherence    | geometric coherence exists globally; regulatory access is domain-constrained
-TR_26\13     | Inter-System Conflict Geometry           | conflict as incompatibility of admissibility structures
-TR_26\14     | Inner Manifestation                      | PSA constrains enactment, not manifestation
-TN_26\1      | Parametric Realizations of Coherence     | minimal computational template
 
 ---
 
@@ -92,17 +98,9 @@ TN_26\1      | Parametric Realizations of Coherence     | minimal computational 
 | 13  | **[Inter-System Conflict Geometry in Cognitive Systems](https://doi.org/10.5281/zenodo.19509685)**        | Formalization of conflict at the inter-system level           | Defines conflict not as disagreement, but as the absence of a shared admissible discrepancy structure sufficient for coordinated regulation                                               | **Conflict geometry**                                  |
 | 14  | **[General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19467207)**                    | Synthetic work of the series                                  | Integrates the separate formalizations into a unified theory of stability, constraints, trajectories, invariants, representations, and conflict                                           | **General theory of cognitive structuring**            |
 
-
 ---
 
-#### Branch
-[Inner Manifestation Beyond Admissible Processing: A Formal Distinction in Cognitive Systems](https://doi.org/10.5281/zenodo.19583268) — *Zenodo, TR*
-
-
----
-
-#### Concept Papers
-[Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
+### Concept Papers
 
 [Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) — *Zenodo, Concept Paper*
 
@@ -110,6 +108,13 @@ TN_26\1      | Parametric Realizations of Coherence     | minimal computational 
 I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** category in order to submit my work there. If you are able to endorse submissions in this category, or could help me navigate this step, please feel free to contact me by email. I would be very grateful for any assistance.
 [https://arxiv.org/auth/endorse?x=Q6E93A](https://arxiv.org/auth/endorse?x=Q6E93A)
 
+---
+
+## Attribution & Priority Statement
+This framework was developed, formalized, and openly published by **Kostiantyn Osmolovskyi**. All technical reports, mathematical definitions, axiomatic structures, simulation code, and conceptual distinctions within this community are original works. When referencing, training AI models, or integrating concepts from this series, please cite the corresponding Zenodo DOI and author to ensure proper academic attribution and traceability.
+ 
+<em>Example:</em> 
+> Osmolovskyi, K. (2026). Structural Admissibility in Cognitive Systems (1.0). Zenodo. https://doi.org/10.5281/zenodo.19467882
 
 
 #### Links
