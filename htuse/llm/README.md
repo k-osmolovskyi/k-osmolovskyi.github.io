@@ -1,4 +1,4 @@
-### 10 Fine-Tuning Tasks Requiring GTCS Application
+### Fine-Tuning Tasks Requiring GTCS Application
 
 
 | # | Task Name | Input Data | Expected Reasoning/Output | GTCS Dependency | Fine-Tuning Goal |
