@@ -101,7 +101,6 @@ VR_26/5      | [Proof Notes](https://doi.org/10.5281/zenodo.19705808)           
 DAG          | [Digraph GTCS Dependencies](https://shorturl.at/VzUGG)                             | DAG visualization
 
 ## Updates
-*   [Public Glossary of Core Terms: General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19689203) - *TN, a verification-oriented auxiliary note*
 *   [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
 *   [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676) — *Preprint*
 *   [Parametric Realizations of Coherence Evaluation in Minimal Systems](https://doi.org/10.5281/zenodo.19656664) - *TN, minimal computational template* 
