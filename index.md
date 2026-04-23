@@ -67,10 +67,26 @@ TR_26/11     | [Pre-Symbolic Admissibility](https://doi.org/10.5281/zenodo.19499
 TR_26/12     | [Restricted Accessibility of Coherence](https://doi.org/10.5281/zenodo.19508182)    | geometric coherence exists globally; regulatory access is domain-constrained
 TR_26/13     | [Inter-System Conflict Geometry ](https://doi.org/10.5281/zenodo.19509685)          | conflict as incompatibility of admissibility structures
 TR_26/14     | [Inner Manifestation](https://doi.org/10.5281/zenodo.19583268)                      | PSA constrains enactment, not manifestation
-TN_26/1      | [Parametric Realizations of Coherence](https://doi.org/10.5281/zenodo.19656664)     | minimal computational template
-TN_26/2      | [Glossary of Core Terms](https://doi.org/10.5281/zenodo.19689203)                   | glossary of core terms, a verification-oriented auxiliary note
 
 ---
+
+## Verification Package for the Theory
+Set of companion documents designed to support external verification of the General Theory of Cognitive Structuring. Together, these documents are intended to reduce accidental misreading, make the dependency structure of the series explicit, and simplify formal and conceptual verification across the paper sequence.
+
+No.          | Doc/Paper                                                                                                                | Role
+------------ | -------------------------------------------------------------------------------------------------------------------- | -------------
+TN_26/1      | [Parametric Realizations of Coherence](https://doi.org/10.5281/zenodo.19656664)                                      | Minimal computational template
+Simul.       | [trajectory_regulation_v2.py](https://colab.research.google.com/drive/1nygtv6vDgfWVdMngZ6W8FBb9xfG2to12?usp=sharing) | Minimal python simulations
+
+No.          | Paper                                                                                   | Role
+------------ | --------------------------------------------------------------------------------------- | -------------
+TN_26/2      | [Glossary of Core Terms](https://doi.org/10.5281/zenodo.19689203)                       | Interpretive glossary for core terms
+TN_26/3      | [Acyclicity Statement and Dependency Criteria](https://doi.org/10.5281/zenodo.19701824) | Dependency criteria and non-circularity statement
+TN_26/4      | [Dependency Tables and Node Registry](https://doi.org/10.5281/zenodo.19701847)          | Node registry and paper-level dependency map
+TN_26/5      | [Technical Appendix](https://doi.org/10.5281/zenodo.19701876)                           | Notation, assumptions, and formal traceability
+TN_26/6      | [How to Verify](https://doi.org/10.5281/zenodo.19701901)                                | Reading order and verification roadmap
+TN_26/7      | [External Verification Checklist](https://doi.org/10.5281/zenodo.19701915)              | Practical checklist for external review
+TN_26/8      | [Minimal Claims Register](https://doi.org/10.5281/zenodo.19701933)                      | Compact register of the theory’s main claims
 
 ## Updates
 *   [Public Glossary of Core Terms: General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19689203) - *TN, a verification-oriented auxiliary note*
