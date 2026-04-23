@@ -1,6 +1,4 @@
-### Fine-Tuning Tasks Requiring GTCS Application
-
-
+### LLM Architecture - Fine-Tuning Tasks
 | # | Task Name | Input Data | Expected Reasoning/Output | GTCS Dependency | Fine-Tuning Goal |
 | :-: | :--- | :--- | :--- | :--- | :--- |
 | **1** | Trajectory-Aware Regime Classification | Two states with identical $T_t$, different $L_t$ and input history | Predict why one state remains in "stable" while another transitions to "protective/rigid" | Hysteresis, $A(T,L)$, deformation of $T_{crit}(L)$ | Teach model to distinguish instantaneous tension from regulatory state |
@@ -13,3 +11,13 @@
 | **8** | Identity-Core Attractor Identification | Long trajectory of configurations under bounded R | Identify regions $C_\varepsilon$ where $u(x) \approx u_{min}$ and trajectories concentrate | Concentration $\mu(X \\setminus C_\varepsilon)$, cost-separation, drift | Teach model to find regulatory attractors in data |
 | **9** | Admissibility-Gated Intervention Design | System near $\partial U$, $M_t > 0$, $\kappa_t > 0$ | Design intervention that either prevents unwanted update or directs compression | Dependence of $A$ on $M, \kappa$, level-forming vs preserving | Teach model to plan structural changes with admissibility awareness |
 | **10** | Cross-Level Conflict Diagnosis | Coordination failure of two systems with matching reports | Determine whether representational conflict or incompatibility $D^A_t$ vs $D^B_t$ | Inter-system conflict geometry, mismatch of admissible domains | Teach model to distinguish semantic dispute from architectural incompatibility |
+
+
+### LLM Architecture - Safety-focused
+| # | Problem / Open Question | GTCS Lens | What This Clarifies |
+| :-: | :--- | :--- | :--- |
+| **1** | Why do agents "break" under long-horizon deployment without obvious error spikes? | Overload memory + drift to admissibility boundary | Explains degradation as trajectory-dependent accumulation, not as distributional shift alone |
+| **2** | When should an agent change its architecture vs. tune parameters? | Compression criterion + level-transition geometry | Provides formal condition: structural change is stabilizing only if it reduces expected overload |
+| **3** | How can heterogeneous agents coordinate without shared ontology? | Order alignment + ordinal adequacy | Shows coordination requires preservation of regulatory order, not metric equivalence or shared embeddings |
+| **4** | Why might an agent fail to "notice" a developing failure mode? | Pre-symbolic admissibility + non-injectivity of access | Formalizes structural blindness: discrepancies may exist geometrically but not enter regulatory domain |
+| **5** | How to prevent reward hacking from destabilizing long-run behavior? | Bounded regulation + identity-core concentration | Shows stable behavior emerges from overload-minimizing regions, not from reward maximization alone |
