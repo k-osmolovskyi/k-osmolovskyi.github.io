@@ -40,9 +40,11 @@ Researchers in theoretical cognitive science, AI architecture & safety, complex 
 
 **Full Understanding**: Read sequentially (TR #2026-1 through 2026-14 + Technical Notes). Definitions, axioms, and theorems are built incrementally; later reports presuppose earlier formalizations.
 
-**Verification Package** [Verification package table](#verification-package-for-the-theory) glossary, acyclicity statement, dependency table, *how to*, etc.
+[Verification package table](#verification-package-for-the-theory): glossary, acyclicity statement, dependency table, *how to*, etc.
 
-**Map of the series**: [Overview of the theory](https://doi.org/10.5281/zenodo.19646969)
+[Proof-Oriented Documents](#proof-oriented-documents): collected results, proof status note; collected propositions and theorems; proof status register; verification package overview; proof notes.
+
+[Overview of the theory](https://doi.org/10.5281/zenodo.19646969): guide to the structure of the framework.
 
 ---
 
@@ -85,6 +87,17 @@ TN_26/5      | [Technical Appendix](https://doi.org/10.5281/zenodo.19701876)    
 TN_26/6      | [How to Verify](https://doi.org/10.5281/zenodo.19701901)                                | Reading order and verification roadmap
 TN_26/7      | [External Verification Checklist](https://doi.org/10.5281/zenodo.19701915)              | Practical checklist for external review
 TN_26/8      | [Minimal Claims Register](https://doi.org/10.5281/zenodo.19701933)                      | Compact register of the theory’s main claims
+
+## Proof-Oriented Documents
+This block provides the proof-support layer of the General Theory of Cognitive Structuring. It includes collected results, normalized propositions and theorems, a proof-status register, a package overview, and author-side proof notes. Together, these documents are intended to stabilize the canonical result layer of the series, distinguish proof-ready results from sketch-level ones, and prepare later proof-compendium development.
+
+No.          | Doc/Paper                                                                          | Role
+------------ | ---------------------------------------------------------------------------------- | -------------
+VR_26/1      | [Collected Results and Proof Status Note](https://doi.org/10.5281/zenodo.19705593) | Collected result layer with proof-status classification
+VR_26/2      | [Collected Propositions and Theorems](https://doi.org/10.5281/zenodo.19705677)     | Normalized collection of propositions and theorems
+VR_26/3      | [Proof Status Register](https://doi.org/10.5281/zenodo.19705731)                   | Compact register of proof readiness and consolidation status
+VR_26/4      | [Verification Package Overview](https://doi.org/10.5281/zenodo.19705772)           | Front overview of the verification and proof-support package
+VR_26/5      | [Proof Notes](https://doi.org/10.5281/zenodo.19705808)                             | Author-side proof logic and compendium preparation notes
 
 ## Updates
 *   [Public Glossary of Core Terms: General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19689203) - *TN, a verification-oriented auxiliary note*
