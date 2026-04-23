@@ -98,6 +98,7 @@ VR_26/2      | [Collected Propositions and Theorems](https://doi.org/10.5281/zen
 VR_26/3      | [Proof Status Register](https://doi.org/10.5281/zenodo.19705731)                   | Compact register of proof readiness and consolidation status
 VR_26/4      | [Verification Package Overview](https://doi.org/10.5281/zenodo.19705772)           | Front overview of the verification and proof-support package
 VR_26/5      | [Proof Notes](https://doi.org/10.5281/zenodo.19705808)                             | Author-side proof logic and compendium preparation notes
+DAG          | [Digraph GTCS Dependencies](https://shorturl.at/VzUGG)                             | DAG visualization
 
 ## Updates
 *   [Public Glossary of Core Terms: General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19689203) - *TN, a verification-oriented auxiliary note*
