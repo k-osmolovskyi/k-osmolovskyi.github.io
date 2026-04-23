@@ -40,9 +40,7 @@ Researchers in theoretical cognitive science, AI architecture & safety, complex 
 
 **Full Understanding**: Read sequentially (TR #2026-1 through 2026-14 + Technical Notes). Definitions, axioms, and theorems are built incrementally; later reports presuppose earlier formalizations.
 
-**A Verification-Oriented Auxiliary Note** [Public Glossary of Core Terms](https://doi.org/10.5281/zenodo.19689203), a notation companion, a disallowed substitutions table, a minimal verification protocol, and a cross-paper mapping of major concepts and formal components.
-
-**Minimal Python simulations** e.g., [trajectory_regulation_v2.py](https://colab.research.google.com/drive/1nygtv6vDgfWVdMngZ6W8FBb9xfG2to12?usp=sharing) accompany relevant reports to illustrate trajectory dependence and admissibility dynamics. Parameters are explicitly documented. Simulations are strictly illustrative and are not intended as exhaustive computational studies or empirical validations.
+**Verification Package** [Verification package table](#verification-package-for-the-theory) glossary, acyclicity statement, dependency table, *how to*, etc.
 
 **Map of the series**: [Overview of the theory](https://doi.org/10.5281/zenodo.19646969)
 
