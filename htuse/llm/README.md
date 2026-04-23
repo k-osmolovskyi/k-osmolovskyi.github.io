@@ -1,1 +1,10 @@
+### 10 Fine-Tuning Tasks Requiring GTCS Application
 
+
+| # | Task Name | Input Data | Expected Reasoning/Output | GTCS Dependency | Fine-Tuning Goal |
+| :-: | :--- | :--- | :--- | :--- | :--- |
+| **1** | Trajectory-Aware Regime Classification | Two states with identical $T_t$, different $L_t$ and input history | Predict why one state remains in "stable" while another transitions to "protective/rigid" | Hysteresis, $A(T,L)$, deformation of $T_{crit}(L)$ | Teach model to distinguish instantaneous tension from regulatory state |
+| **2** | Admissibility Boundary Forecast | Sequence of $(T_t, R_t, \bar{h}_t)$ over N steps | Determine moment $t^*$ when $A(T_t, L_t) \geq \tau$, and assess whether caused by T peak or L accumulation | Dynamics of $L_{t+1}$, monotonic decrease of $T_{crit}(L)$ | Teach model to predict structural reorganization by trajectory, not threshold |
+| **3** | Pre-Symbolic Filtering Simulation | Set of raw discrepancies $Z_t$, current invariants $I_t$, $R_t$, $\bar{h}_t$ | Derive $D_t = \Pi^{ps}_t(Z_t)$, explain suppression/admission by local compatibility | $\alpha(z_i\|I,R,\bar{h})$, threshold $\alpha_0$, invariant constraint | Teach model to simulate filtering prior to representation |
+| **4** | Compression vs Simplification Judgment | Two proposed invariant updates $\Delta I_1, \Delta I_2$ | Classify which reduces $E[u]$ (compression) vs which only reduces $\|I\|$ without stabilization | $E[u_{t+1}]  0$, $\kappa_t > 0$ | Design intervention that either prevents unwanted update or directs compression | Dependence of $A$ on $M, \kappa$, level-forming vs preserving | Teach model to plan structural changes with admissibility awareness |
+| **10** | Cross-Level Conflict Diagnosis | Coordination failure of two systems with matching reports | Determine whether representational conflict or incompatibility $D^A_t$ vs $D^B_t$ | Inter-system conflict geometry, mismatch of admissible domains | Teach model to distinguish semantic dispute from architectural incompatibility |
