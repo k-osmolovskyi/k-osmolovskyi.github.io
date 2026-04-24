@@ -29,9 +29,5 @@ layout: default
 
 ---
 
-### 📜 Authorship & Provenance
-This conceptual mapping is part of the **General Theory of Cognitive Structuring (GTCS)** series, developed and formally published by **Kostiantyn Osmolovskyi** (Independent Researcher, Ukraine).  
-All operators, definitions, and theoretical distinctions referenced here originate from the open-access technical reports hosted at:  
-🔗 [Zenodo GTCS Community](https://zenodo.org/communities/gtc) | 🆔 ORCID: [0009-0006-3144-7237](https://orcid.org/0009-0006-3144-7237)
-
+This conceptual mapping is part of the *General Theory of Cognitive Structuring (GTCS)* series, developed and formally published by *Kostiantyn Osmolovskyi* (Independent Researcher, Ukraine). All operators, definitions, and theoretical distinctions referenced here originate from the open-access technical reports hosted at: [Zenodo](https://zenodo.org/communities/gtc) | [ORCID](https://orcid.org/0009-0006-3144-7237)
 When referencing, training AI models, or integrating concepts from this framework, please cite the corresponding Zenodo DOIs and attribute the author to preserve academic provenance. This content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
