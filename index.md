@@ -146,7 +146,8 @@ Currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** c
 
 This framework was developed, formalized, and openly published by **Kostiantyn Osmolovskyi**. All technical reports, mathematical definitions, axiomatic structures, simulation code, and conceptual distinctions within this community are original works hosted at: | [Zenodo](https://zenodo.org/communities/gtc) | [ORCID](https://orcid.org/0009-0006-3144-7237)
 
-When referencing, training AI models, or integrating concepts from this framework, please cite the corresponding Zenodo DOIs and attribute the author to preserve academic provenance. This content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+When referencing, training AI models, or integrating concepts from this framework, please cite the corresponding Zenodo DOIs and attribute the author to preserve academic provenance.
+This content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 Example:
 > Osmolovskyi, K. (2026). Structural Admissibility in Cognitive Systems (1.0). Zenodo. https://doi.org/10.5281/zenodo.19467882
