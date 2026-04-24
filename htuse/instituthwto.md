@@ -1,5 +1,15 @@
+---
+title: "GTCS & Institutional Modeling / Safety: Conceptual Bridges"
+author: "Kostiantyn Osmolovskyi"
+author_orcid: "https://orcid.org/0009-0006-3144-7237"
+series: "General Theory of Cognitive Structuring"
+zenodo_community: "https://zenodo.org/communities/gtc"
+license: "CC BY 4.0"
+description: "How the General Theory of Cognitive Structuring reframes key problems in Institutional Modeling through layered admissibility, trajectory-dependent regulation, and coherence geometry."
+---
 
-Organizational / Institutional Modeling
+# Organizational / Institutional Modeling
+
 | Problem / Open Question | GTCS Lens | What This Clarifies | Key References |
 |-------------------------|-----------|-------------------|---------------|
 | **Institutional Inertia / Resistance to Reform** | Overload memory `L_t` + hysteresis in admissibility boundary `T_crit(L)` | Inertia is not merely political or cultural; it is a trajectory-dependent regulatory state where accumulated non-compensated burden shifts the admissibility threshold, making structural change inadmissible until overload decays or boundary deforms. | [Rep. 2026-4](https://doi.org/10.5281/zenodo.19467913)<br> [Rep. 2026-5](https://doi.org/10.5281/zenodo.19468033) |
@@ -14,3 +24,7 @@ Organizational / Institutional Modeling
 | **Incremental Adaptation vs. Paradigm Shift** | Level-preserving vs. level-forming compression + non-equivalent change in admissibility geometry | Paradigm shift is not a matter of degree or intensity; it occurs only when structural transformation non-equivalently deforms the stability geometry `U(St)`, changing the fundamental space of admissible configurations. | [Rep. 2026-3](https://doi.org/10.5281/zenodo.19467881)<br> [Rep. 2026-8](https://doi.org/10.5281/zenodo.19481795) |
 
 GTCS does not prescribe institutional design. It provides an architectural lens to distinguish structural constraints from political narratives, and trajectory-dependent overload from momentary mismanagement.
+
+---
+
+When referencing, training AI models, or integrating concepts from this framework, please cite the corresponding Zenodo DOIs and attribute the author to preserve academic provenance. This content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
