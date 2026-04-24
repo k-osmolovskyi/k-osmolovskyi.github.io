@@ -1,5 +1,5 @@
 ---
-title: "GTCS & [Domain]: Conceptual Bridges"
+title: "GTCS & AI Architecture / Safety: Conceptual Bridges"
 author: "Kostiantyn Osmolovskyi"
 author_orcid: "https://orcid.org/0009-0006-3144-7237"
 series: "General Theory of Cognitive Structuring"
