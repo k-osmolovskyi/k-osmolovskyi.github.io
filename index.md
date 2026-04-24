@@ -21,14 +21,14 @@ Identity is derived not as a representational primitive, but as a structural att
 
 Target                                  | Conceptual Mapping
 --------------------------------------- | -------------
-Theoretical Cognitive Science           | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref-theoretical-cognitive-science.md)
-Dynamical Systems Theory                | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref-dynamical-systems.md)
-AI Architecture & Safety                | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref-ai-safety.md)
-Complex Systems                         | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref-complex-systems.md)
-Formal Methods                          | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref-formal-methods.md)
-Organizational / Institutional Modeling | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref-organizational-modeling.md)
-Philosophy of Mind / Phenomenology      | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref-cognitive-phenomenology.md)
-Psychology                              | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref-psychology.md)
+Theoretical Cognitive Science           | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/ref-theoretical-cognitive-science.md)
+Dynamical Systems Theory                | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/ref-dynamical-systems.md)
+AI Architecture & Safety                | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/ref-ai-safety.md)
+Complex Systems                         | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/ref-complex-systems.md)
+Formal Methods                          | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/ref-formal-methods.md)
+Organizational / Institutional Modeling | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/ref-organizational-modeling.md)
+Philosophy of Mind / Phenomenology      | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/ref-cognitive-phenomenology.md)
+Psychology                              | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/ref-psychology.md)
 
 ---
 
