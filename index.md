@@ -21,7 +21,8 @@ Identity is derived not as a representational primitive, but as a structural att
 - Researchers in theoretical cognitive science: [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/cogscihwto.md)
 - AI architecture & safety: [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/aillmhowto.md)
 - complex systems [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/complexsys.md)
-- dynamical systems theory, formal methods,
+- dynamical systems theory,
+- formal methods [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/formal-methods.md)
 - organizational/institutional modeling [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/instituthwto.md)
 - philosophy of mind / cognitive phenomenology [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/phenomhwto.md)
 
