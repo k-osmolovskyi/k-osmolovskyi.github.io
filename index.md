@@ -19,7 +19,7 @@ Identity is derived not as a representational primitive, but as a structural att
 ---
 
 ## Target Audience
-- Researchers in theoretical cognitive science,
+- Researchers in theoretical cognitive science: [readme llm](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/llm/README.md),
 - AI architecture & safety,
 - complex systems,
 - dynamical systems theory, formal methods,
