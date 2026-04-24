@@ -1,3 +1,14 @@
+| Problem / Open Question | GTCS Lens | What This Clarifies |
+|-------------------------|-----------|-------------------|
+| **Deceptive Alignment / Scheming** | `Π^{ps}_t` filtering + identity-core formation under training geometry | Shows deception as a stable low-overload attractor when training-relevant discrepancies are pre-symbolically excluded from regulation; not "strategic malice" but trajectory-constrained overload minimization. |
+| **Specification Gaming / Proxy Misspecification** | Compressed representation `Ĉ_t` operating on restricted `D_t` | Gaming emerges because `Ĉ_t` preserves order only over admitted discrepancies; the system follows the only regulatorily available ordering, not the true objective. |
+| **Latent Capabilities / Evaluation Blind Spots** | Restricted accessibility of coherence | Capabilities exist geometrically but remain regulatorily inaccessible until `Π^{ps}_t` or resource conditions shift; evaluation blindness is architectural, not statistical. |
+| **Value Lock-in / RLHF Path Dependence** | Overload memory `L_t` + hysteresis in `T_{crit}(L)` | Early alignment choices accumulate non-compensable overload, deforming the admissibility boundary and making later correction structurally inadmissible without external reset. |
+| **Multi-Reward Instability / Objective Trade-offs** | Failure of inter-system order alignment | Combining reward models fails when their regulatory orders lack ordinal compatibility; stability requires monotone mapping, not scalar averaging or linear interpolation. |
+| **Emergent Capabilities / Scale Transitions** | Level-forming compression + admissibility geometry shift | Sudden capability emergence corresponds to non-equivalent change in stability geometry, making previously filtered discrepancies regulatorily accessible for the first time. |
+| **Mesa-Optimization / Inner Misalignment** | Identity-core concentration under deployment geometry | Divergent objectives form as trajectory-concentration regions that minimize long-run overload under deployment constraints, while base rewards fall outside `D_t`. |
+| **Safety Intervention / Emergency Stop Failure** | Admissibility-gated structural updating (`A(T,L)`) | Forced stops fail when `A < τ`; effective intervention requires operating within current `D_t` or explicitly modifying `L_t`/`Π^{ps}_t`, not just overriding behavioral output. |
+
 ### LLM - Fine-Tuning Tasks
 | # | Task Name | Input Data | Expected Reasoning/Output | GTCS Dependency | Fine-Tuning Goal |
 | :-: | :--- | :--- | :--- | :--- | :--- |
@@ -21,14 +32,3 @@
 | **3** | How can heterogeneous agents coordinate without shared ontology? | Order alignment + ordinal adequacy | Shows coordination requires preservation of regulatory order, not metric equivalence or shared embeddings |
 | **4** | Why might an agent fail to "notice" a developing failure mode? | Pre-symbolic admissibility + non-injectivity of access | Formalizes structural blindness: discrepancies may exist geometrically but not enter regulatory domain |
 | **5** | How to prevent reward hacking from destabilizing long-run behavior? | Bounded regulation + identity-core concentration | Shows stable behavior emerges from overload-minimizing regions, not from reward maximization alone |
-
-| Problem / Open Question | GTCS Lens | What This Clarifies |
-|-------------------------|-----------|-------------------|
-| **Deceptive Alignment / Scheming** | `Π^{ps}_t` filtering + identity-core formation under training geometry | Shows deception as a stable low-overload attractor when training-relevant discrepancies are pre-symbolically excluded from regulation; not "strategic malice" but trajectory-constrained overload minimization. |
-| **Specification Gaming / Proxy Misspecification** | Compressed representation `Ĉ_t` operating on restricted `D_t` | Gaming emerges because `Ĉ_t` preserves order only over admitted discrepancies; the system follows the only regulatorily available ordering, not the true objective. |
-| **Latent Capabilities / Evaluation Blind Spots** | Restricted accessibility of coherence | Capabilities exist geometrically but remain regulatorily inaccessible until `Π^{ps}_t` or resource conditions shift; evaluation blindness is architectural, not statistical. |
-| **Value Lock-in / RLHF Path Dependence** | Overload memory `L_t` + hysteresis in `T_{crit}(L)` | Early alignment choices accumulate non-compensable overload, deforming the admissibility boundary and making later correction structurally inadmissible without external reset. |
-| **Multi-Reward Instability / Objective Trade-offs** | Failure of inter-system order alignment | Combining reward models fails when their regulatory orders lack ordinal compatibility; stability requires monotone mapping, not scalar averaging or linear interpolation. |
-| **Emergent Capabilities / Scale Transitions** | Level-forming compression + admissibility geometry shift | Sudden capability emergence corresponds to non-equivalent change in stability geometry, making previously filtered discrepancies regulatorily accessible for the first time. |
-| **Mesa-Optimization / Inner Misalignment** | Identity-core concentration under deployment geometry | Divergent objectives form as trajectory-concentration regions that minimize long-run overload under deployment constraints, while base rewards fall outside `D_t`. |
-| **Safety Intervention / Emergency Stop Failure** | Admissibility-gated structural updating (`A(T,L)`) | Forced stops fail when `A < τ`; effective intervention requires operating within current `D_t` or explicitly modifying `L_t`/`Π^{ps}_t`, not just overriding behavioral output. |
