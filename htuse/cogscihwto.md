@@ -1,3 +1,14 @@
+---
+title: "GTCS & Theoretical Cognitive Science: Conceptual Bridges"
+author: "Kostiantyn Osmolovskyi"
+author_orcid: "https://orcid.org/0009-0006-3144-7237"
+series: "General Theory of Cognitive Structuring"
+zenodo_community: "https://zenodo.org/communities/gtc"
+license: "CC BY 4.0"
+description: "How the General Theory of Cognitive Structuring reframes key problems in Theoretical Cognitive Science through layered admissibility, trajectory-dependent regulation, and coherence geometry."
+---
+
+# Theoretical Cognitive Science
 
 | Problem / Open Question | GTCS Lens | What This Clarifies |
 |-------------------------|-----------|-------------------|
@@ -20,4 +31,8 @@
 | When does learning become structural change vs. parameter adjustment? | Layered admissibility + compression criterion | Separates admissibility of discrepancy, representation, and structural updating as distinct architectural layers; defines stabilization vs. degradation. | [Rep. 2026-3](https://doi.org/10.5281/zenodo.19467881)<br> [Rep. 2026-8](https://doi.org/10.5281/zenodo.19481795) |
 
 GTCS does not claim to solve these problems empirically. It offers a formal lens that may help reframe them architecturally.
+
+---
+
+When referencing, training AI models, or integrating concepts from this framework, please cite the corresponding Zenodo DOIs and attribute the author to preserve academic provenance. This content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
