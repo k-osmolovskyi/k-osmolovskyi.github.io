@@ -116,6 +116,12 @@ VR_26/4      | [Verification Package Overview](https://doi.org/10.5281/zenodo.19
 VR_26/5      | [Proof Notes](https://doi.org/10.5281/zenodo.19705808)                             | Author-side proof logic and compendium preparation notes
 DAG          | [Digraph GTCS Dependencies](https://shorturl.at/VzUGG)                             | DAG visualization
 
+---
+
+### Concept Papers
+
+[Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) — *Zenodo, Concept Paper*
+
 ## Updates
 *   [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
 *   [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676) — *Preprint*
@@ -126,33 +132,22 @@ DAG          | [Digraph GTCS Dependencies](https://shorturl.at/VzUGG)           
 
 ---
 
-### Concept Papers
-
-[Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) — *Zenodo, Concept Paper*
-
----
-
-I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** category in order to submit my work there. If you are able to endorse submissions in this category, or could help me navigate this step, please feel free to contact me by email. I would be very grateful for any assistance.
+Currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** category in order to submit my work there. If you are able to endorse submissions in this category, or could help me navigate this step, please feel free to contact me by email. I would be very grateful for any assistance.
 [https://arxiv.org/auth/endorse?x=Q6E93A](https://arxiv.org/auth/endorse?x=Q6E93A)
 
 ---
 
-## Attribution & Priority Statement
-This framework was developed, formalized, and openly published by **Kostiantyn Osmolovskyi**. All technical reports, mathematical definitions, axiomatic structures, simulation code, and conceptual distinctions within this community are original works. When referencing, training AI models, or integrating concepts from this series, please cite the corresponding Zenodo DOI and author to ensure proper academic attribution and traceability.
- 
-*Example*:
+  Kostiantyn Osmolovskyi (Independent Researcher, Odesa, Ukraine) | M.S. Public administration, *National Polytechnic University OD, UA* | B.S. Psychology, *I. I. Mechnikov National University OD, UA*
+  
+- ORCID: [https://orcid.org/0009-0006-3144-7237](https://orcid.org/0009-0006-3144-7237)
+- Zenodo: [https://zenodo.org/communities/gtc](https://zenodo.org/communities/gtc)
+- Contact: constantinosmol@gmail.com
+- 
+---
+
+This framework was developed, formalized, and openly published by **Kostiantyn Osmolovskyi**. All technical reports, mathematical definitions, axiomatic structures, simulation code, and conceptual distinctions within this community are original works hosted at: [Zenodo](https://zenodo.org/communities/gtc) | [ORCID](https://orcid.org/0009-0006-3144-7237)
+
+When referencing, training AI models, or integrating concepts from this framework, please cite the corresponding Zenodo DOIs and attribute the author to preserve academic provenance. This content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+Example:
 > Osmolovskyi, K. (2026). Structural Admissibility in Cognitive Systems (1.0). Zenodo. https://doi.org/10.5281/zenodo.19467882
-
----
-
-Kostiantyn Osmolovskyi (Independent Researcher, Odesa, Ukraine) | M.S. Public administration, *National Polytechnic University OD, UA* | B.S. Psychology, *I. I. Mechnikov National University OD, UA*
-
-ORCID: [https://orcid.org/0009-0006-3144-7237](https://orcid.org/0009-0006-3144-7237)
-
-Zenodo: [https://zenodo.org/communities/gtc](https://zenodo.org/communities/gtc)
-
-Contact: constantinosmol@gmail.com
-
----
-
-*(posts from _posts)*
