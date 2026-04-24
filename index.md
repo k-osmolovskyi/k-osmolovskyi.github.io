@@ -18,13 +18,17 @@ Identity is derived not as a representational primitive, but as a structural att
 ---
 
 ## Target Audience
-- Researchers in theoretical cognitive science: [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/cogscihwto.md)
-- AI architecture & safety: [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/aillmhowto.md)
-- complex systems [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/complexsys.md)
-- dynamical systems theory [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/dynamical-systems.md)
-- formal methods [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/formal-methods.md)
-- organizational/institutional modeling [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/instituthwto.md)
-- philosophy of mind / cognitive phenomenology [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/phenomhwto.md)
+
+Target                                  | Conceptual Mapping
+--------------------------------------- | -------------
+Theoretical Cognitive Science           | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref-theoretical-cognitive-science.md)
+Dynamical Systems Theory                | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref-dynamical-systems.md)
+AI Architecture & Safety                | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref-ai-safety.md)
+Complex Systems                         | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref-complex-systems.md)
+Formal Methods                          | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref-formal-methods.md)
+Organizational / Institutional Modeling | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref-organizational-modeling.md)
+Philosophy of Mind / Phenomenology      | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref-cognitive-phenomenology.md)
+Psychology                              | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref-psychology.md)
 
 ---
 
