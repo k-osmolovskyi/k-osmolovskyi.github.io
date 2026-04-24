@@ -23,7 +23,7 @@ Identity is derived not as a representational primitive, but as a structural att
 - AI architecture & safety: [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/aillmhowto.md)
 - complex systems,
 - dynamical systems theory, formal methods,
-- organizational/institutional modeling,
+- organizational/institutional modeling [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/instituthwto.md)
 - philosophy of mind / cognitive phenomenology [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/phenomhwto.md)
 
 ---
