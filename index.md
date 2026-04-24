@@ -72,11 +72,10 @@ TR_26/11     | [Pre-Symbolic Admissibility](https://doi.org/10.5281/zenodo.19499
 TR_26/12     | [Restricted Accessibility of Coherence](https://doi.org/10.5281/zenodo.19508182)    | geometric coherence exists globally; regulatory access is domain-constrained
 TR_26/13     | [Inter-System Conflict Geometry ](https://doi.org/10.5281/zenodo.19509685)          | conflict as incompatibility of admissibility structures
 
-## Phenomenology Branch (formalizations)
+## Formalizations - Phenomenology Branch
 No.          | Paper                                                                               | Role
 ------------ | ----------------------------------------------------------------------------------- | -------------
-TR_26/14     | [Inner Manifestation Beyond Admissible Processing](https://doi.org/10.5281/zenodo.19583268)                      | PSA constrains enactment, not manifestation
-...          |  ...                                                                                | ...
+TR_26/14     | [Inner Manifestation](https://doi.org/10.5281/zenodo.19583268)                      | PSA constrains enactment, not manifestation
 
 ---
 
