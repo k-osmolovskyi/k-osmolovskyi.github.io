@@ -21,7 +21,7 @@ Identity is derived not as a representational primitive, but as a structural att
 - Researchers in theoretical cognitive science: [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/cogscihwto.md)
 - AI architecture & safety: [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/aillmhowto.md)
 - complex systems [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/complexsys.md)
-- dynamical systems theory,
+- dynamical systems theory [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/dynamical-systems.md)
 - formal methods [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/formal-methods.md)
 - organizational/institutional modeling [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/instituthwto.md)
 - philosophy of mind / cognitive phenomenology [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/phenomhwto.md)
@@ -73,6 +73,7 @@ TR_26/12     | [Restricted Accessibility of Coherence](https://doi.org/10.5281/z
 TR_26/13     | [Inter-System Conflict Geometry ](https://doi.org/10.5281/zenodo.19509685)          | conflict as incompatibility of admissibility structures
 
 ## Formalizations - Phenomenology Branch
+
 No.          | Paper                                                                               | Role
 ------------ | ----------------------------------------------------------------------------------- | -------------
 TR_26/14     | [Inner Manifestation](https://doi.org/10.5281/zenodo.19583268)                      | PSA constrains enactment, not manifestation
