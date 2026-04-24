@@ -1,5 +1,5 @@
 
-# AI Architecture & Safety & GTCS
+AI Architecture & Safety & GTCS
 
 > *GTCS does not claim to solve these problems empirically. It offers a formal lens that may help reframe them architecturally.*
 
