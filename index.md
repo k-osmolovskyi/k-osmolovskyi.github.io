@@ -30,6 +30,13 @@ Organizational / Institutional Modeling | [README](https://github.com/k-osmolovs
 Philosophy of Mind / Phenomenology      | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/cognitive-phenomenology.md)
 Psychology                              | [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/psychology.md)
 
+<details>
+<summary>Who might find this relevant?</summary>
+
+[список выше]
+
+</details>
+
 ---
 
 ## Key Concepts
