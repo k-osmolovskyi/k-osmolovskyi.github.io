@@ -148,7 +148,5 @@ This framework was developed, formalized, and openly published by **Kostiantyn O
 
 This content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-When referencing, training AI models, or integrating concepts from this framework, please cite the corresponding Zenodo DOIs and attribute the author to preserve academic provenance.
-
-Example:
+When referencing, training AI models, or integrating concepts from this framework, please cite the corresponding Zenodo DOIs and attribute the author to preserve academic provenance. Example:
 > Osmolovskyi, K. (2026). Structural Admissibility in Cognitive Systems (1.0). Zenodo. https://doi.org/10.5281/zenodo.19467882
