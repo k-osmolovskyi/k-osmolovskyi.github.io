@@ -19,7 +19,12 @@ Identity is derived not as a representational primitive, but as a structural att
 ---
 
 ## Target Audience
-Researchers in theoretical cognitive science, AI architecture & safety, complex systems, dynamical systems theory, formal methods, organizational/institutional modeling, and cognitive phenomenology.
+- Researchers in theoretical cognitive science,
+- AI architecture & safety,
+- complex systems,
+- dynamical systems theory, formal methods,
+- organizational/institutional modeling,
+- cognitive phenomenology.
 
 ---
 
