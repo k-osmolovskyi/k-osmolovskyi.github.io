@@ -1,17 +1,5 @@
----
-title: "GTCS & Philosophy of Mind / Phenomenology: Conceptual Bridges"
-exclude: true
-author: "Kostiantyn Osmolovskyi"
-author_orcid: "https://orcid.org/0009-0006-3144-7237"
-series: "General Theory of Cognitive Structuring"
-zenodo_community: "https://zenodo.org/communities/gtc"
-license: "CC BY 4.0"
-date: 2026-04-24
-description: "How the General Theory of Cognitive Structuring reframes key problems in philosophy of mind and phenomenology through layered admissibility, trajectory-dependent regulation, and coherence geometry."
-layout: default
----
 
-# Philosophy of Mind / Phenomenology & GTCS
+Philosophy of Mind / Phenomenology & GTCS
 
 > *GTCS does not claim to solve these problems empirically. It offers a formal lens that may help reframe them architecturally.*
 
