@@ -1,16 +1,5 @@
----
-title: "GTCS & Organizational / Institutional Modeling: Conceptual Bridges"
-author: "Kostiantyn Osmolovskyi"
-author_orcid: "https://orcid.org/0009-0006-3144-7237"
-series: "General Theory of Cognitive Structuring"
-zenodo_community: "https://zenodo.org/communities/gtc"
-license: "CC BY 4.0"
-date: 2026-04-24
-description: "How the General Theory of Cognitive Structuring reframes key problems in organizational and institutional modeling through layered admissibility, trajectory-dependent regulation, and coherence geometry."
-layout: default
----
 
-# Organizational / Institutional Modeling & GTCS
+Organizational / Institutional Modeling & GTCS
 
 > *GTCS does not prescribe institutional design. It provides an architectural lens to distinguish structural constraints from political narratives, and trajectory-dependent overload from momentary mismanagement.*
 
