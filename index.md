@@ -12,16 +12,15 @@ Unlike models that assume full observability or treat structural change as conti
 
 Identity is derived not as a representational primitive, but as a structural attractor emerging from long-run overload minimization under bounded regulation.
 
-*Domain*: [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721)
-
-*Concept*: [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676)
+- **Domain**: [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721)
+- **Concept**: [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676)
 
 ---
 
 ## Target Audience
 - Researchers in theoretical cognitive science: [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/cogscihwto.md)
 - AI architecture & safety: [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/aillmhowto.md)
-- complex systems,
+- complex systems [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/complexsys.md)
 - dynamical systems theory, formal methods,
 - organizational/institutional modeling [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/instituthwto.md)
 - philosophy of mind / cognitive phenomenology [README](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/htuse/phenomhwto.md)
