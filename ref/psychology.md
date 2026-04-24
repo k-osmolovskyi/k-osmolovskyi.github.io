@@ -1,14 +1,5 @@
----
-title: "GTCS & Psychology: Conceptual Bridges"
-author: "Kostiantyn Osmolovskyi"
-author_orcid: "https://orcid.org/0009-0006-3144-7237"
-series: "General Theory of Cognitive Structuring"
-zenodo_community: "https://zenodo.org/communities/gtc"
-license: "CC BY 4.0"
-description: "How the General Theory of Cognitive Structuring reframes key problems in Psychology through layered admissibility, trajectory-dependent regulation, and coherence geometry."
----
 
-# Psychology
+Psychology
 
 > GTCS does not replace psychological theory or clinical practice. It provides an architectural lens to distinguish structural constraints from content-level explanations, and trajectory-dependent overload from momentary distress.
 
