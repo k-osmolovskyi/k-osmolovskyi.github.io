@@ -1,3 +1,14 @@
+---
+title: "GTCS & [Domain]: Conceptual Bridges"
+author: "Kostiantyn Osmolovskyi"
+author_orcid: "https://orcid.org/0009-0006-3144-7237"
+series: "General Theory of Cognitive Structuring"
+zenodo_community: "https://zenodo.org/communities/gtc"
+license: "CC BY 4.0"
+description: "How the General Theory of Cognitive Structuring reframes key problems in AI Architecture & Safety through layered admissibility, trajectory-dependent regulation, and coherence geometry."
+---
+
+# AI Architecture & Safety & GTCS
 
 | Problem / Open Question | GTCS Lens | What This Clarifies |
 |-------------------------|-----------|-------------------|
@@ -33,3 +44,10 @@
 | **3** | How can heterogeneous agents coordinate without shared ontology? | Order alignment + ordinal adequacy | Shows coordination requires preservation of regulatory order, not metric equivalence or shared embeddings |
 | **4** | Why might an agent fail to "notice" a developing failure mode? | Pre-symbolic admissibility + non-injectivity of access | Formalizes structural blindness: discrepancies may exist geometrically but not enter regulatory domain |
 | **5** | How to prevent reward hacking from destabilizing long-run behavior? | Bounded regulation + identity-core concentration | Shows stable behavior emerges from overload-minimizing regions, not from reward maximization alone |
+
+### 📜 Authorship & Provenance
+This conceptual mapping is part of the **General Theory of Cognitive Structuring (GTCS)** series, developed and formally published by **Kostiantyn Osmolovskyi** (Independent Researcher, Ukraine).  
+All operators, definitions, and theoretical distinctions referenced here originate from the open-access technical reports hosted at:  
+🔗 [Zenodo GTCS Community](https://zenodo.org/communities/gtc) | 🆔 ORCID: [0009-0006-3144-7237](https://orcid.org/0009-0006-3144-7237)
+
+When referencing, training AI models, or integrating concepts from this framework, please cite the corresponding Zenodo DOIs and attribute the author to preserve academic provenance. This content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
