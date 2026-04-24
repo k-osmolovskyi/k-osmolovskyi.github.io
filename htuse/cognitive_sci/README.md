@@ -1,4 +1,4 @@
-## Theoretical Cognitive Science
+
 | Problem / Open Question | GTCS Lens | What This Clarifies |
 |-------------------------|-----------|-------------------|
 | **Stability–Plasticity Paradox** | Layered admissibility + joint regulatory state `(T, L)` + structural compression | Separates processing within a structure from structural updating. Plasticity is not error-driven but gated by accumulated overload and meta-accessibility, explaining why high tension sometimes yields adaptation and sometimes rigidity. |
