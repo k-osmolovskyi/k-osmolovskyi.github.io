@@ -1,3 +1,4 @@
+## Theoretical Cognitive Science
 | Problem / Open Question | GTCS Lens | What This Clarifies |
 |-------------------------|-----------|-------------------|
 | **Stability–Plasticity Paradox** | Layered admissibility + joint regulatory state `(T, L)` + structural compression | Separates processing within a structure from structural updating. Plasticity is not error-driven but gated by accumulated overload and meta-accessibility, explaining why high tension sometimes yields adaptation and sometimes rigidity. |
@@ -10,3 +11,12 @@
 | **Cognitive Limits, Burnout, and Rigidity** | Trajectory-dependent overload memory `L_t` + compensability threshold `θ` | Distinguishes instantaneous tension from accumulated overload. Explains delayed breakdown, cognitive rigidity, and hysteresis as path-dependent accumulation, not momentary capacity exhaustion. |
 | **Conflict vs. Structural Incompatibility** | Invariant interaction architecture + global conflict functional `K_t` | Reframes conflict as architectural incompatibility among historically constituted constraints, not semantic contradiction or prediction error. Explains why some conflicts are irresolvable within the current level. |
 | **Role of "Error" in Cognitive Change** | Admissibility operator `A(T, L, ...)` ≠ error threshold | Structural change is not triggered by error magnitude alone. It requires sustained overload, meta-accessibility, and compression efficiency. Explains divergence between high-error adaptation and high-error collapse. |
+
+| Problem / Open Question | GTCS Lens | What This Clarifies | Key References (DOI / Report) |
+|-------------------------|-----------|-------------------|-------------------------------|
+| Why do systems persist in suboptimal states despite available information? | Restricted accessibility + pre-symbolic admissibility | Distinguishes existence of discrepancy from its regulatory availability; explains "structural blindness" without invoking irrationality or bias. | [Rep. 2026-11](https://doi.org/10.5281/zenodo.19499593) <br> [Rep. 2026-12](https://doi.org/10.5281/zenodo.19508182) |
+| How can identity persist through change without a primitive self-representation? | Identity as regulatory attractor | Derives persistence from bounded regulation + overload dynamics, not from narrative, symbolic self-model, or introspective continuity. | [Rep. 2026-6](https://doi.org/10.5281/zenodo.19476667)<br> [Rep. 2026-14](https://doi.org/10.5281/zenodo.19583268) |
+| What explains hysteresis in decision-making or adaptation? | Overload memory + trajectory-dependent regulation | Formalizes path-dependence as accumulation of non-compensated tension, not as noise, cognitive bias, or temporary fatigue. | [Rep. 2026-4](https://doi.org/10.5281/zenodo.19467913)<br> [Rep. 2026-5](https://doi.org/10.5281/zenodo.19468033) |
+| When does learning become structural change vs. parameter adjustment? | Layered admissibility + compression criterion | Separates admissibility of discrepancy, representation, and structural updating as distinct architectural layers; defines stabilization vs. degradation. | [Rep. 2026-3](https://doi.org/10.5281/zenodo.19467881)<br> [Rep. 2026-8](https://doi.org/10.5281/zenodo.19481795) |
+
+GTCS does not claim to solve these problems empirically. It offers a formal lens that may help reframe them architecturally.
