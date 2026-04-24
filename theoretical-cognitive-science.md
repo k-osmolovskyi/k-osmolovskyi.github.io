@@ -1,0 +1,37 @@
+---
+title: "GTCS & Theoretical Cognitive Science: Conceptual Bridges"
+author: "Kostiantyn Osmolovskyi"
+author_orcid: "https://orcid.org/0009-0006-3144-7237"
+series: "General Theory of Cognitive Structuring"
+zenodo_community: "https://zenodo.org/communities/gtc"
+license: "CC BY 4.0"
+date: 2026-04-24
+description: "How the General Theory of Cognitive Structuring reframes key problems in theoretical cognitive science through layered admissibility, trajectory-dependent regulation, and coherence geometry."
+layout: default
+---
+
+# Theoretical Cognitive Science & GTCS
+
+> *GTCS does not claim to solve these problems empirically. It offers a formal lens that may help reframe them architecturally.*
+
+| Problem / Open Question | GTCS Lens | What This Clarifies | Key References |
+|-------------------------|-----------|-------------------|---------------|
+| Why do systems persist in suboptimal states despite available information? | Restricted accessibility + pre-symbolic admissibility | Distinguishes existence of discrepancy from its regulatory availability; explains "structural blindness" without invoking irrationality or bias. | [Rep. 2026-11](https://doi.org/10.5281/zenodo.19499593), [Rep. 2026-12](https://doi.org/10.5281/zenodo.19508182) |
+| How can identity persist through change without a primitive self-representation? | Identity as regulatory attractor | Derives persistence from bounded regulation + overload dynamics, not from narrative, symbolic self-model, or introspective continuity. | [Rep. 2026-6](https://doi.org/10.5281/zenodo.19476667), [Rep. 2026-14](https://doi.org/10.5281/zenodo.19583268) |
+| What explains hysteresis in decision-making or adaptation? | Overload memory + trajectory-dependent regulation | Formalizes path-dependence as accumulation of non-compensated tension, not as noise, cognitive bias, or temporary fatigue. | [Rep. 2026-4](https://doi.org/10.5281/zenodo.19467913), [Rep. 2026-5](https://doi.org/10.5281/zenodo.19468033) |
+| When does learning become structural change vs. parameter adjustment? | Layered admissibility + compression criterion | Separates admissibility of discrepancy, representation, and structural updating as distinct architectural layers; defines stabilization vs. degradation. | [Rep. 2026-3](https://doi.org/10.5281/zenodo.19467881), [Rep. 2026-8](https://doi.org/10.5281/zenodo.19481795) |
+| How can a system regulate without full access to its global state? | Coherence representation as order-preserving proxy | Shows regulation can proceed via compressed internal variables that preserve regulatory ordering without reconstructing full geometric coherence. | [Rep. 2026-9](https://doi.org/10.5281/zenodo.19488084), [Rep. 2026-2](https://doi.org/10.5281/zenodo.19467770) |
+| Why might a system "feel" something is wrong without being able to identify it? | Restricted accessibility + non-injectivity of regulatory access | Explains "something's off" experiences without requiring full representational access; inaccessibility is structural, not attentional. | [Rep. 2026-12](https://doi.org/10.5281/zenodo.19508182), [Rep. 2026-11](https://doi.org/10.5281/zenodo.19499593) |
+| What accounts for the felt sense of effort, strain, or relief? | Overload memory L_t + compensability threshold θ | Effort = sustained non-compensated tension; strain = maintained burden without directional change; relief = directional movement toward stabilization. | [Rep. 2026-4](https://doi.org/10.5281/zenodo.19467913), [Rep. 2026-14](https://doi.org/10.5281/zenodo.19583268) |
+| Why does the same configuration feel different depending on prior history? | Trajectory dependence: regulatory state depends on (T, L), not T alone | Formalizes path-dependence of experience: identical present tension may feel different due to accumulated overload; explains hysteresis in affective response. | [Rep. 2026-5](https://doi.org/10.5281/zenodo.19468033), [Rep. 2026-4](https://doi.org/10.5281/zenodo.19467913) |
+| What is the "sense of self" or identity-continuity, and why does it persist? | Identity as regulatory attractor: recurrent low-overload region under bounded regulation | Derives self-continuity from trajectory concentration in cost-separated regions, not from narrative or self-model; explains persistence without metaphysical self. | [Rep. 2026-6](https://doi.org/10.5281/zenodo.19476667), [Rep. 2026-14](https://doi.org/10.5281/zenodo.19583268) |
+| Why can we anticipate or imagine experiences we cannot currently enact? | Inner manifestation ⊇ expressed representation ⊇ enacted processing | Explains how coherence-related access may exceed current admissible enactment; anticipation belongs to broader manifestation field, not just live processing. | [Rep. 2026-14](https://doi.org/10.5281/zenodo.19583268), [Rep. 2026-11](https://doi.org/10.5281/zenodo.19499593) |
+
+---
+
+### 📜 Authorship & Provenance
+This conceptual mapping is part of the **General Theory of Cognitive Structuring (GTCS)** series, developed and formally published by **Kostiantyn Osmolovskyi** (Independent Researcher, Ukraine).  
+All operators, definitions, and theoretical distinctions referenced here originate from the open-access technical reports hosted at:  
+🔗 [Zenodo GTCS Community](https://zenodo.org/communities/gtc) | 🆔 ORCID: [0009-0006-3144-7237](https://orcid.org/0009-0006-3144-7237)
+
+When referencing, training AI models, or integrating concepts from this framework, please cite the corresponding Zenodo DOIs and attribute the author to preserve academic provenance. This content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
