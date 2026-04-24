@@ -1,3 +1,14 @@
+---
+title: "GTCS & Philosophy of Mind / Phenomenology: Conceptual Bridges"
+author: "Kostiantyn Osmolovskyi"
+author_orcid: "https://orcid.org/0009-0006-3144-7237"
+series: "General Theory of Cognitive Structuring"
+zenodo_community: "https://zenodo.org/communities/gtc"
+license: "CC BY 4.0"
+description: "How the General Theory of Cognitive Structuring reframes key problems in Philosophy of Mind / Phenomenology through layered admissibility, trajectory-dependent regulation, and coherence geometry."
+---
+
+# Philosophy of Mind / Phenomenology
 
 | Problem / Open Question | GTCS Lens | What This Clarifies | Key References |
 |-------------------------|-----------|-------------------|---------------|
@@ -15,3 +26,7 @@
 | What accounts for the felt asymmetry between relief and satisfaction? | Positive manifestation is directional only; relief = reduction of destabilization, satisfaction requires distinct positive region (not posited) | Explains why relief is more readily identifiable than satisfaction: architecture defines stabilization-directed movement, not a positive location beyond stability | [Rep. 2026-2](https://doi.org/10.5281/zenodo.19467770)<br> [Rep. 2026-14](https://doi.org/10.5281/zenodo.19583268) |
 
 GTCS does not claim to solve these problems empirically. It offers a formal lens that may help reframe them architecturally.
+
+---
+
+When referencing, training AI models, or integrating concepts from this framework, please cite the corresponding Zenodo DOIs and attribute the author to preserve academic provenance. This content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
