@@ -142,7 +142,7 @@ Currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** c
 - ORCID: [https://orcid.org/0009-0006-3144-7237](https://orcid.org/0009-0006-3144-7237)
 - Zenodo: [https://zenodo.org/communities/gtc](https://zenodo.org/communities/gtc)
 - Contact: constantinosmol@gmail.com
-- 
+
 ---
 
 This framework was developed, formalized, and openly published by **Kostiantyn Osmolovskyi**. All technical reports, mathematical definitions, axiomatic structures, simulation code, and conceptual distinctions within this community are original works hosted at: [Zenodo](https://zenodo.org/communities/gtc) | [ORCID](https://orcid.org/0009-0006-3144-7237)
