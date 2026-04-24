@@ -1,5 +1,6 @@
 ---
 title: "GTCS & Philosophy of Mind / Phenomenology: Conceptual Bridges"
+exclude: true
 author: "Kostiantyn Osmolovskyi"
 author_orcid: "https://orcid.org/0009-0006-3144-7237"
 series: "General Theory of Cognitive Structuring"
