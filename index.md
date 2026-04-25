@@ -124,7 +124,9 @@ TR_26/16     | [Minimal Directional Organization of Coherence-Related Manifestat
 
 ### Concept Papers
 
-[Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) — *Zenodo, Concept Paper*
+- [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
+- [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676) — *Preprint*
+- [Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) — *Concept Paper*
 
 ---
 
