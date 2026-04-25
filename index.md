@@ -57,6 +57,8 @@ The General Theory of Cognitive Structuring provides a substrate-independent for
 
 [Overview of the theory](https://doi.org/10.5281/zenodo.19646969): guide to the structure of the framework.
 
+[Comparative Clarifications and Distinctions for the Theory](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/conceptual-bridges.md): comparative clarification note.
+
 ---
 
 ## Formalizations
