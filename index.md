@@ -78,14 +78,6 @@ TR_26/11     | [Pre-Symbolic Admissibility](https://doi.org/10.5281/zenodo.19499
 TR_26/12     | [Restricted Accessibility of Coherence](https://doi.org/10.5281/zenodo.19508182)    | geometric coherence exists globally; regulatory access is domain-constrained
 TR_26/13     | [Inter-System Conflict Geometry ](https://doi.org/10.5281/zenodo.19509685)          | conflict as incompatibility of admissibility structures
 
-## Phenomenology Branch
-
-No.          | Paper                                                                                                          | Role
------------- | -------------------------------------------------------------------------------------------------------------- | -------------
-TR_26/14     | [Inner Manifestation Beyond Admissible Processing](https://doi.org/10.5281/zenodo.19583268)                    | establishes that inner manifestation exceeds currently admissible enacted processing and is not exhausted by live continuation alone
-TR_26/15     | [Manifest Trajectory Accessibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19760215)              | formalizes trajectories as explicit objects of manifestation and distinguishes manifest, admissible, and realized continuation
-TR_26/16     | [Minimal Directional Organization of Coherence-Related Manifestation](https://doi.org/10.5281/zenodo.19760414) | formalizes the minimal positional/directional grammar of manifestation and shows that positivity is directional rather than a property of stable occupancy
-
 ---
 
 ## Verification Package for the Theory
@@ -117,6 +109,16 @@ VR_26/3      | [Proof Status Register](https://doi.org/10.5281/zenodo.19705731) 
 VR_26/4      | [Verification Package Overview](https://doi.org/10.5281/zenodo.19705772)           | Front overview of the verification and proof-support package
 VR_26/5      | [Proof Notes](https://doi.org/10.5281/zenodo.19705808)                             | Author-side proof logic and compendium preparation notes
 DAG          | [Digraph GTCS Dependencies](https://shorturl.at/VzUGG)                             | DAG visualization
+
+---
+
+## Phenomenology Branch
+
+No.          | Paper                                                                                                          | Role
+------------ | -------------------------------------------------------------------------------------------------------------- | -------------
+TR_26/14     | [Inner Manifestation Beyond Admissible Processing](https://doi.org/10.5281/zenodo.19583268)                    | establishes that inner manifestation exceeds currently admissible enacted processing and is not exhausted by live continuation alone
+TR_26/15     | [Manifest Trajectory Accessibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19760215)              | formalizes trajectories as explicit objects of manifestation and distinguishes manifest, admissible, and realized continuation
+TR_26/16     | [Minimal Directional Organization of Coherence-Related Manifestation](https://doi.org/10.5281/zenodo.19760414) | formalizes the minimal positional/directional grammar of manifestation and shows that positivity is directional rather than a property of stable occupancy
 
 ---
 
