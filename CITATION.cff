@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use these formalizations or concepts from the GTCS series, please cite the framework as follows."
+authors:
+  - family-names: "Osmolovskyi"
+    given-names: "Kostiantyn"
+    affiliation: "Independent Researcher, Odesa, Ukraine"
+    orcid: "https://orcid.org/0009-0006-3144-7237"
+title: "General Theory of Cognitive Structuring (GTCS): Formalization Series"
+abstract: "A collection of formal definitions, operators, and conceptual mappings within the GTCS framework."
+repository-code: "https://github.com/k-osmolovskyi/k-osmolovskyi.github.io"
+identifiers:
+  - type: url
+    value: "https://zenodo.org/communities/gtc"
+    description: "The full collection of GTCS technical reports and publications on Zenodo"
+keywords:
+  - "GTCS"
+  - "cognitive structuring"
+  - "admissibility"
+  - "pre-symbolic admissibility"
+  - "trajectory dependence"
+  - "overload memory"
+license: CC-BY-4.0
+date-released: 2024-05-08
