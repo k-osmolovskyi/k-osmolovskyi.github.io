@@ -117,6 +117,7 @@ No.          | Paper                                                            
 TR_26/14     | [Inner Manifestation Beyond Admissible Processing](https://doi.org/10.5281/zenodo.19583268)                    | establishes that inner manifestation exceeds currently admissible enacted processing and is not exhausted by live continuation alone
 TR_26/15     | [Manifest Trajectory Accessibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19760215)              | formalizes trajectories as explicit objects of manifestation and distinguishes manifest, admissible, and realized continuation
 TR_26/16     | [Minimal Directional Organization of Coherence-Related Manifestation](https://doi.org/10.5281/zenodo.19760414) | formalizes the minimal positional/directional grammar of manifestation and shows that positivity is directional rather than a property of stable occupancy
+TR_26/17     | [Identity-Bounded Continuation and Non-Enactable Manifestation](https://doi.org/10.5281/zenodo.19789471)       | formalizes identity-bounded continuation as distinct from broader manifest continuation and shows that current continuation may narrow through both non-admission into enactment and non-discrimination of trajectories
 
 ---
 
