@@ -1,4 +1,4 @@
 title: Kostiantyn Osmolovskyi
 remote_theme: jekyll/minima
-header_pages: []
-nav: []
+header_pages:
+ - notes.md
