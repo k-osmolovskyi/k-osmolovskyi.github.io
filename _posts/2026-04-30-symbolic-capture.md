@@ -1,8 +1,3 @@
----
-layout: post
-title: "Symbolic Capture of Manifestation"
-date: 2026-04-30
----
 
 Why do humans — or, more broadly, cognitive systems — need sensations and emotions? We have already examined this question. But why should these feelings be shaped into symbols?
 
