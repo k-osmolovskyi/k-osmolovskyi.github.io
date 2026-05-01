@@ -1,1 +1,24 @@
+# === LaTeX ===
+*.aux *.log *.out *.toc *.lof *.lot *.bbl *.blg *.synctex.gz
+*.fls *.fdb_latexmk *.nav *.snm *.vrb *.xdv *.dvi
+*.pdf !README.pdf !docs/*.pdf
 
+# === Python ===
+__pycache__/ *.py[cod] *$py.class *.so .Python
+venv/ ENV/ env/ .venv/ *.egg-info/ .pytest_cache/
+
+# === Jekyll / GitHub Pages ===
+.site/ .jekyll-cache/ .sass-cache/ Gemfile.lock
+/vendor/bundle/
+
+# === Sett ===
+.env *.local.* config.local.yml secrets/
+
+# === Sys ===
+.DS_Store Thumbs.db *.swp *.swo *~ ._* 
+
+# === IDE ===
+.idea/ .vscode/ *.sublime-* *.code-workspace
+
+# === Tmp ===
+*.bak *.tmp *.temp backup/
