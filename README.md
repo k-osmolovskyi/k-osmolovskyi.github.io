@@ -77,6 +77,8 @@ TR_26/11     | [Pre-Symbolic Admissibility](https://doi.org/10.5281/zenodo.19499
 TR_26/12     | [Restricted Accessibility of Coherence](https://doi.org/10.5281/zenodo.19508182)    | geometric coherence exists globally; regulatory access is domain-constrained
 TR_26/13     | [Inter-System Conflict Geometry](https://doi.org/10.5281/zenodo.19509685)           | conflict as incompatibility of admissibility structures
 
+---
+
 Identity-continuity domains as transition-level criteria for distinguishing identity-preserving architectural transformation from identity-disrupting structural change.
 
 TR_26/22     | [Identity-Continuity Domains in Cognitive Architectures](https://doi.org/10.5281/zenodo.19947542) | metastable identity
