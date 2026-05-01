@@ -1,0 +1,452 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+\setstretch{1.12}
+
+\setlength{\parindent}{15pt}
+\setlength{\parskip}{0pt}
+
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{ragged2e}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=black,
+	urlcolor=blue,
+	pdftitle={Dependency Tables and Node Registry for the GTCS},
+	pdfauthor={Kostiantyn Osmolovskyi}
+}
+
+\setlist[itemize]{topsep=3pt,itemsep=2pt,parsep=0pt}
+\setlist[enumerate]{topsep=3pt,itemsep=2pt,parsep=0pt}
+
+
+\title{Dependency Tables and Node Registry\\ for the General Theory of Cognitive Structuring}
+	
+\author{
+	Kostiantyn Osmolovskyi\\
+	\small Independent Researcher, Ukraine\\
+	\small ORCID: 0009-0006-3144-7237\\
+	\small \texttt{constantinosmol@gmail.com}
+}
+
+\date{}
+
+% ---------------------------------------------------------------------------
+% Part of a series: General Theory of Cognitive Structuring (GTCS)
+% Autor: Kostiantyn Osmolovskyi (ORCID: 0009-0006-3144-7237)
+% License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+% Repository: https://github.com/k-osmolovskyi/k-osmolovskyi.github.io
+% DOI: https://doi.org/10.5281/zenodo.19701848
+% ---------------------------------------------------------------------------
+
+\begin{document}
+	\maketitle
+
+\begin{center}
+	\small
+	Technical Note No. 2026-4\\
+	Version 1.0
+\end{center}
+
+\vspace{0.5em}
+	
+	\maketitle
+	
+	\section{Purpose of this document}
+	
+	This document provides a structured dependency companion for the paper series associated with the
+	\emph{General Theory of Cognitive Structuring}. Its purpose is to make explicit the current working
+	registry of dependency nodes and the paper-level dependency structure used to support external
+	verification of the series.
+	
+	The document is intended to accompany, rather than replace, the public
+	\emph{Acyclicity Statement and Dependency Criteria} note. That statement specifies the criteria
+	under which the series may be treated as a directed acyclic structure. The present document adds
+	the concrete registry and dependency tables that make such evaluation traceable at the level of
+	papers, definitions, operators, constructions, and proposition-level results.
+	
+	This document is not a proof compendium and is not intended to provide a complete bibliography
+	of all local cross-references. It is a dependency-oriented reconstruction.
+	
+	\section{Scope and status}
+	
+	The present registry is versioned as a working public companion.
+	
+	It is designed to serve four functions:
+	\begin{itemize}[leftmargin=2em]
+		\item to identify the main dependency nodes used across the series;
+		\item to distinguish first appearance from primary formalization;
+		\item to separate stable nodes from boundary cases requiring further textual refinement;
+		\item to support later graph construction at the node, paper, and layer levels.
+	\end{itemize}
+	
+	The document uses the following status labels:
+	\begin{itemize}[leftmargin=2em]
+		\item \textbf{S} --- stable;
+		\item \textbf{V} --- needs textual verification or boundary refinement;
+		\item \textbf{G} --- graph-organizing node, useful for dependency structure but not always a
+		basic theorem-grade unit.
+	\end{itemize}
+	
+	\section{Layer scheme}
+	
+	For dependency purposes, the current series is organized into five broad layers:
+	
+	\begin{itemize}[leftmargin=2em]
+		\item \textbf{L1} --- Entry distinctions;
+		\item \textbf{L2} --- Core formal geometry and admissibility;
+		\item \textbf{L3} --- Structural architecture and invariants;
+		\item \textbf{L4} --- Access and representation;
+		\item \textbf{L5} --- Trajectory, inter-system extension, and synthesis.
+	\end{itemize}
+	
+	These layers are organizational rather than ontological. Their purpose is to make the unfolding
+	order of the series explicit and readable.
+	
+	\section{Node registry table v1}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.03\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.19\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.05\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.05\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.18\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.18\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.18\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.04\textwidth}}
+		\toprule
+		\textbf{ID} & \textbf{Name} & \textbf{Type} & \textbf{Layer} & \textbf{First appearance} & \textbf{Primary formalization} & \textbf{Direct dependencies} & \textbf{Status} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{ID} & \textbf{Name} & \textbf{Type} & \textbf{Layer} & \textbf{First appearance} & \textbf{Primary formalization} & \textbf{Direct dependencies} & \textbf{Status} \\
+		\midrule
+		\endhead
+		
+		N001 & Admissibility of structural updating & D & L1 & \emph{Structural Updating and the Limits of Cognitive Change} & same paper & --- & S \\
+		
+		N002 & Structural updating & D & L1 & \emph{Structural Updating and the Limits of Cognitive Change} & \emph{Structural Admissibility in Cognitive Systems} & N001 & S \\
+		
+		N003 & Processing access / processing without structural updating & D & L1 & \emph{Structural Updating and the Limits of Cognitive Change} & same paper & --- & V \\
+		
+		N004 & Distinction between processing and structural updating & P & L1 & \emph{Structural Updating and the Limits of Cognitive Change} & same paper & N002, N003 & S \\
+		
+		N010 & Configuration space $X$ & C & L2 & \emph{Coherence Evaluation in Cognitive Systems} & same paper & --- & S \\
+		
+		N011 & Current configuration $x_t$ & C & L2 & \emph{Coherence Evaluation in Cognitive Systems} & same paper & N010 & S \\
+		
+		N012 & Stability / admissible region $U$, later $U_X(I_t)$ & C & L2 & \emph{Coherence Evaluation in Cognitive Systems} & \emph{Invariants in Cognitive Architectures} & N010, N030/N031 & V \\
+		
+		N013 & Coherence & D & L2 & \emph{Coherence Evaluation in Cognitive Systems} & same paper & N011, N012 & S \\
+		
+		N014 & Coherence measure $C_I(x_t)$ & O & L2 & \emph{Coherence Evaluation in Cognitive Systems} & same paper & N011, N012, N013 & S \\
+		
+		N015 & Coherence evaluation & C & L2 & \emph{Coherence Evaluation in Cognitive Systems} & same paper & N013, N014 & S \\
+		
+		N016 & Structural tension & D & L2 & \emph{Coherence Evaluation in Cognitive Systems} as $T_t = K_t + C_t$; developed later & \emph{Structural Admissibility in Cognitive Systems} & N017, N018 & V \\
+		
+		N017 & Coordination cost $C_t$ & D & L2 & \emph{Coherence Evaluation in Cognitive Systems} & \emph{Structural Admissibility in Cognitive Systems} & --- & V \\
+		
+		N018 & Incompatibility load $K_t$ & C & L2 & \emph{Coherence Evaluation in Cognitive Systems} / \emph{Structural Admissibility in Cognitive Systems} & \emph{Invariants in Cognitive Architectures} & N034, N036 & V \\
+		
+		N019 & Tension decomposition $T_t = K_t + C_t$ & C & L2 & \emph{Coherence Evaluation in Cognitive Systems} & \emph{Structural Admissibility in Cognitive Systems} & N016, N017, N018 & S \\
+		
+		N020 & Resource state $R_t$ & C & L2 & \emph{Structural Admissibility in Cognitive Systems} & same paper & --- & S \\
+		
+		N021 & Rigidity / mean rigidity $\bar h_t$ & C & L2 & \emph{Structural Admissibility in Cognitive Systems} & same paper & --- & S \\
+		
+		N022 & Compensability threshold $\theta(R_t,\bar h_t)$ & O & L2 & \emph{Overload Formation in Cognitive Processing} & \emph{Structural Admissibility in Cognitive Systems} & N020, N021 & S \\
+		
+		N023 & Instantaneous overload $u_t$ & C & L2 & \emph{Overload Formation in Cognitive Processing} & same paper & N016, N022 & S \\
+		
+		N024 & Overload memory $L_t$ & C & L2 & \emph{Overload Formation in Cognitive Processing} & same paper & N023 & S \\
+		
+		N025 & Trajectory dependence & D & L2/L5 & \emph{Overload Formation in Cognitive Processing} & \emph{Trajectory-Dependent Regulation in Cognitive Systems} & N024 & S \\
+		
+		N026 & Admissibility operator $A_t$ & O & L2 & \emph{Structural Admissibility in Cognitive Systems} & same paper & N016, N020, N021, N024 & S \\
+		
+		N027 & Stability region in regulatory phase space $U(S_t)$ / $U(DS)$ & C & L2 & \emph{Structural Admissibility in Cognitive Systems} & same paper & N026 & S \\
+		
+		N028 & Critical boundary / critical tension function $T_{\mathrm{crit}}(L)$ & C & L2 & \emph{Structural Admissibility in Cognitive Systems} & \emph{Trajectory-Dependent Regulation in Cognitive Systems} & N026, N027 & S \\
+		
+		N029 & Architectural level & D & L2 & \emph{Structural Admissibility in Cognitive Systems} & same paper & N027 & S \\
+		
+		N029a & Level transition & D/P & L2/L3 & \emph{Structural Admissibility in Cognitive Systems} & \emph{Structural Compression in Cognitive Architectures} & N029, N027, N039 & S \\
+		
+		N030 & Invariant & D & L3 & implicit earlier; explicit only later & \emph{Invariants in Cognitive Architectures} & --- & S \\
+		
+		N031 & Invariant structure $I_t$ & C & L3 & implicit earlier; explicit only later & \emph{Invariants in Cognitive Architectures} & N030 & S \\
+		
+		N032 & Interaction graph $G_t$ & C & L3 & \emph{Structural Admissibility in Cognitive Systems} state description & \emph{Invariants in Cognitive Architectures} & N031 & S \\
+		
+		N033 & Local admissibility profile $a_i(x)$ & O & L3 & \emph{Structural Admissibility in Cognitive Systems} soft compatibility & \emph{Invariants in Cognitive Architectures} & N030, N010 & S \\
+		
+		N034 & Pairwise incompatibility $c_{ij}(x)$ & O & L3 & \emph{Structural Admissibility in Cognitive Systems} & \emph{Invariants in Cognitive Architectures} & N032, N033 & S \\
+		
+		N035 & Structural conflict & D & L3 & implicit earlier & \emph{Invariants in Cognitive Architectures} & N034 & V \\
+		
+		N036 & Global conflict aggregation $K_t$ & C & L3 & \emph{Structural Admissibility in Cognitive Systems} & \emph{Invariants in Cognitive Architectures} & N034, N035 & S \\
+		
+		N037 & Invariant-induced stability region $U_X(I_t)$ & C & L3 & implicit in coherence paper as $U$ & \emph{Invariants in Cognitive Architectures} & N031, N033 & S \\
+		
+		N038 & Identity of invariant-constrained organization & M & L3/L5 & \emph{Identity as a Regulatory Attractor} & same paper & N031, N027 & G \\
+		
+		N039 & Compression operation $I_{t+1} = (I_t \setminus S) \cup \{F(S)\}$ & O & L3 & implicit earlier & \emph{Structural Compression in Cognitive Architectures} & N031, N026 & S \\
+		
+		N040 & Compressed invariant $F(S)$ & C & L3 & \emph{Structural Compression in Cognitive Architectures} & same paper & N039 & S \\
+		
+		N041 & Compression-induced geometry change & P & L3 & \emph{Structural Compression in Cognitive Architectures} & same paper & N039, N027 & S \\
+		
+		N042 & Compression-induced level transition criterion & P & L3 & \emph{Structural Compression in Cognitive Architectures} & same paper & N041, N029a & S \\
+		
+		N050 & Pre-symbolic admissibility & D & L4 & implicit layered version in \emph{General Theory} & \emph{Pre-Symbolic Admissibility in Cognitive Systems} & N026, N031, N057 & S \\
+		
+		N051 & Pre-symbolic admissibility operator $\Pi_t^{ps}$ & O & L4 & \emph{Pre-Symbolic Admissibility in Cognitive Systems} & same paper & N050 & S \\
+		
+		N052 & Pre-symbolic signal domain $Z_t$ & C & L4 & \emph{Pre-Symbolic Admissibility in Cognitive Systems} & same paper & --- & S \\
+		
+		N053 & Admissible discrepancy domain $D_t = Z_t^{adm}$ & C & L4 & \emph{General Theory} in synthetic form; explicit formalization later & \emph{Pre-Symbolic Admissibility in Cognitive Systems} & N051, N052 & S \\
+		
+		N054 & Regulatory accessibility & D & L4 & implied by pre-symbolic filtering & \emph{Restricted Accessibility of Coherence in Cognitive Systems} & N050, N053 & S \\
+		
+		N055 & Restricted accessibility of coherence & P & L4 & \emph{Restricted Accessibility of Coherence in Cognitive Systems} & same paper & N013, N053, N054 & S \\
+		
+		N056 & Non-injectivity of regulatory accessibility & P & L4 & \emph{Restricted Accessibility of Coherence in Cognitive Systems} & same paper & N053, N055 & S \\
+		
+		N057 & Coherence representation & D & L4 & \emph{Emergence of Coherence Representation} & same paper & N013, N024, N054 & S \\
+		
+		N058 & Expressed regulatory representation $\widehat{C}_t$ / $Cb_t$ & R & L4 & \emph{Emergence of Coherence Representation} & same paper & N057, N060 & S \\
+		
+		N059 & Extended regulatory representation $\widetilde{C}_t^A$ / related derived variable & R & L4 & later representational papers & \emph{Coherence Representation in Multi-System Regulation} / related use & N058 & V \\
+		
+		N060 & Representation construction map $F(\Sigma_t)$ & O & L4 & \emph{Emergence of Coherence Representation} & same paper & N016, N023, N024, N053 & S \\
+		
+		N061 & Downstream regulatory map $\Psi$ & O & L4 & \emph{Emergence of Coherence Representation} & same paper & N058 & V \\
+		
+		N062 & Regime selection map $\rho$ & O & L4/L5 & \emph{Emergence of Coherence Representation} / \emph{Coherence Representation in Multi-System Regulation} & latter paper for inter-system use & N058 & V \\
+		
+		N070 & Trajectory-dependent regulation & D & L5 & \emph{Trajectory-Dependent Regulation in Cognitive Systems} & same paper & N025, N026, N028 & S \\
+		
+		N071 & Identity as regulatory attractor & D & L5 & \emph{Identity as a Regulatory Attractor} & same paper & N024, N027, N070 & S \\
+		
+		N072 & Identity-core / low-overload attractor region & C & L5 & \emph{Identity as a Regulatory Attractor} & same paper & N071 & S \\
+		
+		N073 & Inter-system comparability / order alignment & P/C & L5 & \emph{Coherence Representation in Multi-System Regulation} & same paper & N057, N058 & S \\
+		
+		N074 & Multi-system co-regulation & D/P & L5 & \emph{Coherence Representation in Multi-System Regulation} & same paper & N073, N062 & S \\
+		
+		N075 & Inter-system conflict geometry & D & L5 & \emph{Inter-System Conflict Geometry in Cognitive Systems} & same paper & N053, N055, N074 & S \\
+		
+		N076 & Conflict indicator $C_{\mathrm{conf}}(A,B,t)$ & C & L5 & \emph{Inter-System Conflict Geometry in Cognitive Systems} & same paper & N075 & S \\
+		
+		N077 & General Theory integration node & M & L5 & \emph{General Theory of Cognitive Structuring} & same paper & N013, N024, N026, N031, N050, N057, N039, N071, N075 & G \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\newpage
+	
+	\section{Paper-level dependency table v1}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.03\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.20\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.21\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.17\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.17\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.14\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.04\textwidth}}
+		\toprule
+		\textbf{PID} & \textbf{Paper} & \textbf{Imports} & \textbf{Introduces} & \textbf{Extends} & \textbf{Depends logically on} & \textbf{Status} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{PID} & \textbf{Paper} & \textbf{Imports} & \textbf{Introduces} & \textbf{Extends} & \textbf{Depends logically on} & \textbf{Status} \\
+		\midrule
+		\endhead
+		
+		P01 & \emph{Structural Updating and the Limits of Cognitive Change} &
+		adjacent literatures only; no internal formal imports required &
+		admissibility of structural updating; structural updating vs processing distinction; availability-of-updating question &
+		establishes conceptual entry layer for whole series &
+		--- &
+		S \\
+		
+		P02 & \emph{Coherence Evaluation in Cognitive Systems} &
+		entry distinction between processing and structural stability pressure is compatible but not formally required &
+		configuration space; stability region $U$; coherence; coherence measure as distance; coherence evaluation &
+		begins geometric branch of the series &
+		P01 optional, but not strictly required &
+		S \\
+		
+		P03 & \emph{Structural Admissibility in Cognitive Systems} &
+		processing/updating distinction; architecture state; tension idea &
+		admissibility operator $A_t$; regulatory phase space $(T,L)$; stability region in phase space; critical boundary; architectural level &
+		formalizes when structural updating becomes admissible &
+		P01, and operationally P02 for geometric framing &
+		S \\
+		
+		P04 & \emph{Overload Formation in Cognitive Processing} &
+		structural tension; resources; rigidity; processing vs updating distinction &
+		compensability threshold; instantaneous overload $u_t$; overload memory $L_t$; path dependence of overload accumulation &
+		deepens regulatory layer below admissibility decision &
+		P03 in series logic, though parts can be read alongside it &
+		S \\
+		
+		P05 & \emph{Trajectory-Dependent Regulation in Cognitive Systems} &
+		tension; overload memory; admissibility operator; stability region in $(T,L)$ &
+		trajectory-dependent regulation; explicit regulatory phase-space trajectories; hysteresis and boundary deformation dynamics &
+		dynamical analysis of regulatory movement before updating &
+		P03, P04 &
+		S \\
+		
+		P06 & \emph{Identity as a Regulatory Attractor} &
+		overload memory; admissibility boundary; trajectory dependence; bounded regulation &
+		identity as regulatory attractor; identity-core; low-overload attractor regions &
+		derives identity from long-run regulatory concentration rather than representation &
+		P03, P04, P05 &
+		S \\
+		
+		P07 & \emph{Invariants in Cognitive Architectures} &
+		earlier papers used stable structural constraints operationally &
+		invariant; invariant structure; interaction graph; local admissibility profiles; pairwise incompatibility; invariant-induced stability geometry &
+		retroactively grounds the architectural source of stability regions and conflict &
+		P02, P03 &
+		S \\
+		
+		P08 & \emph{Structural Compression in Cognitive Architectures} &
+		admissibility of updating; overload criterion; invariants; level notion &
+		structural compression; structural simplification distinction; compressed invariant $F(S)$; compression-induced geometry change &
+		links invariant transformation to long-run overload reduction and level transition &
+		P03, P04, P07 &
+		S \\
+		
+		P09 & \emph{Emergence of Coherence Representation} &
+		geometric coherence; overload and trajectory dependence; compression; partial observability of stability geometry &
+		coherence representation; expressed regulatory representation; representation-construction map $F(\Sigma_t)$; coherence / evaluation / representation distinction &
+		adds representation layer within bounded regulation &
+		P02, P04, P05, P08 &
+		S \\
+		
+		P10 & \emph{Coherence Representation in Multi-System Regulation} &
+		coherence representation; partial observability; regulatory order induced by representation &
+		ordinal adequacy; regulatory preorder; inter-system order alignment; multi-system co-regulation &
+		extends representation beyond a single architecture without shared metric &
+		P09 &
+		S \\
+		
+		P11 & \emph{Pre-Symbolic Admissibility in Cognitive Systems} &
+		coherence representation; structural admissibility; invariants; overload context &
+		pre-symbolic signal domain $Z_t$; pre-symbolic admissibility operator $\Pi_t^{ps}$; admissible discrepancy domain $D_t$; separation of regulatory layers &
+		inserts an earlier filtering layer before representation &
+		P03, P07, P09 &
+		S \\
+		
+		P12 & \emph{Restricted Accessibility of Coherence in Cognitive Systems} &
+		geometric coherence; pre-symbolic admissibility; coherence representation &
+		restricted accessibility of coherence; non-injectivity of regulatory accessibility; structural asymmetry between global state and regulatory access &
+		makes explicit that global coherence need not become regulatorily accessible &
+		P02, P09, P11 &
+		S \\
+		
+		P13 & \emph{Inter-System Conflict Geometry in Cognitive Systems} &
+		admissible discrepancy domains; restricted accessibility; multi-system setting &
+		conflict as incompatibility of admissible discrepancy domains; conflict indicator; compatibility via shared admissible discrepancy structure &
+		extends access-layer logic into inter-system incompatibility &
+		P10, P11, P12 &
+		S \\
+		
+		P14 & \emph{General Theory of Cognitive Structuring} &
+		all major earlier layers: structural updating, coherence, regulatory load/overload, invariants, layered admissibility, compression, representation, identity, inter-system consequences &
+		synthetic integration of layered admissibility architecture &
+		unifies the series; not a foundational starting node &
+		P02--P13 strongly; P01 conceptually &
+		G \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\section{Minimal unfolding order}
+	
+	The present tables support the following minimal unfolding order of the series:
+	
+	\begin{enumerate}[leftmargin=2em]
+		\item conceptual distinction between processing and structural updating;
+		\item geometric formalization of coherence;
+		\item formalization of structural admissibility in the joint regulatory state;
+		\item overload formation and trajectory dependence;
+		\item formalization of invariants as architectural constraints;
+		\item structural compression as admissible invariant transformation;
+		\item coherence representation as an internal regulatory variable;
+		\item pre-symbolic admissibility as an earlier selective layer;
+		\item restricted accessibility of coherence as a consequence of geometric coherence plus admissibility-constrained access;
+		\item multi-system representation and inter-system incompatibility;
+		\item synthetic integration in the \emph{General Theory of Cognitive Structuring}.
+	\end{enumerate}
+	
+	This unfolding order is sufficient for paper-level dependency reconstruction and is consistent with
+	the acyclicity criteria stated in the accompanying public note.
+	
+	\section{Registry interpretation notes}
+	
+	\subsection{Stable nodes}
+	
+	Nodes marked \textbf{S} are considered stable enough for public dependency use. This status is
+	assigned where the role of the node is already clearly separated in the current corpus and can
+	be used directly in graph construction.
+	
+	\subsection{Verification nodes}
+	
+	Nodes marked \textbf{V} are boundary cases where the current corpus distinguishes between:
+	\begin{itemize}[leftmargin=2em]
+		\item early operational usage,
+		\item later explicit formalization,
+		\item or multiple nearby formulations that should be kept distinct in future graph refinement.
+	\end{itemize}
+	
+	Such nodes are still useful for the present registry, but their exact boundaries may later be
+	sharpened.
+	
+	\subsection{Graph-organizing nodes}
+	
+	Nodes marked \textbf{G} are included because they improve readability of the series structure.
+	They are useful especially for:
+	\begin{itemize}[leftmargin=2em]
+		\item layer-level graphs,
+		\item synthetic convergence maps,
+		\item and paper-level DAG summaries.
+	\end{itemize}
+	
+	They should not automatically be treated as theorem-grade units.
+	
+	\section{Recommended use of this document}
+	
+	This document is designed to serve as the immediate companion to the public acyclicity note.
+	
+	It may be used:
+	\begin{itemize}[leftmargin=2em]
+		\item as an appendix-level dependency registry;
+		\item as the source table for a later node-level DAG;
+		\item as the source table for a later paper-level DAG;
+		\item as a public audit trail showing where the current dependency reconstruction remains fully stable and where it remains open to minor refinement.
+	\end{itemize}
+	
+	\section{Possible later extensions}
+	
+	
+
+	
+\end{document}
