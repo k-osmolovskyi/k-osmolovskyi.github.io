@@ -75,7 +75,11 @@ TR_26/9      | [Emergence of Coherence Representation](https://doi.org/10.5281/z
 TR_26/10     | [Coherence Representation in Multi-System](https://doi.org/10.5281/zenodo.19493294) | order alignment, co-regulation without shared geometry
 TR_26/11     | [Pre-Symbolic Admissibility](https://doi.org/10.5281/zenodo.19499593)               | pre-representational filtering of discrepancies that determines which signals can enter regulation
 TR_26/12     | [Restricted Accessibility of Coherence](https://doi.org/10.5281/zenodo.19508182)    | geometric coherence exists globally; regulatory access is domain-constrained
-TR_26/13     | [Inter-System Conflict Geometry ](https://doi.org/10.5281/zenodo.19509685)          | conflict as incompatibility of admissibility structures
+TR_26/13     | [Inter-System Conflict Geometry](https://doi.org/10.5281/zenodo.19509685)           | conflict as incompatibility of admissibility structures
+
+Identity-continuity domains as transition-level criteria for distinguishing identity-preserving architectural transformation from identity-disrupting structural change.
+
+TR_26/22     | [Identity-Continuity Domains in Cognitive Architectures](https://doi.org/10.5281/zenodo.19947542) | metastable identity
 
 ---
 
