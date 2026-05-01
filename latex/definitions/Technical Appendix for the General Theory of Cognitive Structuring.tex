@@ -1,0 +1,645 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+\setstretch{1.12}
+
+\setlength{\parindent}{15pt}
+\setlength{\parskip}{0pt}
+
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{ragged2e}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=black,
+	urlcolor=blue,
+	pdftitle={Technical Appendix for the General Theory of Cognitive Structurin},
+	pdfauthor={Kostiantyn Osmolovskyi}
+}
+
+\setlist[itemize]{topsep=3pt,itemsep=2pt,parsep=0pt}
+\setlist[enumerate]{topsep=3pt,itemsep=2pt,parsep=0pt}
+
+
+\title{Technical Appendix\\ for the General Theory of Cognitive Structuring\\
+	\large Notation, Assumptions, and Formal Dependency Structure}
+	
+\author{
+	Kostiantyn Osmolovskyi\\
+	\small Independent Researcher, Ukraine\\
+	\small ORCID: 0009-0006-3144-7237\\
+	\small \texttt{constantinosmol@gmail.com}
+}
+
+\date{}
+
+% ---------------------------------------------------------------------------
+% Part of a series: General Theory of Cognitive Structuring (GTCS)
+% Autor: Kostiantyn Osmolovskyi (ORCID: 0009-0006-3144-7237)
+% License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+% Repository: https://github.com/k-osmolovskyi/k-osmolovskyi.github.io
+% DOI: https://doi.org/10.5281/zenodo.19701877
+% ---------------------------------------------------------------------------
+
+\begin{document}
+	\maketitle
+
+\begin{center}
+	\small
+	Technical Note No. 2026-5\\
+	Version 1.0
+\end{center}
+
+\vspace{0.5em}
+	
+	\maketitle
+	
+	\section{Purpose of this appendix}
+	
+	This appendix provides a formal traceability layer for the paper series associated with the
+	\emph{General Theory of Cognitive Structuring}. It is intended to accompany the public
+	documents on terminology, acyclicity, and dependency structure by making explicit the
+	internal relations among notation, assumptions, definitions, operators, constructions, and
+	result-level statements.
+	
+	The appendix is not a full proof compendium. Its purpose is narrower:
+	\begin{itemize}[leftmargin=2em]
+		\item to stabilize notation across the series,
+		\item to separate assumptions from definitions and derived results,
+		\item to provide a definition-and-operator dependency table,
+		\item to provide a proposition/theorem dependency table,
+		\item to support formal reconstruction and external verification.
+	\end{itemize}
+	
+	This document should be read together with:
+	\begin{itemize}[leftmargin=2em]
+		\item the glossary document,
+		\item the acyclicity statement,
+		\item and the dependency tables / node registry companion.
+	\end{itemize}
+	
+	\section{Scope and limits}
+	
+	This appendix is limited to formal traceability. It does not attempt to:
+	\begin{itemize}[leftmargin=2em]
+		\item reproduce all proofs in full,
+		\item replace the original papers,
+		\item provide full bibliographic commentary,
+		\item exhaustively reconstruct every local notation variant.
+	\end{itemize}
+	
+	Its aim is to make the formal dependency structure of the current series explicit enough for
+	verification, while remaining compact and readable as a standalone technical companion.
+	
+	\section{Notation registry}
+	
+	This section collects the main recurring symbols used across the series. The registry is
+	interpretive rather than exhaustive. It is designed to stabilize reading across papers.
+	
+	\subsection{State, architecture, and configuration}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.18\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.62\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.12\textwidth}}
+		\toprule
+		\textbf{Symbol} & \textbf{Meaning} & \textbf{Level} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{Symbol} & \textbf{Meaning} & \textbf{Level} \\
+		\midrule
+		\endhead
+		
+		$X$ & Configuration space or state space at the relevant level of description. & configuration \\
+		
+		$x_t$ & Current processing configuration at time $t$. & configuration \\
+		
+		$S_t$ & Architectural state at time $t$, typically including invariant structure and regulatory parameters. & architecture \\
+		
+		$DS_t$ & Reduced or macro-projected architectural state used for geometric or regulatory analysis. & macro-architecture \\
+		
+		$I_t$ & Current set of invariants at time $t$. & architecture \\
+		
+		$G_t=(V_t,E_t)$ & Interaction graph over invariants or structural constraints. & architecture \\
+		
+		$R_t$ & Available processing or regulatory resource. & regulation \\
+		
+		$M_t$ & Meta-operational or meta-regulatory accessibility. & regulation \\
+		
+		$\kappa_t$ & Compression efficiency. & architecture \\
+		
+		$h_t$ & Rigidity assignment over invariants. & architecture \\
+		
+		$\bar h_t$ & Mean or aggregate rigidity. & architecture/regulation \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\subsection{Geometry, coherence, and admissible regions}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.18\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.62\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.12\textwidth}}
+		\toprule
+		\textbf{Symbol} & \textbf{Meaning} & \textbf{Level} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{Symbol} & \textbf{Meaning} & \textbf{Level} \\
+		\midrule
+		\endhead
+		
+		$U$ & Stability region in early geometric formulations. & configuration \\
+		
+		$U_X(I_t)$ & Invariant-induced region of structurally stable configurations in $X$. & configuration \\
+		
+		$d(x_t,y)$ & Metric distance between configurations. & configuration \\
+		
+		$\mathrm{dist}(x_t,U)$ & Distance from current configuration to stability region. & configuration \\
+		
+		$C_I(x_t)$ & Geometric coherence, typically defined as the distance from $x_t$ to $U_X(I_t)$. & geometry \\
+		
+		$a_i(x)$ & Local admissibility profile of invariant $I_i$ at configuration $x$. & invariant geometry \\
+		
+		$\eta_i$ & Threshold associated with invariant admissibility. & invariant geometry \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\subsection{Conflict, tension, overload, and admissibility}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.18\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.62\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.12\textwidth}}
+		\toprule
+		\textbf{Symbol} & \textbf{Meaning} & \textbf{Level} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{Symbol} & \textbf{Meaning} & \textbf{Level} \\
+		\midrule
+		\endhead
+		
+		$c_{ij}(x)$ & Pairwise incompatibility between invariants $I_i$ and $I_j$ at configuration $x$. & invariant conflict \\
+		
+		$K_t$ & Global incompatibility load or conflict load. & regulation \\
+		
+		$C_t$ & Coordination cost in the decomposition $T_t = K_t + C_t$. & regulation \\
+		
+		$T_t$ & Structural tension, i.e.\ aggregate structural pressure. & regulation \\
+		
+		$\theta(R_t,\bar h_t)$ & Compensability threshold. & regulation \\
+		
+		$u_t$ & Instantaneous overload: excess tension beyond compensability. & regulation \\
+		
+		$L_t$ & Overload memory, i.e.\ retained trace of prior overload. & regulation/history \\
+		
+		$\alpha_t$ or $\alpha$ & Decay or recovery parameter governing overload dissipation. & regulation/history \\
+		
+		$\Omega$ & Regulatory phase space, typically in variables $(T,L)$. & regulation \\
+		
+		$A_t$ or $A(T,L,\dots)$ & Admissibility operator for structural updating. & regulation/update \\
+		
+		$U(S_t)$ or $U(DS)$ & Stability/admissible region in regulatory phase space. & regulation geometry \\
+		
+		$T_{\mathrm{crit}}(L)$ & Critical tension function or boundary. & regulation geometry \\
+		
+		$\tau$ & Admissibility threshold or boundary parameter. & regulation/update \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\subsection{Pre-symbolic admissibility and representation}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.18\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.62\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.12\textwidth}}
+		\toprule
+		\textbf{Symbol} & \textbf{Meaning} & \textbf{Level} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{Symbol} & \textbf{Meaning} & \textbf{Level} \\
+		\midrule
+		\endhead
+		
+		$Z_t$ & Pre-symbolic or pre-representational signal domain. & access \\
+		
+		$\Pi_t^{ps}$ & Pre-symbolic admissibility operator. & access \\
+		
+		$Z_t^{adm}$ & Admitted subset of $Z_t$ after pre-symbolic filtering. & access \\
+		
+		$D_t$ & Admissible discrepancy domain. Often identified with $Z_t^{adm}$. & access \\
+		
+		$\Sigma_t$ & Observable signal set available for subsequent integration. & representation input \\
+		
+		$\widehat{C}_t$ & Expressed coherence representation or internal regulatory proxy. & representation \\
+		
+		$\widetilde{C}_t^A$ & Extended or transformed regulatory representation. & representation \\
+		
+		$F(\Sigma_t)$ or $F(S_t)$ & Construction map producing an internal representation from available signals. & representation operator \\
+		
+		$\Psi$ & Downstream regulatory or organizational map operating on internal representation. & regulation downstream \\
+		
+		$\rho$ & Regime-selection map or policy-selection map. & regulation downstream \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\subsection{Compression, level, and multi-system extension}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.18\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.62\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.12\textwidth}}
+		\toprule
+		\textbf{Symbol} & \textbf{Meaning} & \textbf{Level} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{Symbol} & \textbf{Meaning} & \textbf{Level} \\
+		\midrule
+		\endhead
+		
+		$S \subset I_t$ & Subset of invariants subject to compression. & architecture \\
+		
+		$F(S)$ under compression & Compressed structural representation replacing subset $S$. & architecture/update \\
+		
+		$I_{t+1} = (I_t \setminus S)\cup \{F(S)\}$ & Generic compression/update schema. & architecture/update \\
+		
+		$\sim$ & Geometric equivalence relation between stability geometries. & level geometry \\
+		
+		$\phi_{AB}$ & Order-preserving map between images of coherence representations in systems $A$ and $B$. & multi-system \\
+		
+		$C_{\mathrm{conf}}(A,B,t)$ & Conflict indicator for inter-system incompatibility. & multi-system conflict \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\section{Assumption registry}
+	
+	This section collects the main classes of assumptions used across the series. It is intended to
+	separate assumptions from definitions and from derived results.
+	
+	\subsection{A. Architectural assumptions}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.10\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.36\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.20\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.22\textwidth}}
+		\toprule
+		\textbf{ID} & \textbf{Assumption} & \textbf{Typical role} & \textbf{Main source(s)} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{ID} & \textbf{Assumption} & \textbf{Typical role} & \textbf{Main source(s)} \\
+		\midrule
+		\endhead
+		
+		A1 & A cognitive system admits a configuration space and a distinction between processing and structural updating. & minimal ontology of the framework & entry paper; structural admissibility \\
+		
+		A2 & Structural constraints persist across ordinary processing and are historically constituted. & supports invariants and structural memory & invariants; general theory \\
+		
+		A3 & Processing operates within a fixed architecture, whereas structural updating may modify the architecture. & supports separation of levels & entry paper; structural admissibility; general theory \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\subsection{B. Geometric assumptions}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.10\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.36\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.20\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.22\textwidth}}
+		\toprule
+		\textbf{ID} & \textbf{Assumption} & \textbf{Typical role} & \textbf{Main source(s)} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{ID} & \textbf{Assumption} & \textbf{Typical role} & \textbf{Main source(s)} \\
+		\midrule
+		\endhead
+		
+		G1 & Configuration space is equipped with a metric or an admissible distance relation. & supports geometric coherence definition & coherence evaluation \\
+		
+		G2 & Invariant-induced admissibility profiles are sufficiently regular to define a well-posed stability region. & supports $U_X(I_t)$ and coherence geometry & invariants \\
+		
+		G3 & In suitable neighborhoods, structural tension and coherence may admit comparative local bounds. & supports relation between geometric coherence and local structural pressure & coherence evaluation \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\subsection{C. Conflict and overload assumptions}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.10\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.36\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.20\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.22\textwidth}}
+		\toprule
+		\textbf{ID} & \textbf{Assumption} & \textbf{Typical role} & \textbf{Main source(s)} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{ID} & \textbf{Assumption} & \textbf{Typical role} & \textbf{Main source(s)} \\
+		\midrule
+		\endhead
+		
+		C1 & Pairwise incompatibility is nonnegative. & conflict functional well-posedness & structural admissibility; invariants \\
+		
+		C2 & Incompatibility is monotone in rigidity. & links rigidity to conflict pressure & structural admissibility; invariants \\
+		
+		C3 & Global conflict aggregation is monotone. & supports conflict load construction & structural admissibility; invariants \\
+		
+		C4 & Compensability threshold is increasing in resource and decreasing in rigidity. & supports overload definition & overload formation; structural admissibility \\
+		
+		C5 & Compensability is finite for fixed resource and rigidity. & prevents trivial unlimited compensation & overload formation; structural admissibility \\
+		
+		C6 & Overload memory evolves through accumulation of excess and decay/recovery. & supports history dependence & overload formation \\
+		
+		C7 & Overload memory is not reducible to instantaneous tension alone. & supports trajectory dependence & overload formation; trajectory-dependent regulation \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\subsection{D. Admissibility and dynamical assumptions}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.10\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.36\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.20\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.22\textwidth}}
+		\toprule
+		\textbf{ID} & \textbf{Assumption} & \textbf{Typical role} & \textbf{Main source(s)} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{ID} & \textbf{Assumption} & \textbf{Typical role} & \textbf{Main source(s)} \\
+		\midrule
+		\endhead
+		
+		D1 & Structural admissibility depends jointly on current tension and overload memory. & supports 2D regulatory phase space & structural admissibility \\
+		
+		D2 & Critical admissibility boundary may be expressed as a threshold relation in $(T,L)$-space. & supports stability region geometry & structural admissibility; trajectory-dependent regulation \\
+		
+		D3 & Increasing overload deforms the admissibility boundary in a monotone way. & supports hysteresis and drift arguments & trajectory-dependent regulation \\
+		
+		D4 & Under boundedness and regularity assumptions, overload dynamics remain input-to-state stable or bounded. & supports long-run admissibility analysis & overload formation; trajectory-dependent regulation \\
+		
+		D5 & Where stationarity or drift assumptions are introduced, they are local to specific long-run results and not global axioms of the whole theory. & separates theorem-local assumptions from global architecture & identity paper; trajectory paper \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\subsection{E. Access and representation assumptions}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.10\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.36\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.20\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.22\textwidth}}
+		\toprule
+		\textbf{ID} & \textbf{Assumption} & \textbf{Typical role} & \textbf{Main source(s)} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{ID} & \textbf{Assumption} & \textbf{Typical role} & \textbf{Main source(s)} \\
+		\midrule
+		\endhead
+		
+		R1 & The full geometry of structural stability is not directly operationally accessible during processing. & partial observability of coherence geometry & emergence of coherence representation \\
+		
+		R2 & Only locally available signals contribute to internal approximation and representation. & representation under bounded observability & emergence of coherence representation \\
+		
+		R3 & Pre-symbolic admissibility acts prior to stable representation and prior to structural updating. & separation of regulatory layers & pre-symbolic admissibility \\
+		
+		R4 & Only admitted discrepancies enter the admissible discrepancy domain and subsequent observable signal set. & supports restricted accessibility & pre-symbolic admissibility; restricted accessibility \\
+		
+		R5 & Coherence representation need not preserve metric structure; ordinal adequacy is sufficient for regulation. & supports preorder-based representation & coherence representation; multi-system regulation \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\subsection{F. Compression and multi-system assumptions}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.10\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.36\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.20\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.22\textwidth}}
+		\toprule
+		\textbf{ID} & \textbf{Assumption} & \textbf{Typical role} & \textbf{Main source(s)} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{ID} & \textbf{Assumption} & \textbf{Typical role} & \textbf{Main source(s)} \\
+		\midrule
+		\endhead
+		
+		M1 & Admissible structural updates need not all be compressions; compression is a restricted stabilizing subclass. & supports compression/simplification distinction & structural compression \\
+		
+		M2 & Compression may preserve or change admissible geometry. & supports level-preserving vs level-forming compression & structural compression \\
+		
+		M3 & Inter-system comparability does not require shared metric geometry. & supports order-alignment approach & multi-system regulation \\
+		
+		M4 & Conflict between systems is defined over admissible discrepancy domains rather than over full configuration spaces directly. & supports inter-system conflict geometry & inter-system conflict \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\section{Definition and operator dependency table}
+	
+	This table records the main definitions and operators together with their direct formal
+	prerequisites.
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.25\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.37\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.20\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.10\textwidth}}
+		\toprule
+		\textbf{Definition / Operator} & \textbf{Direct prerequisites} & \textbf{First formal source} & \textbf{Status} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{Definition / Operator} & \textbf{Direct prerequisites} & \textbf{First formal source} & \textbf{Status} \\
+		\midrule
+		\endhead
+		
+		Admissibility of structural updating & distinction between processing and structural updating; stabilized organization & entry paper & S \\
+		
+		Structural updating & architecture/process distinction; admissibility of updating & structural admissibility & S \\
+		
+		Coherence $C_I(x_t)$ & configuration space $X$; current configuration $x_t$; stability region $U$ or $U_X(I_t)$; distance relation & coherence evaluation & S \\
+		
+		Structural tension $T_t$ & conflict/incompatibility load; coordination cost & structural admissibility & V \\
+		
+		Compensability threshold $\theta(R_t,\bar h_t)$ & resource state; rigidity & overload formation / structural admissibility & S \\
+		
+		Instantaneous overload $u_t$ & structural tension; compensability threshold & overload formation & S \\
+		
+		Overload memory $L_t$ & instantaneous overload; decay/recovery law & overload formation & S \\
+		
+		Admissibility operator $A(T,L,\dots)$ & tension; overload memory; resource; meta-accessibility; rigidity & structural admissibility & S \\
+		
+		Regulatory stability region $U(S_t)$ / $U(DS)$ & admissibility operator; threshold condition & structural admissibility & S \\
+		
+		Architectural level & equivalence of stability geometry & structural admissibility & S \\
+		
+		Invariant $I_i$ & architecture/process distinction; admissibility profile; rigidity; regime-relative update status & invariants & S \\
+		
+		Invariant structure $I_t$ & invariants & invariants & S \\
+		
+		Local admissibility profile $a_i(x)$ & invariant; configuration space & invariants & S \\
+		
+		Pairwise incompatibility $c_{ij}(x)$ & interaction graph; local admissibility profiles; rigidity/context parameters & invariants & S \\
+		
+		Global conflict aggregation $K_t$ & pairwise incompatibilities; aggregation rule & invariants & S \\
+		
+		Invariant-induced stability region $U_X(I_t)$ & invariant structure; local admissibility profiles; thresholds & invariants & S \\
+		
+		Compression operation $I_{t+1} = (I_t \setminus S)\cup\{F(S)\}$ & invariant structure; admissible updating & structural compression & S \\
+		
+		Compressed invariant $F(S)$ & compression operation & structural compression & S \\
+		
+		Coherence representation & geometric coherence not directly accessible; local observable signals; overload-sensitive regulatory context & emergence of coherence representation & S \\
+		
+		Representation construction map $F(\Sigma_t)$ & observable signal set; structural pressure variables; partial observability & emergence of coherence representation & S \\
+		
+		Pre-symbolic admissibility $\Pi_t^{ps}$ & pre-symbolic signal domain $Z_t$; invariant-conditioned filtering; threshold rule & pre-symbolic admissibility & S \\
+		
+		Admissible discrepancy domain $D_t$ & pre-symbolic admissibility operator; signal domain & pre-symbolic admissibility & S \\
+		
+		Regulatory accessibility & admissible discrepancy domain; relation between admitted discrepancy and downstream regulation & restricted accessibility & S \\
+		
+		Restricted accessibility of coherence & geometric coherence; admissible discrepancy domain; regulatory accessibility & restricted accessibility & S \\
+		
+		Order-preserving inter-system map $\phi_{AB}$ & coherence representation; regulatory order; ordinal adequacy & multi-system regulation & S \\
+		
+		Inter-system conflict indicator $C_{\mathrm{conf}}(A,B,t)$ & admissible discrepancy domains for systems $A,B$; compatibility criterion & inter-system conflict & S \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\section{Proposition and theorem dependency table}
+	
+	This table collects the main proposition- or theorem-level results in compressed form.
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.28\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.28\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.18\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.16\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.06\textwidth}}
+		\toprule
+		\textbf{Result} & \textbf{Depends on} & \textbf{Uses assumptions} & \textbf{Main source} & \textbf{Status} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{Result} & \textbf{Depends on} & \textbf{Uses assumptions} & \textbf{Main source} & \textbf{Status} \\
+		\midrule
+		\endhead
+		
+		Stability property of coherence ($C_I(x_t)=0$ iff $x_t \in U$) & coherence definition; stability region & G1 & coherence evaluation & S \\
+		
+		Positive distance outside stability region & coherence definition; stability region & G1 & coherence evaluation & S \\
+		
+		Local comparative relation between coherence and structural tension & coherence; tension decomposition & G3 & coherence evaluation & V \\
+		
+		Boundedness / stability of overload memory dynamics & overload update rule; bounded excess; decay assumptions & C4--C7, D4 & overload formation & S \\
+		
+		Non-reducibility of overload memory to instantaneous tension & overload memory definition; trajectory dependence of input history & C6--C7 & overload formation & S \\
+		
+		Trajectory dependence of regulation & overload memory; admissibility operator; stability region in $(T,L)$ & D1--D4 & trajectory-dependent regulation & S \\
+		
+		Hysteresis under overload-dependent boundary deformation & admissibility boundary; overload memory; monotone deformation & D2--D3 & trajectory-dependent regulation & S \\
+		
+		Invariant-induced stability region exists & invariants; admissibility profiles; thresholds & A2, G2 & invariants & S \\
+		
+		Processing preserves invariant set & architecture/process distinction; invariant definition & A1--A3 & invariants & S \\
+		
+		Conflict is historically structured by invariant architecture & invariants; interaction structure; conflict aggregation & A2, C1--C3 & invariants & S \\
+		
+		Compression and simplification are non-equivalent & compression criterion; expected overload criterion & M1 & structural compression & S \\
+		
+		Compression generates a new invariant & compression operation; invariant notion & A2, M1 & structural compression & S \\
+		
+		Compression improves effective long-run stability & compression criterion; overload-based evaluation & M1--M2, D4 & structural compression & S \\
+		
+		Ordinal adequacy of coherence representation & coherence representation; geometric coherence; regulatory order & R1--R5 & multi-system regulation / representation branch & S \\
+		
+		Existence of inter-system order alignment under monotone conditions & coherence representation; ordinal adequacy; monotone maps & R5, M3 & multi-system regulation & S \\
+		
+		Restricted accessibility of coherence & geometric coherence; admissible discrepancy domain; regulatory accessibility & R3--R4 & restricted accessibility & S \\
+		
+		Non-injectivity of regulatory accessibility & restricted accessibility; admitted-signal construction; distinct configurations & R3--R4 & restricted accessibility & S \\
+		
+		Propagation bias under repeated admissible propagation & pre-symbolic admissibility; admissible propagation frequencies & R3--R4 & pre-symbolic admissibility & S \\
+		
+		Proto-structural channel stability under bounded perturbation & admissibility filtering; propagation frequencies; bounded perturbation assumptions & R3--R4, local boundedness assumptions & pre-symbolic admissibility & V \\
+		
+		Identity-core concentration or low-overload concentration result & overload function; long-run or stationary distribution assumptions & D5 & identity as regulatory attractor & S \\
+		
+		Identity-core attractor dynamics under drift condition & overload memory; low-overload region; drift condition & D5 & identity as regulatory attractor & S \\
+		
+		Conflict as incompatibility of admissible discrepancy domains & admissible discrepancy domains; compatibility criterion & M4, R3--R4 & inter-system conflict & S \\
+		
+		Conflict may exist without direct representation in one or both systems & restricted accessibility; conflict over admissible domains & R3--R4, M4 & inter-system conflict & S \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\section{Cross-paper notation consistency note}
+	
+	This section records a few recurring cross-paper consistency points that matter for formal reading.
+	
+	\subsection{Early $U$ vs later $U_X(I_t)$}
+	
+	In early geometric formulations, the stability region is often written simply as $U \subseteq X$.
+	Later papers, especially those formalizing invariants, make explicit that this region is induced
+	by invariant structure and write it as $U_X(I_t)$. The later notation should be treated as a
+	stronger architectural grounding of the earlier region rather than as a distinct object unrelated
+	to it.
+	
+	\subsection{Coherence vs coordination-cost notation}
+	
+	In some contexts, the symbol $C$ is used in $C_I(x_t)$ for geometric coherence, while in other
+	contexts $C_t$ denotes coordination cost in the decomposition $T_t = K_t + C_t$. These are not
+	the same object and must be distinguished by indices and context.
+	
+	\subsection{General theory as convergence layer}
+	
+	When notation from several papers appears together in the \emph{General Theory of Cognitive
+		Structuring}, this should be read as synthetic integration rather than as evidence that the
+	general theory functions as the original source of all such notation.
+	
+	\section{Recommended use of this appendix}
+	
+	This appendix is intended to function as a formal traceability companion.
+	
+	It may be used:
+	\begin{itemize}[leftmargin=2em]
+		\item by reviewers who need a concise map of formal dependencies;
+		\item by readers reconstructing the framework across papers;
+		\item by future graph-building efforts at the node or theorem level;
+		\item by the author as a consistency check when adding later papers to the series.
+	\end{itemize}
+	
+	\section{Possible future extensions}
+	
+	A later version of this appendix may add:
+	\begin{itemize}[leftmargin=2em]
+		\item a full theorem index with explicit proposition numbering,
+		\item an edge list for direct DAG implementation,
+		\item a proof-status table distinguishing full proofs from proof sketches,
+		\item a notation-variance appendix for later series expansion.		
+	\end{itemize}
+	
+\end{document}
