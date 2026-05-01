@@ -1,0 +1,572 @@
+\documentclass[12pt]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{ragged2e}
+
+\setstretch{1.08}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=black,
+	urlcolor=blue,
+	pdftitle={Collected Results and Proof Status Note for the General Theory of Cognitive Structuring},
+	pdfauthor={Kostiantyn Osmolovskyi}
+}
+
+\setlist[itemize]{topsep=3pt,itemsep=2pt,parsep=0pt}
+\setlist[enumerate]{topsep=3pt,itemsep=2pt,parsep=0pt}
+
+
+\title{Collected Results and Proof Status Note\\
+	\small for the General Theory of Cognitive Structuring}
+
+\author{
+	Kostiantyn Osmolovskyi\\
+	\small Independent Researcher, Ukraine\\
+	\small ORCID: 0009-0006-3144-7237\\
+	\small \texttt{constantinosmol@gmail.com}
+}
+
+\date{}
+
+% ---------------------------------------------------------------------------
+% Part of a series: General Theory of Cognitive Structuring (GTCS)
+% Autor: Kostiantyn Osmolovskyi (ORCID: 0009-0006-3144-7237)
+% License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+% Repository: https://github.com/k-osmolovskyi/k-osmolovskyi.github.io
+% DOI: https://doi.org/10.5281/zenodo.19705594
+% ---------------------------------------------------------------------------
+
+
+\begin{document}
+	\maketitle
+
+\begin{center}
+	\small
+	Verification Report No. 2026-1\\
+	Version 1.0
+\end{center}
+
+\vspace{0.5em}	
+	
+	\section{Purpose of this note}
+	
+	This document provides a collected and normalized register of the main results of the
+	\emph{General Theory of Cognitive Structuring}. Its purpose is not to replace the primary
+	papers, nor to function as a full proof compendium, but to establish a canonical author-side layer answering the following question:
+	
+	\begin{quote}
+		What exactly has been established in the series, in what form, and with what proof status?
+	\end{quote}
+	
+	The note is intended to support external verification, later proof consolidation, and
+	future development of a full proof compendium. It collects the main results of the series in a normalized format and distinguishes:
+	\begin{itemize}[leftmargin=2em]
+		\item definitional items,
+		\item operators and constructions,
+		\item architectural claims,
+		\item proposition-level and theorem-level results,
+		\item proof-complete results,
+		\item proof-sketch results,
+		\item and results that remain open for later consolidation.
+	\end{itemize}
+	
+	\section{Scope and limits}
+	
+	This note is deliberately intermediate in scope.
+	
+	It does \emph{not} attempt to:
+	\begin{itemize}[leftmargin=2em]
+		\item reproduce all proofs in full;
+		\item replace the original papers;
+		\item function as a complete theorem numbering system for the entire series;
+		\item decide every local notational or editorial variant;
+		\item present every minor consequence or corollary.
+	\end{itemize}
+	
+	Its function is narrower:
+	\begin{itemize}[leftmargin=2em]
+		\item to collect the main results of the series in one place;
+		\item to normalize their wording for cross-paper verification;
+		\item to assign explicit proof status to each result;
+		\item to identify which results are already proof-complete and which still require later consolidation.
+	\end{itemize}
+	
+	\section{Proof status categories}
+	
+	The following proof status categories are used throughout this note.
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.10\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.75\textwidth}}
+		\toprule
+		\textbf{Code} & \textbf{Meaning} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{Code} & \textbf{Meaning} \\
+		\midrule
+		\endhead
+		
+		D & Definitional item. No proof is required because the item functions as a definition, operator, or construction rather than as a derived result. \\
+		
+		A & Architectural claim. The item is part of the intended architectural interpretation of the framework but is not presented as a theorem-grade result in canonical form. \\
+		
+		S & Proof sketch in source. The result is stated and supported in the source paper, but the proof remains sketch-level or relies on compressed exposition. \\
+		
+		P & Full proof in source. The result is stated and proved in the source paper in a form sufficient for direct canonical reference. \\
+		
+		C & Canonically normalized here. The result is collected and normalized in this note from one or more source papers, but this note does not itself upgrade a sketch into a full proof. \\
+		
+		O & Open or pending consolidation. The result is part of the intended framework but still requires later proof normalization, clarification, or formal extraction for canonical proof-level use. \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\section{Reading rules for collected results}
+	
+	The following rules govern the present note.
+	
+	\begin{enumerate}[leftmargin=2em]
+		\item This note does not introduce new theoretical results.
+		\item Normalization of wording does not broaden the scope of the original source.
+		\item A result marked \textbf{S} remains sketch-level even if its wording here is cleaner than in the source paper.
+		\item A result marked \textbf{P} is treated as proof-complete in its source, but not necessarily re-proved in full here.
+		\item Later synthetic papers do not retroactively upgrade the proof status of earlier papers unless this is explicitly stated.
+		\item If a result depends on assumptions local to a particular paper, that locality should be preserved in its collected form.
+		\item If a result appears in more than one paper, priority is given to:
+		\begin{itemize}[leftmargin=2em]
+			\item earliest explicit statement,
+			\item strongest primary formalization,
+			\item and narrowest non-overclaiming formulation.
+		\end{itemize}
+	\end{enumerate}
+	
+	\section{Result classification scheme}
+	
+	For organizational purposes, the collected results are grouped into the following families:
+	
+	\begin{itemize}[leftmargin=2em]
+		\item \textbf{R0} Definitions and operators
+		\item \textbf{R1} Geometric results
+		\item \textbf{R2} Regulatory and overload results
+		\item \textbf{R3} Invariant and compression results
+		\item \textbf{R4} Representation and accessibility results
+		\item \textbf{R5} Identity and multi-system results
+		\item \textbf{R6} Synthetic framework-level results
+	\end{itemize}
+	
+	This grouping is organizational and does not replace paper order. Its purpose is to make later
+	proof consolidation easier.
+	
+	\section{Master table of collected results}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.06\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.22\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.12\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.10\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.14\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.14\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.12\textwidth}}
+		\toprule
+		\textbf{Result ID} & \textbf{Result title} & \textbf{Type} & \textbf{Proof status} & \textbf{Main source} & \textbf{Depends on} & \textbf{Assumptions} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{Result ID} & \textbf{Result title} & \textbf{Type} & \textbf{Proof status} & \textbf{Main source} & \textbf{Depends on} & \textbf{Assumptions} \\
+		\midrule
+		\endhead
+		
+		R0.01 & Admissibility of structural updating & Definition & D & entry paper & processing /updating distinction & --- \\
+		
+		R1.01 & Coherence as distance to stability region & Definition /Formal & P & coherence paper & configuration space; stability region & metric structure \\
+		
+		R2.01 & Admissibility depends on joint regulatory state & Formal & P & structural admissibility & tension; overload memory; admissibility operator & admissibility framework \\
+		
+		R2.02 & Overload memory is not reducible to instantaneous tension & Proposition & P & overload formation & overload memory; path dependence & overload dynamics \\
+		
+		R2.03 & Regulation is trajectory-dependent & Proposition & P & trajectory regulation & overload memory; admissibility operator & boundary deformation / path dependence \\
+		
+		R3.01 & Invariants are historically constituted structural constraints & Definition & D & invariants paper & architecture /process distinction & --- \\
+		
+		R3.02 & Invariant architecture induces stability geometry & Theorem /Proposition & P & invariants paper & invariants; admissibility profiles & regularity / continuity \\
+		
+		R3.03 & Compression is not equivalent to simplification & Proposition & P & compression paper & compression criterion; expected overload & compression framework \\
+		
+		R3.04 & Compression generates a new invariant & Proposition & P & compression paper & compression operation; invariant concept & compression framework \\
+		
+		R4.01 & Coherence representation is an internal regulatory variable, not full geometric reconstruction & Definition /Proposition & P & emergence paper & partial observability; local signals & representation framework \\
+		
+		R4.02 & Pre-symbolic admissibility is a distinct prior filtering layer & Definition & D & pre-symbolic paper & signal domain; regulatory layering & --- \\
+		
+		R4.03 & Restricted accessibility of coherence & Proposition & P & restricted accessibility paper & geometric coherence; admissible discrepancy domain & accessibility framework \\
+		
+		R4.04 & Non-injectivity of regulatory accessibility & Proposition & P/S & restricted accessibility paper & restricted accessibility; admitted-signal structure & accessibility framework \\
+		
+		R5.01 & Identity as regulatory attractor & Definition /Architectural claim & S & identity paper & overload; trajectory dynamics; bounded regulation & long-run dynamic assumptions \\
+		
+		R5.02 & Inter-system conflict as incompatibility of admissible discrepancy domains & Definition /Proposition & P/S & inter-system conflict paper & admissible discrepancy domains; compatibility criterion & multi-system setting \\
+		
+		R6.01 & Layered admissibility architecture of the full framework & Synthetic & C & general theory & results from R1--R5 & synthetic integration \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\section{Normalized statements}
+	
+	\subsection{R0. Definitions and operators}
+	
+	\subsubsection*{R0.01. Admissibility of structural updating}
+	\textbf{Type:} Definition \\
+	\textbf{Statement:} Admissibility of structural updating refers to the condition under which
+	already stabilized organization is available for structural updating, rather than merely
+	subject to processing, evaluation, or local adjustment. \\
+	\textbf{Dependencies:} processing/updating distinction. \\
+	\textbf{Assumptions:} none beyond the entry-level architectural distinction. \\
+	\textbf{Source:} \emph{Structural Updating and the Limits of Cognitive Change}. \\
+	\textbf{Proof status:} D. \\
+	\textbf{Note:} This item functions as an entry distinction rather than a derived result.
+	
+	\subsection{R1. Geometric results}
+	
+	\subsubsection*{R1.01. Coherence as distance to stability region}
+	\textbf{Type:} Definition/Formal result \\
+	\textbf{Statement:} Coherence is defined geometrically as the distance between the current
+	configuration $x_t$ and the relevant admissible stability region, in later grounded form
+	$U_X(I_t)$. \\
+	\textbf{Dependencies:} configuration space; current configuration; stability region. \\
+	\textbf{Assumptions:} metric or admissible distance structure over the configuration space. \\
+	\textbf{Source:} \emph{Coherence Evaluation in Cognitive Systems}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} The later invariant-grounded notation strengthens the architectural grounding
+	of the earlier stability-region formulation.
+	
+	\subsection{R2. Regulatory and overload results}
+	
+	\subsubsection*{R2.01. Admissibility depends on joint regulatory state}
+	\textbf{Type:} Formal result \\
+	\textbf{Statement:} Structural admissibility of updating is not determined by instantaneous
+	tension alone, but by the joint regulatory state including tension and overload memory. \\
+	\textbf{Dependencies:} structural tension; overload memory; admissibility operator. \\
+	\textbf{Assumptions:} admissibility operator defined on joint regulatory state. \\
+	\textbf{Source:} \emph{Structural Admissibility in Cognitive Systems}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This is one of the central formal claims of the regulatory branch.
+	
+	\subsubsection*{R2.02. Overload memory is not reducible to instantaneous tension}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} There is no function of instantaneous tension alone that captures overload
+	memory for all admissible trajectories of the system. \\
+	\textbf{Dependencies:} overload memory definition; excess accumulation; path dependence. \\
+	\textbf{Assumptions:} nontrivial trajectory variation; retained overload state. \\
+	\textbf{Source:} \emph{Overload Formation in Cognitive Processing}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This result supports the claim that overload contributes a genuine additional
+	state dimension.
+	
+	\subsubsection*{R2.03. Regulation is trajectory-dependent}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Two systems with identical instantaneous tension may differ in regulatory
+	state if their overload histories differ. \\
+	\textbf{Dependencies:} overload memory; admissibility operator; stability region in regulatory
+	phase space. \\
+	\textbf{Assumptions:} admissibility depends jointly on present tension and overload memory. \\
+	\textbf{Source:} \emph{Trajectory-Dependent Regulation in Cognitive Systems}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This result is the main trajectory-level consequence of overload retention.
+	
+	\subsection{R3. Invariant and compression results}
+	
+	\subsubsection*{R3.01. Invariants are historically constituted structural constraints}
+	\textbf{Type:} Definition \\
+	\textbf{Statement:} Invariants are structural constraints that participate in processing while
+	being preserved under ordinary processing dynamics and arising from prior stabilization or
+	compression. \\
+	\textbf{Dependencies:} architecture/process distinction. \\
+	\textbf{Assumptions:} none beyond the architectural ontology of the series. \\
+	\textbf{Source:} \emph{Invariants in Cognitive Architectures}. \\
+	\textbf{Proof status:} D. \\
+	\textbf{Note:} This is a foundational definitional node for the structural architecture branch.
+	
+	\subsubsection*{R3.02. Invariant architecture induces stability geometry}
+	\textbf{Type:} Theorem/Proposition \\
+	\textbf{Statement:} Under appropriate regularity conditions, invariant structure induces a
+	well-posed region of structurally stable configurations and thereby grounds geometric coherence. \\
+	\textbf{Dependencies:} invariants; admissibility profiles; thresholds. \\
+	\textbf{Assumptions:} continuity / regularity assumptions on admissibility profiles and
+	configuration space. \\
+	\textbf{Source:} \emph{Invariants in Cognitive Architectures}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This result strengthens the architectural grounding of the earlier geometric branch.
+	
+	\subsubsection*{R3.03. Compression is not equivalent to simplification}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Structural compression and structural simplification are not equivalent,
+	because reduction in structural size does not by itself guarantee reduction of expected overload. \\
+	\textbf{Dependencies:} admissible updating; expected overload criterion; invariant structure. \\
+	\textbf{Assumptions:} compression framework. \\
+	\textbf{Source:} \emph{Structural Compression in Cognitive Architectures}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This result blocks a major category error in later architectural reading.
+	
+	\subsubsection*{R3.04. Compression generates a new invariant}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} If an admissible structural update is a compression, then the compressed
+	representation enters the updated architecture as a new invariant. \\
+	\textbf{Dependencies:} compression operation; invariant definition. \\
+	\textbf{Assumptions:} compression framework. \\
+	\textbf{Source:} \emph{Structural Compression in Cognitive Architectures}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This result links architectural evolution and invariant formation.
+	
+	\subsection{R4. Representation and accessibility results}
+	
+	\subsubsection*{R4.01. Coherence representation is an internal regulatory variable, not full geometric reconstruction}
+	\textbf{Type:} Definition/Proposition \\
+	\textbf{Statement:} Coherence representation is an internal regulatory variable constructed from
+	available structural signals and does not reconstruct the full geometry of coherence. \\
+	\textbf{Dependencies:} geometric coherence; partial observability; local signals. \\
+	\textbf{Assumptions:} representation framework under bounded observability. \\
+	\textbf{Source:} \emph{Emergence of Coherence Representation}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This is the central entry result of the representational branch.
+	
+	\subsubsection*{R4.02. Pre-symbolic admissibility is a distinct prior filtering layer}
+	\textbf{Type:} Definition \\
+	\textbf{Statement:} Pre-symbolic admissibility is a distinct regulatory layer operating before
+	stable representation and before structural updating. \\
+	\textbf{Dependencies:} signal domain; regulatory layering. \\
+	\textbf{Assumptions:} none beyond the access-layer architecture. \\
+	\textbf{Source:} \emph{Pre-Symbolic Admissibility in Cognitive Systems}. \\
+	\textbf{Proof status:} D. \\
+	\textbf{Note:} This result anchors the access branch and prevents conflation of operators.
+	
+	\subsubsection*{R4.03. Restricted accessibility of coherence}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Geometric coherence may exist without becoming regulatorily accessible,
+	because only admitted discrepancies can contribute to regulatory signal formation. \\
+	\textbf{Dependencies:} geometric coherence; admissible discrepancy domain; regulatory accessibility. \\
+	\textbf{Assumptions:} pre-symbolic filtering prior to representation. \\
+	\textbf{Source:} \emph{Restricted Accessibility of Coherence in Cognitive Systems}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This is the main bridge result between geometry and access.
+	
+	\subsubsection*{R4.04. Non-injectivity of regulatory accessibility}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Distinct global configurations may become indistinguishable at the level of
+	regulatorily accessible signals when the differences between them do not enter the admissible
+	discrepancy domain. \\
+	\textbf{Dependencies:} restricted accessibility; admissible discrepancy structure. \\
+	\textbf{Assumptions:} access-layer filtering and signal construction. \\
+	\textbf{Source:} \emph{Restricted Accessibility of Coherence in Cognitive Systems}. \\
+	\textbf{Proof status:} S/P. \\
+	\textbf{Note:} This item may later benefit from more explicit canonical extraction.
+	
+	\subsection{R5. Identity and multi-system results}
+	
+	\subsubsection*{R5.01. Identity as regulatory attractor}
+	\textbf{Type:} Definition/Architectural claim \\
+	\textbf{Statement:} Identity is not introduced as a primitive representational object, but is
+	derived as a structural consequence of bounded regulation under overload-sensitive dynamics. \\
+	\textbf{Dependencies:} overload; trajectory dependence; admissibility boundary. \\
+	\textbf{Assumptions:} long-run regulatory setting. \\
+	\textbf{Source:} \emph{Identity as a Regulatory Attractor}. \\
+	\textbf{Proof status:} S. \\
+	\textbf{Note:} The result is central, but some long-run assumptions remain local to this branch.
+	
+	\subsubsection*{R5.02. Inter-system conflict as incompatibility of admissible discrepancy domains}
+	\textbf{Type:} Definition/Proposition \\
+	\textbf{Statement:} Inter-system conflict is defined not as disagreement of representations, but
+	as the absence of a shared admissible discrepancy structure sufficient for coordinated regulation. \\
+	\textbf{Dependencies:} admissible discrepancy domains; compatibility criterion; multi-system setting. \\
+	\textbf{Assumptions:} admissibility-constrained inter-system interaction. \\
+	\textbf{Source:} \emph{Inter-System Conflict Geometry in Cognitive Systems}. \\
+	\textbf{Proof status:} S/P. \\
+	\textbf{Note:} This is the defining result of the inter-system conflict branch.
+	
+	\subsection{R6. Synthetic framework-level results}
+	
+	\subsubsection*{R6.01. Layered admissibility architecture of the full framework}
+	\textbf{Type:} Synthetic result \\
+	\textbf{Statement:} The series as a whole is organized by layered admissibility, including the
+	distinction between structural inconsistency, admissibility of discrepancy, representational
+	organization, and admissibility of structural updating. \\
+	\textbf{Dependencies:} results from geometric, regulatory, invariant, representational, and
+	access branches. \\
+	\textbf{Assumptions:} synthetic integration across the series. \\
+	\textbf{Source:} \emph{General Theory of Cognitive Structuring}. \\
+	\textbf{Proof status:} C. \\
+	\textbf{Note:} This is a synthetic convergence result rather than a new theorem-grade source of
+	the earlier branches.
+	
+	\section{Proof status by category}
+	
+	\subsection{Results with full proof in source}
+	
+	The following core results are currently treated as proof-complete in their source papers:
+	\begin{itemize}[leftmargin=2em]
+		\item R1.01
+		\item R2.01
+		\item R2.02
+		\item R2.03
+		\item R3.02
+		\item R3.03
+		\item R3.04
+		\item R4.01
+		\item R4.03
+	\end{itemize}
+	
+	\subsection{Results stated with proof sketch or compressed support}
+	
+	The following items remain at least partly sketch-level in their current collected form:
+	\begin{itemize}[leftmargin=2em]
+		\item R4.04
+		\item R5.01
+		\item R5.02
+	\end{itemize}
+	
+	\subsection{Architectural claims not yet collected as theorem-grade results}
+	
+	The following items are central to the framework but remain architectural or synthetic in status:
+	\begin{itemize}[leftmargin=2em]
+		\item R0.01
+		\item R3.01
+		\item R4.02
+		\item R6.01
+	\end{itemize}
+	
+	\subsection{Items likely to require later consolidation}
+	
+	The following families are likely candidates for later proof-compendium extraction:
+	\begin{itemize}[leftmargin=2em]
+		\item theorem-grade long-run results in the identity branch;
+		\item full canonical normalization of non-injectivity results in the accessibility branch;
+		\item collected inter-system result family with explicit local assumptions;
+		\item synthetic framework-level claims that should remain explicitly non-theorem-grade.
+	\end{itemize}
+	
+	\section{Cross-paper normalization note}
+	
+	This note follows the normalization principles below.
+	
+	\begin{enumerate}[leftmargin=2em]
+		\item Where a notion appears first in operational form and later in stronger formalized form,
+		the collected statement preserves the stronger form while recording source priority.
+		\item Earlier notation such as $U$ may later appear as $U_X(I_t)$; the later form is treated
+		as architectural strengthening rather than as a distinct unrelated object.
+		\item Representational variables such as $\widehat{C}_t$ or related forms are normalized as
+		internal regulatory variables and never substituted for geometric coherence itself.
+		\item Synthetic papers may collect earlier results but do not retroactively become the source
+		of those results.
+	\end{enumerate}
+	
+	\section{Priority results for future proof compendium}
+	
+	The following groups are the most natural candidates for future canonical extraction into a
+	full proof compendium.
+	
+	\begin{enumerate}[leftmargin=2em]
+		\item \textbf{Core geometric and regulatory results}
+		\begin{itemize}[leftmargin=2em]
+			\item R1.01
+			\item R2.01
+			\item R2.02
+			\item R2.03
+		\end{itemize}
+		
+		\item \textbf{Invariant and compression results}
+		\begin{itemize}[leftmargin=2em]
+			\item R3.02
+			\item R3.03
+			\item R3.04
+		\end{itemize}
+		
+		\item \textbf{Representation and accessibility results}
+		\begin{itemize}[leftmargin=2em]
+			\item R4.01
+			\item R4.03
+			\item R4.04
+		\end{itemize}
+		
+		\item \textbf{Identity and multi-system branch}
+		\begin{itemize}[leftmargin=2em]
+			\item R5.01
+			\item R5.02
+		\end{itemize}
+	\end{enumerate}
+	
+	These are the most likely results to benefit from full normalized proof presentation in a later
+	canonical proof layer.
+	
+	\section{Tables for compact use}
+	
+	\subsection*{Table A. Proof status legend}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.10\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.75\textwidth}}
+		\toprule
+		\textbf{Code} & \textbf{Meaning} \\
+		\midrule
+		D & Definitional item; no proof required. \\
+		A & Architectural claim. \\
+		S & Proof sketch in source. \\
+		P & Full proof in source. \\
+		C & Canonically normalized here. \\
+		O & Open / pending consolidation. \\
+		\bottomrule
+	\end{longtable}
+	
+	\subsection*{Table B. Compact result index}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.12\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.48\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.12\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.18\textwidth}}
+		\toprule
+		\textbf{ID} & \textbf{Title} & \textbf{Status} & \textbf{Source} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{ID} & \textbf{Title} & \textbf{Status} & \textbf{Source} \\
+		\midrule
+		\endhead
+		
+		R1.01 & Coherence as distance to stability region & P & coherence paper \\
+		R2.01 & Admissibility depends on joint regulatory state & P & structural admissibility \\
+		R2.02 & Overload memory is not reducible to instantaneous tension & P & overload formation \\
+		R2.03 & Regulation is trajectory-dependent & P & trajectory regulation \\
+		R3.02 & Invariant architecture induces stability geometry & P & invariants paper \\
+		R3.03 & Compression is not equivalent to simplification & P & compression paper \\
+		R3.04 & Compression generates a new invariant & P & compression paper \\
+		R4.01 & Coherence representation is not full geometric reconstruction & P & emergence paper \\
+		R4.03 & Restricted accessibility of coherence & P & restricted accessibility \\
+		R5.01 & Identity as regulatory attractor & S & identity paper \\
+		R5.02 & Inter-system conflict as incompatibility of admissible discrepancy domains & S/P & conflict paper \\
+		R6.01 & Layered admissibility architecture of the framework & C & general theory \\
+		\bottomrule
+	\end{longtable}
+	
+	\section{Closing note}
+	
+	A paper series may remain difficult to verify even when its formal content is substantial, if its
+	main results remain distributed across multiple documents and levels of analysis. The purpose of
+	the present note is to reduce that difficulty by providing a canonical author-side collected layer
+	of results together with proof status.
+	
+	This document is not the final proof layer of the \emph{General Theory of Cognitive Structuring}.
+	It is a controlled intermediate step toward such a layer.
+	
+\end{document}
