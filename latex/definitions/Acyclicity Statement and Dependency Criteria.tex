@@ -1,0 +1,436 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+\setstretch{1.12}
+
+\setlength{\parindent}{15pt}
+\setlength{\parskip}{0pt}
+
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{ragged2e}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=black,
+	urlcolor=blue,
+	pdftitle={Acyclicity Statement and Dependency Criteria for the GTCS},
+	pdfauthor={Kostiantyn Osmolovskyi}
+}
+
+\setlist[itemize]{topsep=3pt,itemsep=2pt,parsep=0pt}
+\setlist[enumerate]{topsep=3pt,itemsep=2pt,parsep=0pt}
+
+
+\title{Acyclicity Statement and Dependency Criteria\\ for the General Theory of Cognitive Structuring}
+	
+\author{
+	Kostiantyn Osmolovskyi\\
+	\small Independent Researcher, Ukraine\\
+	\small ORCID: 0009-0006-3144-7237\\
+	\small \texttt{constantinosmol@gmail.com}
+}
+
+\date{}
+
+% ---------------------------------------------------------------------------
+% Part of a series: General Theory of Cognitive Structuring (GTCS)
+% Autor: Kostiantyn Osmolovskyi (ORCID: 0009-0006-3144-7237)
+% License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+% Repository: https://github.com/k-osmolovskyi/k-osmolovskyi.github.io
+% DOI: https://doi.org/10.5281/zenodo.19701825
+% ---------------------------------------------------------------------------
+
+\begin{document}
+	\maketitle
+
+\begin{center}
+	\small
+	Technical Note No. 2026-3\\
+	Version 1.0
+\end{center}
+
+\vspace{0.5em}
+	
+	\maketitle
+	
+	\section{Purpose of this note}
+	
+	This note provides a public dependency statement for the paper series associated with the
+	\emph{General Theory of Cognitive Structuring}. Its purpose is not to restate the formal
+	content of the individual papers, but to clarify the dependency criteria under which the
+	series may be read as a non-circular theoretical development.
+	
+	More specifically, the note is intended to support external verification by:
+	\begin{itemize}[leftmargin=2em]
+		\item distinguishing logical dependency from textual cross-reference,
+		\item specifying what counts as a dependency node,
+		\item specifying what counts as a dependency edge,
+		\item clarifying in what sense the series is acyclic,
+		\item identifying common sources of false cycle attribution.
+	\end{itemize}
+	
+	The note is public and self-contained at the level of dependency criteria. It is not intended
+	to replace the papers themselves, nor to function as a full dependency registry.
+	
+	\section{Scope and limits}
+	
+	This document is limited to the dependency logic of the series.
+	
+	It does \emph{not} attempt to provide:
+	\begin{itemize}[leftmargin=2em]
+		\item a full glossary of terms,
+		\item a full node-by-node registry,
+		\item a complete theorem index,
+		\item a proof compendium,
+		\item a bibliographic reconstruction of every cross-reference.
+	\end{itemize}
+	
+	Its narrower aim is to specify the criteria under which the core definitional, operator-level,
+	construction-level, and proposition-level structure of the series may be treated as a directed
+	acyclic graph.
+	
+	Detailed node registries, paper-level dependency tables, and extended graph materials may be
+	provided separately in a supporting dependency companion.
+	
+	\section{Acyclicity Statement v1}
+	
+	\subsection{Core claim}
+	
+	Under the dependency criteria adopted in this note, the core definitional and proposition-level
+	structure of the \emph{General Theory of Cognitive Structuring} series is representable as a
+	directed acyclic graph.
+	
+	This claim is intentionally narrower than the claim that the series contains no cross-reference,
+	no retrospective clarification, or no synthetic reformulation. It concerns only \emph{logical
+		dependency} in the sense defined below.
+	
+	\subsection{What counts as acyclicity}
+	
+	Acyclicity is evaluated only at the level of logical dependency.
+	
+	A cycle is present only if there exists a sequence of nodes
+	\[
+	N_1 \rightarrow N_2 \rightarrow \dots \rightarrow N_k \rightarrow N_1
+	\]
+	such that each arrow expresses a genuine logical dependency.
+	
+	Accordingly, the following do \emph{not} by themselves constitute a cycle:
+	\begin{itemize}[leftmargin=2em]
+		\item mutual textual references,
+		\item retrospective clarification of earlier operational usage,
+		\item later formal grounding of notions previously used in a limited way,
+		\item synthetic integration of earlier branches,
+		\item bibliographic cross-reference for orientation or context.
+	\end{itemize}
+	
+	\subsection{Dependency criterion}
+	
+	For the purposes of this note, node $A$ depends logically on node $B$ only if at least one of
+	the following conditions holds:
+	
+	\begin{enumerate}[leftmargin=2em]
+		\item \textbf{Definitional dependence.}  
+		$A$ cannot be stated without invoking $B$ as part of its definition.
+		
+		\item \textbf{Operator dependence.}  
+		$A$ is an operator, mapping, or gate whose domain, codomain, or arguments require $B$.
+		
+		\item \textbf{Construction dependence.}  
+		$A$ is a construction obtained from $B$ or from a set including $B$.
+		
+		\item \textbf{Proposition/theorem dependence.}  
+		$A$ is a proposition, theorem, or formal consequence whose statement or proof requires $B$.
+		
+		\item \textbf{Architectural-layer dependence.}  
+		$A$ is introduced explicitly as operating on the output, domain, or admissible image generated by $B$.
+	\end{enumerate}
+	
+	\subsection{What does not count as dependency}
+	
+	The following do not count as logical dependency for the purposes of acyclicity:
+	
+	\subsubsection*{Textual cross-reference}
+	
+	A reference to another paper for context, positioning, terminology, or overview does not create
+	a logical edge.
+	
+	\subsubsection*{Retrospective clarification}
+	
+	A later paper may formally clarify the architectural source of a notion that earlier papers used
+	operationally. This does not automatically mean that the earlier paper logically depended on the
+	later one.
+	
+	\subsubsection*{Synthetic integration}
+	
+	A synthetic paper that gathers earlier branches into a single framework is treated as a convergence
+	node, not as the foundational source of the branches it integrates.
+	
+	\subsubsection*{Broad thematic relevance}
+	
+	Thematic relevance or conceptual proximity is not sufficient for a dependency edge unless one of
+	the dependency criteria stated above is satisfied.
+	
+	\subsection{Provisional conclusion}
+	
+	The present corpus supports the following v1 conclusion:
+	
+	\begin{quote}
+		\textbf{Acyclicity Statement v1.} Under the dependency criteria adopted in this document, the core definitional, operator-level, construction-level, and proposition-level structure of the current \emph{General Theory of Cognitive Structuring} series is representable as a directed acyclic graph. Apparent cycles produced by retrospective clarification, synthetic integration,	or textual cross-reference do not count as logical cycles.
+	\end{quote}
+	
+	This is a provisional v1 statement because some node boundaries may still be refined in future
+	supporting materials. However, the current paper sequence already supports the absence of core
+	circularity at the level defined here.
+	
+	\section{Why apparent cycles do not count as cycles}
+	
+	\subsection{Coherence and invariants}
+	
+	An apparent cycle may be inferred when an earlier paper defines coherence relative to a stability
+	region and a later paper provides the stronger architectural grounding of that stability region
+	through invariant structure.
+	
+	Under the present criteria, this does not count as a logical cycle. The earlier paper introduces
+	a stability-region-based geometric definition. The later paper refines the architectural grounding
+	of that region. Refinement is not treated as retroactive logical generation.
+	
+	\subsection{Coherence representation and pre-symbolic admissibility}
+	
+	An apparent cycle may also be inferred when one paper introduces coherence representation as an
+	internal regulatory variable and a later paper states that representation is constrained by a
+	pre-symbolic admissibility layer.
+	
+	Under the present criteria, this does not count as a cycle. The later paper narrows the upstream
+	domain through which representation may be constructed. It does not become the foundational source
+	of the earlier representational definition.
+	
+	\subsection{Restricted accessibility and coherence}
+	
+	Restricted accessibility is a consequence drawn from geometric coherence together with admissibility-constrained
+	regulatory access. The fact that it later clarifies how coherence should be interpreted does not make the
+	original geometric notion of coherence logically dependent on the restricted-accessibility result.
+	
+	\subsection{Synthetic theory and earlier papers}
+	
+	A synthetic theory paper may gather earlier branches into a unified layered framework. This does
+	not create reverse foundational dependency from the earlier papers to the synthetic integration.
+	Otherwise any mature synthetic paper would generate a false cycle with all earlier work it organizes.
+	
+	\section{Minimal unfolding of the series}
+	
+	The present note does not include a full dependency table. However, the paper series may be read
+	through the following minimal unfolding order:
+	
+	\begin{enumerate}[leftmargin=2em]
+		\item entry distinction between processing and structural updating;
+		\item geometric formalization of coherence;
+		\item formalization of structural admissibility in the joint regulatory state;
+		\item formalization of overload and trajectory dependence;
+		\item formalization of invariants as architectural constraints;
+		\item formalization of compression as admissible structural transformation;
+		\item introduction of coherence representation as an internal regulatory variable;
+		\item introduction of pre-symbolic admissibility as an earlier filtering layer;
+		\item derivation of restricted accessibility of coherence;
+		\item extension to multi-system regulation and inter-system conflict;
+		\item synthetic integration in the \emph{General Theory of Cognitive Structuring}.
+	\end{enumerate}
+	
+	This ordering is sufficient for the present note because it shows that later layers are introduced
+	as extensions, refinements, or integrations of earlier layers rather than as their hidden logical
+	preconditions.
+	
+	\section{Node and Edge Taxonomy}
+	
+	\subsection{Purpose}
+	
+	This taxonomy defines the admissible node types and edge types used in the dependency note.
+	
+	Its purpose is to keep the graph readable and to prevent category mistakes, especially confusion
+	between:
+	\begin{itemize}[leftmargin=2em]
+		\item definitions and constructions,
+		\item operators and propositions,
+		\item architectural objects and representational objects,
+		\item synthetic organizing nodes and theorem-grade nodes.
+	\end{itemize}
+	
+	\subsection{Node taxonomy}
+	
+	\subsubsection*{D --- Definition}
+	
+	A node of type \textbf{D} introduces a concept whose role is primarily definitional.
+	
+	Use type D when the node answers: \emph{What is this?}
+	
+	\subsubsection*{O --- Operator}
+	
+	A node of type \textbf{O} is a map, functional, gate, or formal operator acting on a specified domain.
+	
+	Use type O when the node's identity depends on input-output role or formal action.
+	
+	\subsubsection*{C --- Construction}
+	
+	A node of type \textbf{C} is a derived object, region, domain, state variable, or structured set
+	generated from prior nodes.
+	
+	Use type C when the node is a formal object built within the framework but is neither a basic
+	definition nor a result statement.
+	
+	\subsubsection*{P --- Proposition / proposition-level result}
+	
+	A node of type \textbf{P} states a derived consequence, lemma-like claim, or proposition-level relation.
+	
+	Use type P when the node answers: \emph{What follows?}
+	
+	\subsubsection*{T --- Theorem}
+	
+	A node of type \textbf{T} is a formally marked theorem or theorem-like result whose proof role
+	matters independently in the graph.
+	
+	Use type T sparingly.
+	
+	\subsubsection*{R --- Representational variable or representational construction}
+	
+	A node of type \textbf{R} is reserved for internal variables whose role is specifically representational
+	within regulation.
+	
+	Use type R when representational status itself is central to the node.
+	
+	\subsubsection*{A --- Assumption / axiom-like condition}
+	
+	A node of type \textbf{A} represents an assumption, regularity condition, monotonicity condition,
+	or axiom supporting later results.
+	
+	Use type A when the node is a supporting condition rather than a concept or derived consequence.
+	
+	\subsubsection*{M --- Meta-structural or graph-organizing node}
+	
+	A node of type \textbf{M} is used for graph organization at a higher level without forcing a false
+	theorem-object reading.
+	
+	Use type M only when the node is helpful for DAG readability but should not be mistaken for a
+	basic formal unit.
+	
+	\subsection{Edge taxonomy}
+	
+	\subsubsection*{defines}
+	
+	Use \textbf{defines} when node $A$ provides the explicit definition of node $B$.
+	
+	Without the source node, the target node's definition is incomplete.
+	
+	\subsubsection*{uses}
+	
+	Use \textbf{uses} when node $B$ invokes node $A$ as part of its statement or construction, but
+	$A$ does not uniquely determine $B$.
+	
+	This is weaker than direct definitional generation.
+	
+	\subsubsection*{requires}
+	
+	Use \textbf{requires} when the target node cannot be stated in admissible form without the source node.
+	
+	This is stronger than \emph{uses} and is close to prerequisite status.
+	
+	\subsubsection*{refines}
+	
+	Use \textbf{refines} when a later node makes an earlier node more explicit, narrower, or more
+	formally grounded without overturning it.
+	
+	A \emph{refines} edge does not imply reverse foundational dependence.
+	
+	\subsubsection*{extends}
+	
+	Use \textbf{extends} when a node carries an earlier object into a new layer, domain, or setting.
+	
+	This marks forward expansion rather than basic definition.
+	
+	\subsubsection*{derives}
+	
+	Use \textbf{derives} when a proposition or theorem follows from earlier nodes.
+	
+	This is the preferred edge for result-level dependence.
+	
+	\subsubsection*{integrates}
+	
+	Use \textbf{integrates} only for synthetic nodes that gather earlier branches into a convergence
+	structure.
+	
+	An \emph{integrates} edge is non-foundational: it marks convergence, not source-generation.
+	
+	\section{Edge restrictions for the public note}
+	
+	To preserve acyclicity and readability, the following restrictions are recommended:
+	
+	\begin{enumerate}[leftmargin=2em]
+		\item A bibliographic citation alone does not warrant an edge.
+		\item Synthetic nodes may receive \emph{integrates} edges from earlier nodes, but should not
+		generate foundational reverse edges.
+		\item Rhetorical preview does not create dependency.
+		\item When in doubt, include only the smallest set of direct dependencies needed for correct statement.
+		\item A later formal grounding of an earlier operational term should usually be marked as
+		\emph{refines}, not \emph{requires}.
+	\end{enumerate}
+	
+	\section{Recommended use of this note}
+	
+	This document is intended to function as a public, self-contained dependency statement supporting
+	external verification of the series.
+	
+	It should be used:
+	\begin{itemize}[leftmargin=2em]
+		\item together with the individual papers,
+		\item prior to any full node registry or extended dependency dossier,
+		\item as a criterion note rather than as a replacement for formal content.
+	\end{itemize}
+	
+	A separate companion document may provide:
+	\begin{itemize}[leftmargin=2em]
+		\item a full node registry,
+		\item a paper-level dependency table,
+		\item extended graph annotations,
+		\item and appendix-level audit materials.
+	\end{itemize}
+	
+	\section{Compact appendix form}
+	
+	\subsection*{Node types}
+	
+	\begin{itemize}[leftmargin=2em]
+		\item \textbf{D} --- Definition
+		\item \textbf{O} --- Operator
+		\item \textbf{C} --- Construction
+		\item \textbf{P} --- Proposition
+		\item \textbf{T} --- Theorem
+		\item \textbf{R} --- Representational variable / construction
+		\item \textbf{A} --- Assumption / axiom-like condition
+		\item \textbf{M} --- Meta-structural / graph-organizing node
+	\end{itemize}
+	
+	\subsection*{Edge types}
+	
+	\begin{itemize}[leftmargin=2em]
+		\item \textbf{defines} --- source gives the target's definition
+		\item \textbf{requires} --- target cannot be stated without source
+		\item \textbf{uses} --- target functionally invokes source
+		\item \textbf{refines} --- target narrows or grounds source more explicitly
+		\item \textbf{extends} --- target carries source into a new layer or domain
+		\item \textbf{derives} --- target follows as a proposition/theorem consequence
+		\item \textbf{integrates} --- synthetic convergence relation only
+	\end{itemize}
+	
+\end{document}
