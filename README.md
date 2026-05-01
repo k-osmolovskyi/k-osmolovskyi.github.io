@@ -93,26 +93,26 @@ No.          | Doc/Paper                                                        
 TN_26/1      | [Parametric Realizations of Coherence](https://doi.org/10.5281/zenodo.19656664)                                      | Minimal computational template
 Simul.       | [trajectory_regulation_v2.py](https://colab.research.google.com/drive/1nygtv6vDgfWVdMngZ6W8FBb9xfG2to12?usp=sharing) | Minimal python simulations
 
-No.          | Paper                                                                                   | Role
------------- | --------------------------------------------------------------------------------------- | -------------
-TN_26/2      | [Glossary of Core Terms](https://doi.org/10.5281/zenodo.19689203)                       | Interpretive glossary for core terms
-TN_26/3      | [Acyclicity Statement and Dependency Criteria](https://doi.org/10.5281/zenodo.19701824) | Dependency criteria and non-circularity statement
-TN_26/4      | [Dependency Tables and Node Registry](https://doi.org/10.5281/zenodo.19701847)          | Node registry and paper-level dependency map
-TN_26/5      | [Technical Appendix](https://doi.org/10.5281/zenodo.19701876)                           | Notation, assumptions, and formal traceability
-TN_26/6      | [How to Verify](https://doi.org/10.5281/zenodo.19701901)                                | Reading order and verification roadmap
-TN_26/7      | [External Verification Checklist](https://doi.org/10.5281/zenodo.19701915)              | Practical checklist for external review
-TN_26/8      | [Minimal Claims Register](https://doi.org/10.5281/zenodo.19701933)                      | Compact register of the theory’s main claims
+No.          | Paper                                                                                   | Role                                               | Latex
+------------ | --------------------------------------------------------------------------------------- | -------------------------------------------------- | -----
+TN_26/2      | [Glossary of Core Terms](https://doi.org/10.5281/zenodo.19689203)                       | Interpretive glossary for core terms               | [tex/02](latex/definitions/02_gtcs_glossary.tex)
+TN_26/3      | [Acyclicity Statement and Dependency Criteria](https://doi.org/10.5281/zenodo.19701824) | Dependency criteria and non-circularity statement  | [tex/03](latex/definitions/03_gtcs_acyclicity_statement.tex)
+TN_26/4      | [Dependency Tables and Node Registry](https://doi.org/10.5281/zenodo.19701847)          | Node registry and paper-level dependency map       | [tex/04](latex/definitions/04_gtcs_dependency_tables_node.tex)
+TN_26/5      | [Technical Appendix](https://doi.org/10.5281/zenodo.19701876)                           | Notation, assumptions, and formal traceability     | [tex/05](latex/definitions/05_gtcs_technical_appendix.tex)
+TN_26/6      | [How to Verify](https://doi.org/10.5281/zenodo.19701901)                                | Reading order and verification roadmap             | [tex/06](latex/definitions/06_gtcs_how_to_verify.tex)
+TN_26/7      | [External Verification Checklist](https://doi.org/10.5281/zenodo.19701915)              | Practical checklist for external review            | [tex/07](latex/definitions/07_gtcs_verification_checklist.tex)
+TN_26/8      | [Minimal Claims Register](https://doi.org/10.5281/zenodo.19701933)                      | Compact register of the theory’s main claims       | [tex/08](latex/definitions/08_gtcs_minimal_claims.tex)
 
 ## Proof-Oriented Documents
 This block provides the proof-support layer of the General Theory of Cognitive Structuring. It includes collected results, normalized propositions and theorems, a proof-status register, a package overview, and author-side proof notes. Together, these documents are intended to stabilize the canonical result layer of the series, distinguish proof-ready results from sketch-level ones, and prepare later proof-compendium development.
 
-No.          | Doc/Paper                                                                          | Role
------------- | ---------------------------------------------------------------------------------- | -------------
-VR_26/1      | [Collected Results and Proof Status Note](https://doi.org/10.5281/zenodo.19705593) | Collected result layer with proof-status classification
-VR_26/2      | [Collected Propositions and Theorems](https://doi.org/10.5281/zenodo.19705677)     | Normalized collection of propositions and theorems
-VR_26/3      | [Proof Status Register](https://doi.org/10.5281/zenodo.19705731)                   | Compact register of proof readiness and consolidation status
-VR_26/4      | [Verification Package Overview](https://doi.org/10.5281/zenodo.19705772)           | Front overview of the verification and proof-support package
-VR_26/5      | [Proof Notes](https://doi.org/10.5281/zenodo.19705808)                             | Author-side proof logic and compendium preparation notes
+No.          | Doc/Paper                                                                          | Role                                                         | Latex
+------------ | ---------------------------------------------------------------------------------- | ------------------------------------------------------------ | -----
+VR_26/1      | [Collected Results and Proof Status Note](https://doi.org/10.5281/zenodo.19705593) | Collected result layer with proof-status classification      | [tex/01](latex/formal/01_vr_gtcs_results_status_note.tex)
+VR_26/2      | [Collected Propositions and Theorems](https://doi.org/10.5281/zenodo.19705677)     | Normalized collection of propositions and theorems           | [tex/02](latex/formal/02_vr_gtcs_propositions_theorems.tex)
+VR_26/3      | [Proof Status Register](https://doi.org/10.5281/zenodo.19705731)                   | Compact register of proof readiness and consolidation status | [tex/03](latex/formal/03_vr_gtcs_proof_status.tex)
+VR_26/4      | [Verification Package Overview](https://doi.org/10.5281/zenodo.19705772)           | Front overview of the verification and proof-support package | [tex/04](latex/formal/04_vr_gtcs_verif_overview.tex)
+VR_26/5      | [Proof Notes](https://doi.org/10.5281/zenodo.19705808)                             | Author-side proof logic and compendium preparation notes     | [tex/05](latex/formal/05_vr_gtcs_proof_notes.tex)
 DAG          | [Digraph GTCS Dependencies](https://shorturl.at/VzUGG)                             | DAG visualization
 
 ---
