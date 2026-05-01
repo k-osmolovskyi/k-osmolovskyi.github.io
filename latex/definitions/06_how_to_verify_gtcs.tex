@@ -1,0 +1,341 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+\setstretch{1.12}
+
+\setlength{\parindent}{15pt}
+\setlength{\parskip}{0pt}
+
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{ragged2e}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=black,
+	urlcolor=blue,
+	pdftitle={How to Verify the General Theory of Cognitive Structuring},
+	pdfauthor={Kostiantyn Osmolovskyi}
+}
+
+\setlist[itemize]{topsep=3pt,itemsep=2pt,parsep=0pt}
+\setlist[enumerate]{topsep=3pt,itemsep=2pt,parsep=0pt}
+
+
+\title{How to Verify\\ the General Theory of Cognitive Structuring\\
+	\large A Short Roadmap for External Readers}
+	
+\author{
+	Kostiantyn Osmolovskyi\\
+	\small Independent Researcher, Ukraine\\
+	\small ORCID: 0009-0006-3144-7237\\
+	\small \texttt{constantinosmol@gmail.com}
+}
+
+\date{}
+
+% ---------------------------------------------------------------------------
+% Part of a series: General Theory of Cognitive Structuring (GTCS)
+% Autor: Kostiantyn Osmolovskyi (ORCID: 0009-0006-3144-7237)
+% License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+% Repository: https://github.com/k-osmolovskyi/k-osmolovskyi.github.io
+% DOI: https://doi.org/10.5281/zenodo.19701902
+% ---------------------------------------------------------------------------
+
+\begin{document}
+	\maketitle
+
+\begin{center}
+	\small
+	Technical Note No. 2026-6\\
+	Version 1.0
+\end{center}
+
+\vspace{0.5em}
+	
+	
+\section{Purpose of this note}
+
+This note provides a short verification roadmap for external readers of the
+\emph{General Theory of Cognitive Structuring}. Its purpose is not to restate the theory,
+but to reduce entry friction for reviewers, editors, formal verifiers, and adjacent-field
+researchers who want to evaluate the structure of the series without reconstructing the entire
+verification path from scratch.
+
+The note answers three practical questions:
+\begin{itemize}[leftmargin=2em]
+	\item in what order the companion documents should be read;
+	\item what each document is for;
+	\item what should be checked at each stage of verification.
+\end{itemize}
+
+It is intended as a procedural guide rather than as a theoretical contribution.
+
+\section{What this roadmap is for}
+
+The verification package associated with the series contains several companion documents with different functions. Without a short roadmap, an external reader may face an unnecessary burden: they may not know where to begin, which document answers which question, or how to distinguish terminological, dependency, and formal traceability issues.
+
+This note provides a minimal reading order and a task-oriented route through the verification materials.
+
+\section{Recommended verification order}
+
+The recommended order is as follows:
+
+\begin{enumerate}[leftmargin=2em]
+	\item \textbf{Glossary of Core Terms}
+	\item \textbf{Acyclicity Statement and Dependency Criteria}
+	\item \textbf{Dependency Tables and Node Registry}
+	\item \textbf{Technical Appendix}
+	\item \textbf{Primary papers of the series}
+\end{enumerate}
+
+This order is recommended because it moves from interpretive stabilization to structural
+verification and only then to the paper corpus itself.
+
+\section{What each document is for}
+
+\subsection{1. Glossary of Core Terms}
+
+\textbf{Function.}  
+The glossary stabilizes the reading of the main concepts used across the series.
+
+\textbf{What it helps verify.}
+\begin{itemize}[leftmargin=2em]
+	\item whether the key terms are being read in an architectural and regulatory sense rather
+	than through ordinary-language substitution;
+	\item whether terms such as admissibility, coherence, coherence representation,
+	pre-symbolic admissibility, invariant, overload memory, and manifestation are being kept distinct;
+	\item whether the reader is avoiding known category errors.
+\end{itemize}
+
+\textbf{Use this document first if you need to answer:}
+\begin{itemize}[leftmargin=2em]
+	\item What do the main terms mean in this framework?
+	\item What do they explicitly not mean?
+	\item Which terms are most vulnerable to accidental misreading?
+\end{itemize}
+
+\subsection{2. Acyclicity Statement and Dependency Criteria}
+
+\textbf{Function.}  
+This document specifies the sense in which the series is claimed to be non-circular.
+
+\textbf{What it helps verify.}
+\begin{itemize}[leftmargin=2em]
+	\item whether the dependency logic of the series is acyclic under explicitly stated criteria;
+	\item whether apparent cycles arise only from retrospective clarification, synthesis, or textual
+	cross-reference;
+	\item whether logical dependency is being properly separated from citation or thematic overlap.
+\end{itemize}
+
+\textbf{Use this document if you need to answer:}
+\begin{itemize}[leftmargin=2em]
+	\item Is the series built on circular definitional support?
+	\item What counts as a dependency edge?
+	\item Why do some apparent cycles not count as logical cycles?
+\end{itemize}
+
+\subsection{3. Dependency Tables and Node Registry}
+
+\textbf{Function.}  
+This document provides the concrete registry of nodes and the paper-level dependency structure
+used to support the acyclicity claim.
+
+\textbf{What it helps verify.}
+\begin{itemize}[leftmargin=2em]
+	\item which concepts, operators, constructions, and results function as explicit dependency nodes;
+	\item where each node first appears;
+	\item where each node is primarily formalized;
+	\item how papers in the series depend on one another.
+\end{itemize}
+
+\textbf{Use this document if you need to answer:}
+\begin{itemize}[leftmargin=2em]
+	\item What exactly depends on what?
+	\item Which paper introduces which major object?
+	\item Where are the main layers of the theory located?
+\end{itemize}
+
+\subsection{4. Technical Appendix}
+
+\textbf{Function.}  
+This appendix provides a formal traceability layer for notation, assumptions, definitions,
+operators, constructions, and result-level dependencies.
+
+\textbf{What it helps verify.}
+\begin{itemize}[leftmargin=2em]
+	\item whether notation is being used consistently across the series;
+	\item whether assumptions are being kept distinct from definitions and results;
+	\item whether key propositions and theorems depend on explicitly available prior objects;
+	\item whether cross-paper formal linkage is readable and internally controlled.
+\end{itemize}
+
+\textbf{Use this document if you need to answer:}
+\begin{itemize}[leftmargin=2em]
+	\item What are the formal prerequisites of a given definition or operator?
+	\item Which assumptions are global and which are local to specific results?
+	\item Which claims are definitional, and which are derived?
+\end{itemize}
+
+\subsection{5. Primary papers of the series}
+
+\textbf{Function.}  
+The papers remain the primary source of definitions, arguments, and formal development.
+
+\textbf{What they help verify.}
+\begin{itemize}[leftmargin=2em]
+	\item the exact statement of definitions, constructions, propositions, and theorem-level results;
+	\item the intended scope and limits of each paper;
+	\item the specific formal or conceptual contribution of each paper to the series.
+\end{itemize}
+
+\textbf{Use the papers after the companion documents if you need to answer:}
+\begin{itemize}[leftmargin=2em]
+	\item Is the original claim actually stated as reconstructed?
+	\item Is the local scope of the paper narrower or broader than the registry suggests?
+	\item Does the paper support the dependency role assigned to it?
+\end{itemize}
+
+\section{Minimal verification pathway}
+
+A minimal external verification of the series may proceed in four steps.
+
+\subsection*{Step 1: Stabilize terminology}
+
+Read the glossary first and make sure that the central terms are understood in their intended
+architectural sense.
+
+At the end of this step, the verifier should be able to distinguish at least:
+\begin{itemize}[leftmargin=2em]
+	\item coherence from coherence representation;
+	\item admissibility from accessibility;
+	\item pre-symbolic admissibility from structural admissibility of updating;
+	\item overload from overload memory;
+	\item manifestation from underlying architecture.
+\end{itemize}
+
+\subsection*{Step 2: Check non-circularity criteria}
+
+Read the acyclicity statement and identify the dependency standard being used.
+
+At the end of this step, the verifier should be able to distinguish:
+\begin{itemize}[leftmargin=2em]
+	\item logical dependency from textual cross-reference;
+	\item refinement from prerequisite status;
+	\item synthetic integration from foundational generation.
+\end{itemize}
+
+\subsection*{Step 3: Check structural dependency}
+
+Use the dependency tables and node registry to inspect where each major concept and paper sits
+within the unfolding of the series.
+
+At the end of this step, the verifier should be able to answer:
+\begin{itemize}[leftmargin=2em]
+	\item what the major dependency nodes are;
+	\item where they first appear;
+	\item which papers function as entry points, extensions, or synthetic convergence nodes.
+\end{itemize}
+
+\subsection*{Step 4: Check formal traceability}
+
+Use the technical appendix to verify notation, assumptions, and result-level dependency structure.
+
+At the end of this step, the verifier should be able to determine:
+\begin{itemize}[leftmargin=2em]
+	\item whether major formal claims rest on explicit prior objects;
+	\item whether the same symbol is used consistently across papers;
+	\item whether assumption-dependent results are clearly distinguished from general architectural claims.
+\end{itemize}
+
+\section{If the verifier has limited time}
+
+A reader working under time constraints may use the following compressed pathway:
+
+\begin{enumerate}[leftmargin=2em]
+	\item read the \textbf{Glossary of Core Terms};
+	\item read the \textbf{Acyclicity Statement and Dependency Criteria};
+	\item inspect the \textbf{paper-level dependency table} in the dependency companion;
+	\item use the \textbf{Technical Appendix} only for notation or formal questions that remain unclear;
+	\item consult the primary papers selectively, beginning with the ones directly relevant to the question under review.
+\end{enumerate}
+
+This shortened route is sufficient for many external verification tasks that concern structure,
+dependency, and conceptual clarity rather than detailed proof reconstruction.
+
+\section{If the verifier is checking formal consistency}
+
+A reader interested primarily in formal consistency should proceed in the following order:
+
+\begin{enumerate}[leftmargin=2em]
+	\item \textbf{Technical Appendix}
+	\item \textbf{Dependency Tables and Node Registry}
+	\item \textbf{Acyclicity Statement and Dependency Criteria}
+	\item relevant \textbf{primary papers}
+	\item \textbf{Glossary}, only as needed for interpretive clarification
+\end{enumerate}
+
+This alternative route is useful when the main concern is not terminology but the relation among
+definitions, operators, assumptions, and result-level statements.
+
+\section{If the verifier is checking conceptual coherence}
+
+A reader interested primarily in conceptual coherence should proceed in the following order:
+
+\begin{enumerate}[leftmargin=2em]
+	\item \textbf{Glossary of Core Terms}
+	\item \textbf{Acyclicity Statement and Dependency Criteria}
+	\item selected \textbf{primary papers}
+	\item \textbf{Dependency Tables and Node Registry}
+	\item \textbf{Technical Appendix}, only if a formal traceability question arises
+\end{enumerate}
+
+This route is useful when the central concern is whether the theory preserves distinctions among
+its main conceptual layers.
+
+\section{What this package does not try to do}
+
+The present verification package is designed to support external reading and reconstruction.
+It does not attempt to:
+\begin{itemize}[leftmargin=2em]
+	\item replace the papers themselves;
+	\item provide a full proof dossier;
+	\item settle all possible interpretive disputes in advance;
+	\item force a single reading beyond the explicit dependency and terminology criteria;
+	\item substitute for formal peer review.
+\end{itemize}
+
+Its purpose is more practical: to make external verification easier, faster, and less vulnerable
+to accidental misreading.
+
+\section{Recommended use of this roadmap}
+
+This note may be used:
+\begin{itemize}[leftmargin=2em]
+	\item as the first entry point for external verifiers,
+	\item as a front-page guide for a public verification package,
+	\item as a procedural note accompanying the companion documents,
+	\item as a short orientation text for reviewers who need to know where to begin.
+\end{itemize}
+
+\section{Closing note}
+
+The \emph{General Theory of Cognitive Structuring} is supported by multiple companion documents because different verification tasks require different forms of support. Terminological stability, acyclic dependency structure, node-level traceability, and formal consistency are related but not identical tasks.
+
+This roadmap is intended to make that division of labor explicit and to reduce the amount of
+reconstruction that an external reader must perform before substantive verification can begin.
+
+\end{document}
