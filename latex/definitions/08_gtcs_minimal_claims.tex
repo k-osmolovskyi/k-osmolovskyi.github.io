@@ -1,0 +1,347 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{setspace}
+\setstretch{1.12}
+
+\setlength{\parindent}{15pt}
+\setlength{\parskip}{0pt}
+
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{ragged2e}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=black,
+	urlcolor=blue,
+	pdftitle={Minimal Claims Register for the General Theory of Cognitive Structuring},
+	pdfauthor={Kostiantyn Osmolovskyi}
+}
+
+\setlist[itemize]{topsep=3pt,itemsep=2pt,parsep=0pt}
+\setlist[enumerate]{topsep=3pt,itemsep=2pt,parsep=0pt}
+
+
+\title{Minimal Claims Register\\ for the General Theory of Cognitive Structuring}
+	
+\author{
+	Kostiantyn Osmolovskyi\\
+	\small Independent Researcher, Ukraine\\
+	\small ORCID: 0009-0006-3144-7237\\
+	\small \texttt{constantinosmol@gmail.com}
+}
+
+\date{}
+
+% ---------------------------------------------------------------------------
+% Part of a series: General Theory of Cognitive Structuring (GTCS)
+% Autor: Kostiantyn Osmolovskyi (ORCID: 0009-0006-3144-7237)
+% License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+% Repository: https://github.com/k-osmolovskyi/k-osmolovskyi.github.io
+% DOI: https://doi.org/10.5281/zenodo.19701934
+% ---------------------------------------------------------------------------
+
+\begin{document}
+	\maketitle
+	
+\begin{center}
+	\small
+	Technical Note No. 2026-8\\
+	Version 1.0
+\end{center}
+
+\vspace{0.5em}	
+	
+	\section{Purpose of this document}
+	
+	This document provides a minimal claims register for the paper series associated with the
+	\emph{General Theory of Cognitive Structuring}. Its purpose is to identify the main claims of
+	the framework in a compact, verification-oriented form.
+	
+	The register is intended to complement the existing package:
+	\begin{itemize}[leftmargin=2em]
+		\item \emph{Glossary of Core Terms},
+		\item \emph{Acyclicity Statement and Dependency Criteria},
+		\item \emph{Dependency Tables and Node Registry},
+		\item \emph{Technical Appendix},
+		\item \emph{How to Verify the General Theory of Cognitive Structuring},
+		\item \emph{External Verification Checklist}.
+	\end{itemize}
+	
+	Where the glossary stabilizes terms and the dependency documents stabilize structure, the
+	present register stabilizes the \emph{main claims} that an external reader may wish to verify.
+	
+	\section{Scope and limits}
+	
+	This register is deliberately minimal.
+	
+	It does \emph{not} aim to:
+	\begin{itemize}[leftmargin=2em]
+		\item reproduce every claim made in every paper,
+		\item replace the detailed arguments of the papers,
+		\item provide full proofs,
+		\item list every local consequence or example,
+		\item function as a substitute for the theorem/proposition tables in the technical appendix.
+	\end{itemize}
+	
+	Instead, it identifies the main cross-paper claims that define the architecture of the series.
+	
+	\section{How to read the register}
+	
+	Each claim is presented with the following fields:
+	
+	\begin{itemize}[leftmargin=2em]
+		\item \textbf{Claim ID} --- stable reference identifier;
+		\item \textbf{Claim} --- compressed statement of the claim;
+		\item \textbf{Type} --- conceptual, definitional, formal, proposition-level, theorem-level, or synthetic;
+		\item \textbf{Depends on} --- immediate prerequisite claims or nodes;
+		\item \textbf{Scope} --- where the claim applies;
+		\item \textbf{Main source} --- primary paper in which the claim is introduced or formalized;
+		\item \textbf{Status} --- current verification status:
+		\begin{itemize}[leftmargin=2em]
+			\item \textbf{S} --- stable,
+			\item \textbf{V} --- requires boundary refinement,
+			\item \textbf{G} --- graph-organizing or synthetic.
+		\end{itemize}
+	\end{itemize}
+	
+	\section{Claim type legend}
+	
+	\begin{itemize}[leftmargin=2em]
+		\item \textbf{Conceptual} --- clarificatory or scope-setting claim;
+		\item \textbf{Definitional} --- claim fixing what a formal object is;
+		\item \textbf{Formal} --- claim introducing an operator, construction, or structural relation;
+		\item \textbf{Proposition} --- derived architectural consequence;
+		\item \textbf{Theorem} --- formally marked or theorem-grade result;
+		\item \textbf{Synthetic} --- integrative claim spanning multiple layers of the series.
+	\end{itemize}
+	
+	\section{Minimal claims register}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.06\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.31\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.10\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.17\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.12\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.14\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.04\textwidth}}
+		\toprule
+		\textbf{ID} & \textbf{Claim} & \textbf{Type} & \textbf{Depends on} & \textbf{Scope} & \textbf{Main source} & \textbf{Status} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{ID} & \textbf{Claim} & \textbf{Type} & \textbf{Depends on} & \textbf{Scope} & \textbf{Main source} & \textbf{Status} \\
+		\midrule
+		\endhead
+		
+		C01 & Processing access does not imply the availability of structural updating. & Conceptual & entry distinction only & cross-series entry condition & \emph{Structural Updating and the Limits of Cognitive Change} & S \\
+		
+		C02 & Structural updating and local change within an existing organization are not the same level of change. & Conceptual & C01 & cross-series entry condition & \emph{Structural Updating and the Limits of Cognitive Change} & S \\
+		
+		C03 & Coherence is a geometric property of the relation between the current configuration and the admissible stability region. & Definitional & configuration space; stability region & single-system geometry & \emph{Coherence Evaluation in Cognitive Systems} & S \\
+		
+		C04 & Coherence can be formally represented as distance from the current configuration to the stability region. & Formal & C03 & single-system geometry & \emph{Coherence Evaluation in Cognitive Systems} & S \\
+		
+		C05 & Structural admissibility of updating is not determined by instantaneous tension alone. & Conceptual/ Formal & C01; tension; overload memory & regulation/ update & \emph{Structural Admissibility in Cognitive Systems} & S \\
+		
+		C06 & Structural updating becomes admissible only as a function of the joint regulatory state, not of present tension alone. & Formal & C05; admissibility operator & regulation/ update & \emph{Structural Admissibility in Cognitive Systems} & S \\
+		
+		C07 & Structural tension is composed of incompatibility load and coordination cost. & Definitional/ Formal & conflict load; coordination cost & regulation & \emph{Structural Admissibility in Cognitive Systems} & V \\
+		
+		C08 & Tension exceeding compensability produces instantaneous overload rather than immediate structural change. & Formal & structural tension; compensability threshold & overload branch & \emph{Overload Formation in Cognitive Processing} & S \\
+		
+		C09 & Instantaneous overload accumulates into overload memory through a trajectory-dependent update rule. & Formal & C08 & overload branch & \emph{Overload Formation in Cognitive Processing} & S \\
+		
+		C10 & Overload memory is not reducible to instantaneous tension alone. & Proposition & C09 & overload branch & \emph{Overload Formation in Cognitive Processing} & S \\
+		
+		C11 & Regulatory state depends on trajectory history rather than on instantaneous tension alone. & Proposition & C09; C10; admissibility operator & regulatory dynamics & \emph{Trajectory-Dependent Regulation in Cognitive Systems} & S \\
+		
+		C12 & Overload memory deforms the admissibility boundary and introduces hysteresis into regulation. & Proposition & C11; critical boundary & regulatory dynamics & \emph{Trajectory-Dependent Regulation in Cognitive Systems} & S \\
+		
+		C13 & Invariants are historically constituted structural constraints rather than primitive semantic objects. & Definitional & architecture/ process distinction & structural architecture & \emph{Invariants in Cognitive Architectures} & S \\
+		
+		C14 & Invariant structures induce regions of structurally stable configurations in configuration space. & Formal & C13; admissibility profiles; thresholds & structural architecture / geometry & \emph{Invariants in Cognitive Architectures} & S \\
+		
+		C15 & Conflict among structural constraints is determined by invariant interaction structure rather than by instantaneous state alone. & Proposition & C13; interaction graph; incompatibility functions & structural architecture & \emph{Invariants in Cognitive Architectures} & S \\
+		
+		C16 & Structural compression is a restricted form of admissible structural updating, not just any admissible update. & Definitional & admissibility of updating; invariants & architectural evolution & \emph{Structural Compression in Cognitive Architectures} & S \\
+		
+		C17 & Structural compression is not equivalent to structural simplification. & Proposition & C16; expected overload criterion & architectural evolution & \emph{Structural Compression in Cognitive Architectures} & S \\
+		
+		C18 & A compression generates a new invariant within the updated architecture. & Proposition & C16; invariant concept & architectural evolution & \emph{Structural Compression in Cognitive Architectures} & S \\
+		
+		C19 & Compression can preserve or transform admissible geometry; only the latter yields level transition. & Proposition & C16; architectural level & architectural evolution & \emph{Structural Compression in Cognitive Architectures} & S \\
+		
+		C20 & Coherence is not itself a representational state. & Conceptual & C03 & representation branch entry & \emph{Emergence of Coherence Representation} & S \\
+		
+		C21 & Under partial observability, effective regulation requires an internal variable built from locally available structural signals. & Proposition & C20; partial observability; overload-sensitive context & representation branch & \emph{Emergence of Coherence Representation} & S \\
+		
+		C22 & Coherence representation is an internal regulatory variable, not a reconstruction of full geometric coherence. & Definitional & C21 & representation branch & \emph{Emergence of Coherence Representation} & S \\
+		
+		C23 & Coherence representation must preserve regulatory order, but need not preserve metric structure. & Proposition & C22 & representation branch & \emph{Emergence of Coherence Representation}; \emph{Coherence Representation in Multi-System Regulation} & S \\
+		
+		C24 & Coherence representation can emerge through structural compression of recurrent relations between signals and regulatory significance. & Proposition & C16; C22 & representation / compression interface & \emph{Emergence of Coherence Representation} & S \\
+		
+		C25 & Pre-symbolic admissibility is a distinct regulatory layer operating prior to stable representation and prior to structural updating. & Definitional & signal domain; regulatory layering & access branch & \emph{Pre-Symbolic Admissibility in Cognitive Systems} & S \\
+		
+		C26 & Pre-symbolic admissibility determines which discrepancies enter the admissible discrepancy domain for later regulation. & Formal & C25; pre-symbolic operator & access branch & \emph{Pre-Symbolic Admissibility in Cognitive Systems} & S \\
+		
+		C27 & Repeated admissible propagation induces stable propagation biases and proto-structural channels. & Proposition & C25; admissible propagation frequencies & access / pre-compression interface & \emph{Pre-Symbolic Admissibility in Cognitive Systems} & V \\
+		
+		C28 & Coherence may exist geometrically without becoming regulatorily accessible. & Proposition & C03; C25; admissible discrepancy domain & access / coherence interface & \emph{Restricted Accessibility of Coherence in Cognitive Systems} & S \\
+		
+		C29 & Geometrically distinct configurations may become indistinguishable at the level of regulatorily accessible signals. & Proposition & C28; non-injective accessibility structure & access / representation interface & \emph{Restricted Accessibility of Coherence in Cognitive Systems} & S \\
+		
+		C30 & Identity is not introduced as a primitive self-representational object, but derived as a structural consequence of bounded regulation. & Conceptual/ Definitional & overload; trajectory dependence; admissibility boundary & identity branch & \emph{Identity as a Regulatory Attractor} & S \\
+		
+		C31 & Under bounded regulation, trajectories concentrate near low-overload regions that may function as identity-cores. & Proposition/ Theorem & C30; long-run overload dynamics & identity branch & \emph{Identity as a Regulatory Attractor} & S \\
+		
+		C32 & Inter-system comparability does not require shared metric coherence or shared configuration space. & Conceptual/ Formal & coherence representation; ordinal adequacy & multi-system branch & \emph{Coherence Representation in Multi-System Regulation} & S \\
+		
+		C33 & The minimal transferable structure between systems is an order structure over regulatory states, not metric identity of representations. & Proposition & C32; order-preserving mappings & multi-system branch & \emph{Coherence Representation in Multi-System Regulation} & S \\
+		
+		C34 & Multi-system co-regulation operates through aligned regulatory variables rather than through shared global geometry. & Proposition & C32; C33 & multi-system branch & \emph{Coherence Representation in Multi-System Regulation} & S \\
+		
+		C35 & Inter-system conflict is not defined as disagreement or representational mismatch, but as incompatibility of admissible discrepancy domains sufficient for coordinated regulation. & Definitional & admissible discrepancy domains; multi-system setting & inter-system branch & \emph{Inter-System Conflict Geometry in Cognitive Systems} & S \\
+		
+		C36 & Conflict may exist without being explicitly represented by one or both participating systems. & Proposition & C35; restricted accessibility & inter-system branch & \emph{Inter-System Conflict Geometry in Cognitive Systems} & S \\
+		
+		C37 & The series as a whole is structured by layered admissibility rather than by a single undifferentiated notion of constraint. & Synthetic & C06; C25; C28; C16; C30 & full framework & \emph{General Theory of Cognitive Structuring} & S \\
+		
+		C38 & Structural inconsistency, admissibility of discrepancy, and admissibility of structural updating are distinct layers and must not be collapsed. & Synthetic & C03; C25; C06; C28 & full framework & \emph{General Theory of Cognitive Structuring} & S \\
+		
+		C39 & Representation is defined over a restricted admissible domain and does not reconstruct the full structure of deviations. & Synthetic/ Proposition & C22; C25; C28 & full framework / representation layer & \emph{General Theory of Cognitive Structuring} & S \\
+		
+		C40 & The \emph{General Theory of Cognitive Structuring} functions as a synthetic convergence framework rather than as the hidden source of the earlier branches. & Synthetic/ meta-structural & dependency architecture of the series & series-level structure & companion verification notes & G \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\section{Claims by verification domain}
+	
+	This section groups the claims by external verification task rather than by paper order.
+	
+	\subsection{Entry and distinction claims}
+	
+	\begin{itemize}[leftmargin=2em]
+		\item C01 --- Processing access does not imply structural updating.
+		\item C02 --- Structural updating and local change are not the same level of change.
+	\end{itemize}
+	
+	\subsection{Geometry and regulatory-state claims}
+	
+	\begin{itemize}[leftmargin=2em]
+		\item C03 --- Coherence is geometric.
+		\item C04 --- Coherence is distance-based relative to admissible stability region.
+		\item C05 --- Structural admissibility is not determined by instantaneous tension alone.
+		\item C06 --- Structural updating becomes admissible only as a function of joint regulatory state.
+		\item C07 --- Structural tension decomposes into incompatibility load and coordination cost.
+		\item C08 --- Excess beyond compensability produces overload.
+		\item C09 --- Overload accumulates into memory.
+		\item C10 --- Overload memory is not reducible to present tension.
+		\item C11 --- Regulation is trajectory-dependent.
+		\item C12 --- Overload introduces hysteresis through boundary deformation.
+	\end{itemize}
+	
+	\subsection{Invariant and compression claims}
+	
+	\begin{itemize}[leftmargin=2em]
+		\item C13 --- Invariants are historically constituted structural constraints.
+		\item C14 --- Invariant structures induce stability regions.
+		\item C15 --- Conflict is historically structured by invariant architecture.
+		\item C16 --- Compression is a restricted admissible update.
+		\item C17 --- Compression and simplification are not equivalent.
+		\item C18 --- Compression generates a new invariant.
+		\item C19 --- Compression can preserve or transform admissible geometry.
+	\end{itemize}
+	
+	\subsection{Representation and access claims}
+	
+	\begin{itemize}[leftmargin=2em]
+		\item C20 --- Coherence is not itself representational.
+		\item C21 --- Partial observability motivates internal regulatory approximation.
+		\item C22 --- Coherence representation is an internal regulatory variable.
+		\item C23 --- Representation preserves order, not necessarily metric.
+		\item C24 --- Coherence representation may emerge through compression.
+		\item C25 --- Pre-symbolic admissibility is a distinct prior layer.
+		\item C26 --- Pre-symbolic admissibility determines the admissible discrepancy domain.
+		\item C27 --- Repeated admissible propagation induces propagation bias and proto-structural channels.
+		\item C28 --- Coherence may exist without becoming regulatorily accessible.
+		\item C29 --- Geometrically distinct states may become regulatorily indistinguishable.
+	\end{itemize}
+	
+	\subsection{Identity and multi-system claims}
+	
+	\begin{itemize}[leftmargin=2em]
+		\item C30 --- Identity is derived, not primitive.
+		\item C31 --- Low-overload concentration regions may function as identity-cores.
+		\item C32 --- Inter-system comparability does not require shared metric geometry.
+		\item C33 --- Minimal transferable structure is ordinal rather than metric.
+		\item C34 --- Multi-system co-regulation operates through aligned regulatory variables.
+		\item C35 --- Conflict is incompatibility of admissible discrepancy domains sufficient for coordinated regulation.
+		\item C36 --- Conflict may exist without direct representation in the participating systems.
+	\end{itemize}
+	
+	\subsection{Synthetic full-framework claims}
+	
+	\begin{itemize}[leftmargin=2em]
+		\item C37 --- The framework is layered by admissibility.
+		\item C38 --- Structural inconsistency, admissibility of discrepancy, and admissibility of updating are distinct layers.
+		\item C39 --- Representation is restricted-domain and non-reconstructive.
+		\item C40 --- The final general theory is a convergence framework, not a reverse foundational source.
+	\end{itemize}
+	
+	\section{Recommended use of the register}
+	
+	This document may be used in several ways:
+	
+	\begin{enumerate}[leftmargin=2em]
+		\item as a compact map of the main claims for external readers;
+		\item as a bridge between paper-level reading and technical appendix verification;
+		\item as a basis for claim-by-claim review or collaborative checking;
+		\item as a source for future theorem/claim graph construction;
+		\item as a way to identify which claims are central and which are derivative.
+	\end{enumerate}
+	
+	\section{What this register does not decide}
+	
+	The present register does not by itself decide:
+	\begin{itemize}[leftmargin=2em]
+		\item whether every claim is correct;
+		\item whether every formal proof is complete;
+		\item whether each scope statement is optimally formulated;
+		\item whether later versions should split or merge some claims.
+	\end{itemize}
+	
+	Its role is more modest: it stabilizes the minimal set of claims whose verification matters most
+	for external evaluation of the framework.
+	
+	\section{Possible future extensions}
+	
+	A later version of this document may add:
+	\begin{itemize}[leftmargin=2em]
+		\item claim-to-paper citation ranges,
+		\item claim-to-node mapping,
+		\item theorem-proof status markers,
+		\item claim-level dispute or refinement flags,
+		\item a compressed one-page review version.
+	\end{itemize}
+	
+	\section{Closing note}
+	
+	A theory may be difficult to verify not only because it lacks formal structure, but also because its main claims remain distributed across multiple papers and levels of analysis. The present register is intended to reduce that difficulty by making the main claims of the \emph{General Theory of Cognitive Structuring} visible in one place and in a form suited to	external checking.
+
+\end{document}
