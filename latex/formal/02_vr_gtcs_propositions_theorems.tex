@@ -1,0 +1,1104 @@
+\documentclass[12pt]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{ragged2e}
+
+\setstretch{1.08}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=black,
+	urlcolor=blue,
+	pdftitle={Collected Propositions and Theorems for the General Theory of Cognitive Structuring},
+	pdfauthor={Kostiantyn Osmolovskyi}
+}
+
+\setlist[itemize]{topsep=3pt,itemsep=2pt,parsep=0pt}
+\setlist[enumerate]{topsep=3pt,itemsep=2pt,parsep=0pt}
+
+
+\title{Collected Propositions and Theorems \\
+	\small for the General Theory of Cognitive Structuring}
+
+\author{
+	Kostiantyn Osmolovskyi\\
+	\small Independent Researcher, Ukraine\\
+	\small ORCID: 0009-0006-3144-7237\\
+	\small \texttt{constantinosmol@gmail.com}
+}
+
+\date{}
+
+% ---------------------------------------------------------------------------
+% Part of a series: General Theory of Cognitive Structuring (GTCS)
+% Autor: Kostiantyn Osmolovskyi (ORCID: 0009-0006-3144-7237)
+% License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+% Repository: https://github.com/k-osmolovskyi/k-osmolovskyi.github.io
+% DOI: https://doi.org/10.5281/zenodo.19705678
+% ---------------------------------------------------------------------------
+
+\begin{document}
+	\maketitle
+
+\begin{center}
+	\small
+	Verification Report No. 2026-2\\
+	Version 1.0
+\end{center}
+
+\vspace{0.5em}	
+	
+	\section{Collected geometric propositions and theorems}
+	
+	\subsection*{G1.01. Coherence as distance to the stability region}
+	\textbf{Type:} Definition-formal proposition \\
+	\textbf{Statement:} Let $X$ be the configuration space of processing states and let
+	$U \subseteq X$ denote the region of structurally stable configurations determined by the
+	architecture. Then coherence is defined as the geometric distance between the current
+	configuration $x_t$ and the stability region:
+	\[
+	C(x_t) = \mathrm{dist}(x_t,U).
+	\]
+	In later invariant-grounded form, this may be written as
+	\[
+	C_I(x_t) = \mathrm{dist}(x_t,U_X(I_t)).
+	\]
+	\textbf{Dependencies:} configuration space; current configuration; stability region; distance structure. \\
+	\textbf{Assumptions:} existence of an admissible metric or distance relation on the configuration space. \\
+	\textbf{Main source:} \emph{Coherence Evaluation in Cognitive Systems}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This result is foundational for the geometric branch. The later notation
+	$U_X(I_t)$ strengthens the architectural grounding of the earlier region $U$ without changing
+	the role of coherence as a geometric quantity.
+	
+	\subsection*{G1.02. Coherence is distinct from structural tension}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Coherence and structural tension are not identical quantities. Coherence
+	measures the geometric deviation of the current configuration from the stability region,
+	whereas structural tension measures the instantaneous regulatory burden required to sustain
+	processing under interacting constraints. Accordingly, structural tension may function as a
+	local correlate of deviation from stability without replacing the geometric notion of coherence. \\
+	\textbf{Dependencies:} coherence as distance to the stability region; tension decomposition
+	$T_t = K_t + C_t$. \\
+	\textbf{Assumptions:} none beyond the architectural distinction between global geometric relation
+	and local regulatory burden. \\
+	\textbf{Main source:} \emph{Coherence Evaluation in Cognitive Systems}. \\
+	\textbf{Proof status:} C. \\
+	\textbf{Note:} This is a normalized proposition-level formulation of a distinction argued
+	explicitly in the coherence paper. It should not be read as claiming that no local relation
+	between coherence and tension can be studied, only that they are not the same formal object.
+	
+	\section{Collected regulatory and overload propositions and theorems}
+	
+	\subsection*{R2.01. Structural admissibility depends on the joint regulatory state}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Structural admissibility of updating is not determined by instantaneous
+	tension alone. It is determined by the joint regulatory state including at least current
+	tension and accumulated overload memory. Equivalently, admissibility is defined over a
+	two-dimensional regulatory phase space rather than over present tension in isolation. \\
+	\textbf{Dependencies:} structural tension; overload memory; admissibility operator
+	$A(T,L,R,M,\bar h)$. \\
+	\textbf{Assumptions:} limited resources; overload memory; admissibility operator defined over
+	joint regulatory variables. \\
+	\textbf{Main source:} \emph{Structural Admissibility in Cognitive Systems}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This is one of the central results of the regulatory branch and grounds the
+	phase-space treatment used in later papers.
+	
+	\subsection*{R2.02. Overload memory is not reducible to instantaneous tension}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Overload memory is a trajectory-dependent state variable and cannot, in
+	general, be reduced to a function of instantaneous tension alone. That is, there is no
+	function $f$ such that
+	\[
+	L_t = f(T_t)
+	\]
+	for all admissible trajectories of the architecture. \\
+	\textbf{Dependencies:} overload excess $u_t$; overload update rule; retained state variable
+	$L_t$. \\
+	\textbf{Assumptions:} nontrivial temporal accumulation of excess load; admissible trajectories
+	with distinct overload histories. \\
+	\textbf{Main source:} \emph{Overload Formation in Cognitive Processing}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This result establishes overload memory as a genuine additional state dimension
+	of regulation.
+	
+	\subsection*{R2.03. Regulatory state is trajectory-dependent}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} The regulatory state of a cognitive system cannot be determined from
+	instantaneous tension alone. If two trajectories satisfy
+	\[
+	T_t^{(1)} = T_t^{(2)}
+	\]
+	at some time $t$ but differ in overload memory,
+	\[
+	L_t^{(1)} \neq L_t^{(2)},
+	\]
+	then their admissibility conditions may differ:
+	\[
+	A\!\left(T_t^{(1)},L_t^{(1)},\dots\right)
+	\neq
+	A\!\left(T_t^{(2)},L_t^{(2)},\dots\right).
+	\]
+	\textbf{Dependencies:} overload memory; admissibility operator; joint-state admissibility. \\
+	\textbf{Assumptions:} admissibility depends jointly on instantaneous tension and overload memory. \\
+	\textbf{Main source:} \emph{Trajectory-Dependent Regulation in Cognitive Systems}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This proposition makes explicit the path dependence implicit in overload-based
+	regulation.
+	
+	\subsection*{R2.04. Overload deforms the admissibility boundary and introduces hysteresis}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} If admissibility in regulatory phase space is described by a critical
+	boundary
+	\[
+	T_{\mathrm{crit}}(L),
+	\]
+	and if this boundary decreases monotonically with overload memory, then increasing overload
+	reduces the maximal instantaneous tension that can be tolerated without structural updating.
+	As a consequence, identical instantaneous tensions may lie inside or outside the stability
+	region depending on overload history, yielding regulatory hysteresis. \\
+	\textbf{Dependencies:} stability region in $(T,L)$-space; critical tension function
+	$T_{\mathrm{crit}}(L)$; overload memory dynamics. \\
+	\textbf{Assumptions:} monotonic boundary deformation with respect to overload memory. \\
+	\textbf{Main source:} \emph{Trajectory-Dependent Regulation in Cognitive Systems}. \\
+	\textbf{Proof status:} P/S. \\
+	\textbf{Note:} The geometric claim is explicit and central; the exact strength of the result
+	depends on the boundary-deformation assumption adopted in the trajectory paper.
+	
+	\subsection*{R2.05. The regulatory phase space is minimally two-dimensional}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} The minimal regulatory state sufficient to characterize admissibility
+	dynamics includes at least two variables: instantaneous tension $T$ and overload memory $L$.
+	Accordingly, the minimal regulatory phase space is
+	\[
+	\Omega = \{(T,L)\mid T \ge 0,\; L \ge 0\}.
+	\]
+	\textbf{Dependencies:} structural tension; overload memory; joint-state admissibility. \\
+	\textbf{Assumptions:} overload is retained as a genuine state component rather than collapsed
+	into present pressure. \\
+	\textbf{Main source:} \emph{Trajectory-Dependent Regulation in Cognitive Systems}, grounded in
+	\emph{Structural Admissibility in Cognitive Systems} and \emph{Overload Formation in Cognitive Processing}. \\
+	\textbf{Proof status:} C. \\
+	\textbf{Note:} This is a canonical collected proposition: it is strongly supported by the
+	regulatory branch even though the two-dimensionality is distributed across more than one paper.
+	
+	\section{Collected invariant and compression propositions and theorems}
+	
+	\subsection*{R3.01. Invariant-induced stability geometry}
+	\textbf{Type:} Proposition/Theorem \\
+	\textbf{Statement:} Let $I_t=\{I_1,\dots,I_n\}$ be the current invariant structure of the
+	architecture, and let each invariant $I_i$ admit a local admissibility profile
+	\[
+	a_i(x)\in[0,1]
+	\]
+	over the configuration space $X$. Then the invariant structure induces a region of admissible
+	or stable configurations, written in later grounded form as $U_X(I_t)$, relative to which
+	geometric coherence may be defined. In this sense, the stability geometry of the system is not
+	primitive but structurally induced by the current invariant organization. \\
+	\textbf{Dependencies:} invariant; invariant structure; local admissibility profiles; thresholded
+	or admissible configuration conditions. \\
+	\textbf{Assumptions:} sufficient regularity of admissibility profiles and nonempty admissible
+	configuration set. \\
+	\textbf{Main source:} \emph{Invariants in Cognitive Architectures}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This result provides the architectural grounding of the earlier stability-region
+	notation used in the coherence paper.
+	
+	\subsection*{R3.02. Global conflict is structured by invariant interaction architecture}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Global structural conflict is determined not by isolated local deviations
+	alone but by the interaction architecture of invariants. More precisely, if pairwise
+	incompatibilities are defined over the interaction graph
+	\[
+	G_t=(V_t,E_t), \qquad V_t=I_t,
+	\]
+	and aggregated by a monotone conflict functional, then the resulting incompatibility load
+	$K_t$ reflects the structural organization of constraint interactions rather than merely the
+	presence of independent local tensions. \\
+	\textbf{Dependencies:} invariant structure; interaction graph; pairwise incompatibility
+	functions; conflict aggregation. \\
+	\textbf{Assumptions:} edge locality, monotone aggregation, and admissible conflict
+	construction. \\
+	\textbf{Main source:} \emph{Invariants in Cognitive Architectures}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This proposition is central for understanding why tension and overload are
+	architectural rather than merely pointwise quantities.
+	
+	\subsection*{R3.03. Compression is not equivalent to simplification}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Structural compression and structural simplification are not equivalent.
+	An admissible update may reduce the cardinality or apparent complexity of invariant structure
+	without reducing expected overload. Therefore, reduction in structural size is not sufficient
+	to characterize stabilizing architectural change. \\
+	\textbf{Dependencies:} admissible structural updating; invariant structure; expected overload
+	criterion. \\
+	\textbf{Assumptions:} compression evaluated with respect to long-run regulatory effect under
+	processing dynamics. \\
+	\textbf{Main source:} \emph{Structural Compression in Cognitive Architectures}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This result blocks the collapse of all admissible structural reduction into one
+	class of beneficial transformation.
+	
+	\subsection*{R3.04. Compression generates a new invariant}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Let
+	\[
+	I_{t+1}=(I_t\setminus S)\cup\{F(S)\},
+	\]
+	where $S\subset I_t$ and the update is a structural compression. Then the compressed
+	representation $F(S)$ enters the updated architecture as a new invariant. In this sense,
+	compression is generative of invariant structure and is not merely eliminative. \\
+	\textbf{Dependencies:} compression operation; invariant definition; admissible structural update. \\
+	\textbf{Assumptions:} compressed representation participates in later processing and is
+	preserved under ordinary processing at the updated level. \\
+	\textbf{Main source:} \emph{Structural Compression in Cognitive Architectures}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This proposition is one of the main bridges between the invariant branch and the
+	architectural evolution branch.
+	
+	\subsection*{R3.05. Compression can preserve or transform admissible geometry}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Structural compression may either preserve the equivalence class of the
+	admissible stability geometry or alter it. Accordingly, not every compression yields a level
+	transition. Some compressions are level-preserving, while others are level-forming because they
+	change the geometry of admissibility in a non-equivalent way. \\
+	\textbf{Dependencies:} compression operation; admissible geometry; architectural level. \\
+	\textbf{Assumptions:} geometric comparison of pre-compression and post-compression stability
+	regions under admissible reparameterization. \\
+	\textbf{Main source:} \emph{Structural Compression in Cognitive Architectures}. \\
+	\textbf{Proof status:} P/S. \\
+	\textbf{Note:} The distinction is clearly established in the compression paper; exact theorem
+	strength may later benefit from more explicit normalized extraction.
+	
+	\subsection*{R3.06. Level transition is a non-equivalent change in admissible geometry}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} A transition between architectural levels occurs if and only if the
+	stability geometry induced by the updated architecture is not equivalent to the prior one under
+	the admissible equivalence relation used for level definition. Thus, level transition is not a
+	matter of more information, more intensity, or greater complexity alone, but of non-equivalent
+	geometric reorganization. \\
+	\textbf{Dependencies:} architectural level; stability geometry; geometric equivalence relation. \\
+	\textbf{Assumptions:} level defined by equivalence class of admissible geometry. \\
+	\textbf{Main source:} \emph{Structural Admissibility in Cognitive Systems}, strengthened in
+	\emph{Structural Compression in Cognitive Architectures}. \\
+	\textbf{Proof status:} P/C. \\
+	\textbf{Note:} This result should be read as a collected canonical proposition whose grounding
+	begins in the structural admissibility paper and becomes operationally sharper in the
+	compression paper.
+	
+	\subsection*{R3.07. Compression improves effective long-run regulatory stability}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} If an admissible structural update qualifies as a compression in the strict
+	sense, then it reduces expected overload and thereby improves the effective long-run regulatory
+	stability of the architecture. This improvement is long-run and regulatory rather than merely
+	local or instantaneous. \\
+	\textbf{Dependencies:} compression criterion; expected overload; overload-sensitive regulatory
+	evaluation. \\
+	\textbf{Assumptions:} compression preserves admissible processing and reduces expected overload
+	under the induced processing distribution. \\
+	\textbf{Main source:} \emph{Structural Compression in Cognitive Architectures}. \\
+	\textbf{Proof status:} P/S. \\
+	\textbf{Note:} The paper states this result in effective long-run form rather than as a
+	pointwise theorem about all admissibility boundaries; that narrower scope should be preserved in
+	canonical normalization.
+	
+	\section{Collected representation and accessibility propositions and theorems}
+	
+	\subsection*{R4.01. Coherence representation is an internal regulatory variable rather than a reconstruction of geometric coherence}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Coherence representation is an internal regulatory variable constructed
+	from structurally relevant observable signals and used for regulation under bounded access.
+	It does not reconstruct the full geometric coherence relation
+	\[
+	C_I(x_t)=\mathrm{dist}(x_t,U_X(I_t)),
+	\]
+	and should not be identified with geometric coherence itself. \\
+	\textbf{Dependencies:} geometric coherence; observable structural signals; internal
+	representation map. \\
+	\textbf{Assumptions:} regulation proceeds under partial observability of global architecture. \\
+	\textbf{Main source:} \emph{Emergence of Coherence Representation}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This is the central entry proposition of the representational branch and fixes
+	the non-reconstructive status of coherence representation.
+	
+	\subsection*{R4.02. Coherence representation preserves regulatory order without requiring metric preservation}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} For regulatory purposes, coherence representation need only preserve the
+	ordering of states with respect to regulatory significance. It need not preserve the full metric
+	structure of geometric coherence. Accordingly, two states may be correctly ordered for
+	regulation even if their exact geometric distances are not internally reconstructed. \\
+	\textbf{Dependencies:} coherence representation; regulatory significance ordering; geometric
+	coherence. \\
+	\textbf{Assumptions:} bounded observability and order-sensitive regulation. \\
+	\textbf{Main source:} \emph{Emergence of Coherence Representation}, strengthened in
+	\emph{Coherence Representation in Multi-System Regulation}. \\
+	\textbf{Proof status:} P/C. \\
+	\textbf{Note:} This is a canonical collected proposition spanning the single-system and
+	multi-system representation papers.
+	
+	\subsection*{R4.03. Pre-symbolic admissibility is a distinct prior filtering layer}
+	\textbf{Type:} Proposition-like definitional result \\
+	\textbf{Statement:} Pre-symbolic admissibility is a distinct regulatory layer that operates on
+	the pre-representational discrepancy or signal domain prior to stable representation and prior
+	to structural updating. It must therefore be kept distinct from both coherence representation
+	and the admissibility operator for structural updating. \\
+	\textbf{Dependencies:} pre-symbolic signal domain; regulatory layering; distinction between
+	representation and updating. \\
+	\textbf{Assumptions:} none beyond the layered architecture of access and regulation. \\
+	\textbf{Main source:} \emph{Pre-Symbolic Admissibility in Cognitive Systems}. \\
+	\textbf{Proof status:} D/C. \\
+	\textbf{Note:} Although this is fundamentally a definitional-layer result, it is included here
+	because it functions as a canonical proposition-level separation of operators:
+	\[
+	\Pi_t^{ps} \neq \widehat{C}_t \neq A(\cdot).
+	\]
+	
+	\subsection*{R4.04. Pre-symbolic admissibility determines the admissible discrepancy domain}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Let $Z_t$ denote the pre-symbolic discrepancy domain and let
+	\[
+	\Pi_t^{ps}: Z_t \to \{0,1\}^m
+	\]
+	denote the pre-symbolic admissibility operator. Then the admissible discrepancy domain
+	\[
+	\mathcal{D}_t := Z_t^{adm}
+	\]
+	is determined by the discrepancies admitted by $\Pi_t^{ps}$. Only those discrepancies that
+	enter $\mathcal{D}_t$ may contribute to later observable signal formation and subsequent regulatory
+	representation. \\
+	\textbf{Dependencies:} pre-symbolic signal domain; pre-symbolic admissibility operator. \\
+	\textbf{Assumptions:} admitted discrepancies are the only discrepancies propagated beyond the
+	pre-symbolic stage. \\
+	\textbf{Main source:} \emph{Pre-Symbolic Admissibility in Cognitive Systems}. \\
+	\textbf{Proof status:} P/S. \\
+	\textbf{Note:} This is the main domain-forming proposition of the access branch.
+	
+	\subsection*{R4.05. Restricted accessibility of coherence}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Geometric coherence may exist without becoming regulatorily accessible.
+	More precisely, if the discrepancies corresponding to a geometric deviation from the stability
+	region are not admitted into the admissible discrepancy domain $\mathcal{D}_t$, then no corresponding
+	regulatory signal is generated. Thus coherence, as a geometric property of system state, and
+	coherence, as a regulatorily accessible quantity, must be distinguished. \\
+	\textbf{Dependencies:} geometric coherence; admissible discrepancy domain; regulatory
+	accessibility; coherence representation. \\
+	\textbf{Assumptions:} pre-symbolic admissibility acts prior to signal-set construction and
+	representation formation. \\
+	\textbf{Main source:} \emph{Restricted Accessibility of Coherence in Cognitive Systems}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This is the principal bridge proposition between the geometric branch and the
+	access branch.
+	
+	\subsection*{R4.06. Non-injectivity of regulatory accessibility}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Distinct configurations may become indistinguishable at the level of
+	regulatorily accessible signal sets. In particular, there may exist
+	\[
+	x_t \neq x_t'
+	\]
+	such that the configurations differ geometrically while yielding identical admitted observable
+	signal sets and hence identical or indistinguishable accessible regulatory representations. \\
+	\textbf{Dependencies:} restricted accessibility of coherence; admissible discrepancy domain;
+	observable signal-set construction. \\
+	\textbf{Assumptions:} differences between configurations may fail to enter the admissible
+	discrepancy domain. \\
+	\textbf{Main source:} \emph{Restricted Accessibility of Coherence in Cognitive Systems}. \\
+	\textbf{Proof status:} P/S. \\
+	\textbf{Note:} This proposition makes explicit that regulatorily accessible structure is not an
+	injective image of full configuration structure.
+	
+	\subsection*{R4.07. Restricted accessibility is structural, not merely representationally approximate}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} The indistinguishability induced by restricted accessibility is not, in
+	general, a consequence of noise, approximation error, or limited representational resolution.
+	It is a structural consequence of admissibility constraints operating prior to stable
+	representation. \\
+	\textbf{Dependencies:} restricted accessibility of coherence; non-injectivity of regulatory
+	accessibility; pre-symbolic admissibility. \\
+	\textbf{Assumptions:} pre-symbolic admissibility determines signal availability rather than
+	merely filtering already formed stable representations. \\
+	\textbf{Main source:} \emph{Restricted Accessibility of Coherence in Cognitive Systems}. \\
+	\textbf{Proof status:} C. \\
+	\textbf{Note:} This is a canonical normalized proposition drawn from the interpretive and
+	architectural consequences sections of the restricted accessibility paper.
+	
+	\subsection*{R4.08. Repeated admissible propagation induces propagation bias}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} If certain classes of discrepancies are repeatedly admitted at the
+	pre-symbolic stage while others are repeatedly excluded, the resulting propagation profile is
+	not neutral. Over time, this selective propagation induces stable biases in the discrepancy
+	classes that are available to downstream regulation and representation. \\
+	\textbf{Dependencies:} pre-symbolic admissibility; admissible discrepancy domain; repeated
+	propagation under ongoing processing. \\
+	\textbf{Assumptions:} temporally repeated admissibility filtering with nonuniform admission
+	patterns. \\
+	\textbf{Main source:} \emph{Pre-Symbolic Admissibility in Cognitive Systems}. \\
+	\textbf{Proof status:} S. \\
+	\textbf{Note:} This proposition is central for the dynamic significance of the pre-symbolic
+	branch, but its canonical extraction may later benefit from fuller proof normalization.
+	
+	\subsection*{R4.09. Repeated admissible propagation may stabilize proto-structural channels}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Under repeated admissible propagation, certain discrepancy-transmission
+	patterns may become sufficiently stable to function as proto-structural channels for later
+	regulation and, potentially, for later representational consolidation. \\
+	\textbf{Dependencies:} pre-symbolic admissibility; propagation bias; repeated admissible signal
+	selection. \\
+	\textbf{Assumptions:} persistence of selective propagation dynamics under bounded perturbation. \\
+	\textbf{Main source:} \emph{Pre-Symbolic Admissibility in Cognitive Systems}. \\
+	\textbf{Proof status:} S/O. \\
+	\textbf{Note:} This result is important for the developmental meaning of the access layer, but
+	should currently be treated as a sketch-level or pending-consolidation proposition until a more
+	fully normalized proof layer is assembled.
+	
+	\section{Collected identity and multi-system propositions and theorems}
+	
+	\subsection*{R5.01. Identity is derived as a regulatory attractor rather than introduced as a primitive self-representational object}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Within the present framework, identity is not posited as a primitive
+	self-representational substance or as a basic symbolic object. Rather, identity is derived as a
+	regulatory consequence of bounded dynamics in which trajectories of the system tend to remain
+	within, return to, or concentrate around regions of comparatively low overload and sustained
+	structural admissibility. \\
+	\textbf{Dependencies:} overload memory; admissibility boundary; trajectory-dependent regulation;
+	bounded regulatory dynamics. \\
+	\textbf{Assumptions:} existence of a long-run regulatory regime in which recurrent low-overload
+	regions are dynamically meaningful. \\
+	\textbf{Main source:} \emph{Identity as a Regulatory Attractor}. \\
+	\textbf{Proof status:} S/C. \\
+	\textbf{Note:} This proposition should be read as the canonical entry claim of the identity
+	branch. Its role is to block the reduction of identity to narrative or symbolic self-description.
+	
+	\subsection*{R5.02. Low-overload concentration regions may function as identity-cores}
+	\textbf{Type:} Proposition/Theorem \\
+	\textbf{Statement:} Under suitable long-run regulatory conditions, trajectories of the system
+	may concentrate near regions of comparatively low overload and persistent admissibility. Such
+	regions may function as identity-cores in the sense that they support recurrent organization
+	and relative structural persistence across time. \\
+	\textbf{Dependencies:} overload memory dynamics; admissibility structure; trajectory dependence;
+	regulatory phase space. \\
+	\textbf{Assumptions:} bounded regulatory dynamics; long-run concentration or stationarity-type
+	conditions local to the identity branch. \\
+	\textbf{Main source:} \emph{Identity as a Regulatory Attractor}. \\
+	\textbf{Proof status:} S/P. \\
+	\textbf{Note:} The exact theorem strength depends on the long-run assumptions adopted in the
+	identity paper. In canonical use, the result should remain tied to those local assumptions.
+	
+	\subsection*{R5.03. Identity persistence is regulatory rather than merely representational}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Persistence of identity is not explained solely by persistence of
+	self-representation or symbolic self-description. In the present framework, identity persistence
+	is grounded in recurrent regulatory organization, especially in the tendency of the system to
+	remain near or return toward regions of structurally sustainable low-overload organization. \\
+	\textbf{Dependencies:} identity as regulatory attractor; low-overload concentration regions;
+	bounded regulation. \\
+	\textbf{Assumptions:} identity interpreted architecturally rather than semantically. \\
+	\textbf{Main source:} \emph{Identity as a Regulatory Attractor}. \\
+	\textbf{Proof status:} C. \\
+	\textbf{Note:} This is a canonical normalized proposition drawn from the architectural reading
+	of the identity branch rather than from a single theorem statement.
+	
+	\subsection*{R5.04. Inter-system comparability does not require shared metric coherence or shared configuration space}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Two systems may become comparable for regulatory purposes without sharing a
+	common metric geometry of coherence and without sharing a common configuration space. What is
+	required is not metric identity of state space, but a transferable regulatory relation between
+	their internally available coherence-related variables. \\
+	\textbf{Dependencies:} coherence representation; non-metric regulatory ordering; multi-system
+	setting. \\
+	\textbf{Assumptions:} systems possess coherence-related internal regulatory variables adequate
+	for ordered comparison. \\
+	\textbf{Main source:} \emph{Coherence Representation in Multi-System Regulation}. \\
+	\textbf{Proof status:} P/C. \\
+	\textbf{Note:} This proposition is the entry point of the multi-system branch and prevents false
+	assumptions of shared geometry.
+	
+	\subsection*{R5.05. Minimal transferable structure between systems is ordinal rather than metric}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} The minimal structure that must be preserved for inter-system regulatory
+	transfer is not full metric equality of coherence representation, but preservation of
+	regulatorily relevant order. Accordingly, if there exists an order-preserving map
+	\[
+	\phi_{AB}
+	\]
+	between the images of coherence representations in systems $A$ and $B$, then cross-system
+	regulatory comparison may be well-defined even in the absence of shared metric structure. \\
+	\textbf{Dependencies:} coherence representation; regulatory ordering; order-preserving map. \\
+	\textbf{Assumptions:} ordinal adequacy of representation for regulation; monotone inter-system
+	mapping. \\
+	\textbf{Main source:} \emph{Coherence Representation in Multi-System Regulation}. \\
+	\textbf{Proof status:} P. \\
+	\textbf{Note:} This is the main formal proposition grounding multi-system comparability.
+	
+	\subsection*{R5.06. Multi-system co-regulation operates through aligned regulatory variables rather than through shared global structure}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} When two systems participate in coordinated regulation, the operative basis
+	of that coordination need not be a shared global architecture or a shared metric reconstruction
+	of coherence. It is sufficient that their internally available regulatory variables admit
+	adequate order alignment for coordinated sensitivity to regulatory significance. \\
+	\textbf{Dependencies:} inter-system comparability; order-preserving mapping; coherence
+	representation. \\
+	\textbf{Assumptions:} ordinal adequacy and usable inter-system alignment of regulatory
+	variables. \\
+	\textbf{Main source:} \emph{Coherence Representation in Multi-System Regulation}. \\
+	\textbf{Proof status:} S/C. \\
+	\textbf{Note:} This proposition expresses the operational meaning of co-regulation in the
+	multi-system branch and is best treated as a canonical normalized formulation.
+	
+	\subsection*{R5.07. Inter-system conflict is incompatibility of admissible discrepancy domains sufficient for coordinated regulation}
+	\textbf{Type:} Proposition/Definitional result \\
+	\textbf{Statement:} Inter-system conflict is not defined primarily as disagreement of explicit
+	representations, semantic contradiction, or opposition of reported states. It is defined as
+	incompatibility between the admissible discrepancy domains of interacting systems such that no
+	shared discrepancy structure sufficient for coordinated regulation is available. \\
+	\textbf{Dependencies:} admissible discrepancy domain; regulatory accessibility; multi-system
+	interaction setting. \\
+	\textbf{Assumptions:} conflict evaluated at the level of admissible discrepancy structure rather
+	than at the level of explicit report alone. \\
+	\textbf{Main source:} \emph{Inter-System Conflict Geometry in Cognitive Systems}. \\
+	\textbf{Proof status:} P/S. \\
+	\textbf{Note:} This proposition fixes the architectural level of the inter-system conflict
+	branch and prevents reduction to representational disagreement.
+	
+	\subsection*{R5.08. Inter-system conflict may exist without direct representation in one or both systems}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Because conflict is defined over admissible discrepancy structures rather
+	than only over explicit representation, inter-system conflict may exist even when one or both
+	systems do not directly represent the conflict as such. In this sense, conflict may be
+	structurally operative without being symmetrically represented. \\
+	\textbf{Dependencies:} inter-system conflict criterion; restricted accessibility; admissible
+	discrepancy domains. \\
+	\textbf{Assumptions:} limited accessibility of discrepancy structures within one or more
+	participating systems. \\
+	\textbf{Main source:} \emph{Inter-System Conflict Geometry in Cognitive Systems}. \\
+	\textbf{Proof status:} S/C. \\
+	\textbf{Note:} This proposition extends the restricted-accessibility logic into the inter-system
+	branch.
+	
+	\subsection*{R5.09. Alignment and conflict are distinct extension problems}
+	\textbf{Type:} Proposition \\
+	\textbf{Statement:} Inter-system order alignment and inter-system conflict do not represent two
+	descriptions of the same phenomenon. Alignment concerns the existence of a transferable
+	regulatory ordering sufficient for coordinated regulation, whereas conflict concerns the absence
+	of a shared admissible discrepancy structure sufficient for such coordination. They are
+	therefore distinct extension problems of the framework. \\
+	\textbf{Dependencies:} inter-system comparability; order alignment; inter-system conflict
+	criterion. \\
+	\textbf{Assumptions:} none beyond the distinction between regulatory order transfer and
+	admissible discrepancy incompatibility. \\
+	\textbf{Main source:} \emph{Coherence Representation in Multi-System Regulation} together with
+	\emph{Inter-System Conflict Geometry in Cognitive Systems}. \\
+	\textbf{Proof status:} C. \\
+	\textbf{Note:} This is a canonical collected proposition clarifying the architecture of the
+	multi-system branch as a whole.
+	
+	\section{Collected synthetic framework-level results}
+	
+	\subsection*{R6.01. The full framework is organized by layered admissibility}
+	\textbf{Type:} Proposition / Synthetic result \\
+	\textbf{Statement:} The \emph{General Theory of Cognitive Structuring} is not organized by a
+	single undifferentiated notion of constraint or updating. Rather, it is organized by layered
+	admissibility. At minimum, this layered structure includes:
+	\begin{enumerate}[leftmargin=2em]
+		\item geometric or structural inconsistency relative to admissible organization,
+		\item admissibility of discrepancy for regulation,
+		\item representational construction from admitted signals,
+		\item admissibility of structural updating.
+	\end{enumerate}
+	These layers are not interchangeable and should not be collapsed into one operator or one level
+	of description. \\
+	\textbf{Dependencies:} geometric coherence; pre-symbolic admissibility; admissible discrepancy
+	domain; coherence representation; admissibility of structural updating. \\
+	\textbf{Assumptions:} cross-series integration of geometry, access, representation, and
+	structural updating. \\
+	\textbf{Main source:} \emph{General Theory of Cognitive Structuring}. \\
+	\textbf{Proof status:} C. \\
+	\textbf{Note:} This is the main synthetic proposition of the full framework. It is not a new
+	foundational theorem but a normalized convergence claim across earlier branches.
+	
+	\subsection*{R6.02. Structural inconsistency, discrepancy accessibility, representation, and structural updating are distinct layers}
+	\textbf{Type:} Proposition / Synthetic result \\
+	\textbf{Statement:} A system may be structurally outside its admissible region without thereby
+	having regulatorily accessible discrepancy, may have admitted discrepancy without thereby
+	constructing a stable internal representation of that discrepancy, and may possess such a
+	representation without structural updating being admissible. Therefore, structural
+	inconsistency, discrepancy accessibility, representation, and structural updating are distinct
+	layers of the architecture and must not be treated as automatic continuations of one another. \\
+	\textbf{Dependencies:} restricted accessibility of coherence; coherence representation;
+	pre-symbolic admissibility; admissibility of structural updating. \\
+	\textbf{Assumptions:} layered admissibility architecture; non-equivalence of access, representation,
+	and updating operators. \\
+	\textbf{Main source:} \emph{General Theory of Cognitive Structuring}. \\
+	\textbf{Proof status:} C. \\
+	\textbf{Note:} This is a synthetic anti-collapse proposition. Its role is to stabilize the
+	series against false linearization of the processing chain.
+	
+	\subsection*{R6.03. Representation is defined over a restricted admissible domain and does not reconstruct full structural deviation}
+	\textbf{Type:} Proposition / Synthetic result \\
+	\textbf{Statement:} Internal representation of structural pressure is constructed not from the
+	full space of structural deviations, but from the restricted domain of discrepancies admitted
+	for further processing. Accordingly, representation does not reconstruct the full structure of
+	deviation from admissible organization, but only a constrained image of it sufficient for
+	regulation under current architectural limits. \\
+	\textbf{Dependencies:} admissible discrepancy domain; coherence representation; restricted
+	accessibility of coherence. \\
+	\textbf{Assumptions:} pre-symbolic admissibility precedes stable representation. \\
+	\textbf{Main source:} \emph{General Theory of Cognitive Structuring}. \\
+	\textbf{Proof status:} C. \\
+	\textbf{Note:} This synthetic proposition unifies the representation and access branches into a
+	single canonical constraint statement.
+	
+	\subsection*{R6.04. Overload introduces historical depth into admissibility across the framework}
+	\textbf{Type:} Proposition / Synthetic result \\
+	\textbf{Statement:} Because overload memory is retained as a genuine state component,
+	admissibility throughout the framework acquires historical depth. The current status of a
+	system cannot, in general, be inferred from present structural pressure alone; it depends on
+	the retained trace of prior non-compensated load and on the trajectory that produced that
+	trace. \\
+	\textbf{Dependencies:} overload memory; non-reducibility of overload memory; trajectory-dependent
+	regulation; admissibility operator. \\
+	\textbf{Assumptions:} overload retention and joint-state admissibility. \\
+	\textbf{Main source:} \emph{General Theory of Cognitive Structuring}, grounded in the overload
+	and trajectory papers. \\
+	\textbf{Proof status:} C. \\
+	\textbf{Note:} This is the synthetic version of the historical-state claim running through the
+	regulatory branch.
+	
+	\subsection*{R6.05. Invariant structure is the architectural source of admissible geometry and compression is the mechanism of its non-equivalent transformation}
+	\textbf{Type:} Proposition / Synthetic result \\
+	\textbf{Statement:} Invariant structure is the architectural source of admissible geometry,
+	while structural compression is the principal mechanism through which invariant organization may
+	be transformed in a stabilizing way. When such transformation changes admissible geometry
+	non-equivalently, the result is level transition rather than merely local structural reduction. \\
+	\textbf{Dependencies:} invariant-induced stability geometry; compression operation; compression
+	vs simplification; level transition criterion. \\
+	\textbf{Assumptions:} invariant-grounded geometry and admissible compression framework. \\
+	\textbf{Main source:} \emph{General Theory of Cognitive Structuring}. \\
+	\textbf{Proof status:} C. \\
+	\textbf{Note:} This proposition synthetically links the structural architecture branch to the
+	architectural evolution branch.
+	
+	\subsection*{R6.06. Identity, representation, and inter-system regulation are downstream consequences of a common layered architecture}
+	\textbf{Type:} Proposition / Synthetic result \\
+	\textbf{Statement:} Identity dynamics, internal coherence representation, and inter-system
+	regulation should not be treated as separate theoretical domains joined only externally. They
+	are downstream consequences of a common layered architecture in which admissible geometry,
+	overload history, discrepancy accessibility, and constrained representation jointly determine
+	the modes through which regulation becomes stable, internally organized, and transferable across
+	systems. \\
+	\textbf{Dependencies:} layered admissibility architecture; identity as regulatory attractor;
+	coherence representation; inter-system order alignment. \\
+	\textbf{Assumptions:} synthetic integration across regulatory, representational, and multi-system
+	branches. \\
+	\textbf{Main source:} \emph{General Theory of Cognitive Structuring}. \\
+	\textbf{Proof status:} C. \\
+	\textbf{Note:} This is a convergence proposition clarifying that the later branches of the
+	series share one architectural backbone rather than merely coexisting as adjacent topics.
+	
+	\subsection*{R6.07. The General Theory functions as a synthetic convergence framework rather than as the hidden source of earlier branches}
+	\textbf{Type:} Meta-structural proposition \\
+	\textbf{Statement:} The \emph{General Theory of Cognitive Structuring} does not function as the
+	reverse foundational source of the earlier papers in the series. Its role is synthetic: it
+	collects and orders earlier results into a layered framework. Accordingly, the dependency
+	structure of the series runs from earlier geometric, regulatory, invariant, representational,
+	and inter-system branches toward the synthetic convergence paper, not the reverse. \\
+	\textbf{Dependencies:} acyclicity criteria; dependency architecture of the series; layered
+	integration of prior branches. \\
+	\textbf{Assumptions:} none beyond the dependency standards adopted in the verification package. \\
+	\textbf{Main source:} companion verification documents together with \emph{General Theory of
+		Cognitive Structuring}. \\
+	\textbf{Proof status:} C. \\
+	\textbf{Note:} This is a meta-structural proposition included to stabilize canonical reading of
+	the series order and to prevent false reverse dependency attribution.
+	
+	\section{Master table of collected propositions and theorems}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.10\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.31\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.13\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.08\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.17\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.14\textwidth}}
+		\toprule
+		\textbf{Result ID} & \textbf{Title} & \textbf{Type} & \textbf{Status} & \textbf{Main source} & \textbf{Depends on} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{Result ID} & \textbf{Title} & \textbf{Type} & \textbf{Status} & \textbf{Main source} & \textbf{Depends on} \\
+		\midrule
+		\endhead
+		
+		G1.01 & Coherence as distance to the stability region & Definition-formal proposition & P & \emph{Coherence Evaluation in Cognitive Systems} & configuration space; stability region \\
+		
+		G1.02 & Coherence is distinct from structural tension & Proposition & C & \emph{Coherence Evaluation in Cognitive Systems} & geometric coherence; tension decomposition \\
+		
+		R2.01 & Structural admissibility depends on the joint regulatory state & Proposition & P & \emph{Structural Admissibility in Cognitive Systems} & tension; overload memory; admissibility operator \\
+		
+		R2.02 & Overload memory is not reducible to instantaneous tension & Proposition & P & \emph{Overload Formation in Cognitive Processing} & overload excess; overload update rule \\
+		
+		R2.03 & Regulatory state is trajectory-dependent & Proposition & P & \emph{Trajectory-Dependent Regulation in Cognitive Systems} & overload memory; admissibility operator \\
+		
+		R2.04 & Overload deforms the admissibility boundary and introduces hysteresis & Proposition & P/S & \emph{Trajectory-Dependent Regulation in Cognitive Systems} & stability region; critical boundary; overload memory \\
+		
+		R2.05 & The regulatory phase space is minimally two-dimensional & Proposition & C & \emph{Trajectory-Dependent Regulation in Cognitive Systems}, grounded in earlier regulatory papers & tension; overload memory; joint-state admissibility \\
+		
+		R3.01 & Invariant-induced stability geometry & Proposition /Theorem & P & \emph{Invariants in Cognitive Architectures} & invariants; admissibility profiles; thresholds \\
+		
+		R3.02 & Global conflict is structured by invariant interaction architecture & Proposition & P & \emph{Invariants in Cognitive Architectures} & invariant structure; interaction graph; incompatibility functions \\
+		
+		R3.03 & Compression is not equivalent to simplification & Proposition & P & \emph{Structural Compression in Cognitive Architectures} & admissible updating; expected overload criterion \\
+		
+		R3.04 & Compression generates a new invariant & Proposition & P & \emph{Structural Compression in Cognitive Architectures} & compression operation; invariant definition \\
+		
+		R3.05 & Compression can preserve or transform admissible geometry & Proposition & P/S & \emph{Structural Compression in Cognitive Architectures} & compression; admissible geometry; architectural level \\
+		
+		R3.06 & Level transition is a non-equivalent change in admissible geometry & Proposition & P/C & \emph{Structural Admissibility in Cognitive Systems}, strengthened in \emph{Structural Compression in Cognitive Architectures} & architectural level; geometric equivalence \\
+		
+		R3.07 & Compression improves effective long-run regulatory stability & Proposition & P/S & \emph{Structural Compression in Cognitive Architectures} & compression criterion; expected overload \\
+		
+		R4.01 & Coherence representation is an internal regulatory variable rather than a reconstruction of geometric coherence & Proposition & P & \emph{Emergence of Coherence Representation} & geometric coherence; observable signals; representation map \\
+		
+		R4.02 & Coherence representation preserves regulatory order without requiring metric preservation & Proposition & P/C & \emph{Emergence of Coherence Representation}, strengthened in \emph{Coherence Representation in Multi-System Regulation} & coherence representation; regulatory ordering \\
+		
+		R4.03 & Pre-symbolic admissibility is a distinct prior filtering layer & Proposition-like definitional result & D/C & \emph{Pre-Symbolic Admissibility in Cognitive Systems} & signal domain; regulatory layering \\
+		
+		R4.04 & Pre-symbolic admissibility determines the admissible discrepancy domain & Proposition & P/S & \emph{Pre-Symbolic Admissibility in Cognitive Systems} & pre-symbolic signal domain; pre-symbolic operator \\
+		
+		R4.05 & Restricted accessibility of coherence & Proposition & P & \emph{Restricted Accessibility of Coherence in Cognitive Systems} & geometric coherence; admissible discrepancy domain; regulatory accessibility \\
+		
+		R4.06 & Non-injectivity of regulatory accessibility & Proposition & P/S & \emph{Restricted Accessibility of Coherence in Cognitive Systems} & restricted accessibility; admissible discrepancy structure \\
+		
+		R4.07 & Restricted accessibility is structural, not merely representationally approximate & Proposition & C & \emph{Restricted Accessibility of Coherence in Cognitive Systems} & restricted accessibility; non-injectivity; pre-symbolic admissibility \\
+		
+		R4.08 & Repeated admissible propagation induces propagation bias & Proposition & S & \emph{Pre-Symbolic Admissibility in Cognitive Systems} & pre-symbolic admissibility; repeated propagation \\
+		
+		R4.09 & Repeated admissible propagation may stabilize proto-structural channels & Proposition & S/O & \emph{Pre-Symbolic Admissibility in Cognitive Systems} & propagation bias; repeated admissible selection \\
+		
+		R5.01 & Identity is derived as a regulatory attractor rather than introduced as a primitive self-representational object & Proposition & S/C & \emph{Identity as a Regulatory Attractor} & overload; trajectory dynamics; bounded regulation \\
+		
+		R5.02 & Low-overload concentration regions may function as identity-cores & Proposition /Theorem & S/P & \emph{Identity as a Regulatory Attractor} & overload dynamics; admissibility structure; trajectory dependence \\
+		
+		R5.03 & Identity persistence is regulatory rather than merely representational & Proposition & C & \emph{Identity as a Regulatory Attractor} & identity as attractor; low-overload concentration regions \\
+		
+		R5.04 & Inter-system comparability does not require shared metric coherence or shared configuration space & Proposition & P/C & \emph{Coherence Representation in Multi-System Regulation} & coherence representation; non-metric ordering \\
+		
+		R5.05 & Minimal transferable structure between systems is ordinal rather than metric & Proposition & P & \emph{Coherence Representation in Multi-System Regulation} & coherence representation; order-preserving map \\
+		
+		R5.06 & Multi-system co-regulation operates through aligned regulatory variables rather than through shared global structure & Proposition & S/C & \emph{Coherence Representation in Multi-System Regulation} & inter-system comparability; order alignment \\
+		
+		R5.07 & Inter-system conflict is incompatibility of admissible discrepancy domains sufficient for coordinated regulation & Proposition /Definitional result & P/S & \emph{Inter-System Conflict Geometry in Cognitive Systems} & admissible discrepancy domain; multi-system interaction \\
+		
+		R5.08 & Inter-system conflict may exist without direct representation in one or both systems & Proposition & S/C & \emph{Inter-System Conflict Geometry in Cognitive Systems} & inter-system conflict criterion; restricted accessibility \\
+		
+		R5.09 & Alignment and conflict are distinct extension problems & Proposition & C & \emph{Coherence Representation in Multi-System Regulation} together with \emph{Inter-System Conflict Geometry in Cognitive Systems} & order alignment; inter-system conflict criterion \\
+		
+		R6.01 & The full framework is organized by layered admissibility & Proposition / Synthetic result & C & \emph{General Theory of Cognitive Structuring} & geometry; access; representation; structural updating \\
+		
+		R6.02 & Structural inconsistency, discrepancy accessibility, representation, and structural updating are distinct layers & Proposition / Synthetic result & C & \emph{General Theory of Cognitive Structuring} & restricted accessibility; representation; updating admissibility \\
+		
+		R6.03 & Representation is defined over a restricted admissible domain and does not reconstruct full structural deviation & Proposition / Synthetic result & C & \emph{General Theory of Cognitive Structuring} & admissible discrepancy domain; representation; restricted accessibility \\
+		
+		R6.04 & Overload introduces historical depth into admissibility across the framework & Proposition / Synthetic result & C & \emph{General Theory of Cognitive Structuring}, grounded in overload and trajectory papers & overload memory; trajectory dependence; admissibility operator \\
+		
+		R6.05 & Invariant structure is the architectural source of admissible geometry and compression is the mechanism of its non-equivalent transformation & Proposition / Synthetic result & C & \emph{General Theory of Cognitive Structuring} & invariant-induced geometry; compression; level transition \\
+		
+		R6.06 & Identity, representation, and inter-system regulation are downstream consequences of a common layered architecture & Proposition / Synthetic result & C & \emph{General Theory of Cognitive Structuring} & layered admissibility; identity; representation; inter-system alignment \\
+		
+		R6.07 & The General Theory functions as a synthetic convergence framework rather than as the hidden source of earlier branches & Meta-structural proposition & C & companion verification documents together with \emph{General Theory of Cognitive Structuring} & dependency architecture; synthetic integration \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	\section{Proof status note by family}
+	
+	\subsection{Results with full proof in source}
+	
+	The following results are currently treated as proof-complete in their source papers and are
+	therefore suitable for direct canonical reference, even where wording may later be normalized
+	further:
+	
+	\begin{itemize}[leftmargin=2em]
+		\item G1.01 --- Coherence as distance to the stability region
+		\item R2.01 --- Structural admissibility depends on the joint regulatory state
+		\item R2.02 --- Overload memory is not reducible to instantaneous tension
+		\item R2.03 --- Regulatory state is trajectory-dependent
+		\item R3.01 --- Invariant-induced stability geometry
+		\item R3.02 --- Global conflict is structured by invariant interaction architecture
+		\item R3.03 --- Compression is not equivalent to simplification
+		\item R3.04 --- Compression generates a new invariant
+		\item R4.01 --- Coherence representation is an internal regulatory variable rather than a reconstruction of geometric coherence
+		\item R4.05 --- Restricted accessibility of coherence
+		\item R5.05 --- Minimal transferable structure between systems is ordinal rather than metric
+	\end{itemize}
+	
+	\subsection{Results stated with proof sketch or partially compressed support}
+	
+	The following results are supported in their source papers but remain, in their current collected
+	form, sketch-level, assumption-local, or in need of cleaner canonical normalization:
+	
+	\begin{itemize}[leftmargin=2em]
+		\item R2.04 --- Overload deforms the admissibility boundary and introduces hysteresis
+		\item R3.05 --- Compression can preserve or transform admissible geometry
+		\item R3.07 --- Compression improves effective long-run regulatory stability
+		\item R4.04 --- Pre-symbolic admissibility determines the admissible discrepancy domain
+		\item R4.06 --- Non-injectivity of regulatory accessibility
+		\item R4.08 --- Repeated admissible propagation induces propagation bias
+		\item R4.09 --- Repeated admissible propagation may stabilize proto-structural channels
+		\item R5.01 --- Identity is derived as a regulatory attractor rather than introduced as a primitive self-representational object
+		\item R5.02 --- Low-overload concentration regions may function as identity-cores
+		\item R5.06 --- Multi-system co-regulation operates through aligned regulatory variables rather than through shared global structure
+		\item R5.07 --- Inter-system conflict is incompatibility of admissible discrepancy domains sufficient for coordinated regulation
+		\item R5.08 --- Inter-system conflict may exist without direct representation in one or both systems
+	\end{itemize}
+	
+	\subsection{Results canonically normalized here from distributed support}
+	
+	The following results are collected in canonical form from one or more papers. Their role in the
+	framework is stable, but the present note should not be read as upgrading them beyond the status
+	supported by their sources:
+	
+	\begin{itemize}[leftmargin=2em]
+		\item G1.02 --- Coherence is distinct from structural tension
+		\item R2.05 --- The regulatory phase space is minimally two-dimensional
+		\item R3.06 --- Level transition is a non-equivalent change in admissible geometry
+		\item R4.02 --- Coherence representation preserves regulatory order without requiring metric preservation
+		\item R4.07 --- Restricted accessibility is structural, not merely representationally approximate
+		\item R5.03 --- Identity persistence is regulatory rather than merely representational
+		\item R5.04 --- Inter-system comparability does not require shared metric coherence or shared configuration space
+		\item R5.09 --- Alignment and conflict are distinct extension problems
+		\item R6.01 --- The full framework is organized by layered admissibility
+		\item R6.02 --- Structural inconsistency, discrepancy accessibility, representation, and structural updating are distinct layers
+		\item R6.03 --- Representation is defined over a restricted admissible domain and does not reconstruct full structural deviation
+		\item R6.04 --- Overload introduces historical depth into admissibility across the framework
+		\item R6.05 --- Invariant structure is the architectural source of admissible geometry and compression is the mechanism of its non-equivalent transformation
+		\item R6.06 --- Identity, representation, and inter-system regulation are downstream consequences of a common layered architecture
+		\item R6.07 --- The General Theory functions as a synthetic convergence framework rather than as the hidden source of earlier branches
+	\end{itemize}
+	
+	\subsection{Definition-like or mixed-status inclusions kept for structural completeness}
+	
+	The following items are included in the collected propositions and theorems layer because they
+	function as structurally central separating results, even though they retain a definitional or
+	mixed status:
+	
+	\begin{itemize}[leftmargin=2em]
+		\item R4.03 --- Pre-symbolic admissibility is a distinct prior filtering layer
+	\end{itemize}
+	
+	\subsection{Results most in need of later proof-compendium consolidation}
+	
+	The following results are likely to benefit most from later extraction into a full normalized
+	proof layer:
+	
+	\begin{itemize}[leftmargin=2em]
+		\item R2.04 --- Overload deforms the admissibility boundary and introduces hysteresis
+		\item R3.05 --- Compression can preserve or transform admissible geometry
+		\item R3.07 --- Compression improves effective long-run regulatory stability
+		\item R4.06 --- Non-injectivity of regulatory accessibility
+		\item R4.08 --- Repeated admissible propagation induces propagation bias
+		\item R4.09 --- Repeated admissible propagation may stabilize proto-structural channels
+		\item R5.01 --- Identity is derived as a regulatory attractor rather than introduced as a primitive self-representational object
+		\item R5.02 --- Low-overload concentration regions may function as identity-cores
+		\item R5.06 --- Multi-system co-regulation operates through aligned regulatory variables rather than through shared global structure
+		\item R5.07 --- Inter-system conflict is incompatibility of admissible discrepancy domains sufficient for coordinated regulation
+		\item R5.08 --- Inter-system conflict may exist without direct representation in one or both systems
+	\end{itemize}
+	
+	\section{Results reserved for future proof compendium}
+	
+	The following result families are the most natural candidates for later extraction into a full
+	proof compendium.
+	
+	\subsection*{1. Core geometric and regulatory results}
+	
+	These results form the formal backbone of the framework and should be among the first to receive
+	full normalized proof treatment:
+	
+	\begin{itemize}[leftmargin=2em]
+		\item G1.01 --- Coherence as distance to the stability region
+		\item G1.02 --- Coherence is distinct from structural tension
+		\item R2.01 --- Structural admissibility depends on the joint regulatory state
+		\item R2.02 --- Overload memory is not reducible to instantaneous tension
+		\item R2.03 --- Regulatory state is trajectory-dependent
+		\item R2.04 --- Overload deforms the admissibility boundary and introduces hysteresis
+		\item R2.05 --- The regulatory phase space is minimally two-dimensional
+	\end{itemize}
+	
+	\subsection*{2. Invariant and compression results}
+	
+	These results form the architectural transformation branch and are likely to require a compact
+	lemma structure in a later proof layer:
+	
+	\begin{itemize}[leftmargin=2em]
+		\item R3.01 --- Invariant-induced stability geometry
+		\item R3.02 --- Global conflict is structured by invariant interaction architecture
+		\item R3.03 --- Compression is not equivalent to simplification
+		\item R3.04 --- Compression generates a new invariant
+		\item R3.05 --- Compression can preserve or transform admissible geometry
+		\item R3.06 --- Level transition is a non-equivalent change in admissible geometry
+		\item R3.07 --- Compression improves effective long-run regulatory stability
+	\end{itemize}
+	
+	\subsection*{3. Representation and accessibility results}
+	
+	These results are especially important because they fix the relation between geometry, access,
+	and internal regulatory approximation:
+	
+	\begin{itemize}[leftmargin=2em]
+		\item R4.01 --- Coherence representation is an internal regulatory variable rather than a reconstruction of geometric coherence
+		\item R4.02 --- Coherence representation preserves regulatory order without requiring metric preservation
+		\item R4.04 --- Pre-symbolic admissibility determines the admissible discrepancy domain
+		\item R4.05 --- Restricted accessibility of coherence
+		\item R4.06 --- Non-injectivity of regulatory accessibility
+		\item R4.07 --- Restricted accessibility is structural, not merely representationally approximate
+		\item R4.08 --- Repeated admissible propagation induces propagation bias
+		\item R4.09 --- Repeated admissible propagation may stabilize proto-structural channels
+	\end{itemize}
+	
+	\subsection*{4. Identity and multi-system results}
+	
+	These results are likely to require the most careful later normalization because they involve
+	either long-run assumptions or cross-system transfer conditions:
+	
+	\begin{itemize}[leftmargin=2em]
+		\item R5.01 --- Identity is derived as a regulatory attractor rather than introduced as a primitive self-representational object
+		\item R5.02 --- Low-overload concentration regions may function as identity-cores
+		\item R5.03 --- Identity persistence is regulatory rather than merely representational
+		\item R5.04 --- Inter-system comparability does not require shared metric coherence or shared configuration space
+		\item R5.05 --- Minimal transferable structure between systems is ordinal rather than metric
+		\item R5.06 --- Multi-system co-regulation operates through aligned regulatory variables rather than through shared global structure
+		\item R5.07 --- Inter-system conflict is incompatibility of admissible discrepancy domains sufficient for coordinated regulation
+		\item R5.08 --- Inter-system conflict may exist without direct representation in one or both systems
+		\item R5.09 --- Alignment and conflict are distinct extension problems
+	\end{itemize}
+	
+	\subsection*{5. Synthetic framework-level results}
+	
+	These results are best treated as canonical convergence statements and may or may not belong to a
+	future proof compendium in theorem-grade form. Their inclusion should remain explicitly
+	non-foundational:
+	
+	\begin{itemize}[leftmargin=2em]
+		\item R6.01 --- The full framework is organized by layered admissibility
+		\item R6.02 --- Structural inconsistency, discrepancy accessibility, representation, and structural updating are distinct layers
+		\item R6.03 --- Representation is defined over a restricted admissible domain and does not reconstruct full structural deviation
+		\item R6.04 --- Overload introduces historical depth into admissibility across the framework
+		\item R6.05 --- Invariant structure is the architectural source of admissible geometry and compression is the mechanism of its non-equivalent transformation
+		\item R6.06 --- Identity, representation, and inter-system regulation are downstream consequences of a common layered architecture
+		\item R6.07 --- The General Theory functions as a synthetic convergence framework rather than as the hidden source of earlier branches
+	\end{itemize}
+	
+	\section{Compact reference table}
+	
+	\begin{longtable}{>{\RaggedRight\arraybackslash}p{0.11\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.47\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.10\textwidth}
+			>{\RaggedRight\arraybackslash}p{0.18\textwidth}}
+		\toprule
+		\textbf{ID} & \textbf{Title} & \textbf{Status} & \textbf{Source} \\
+		\midrule
+		\endfirsthead
+		\toprule
+		\textbf{ID} & \textbf{Title} & \textbf{Status} & \textbf{Source} \\
+		\midrule
+		\endhead
+		
+		G1.01 & Coherence as distance to the stability region & P & coherence paper \\
+		
+		G1.02 & Coherence is distinct from structural tension & C & coherence paper \\
+		
+		R2.01 & Structural admissibility depends on the joint regulatory state & P & structural admissibility \\
+		
+		R2.02 & Overload memory is not reducible to instantaneous tension & P & overload formation \\
+		
+		R2.03 & Regulatory state is trajectory-dependent & P & trajectory regulation \\
+		
+		R2.04 & Overload deforms the admissibility boundary and introduces hysteresis & P/S & trajectory regulation \\
+		
+		R2.05 & The regulatory phase space is minimally two-dimensional & C & trajectory regulation + earlier regulatory papers \\
+		
+		R3.01 & Invariant-induced stability geometry & P & invariants paper \\
+		
+		R3.02 & Global conflict is structured by invariant interaction architecture & P & invariants paper \\
+		
+		R3.03 & Compression is not equivalent to simplification & P & compression paper \\
+		
+		R3.04 & Compression generates a new invariant & P & compression paper \\
+		
+		R3.05 & Compression can preserve or transform admissible geometry & P/S & compression paper \\
+		
+		R3.06 & Level transition is a non-equivalent change in admissible geometry & P/C & structural admissibility + compression \\
+		
+		R3.07 & Compression improves effective long-run regulatory stability & P/S & compression paper \\
+		
+		R4.01 & Coherence representation is an internal regulatory variable rather than a reconstruction of geometric coherence & P & emergence paper \\
+		
+		R4.02 & Coherence representation preserves regulatory order without requiring metric preservation & P/C & emergence paper + multi-system regulation \\
+		
+		R4.03 & Pre-symbolic admissibility is a distinct prior filtering layer & D/C & pre-symbolic paper \\
+		
+		R4.04 & Pre-symbolic admissibility determines the admissible discrepancy domain & P/S & pre-symbolic paper \\
+		
+		R4.05 & Restricted accessibility of coherence & P & restricted accessibility paper \\
+		
+		R4.06 & Non-injectivity of regulatory accessibility & P/S & restricted accessibility paper \\
+		
+		R4.07 & Restricted accessibility is structural, not merely representationally approximate & C & restricted accessibility paper \\
+		
+		R4.08 & Repeated admissible propagation induces propagation bias & S & pre-symbolic paper \\
+		
+		R4.09 & Repeated admissible propagation may stabilize proto-structural channels & S/O & pre-symbolic paper \\
+		
+		R5.01 & Identity is derived as a regulatory attractor rather than introduced as a primitive self-representational object & S/C & identity paper \\
+		
+		R5.02 & Low-overload concentration regions may function as identity-cores & S/P & identity paper \\
+		
+		R5.03 & Identity persistence is regulatory rather than merely representational & C & identity paper \\
+		
+		R5.04 & Inter-system comparability does not require shared metric coherence or shared configuration space & P/C & multi-system regulation \\
+		
+		R5.05 & Minimal transferable structure between systems is ordinal rather than metric & P & multi-system regulation \\
+		
+		R5.06 & Multi-system co-regulation operates through aligned regulatory variables rather than through shared global structure & S/C & multi-system regulation \\
+		
+		R5.07 & Inter-system conflict is incompatibility of admissible discrepancy domains sufficient for coordinated regulation & P/S & inter-system conflict \\
+		
+		R5.08 & Inter-system conflict may exist without direct representation in one or both systems & S/C & inter-system conflict \\
+		
+		R5.09 & Alignment and conflict are distinct extension problems & C & multi-system regulation + inter-system conflict \\
+		
+		R6.01 & The full framework is organized by layered admissibility & C & general theory \\
+		
+		R6.02 & Structural inconsistency, discrepancy accessibility, representation, and structural updating are distinct layers & C & general theory \\
+		
+		R6.03 & Representation is defined over a restricted admissible domain and does not reconstruct full structural deviation & C & general theory \\
+		
+		R6.04 & Overload introduces historical depth into admissibility across the framework & C & general theory + overload / trajectory papers \\
+		
+		R6.05 & Invariant structure is the architectural source of admissible geometry and compression is the mechanism of its non-equivalent transformation & C & general theory \\
+		
+		R6.06 & Identity, representation, and inter-system regulation are downstream consequences of a common layered architecture & C & general theory \\
+		
+		R6.07 & The General Theory functions as a synthetic convergence framework rather than as the hidden source of earlier branches & C & verification package + general theory \\
+		
+		\bottomrule
+	\end{longtable}
+	
+	
+	
+\end{document}
