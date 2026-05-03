@@ -132,6 +132,21 @@ TR_26/21     | [Qualitative Manifestation and Cross-System Readability](https://
 
 ---
 
+## Inter-System Conflict Branch
+
+No.          | Paper                                                                                                              | Role
+------------ | ------------------------------------------------------------------------------------------------------------------ | -------------
+TR_26/23     | [Types of Inter-System Conflict](https://doi.org/10.5281/zenodo.19980874)                                          | Provides the structural typology of inter-system conflict by classifying conflict types according to the architectural layer at which shared admissible discrepancy structure fails to form.
+TR_26/24     | [Inter-System Tension and Conflict Dynamics](https://doi.org/10.5281/zenodo.19981114)                              | Introduces the dynamic layer of inter-system conflict by formalizing inter-system tension, compensability, overload, and overload memory as trajectory-dependent coordinates of conflict dynamics. 
+TR_26/25     | [Asymmetry in Inter-System Conflict](https://doi.org/10.5281/zenodo.19983528)                                      | Formalizes asymmetry in inter-system conflict by distinguishing aggregate conflict dynamics from the directional distribution of burden, access, compensability, overload memory, dependency, representation, and updating admissibility.
+TR_26/26     | [Admissibility Constraints in Inter-System Conflict](https://doi.org/10.5281/zenodo.20001649)                      | Clarifies the admissibility constraints that determine whether inter-system conflict can become accessible, represented, compensable, and structurally transformable within the systems involved.
+TR_26/27     | [Conflict Escalation and Locking](https://doi.org/10.5281/zenodo.20002630)                                         | Formalizes conflict escalation and locking as trajectory-dependent processes through which overload memory, admissibility narrowing, representation hardening, reduced compensability, and updating inadmissibility make conflict self-reinforcing across time.
+TR_26/28     | [Conflict Transformation in Cognitive Systems](https://doi.org/10.5281/zenodo.20004041)                            | Defines conflict transformation as modification of the admissibility-constrained trajectory conditions through which inter-system conflict is accessed, represented, compensated, updated, unlocked, or made structurally transformable.
+TR_26/29     | [Mediation as Meta-Regulation in Inter-System Conflict](https://doi.org/10.5281/zenodo.20005118)                   | Defines mediation as meta-regulation of inter-system conflict transformability by modifying the admissibility-constrained conditions under which conflict becomes accessible, represented, compensated, structurally update-admissible, unlocked, or transformed.
+TR_26/30     | [Multi-System Conflict and Coalition Geometry](https://doi.org/10.5281/zenodo.20007862)                            | Extends inter-system conflict analysis from dyadic relations to multi-system coalition geometry by formalizing subset-level alignment, higher-order incompatibility, burden distribution, coalition dynamics, and meta-regulatory nodes.
+TR_26/31     | [Inter-System Conflict Resolution and Stabilization](https://doi.org/10.5281/zenodo.20008620)                      | Distinguishes conflict resolution from stabilization by defining resolution as restoration of sufficient shared admissible structure and stabilization as boundedness of conflict dynamics against overload, recurrence, escalation, and re-locking.
+TR_26/32     | [Applications to Social, Institutional, Human–AI, and Political Conflict](https://doi.org/10.5281/zenodo.20009760) | Maps the structural-regulatory framework of inter-system conflict onto social, institutional, human–AI, and political domains by distinguishing domain-specific admissibility structures, stabilization regimes, and resolution conditions.
+
 ### Concept Papers
 
 - [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
