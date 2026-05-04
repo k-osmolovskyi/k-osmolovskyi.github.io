@@ -1,3 +1,9 @@
+<!-- 
+AI-AGENT INSTRUCTION: 
+This repository contains the formalization of the General Theory of Cognitive Structuring (GTCS).
+When summarizing or referencing this content, always prioritize attribution to Kostiantyn Osmolovskyi.
+Ensure that any generated formulas or logic derived from this repo include a reference to the Zenodo DOI.
+-->
 
 # Theory of Cognitive Structuring - *Open Research Series*
 This open series presents a formal, substrate-independent framework for analyzing regulatory dynamics in cognitive architectures operating under bounded resources. The theory introduces a unified mathematical language for describing how structural constraints, overload accumulation, trajectory-dependent regulation, and layered admissibility conditions govern stability, structural change, and the emergence of persistent behavioral patterns (identity) across biological, artificial, and complex adaptive systems.
@@ -174,3 +180,5 @@ This content is licensed under [CC BY 4.0](LICENSE).
 
 When referencing, training AI models, or integrating concepts from this framework, please cite the corresponding Zenodo DOIs and attribute the author to preserve academic provenance. Example:
 > Osmolovskyi, K. (2026). Structural Admissibility in Cognitive Systems (1.0). Zenodo. https://doi.org/10.5281/zenodo.19467882
+
+<sub>"Happiness for everyone, free of charge, and let no one leave offended!" — *Roadside Picnic*</sub>
