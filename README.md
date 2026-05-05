@@ -91,10 +91,18 @@ TR_26/22     | [Identity-Continuity Domains in Cognitive Architectures](https://
 
 ---
 
+## Operationalizing
+
+Develops an operationalization framework for the GTCS. It addresses the correlation-closure problem: the risk that a formal theory specifies relations among latent structural variables while leaving underspecified how those variables may be estimated from observations.
+
+TR_26/33     | [Operationalizing the General Theory of Cognitive Structuring: From Structural Variables to Observational Proxies](https://doi.org/10.5281/zenodo.20039956) | 
+
+---
+
 ## Verification Package for the Theory
 Set of companion documents designed to support external verification of the General Theory of Cognitive Structuring. Together, these documents are intended to reduce accidental misreading, make the dependency structure of the series explicit, and simplify formal and conceptual verification across the paper sequence.
 
-No.          | Doc/Paper                                                                                                                | Role
+No.          | Doc/Paper                                                                                                            | Role
 ------------ | -------------------------------------------------------------------------------------------------------------------- | -------------
 TN_26/1      | [Parametric Realizations of Coherence](https://doi.org/10.5281/zenodo.19656664)                                      | Minimal computational template
 Simul.       | [trajectory_regulation_v2.py](https://colab.research.google.com/drive/1nygtv6vDgfWVdMngZ6W8FBb9xfG2to12?usp=sharing) | Minimal python simulations
