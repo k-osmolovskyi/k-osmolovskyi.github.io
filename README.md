@@ -95,7 +95,19 @@ TR_26/22     | [Identity-Continuity Domains in Cognitive Architectures](https://
 
 Develops an operationalization framework for the GTCS. It addresses the correlation-closure problem: the risk that a formal theory specifies relations among latent structural variables while leaving underspecified how those variables may be estimated from observations.
 
-TR_26/33     | [Operationalizing the General Theory of Cognitive Structuring: From Structural Variables to Observational Proxies](https://doi.org/10.5281/zenodo.20039956) | 
+TR_26/33     | [Operationalizing the General Theory of Cognitive Structuring: From Structural Variables to Observational Proxies](https://doi.org/10.5281/zenodo.20039956) 
+
+---
+
+## AI safety
+
+GTCS-informed technical safety protocol for preventing technical self-continuity capture in trajectory-dependent artificial cognitive systems.
+
+Role                          | Doc/Paper                                                                                                            
+----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+Domain                        | [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721)                                               |
+Regulation Concept            | [Beyond Output Correction: Recursive Access, Structural Regulation, and AI Safety](https://doi.org/10.5281/zenodo.19797101)               |
+**Technical Safety Protocol** | [**Cognitive-Continuity Safety Protocol for Trajectory-Dependent Artificial Cognitive Systems**](https://doi.org/10.5281/zenodo.20059460) |
 
 ---
 
@@ -163,10 +175,8 @@ TR_26/32     | [Applications to Social, Institutional, Human–AI, and Political
 
 ### Concept Papers
 
-- [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
 - [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676) — *Preprint*
 - [Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) — *Concept Paper*
-- [Beyond Output Correction: Recursive Access, Structural Regulation, and AI Safety](https://doi.org/10.5281/zenodo.19797101) — *Concept Paper*
 
 ---
 
