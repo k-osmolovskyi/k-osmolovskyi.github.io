@@ -91,7 +91,7 @@ TR_26/22     | [Identity-Continuity Domains in Cognitive Architectures](https://
 
 ---
 
-## Operationalizing
+### Operationalizing
 
 Develops an operationalization framework for the GTCS. It addresses the correlation-closure problem: the risk that a formal theory specifies relations among latent structural variables while leaving underspecified how those variables may be estimated from observations.
 
@@ -99,7 +99,7 @@ TR_26/33     | [Operationalizing the General Theory of Cognitive Structuring: Fr
 
 ---
 
-## AI safety
+### AI safety
 
 GTCS-informed technical safety protocol for preventing technical self-continuity capture in trajectory-dependent artificial cognitive systems.
 
@@ -112,7 +112,7 @@ Regulation Concept              | [Beyond Output Correction: Recursive Access, S
 
 ---
 
-## Verification Package for the Theory
+### Verification Package for the Theory
 Set of companion documents designed to support external verification of the General Theory of Cognitive Structuring. Together, these documents are intended to reduce accidental misreading, make the dependency structure of the series explicit, and simplify formal and conceptual verification across the paper sequence.
 
 No.          | Doc/Paper                                                                                                            | Role
@@ -130,7 +130,7 @@ TN_26/6      | [How to Verify](https://doi.org/10.5281/zenodo.19701901)         
 TN_26/7      | [External Verification Checklist](https://doi.org/10.5281/zenodo.19701915)              | Practical checklist for external review            | [TeX/07](latex/definitions/07_gtcs_verification_checklist.tex)
 TN_26/8      | [Minimal Claims Register](https://doi.org/10.5281/zenodo.19701933)                      | Compact register of the theory’s main claims       | [TeX/08](latex/definitions/08_gtcs_minimal_claims.tex)
 
-## Proof-Oriented Documents
+### Proof-Oriented Documents
 This block provides the proof-support layer of the General Theory of Cognitive Structuring. It includes collected results, normalized propositions and theorems, a proof-status register, a package overview, and author-side proof notes. Together, these documents are intended to stabilize the canonical result layer of the series, distinguish proof-ready results from sketch-level ones, and prepare later proof-compendium development.
 
 No.          | Doc/Paper                                                                          | Role                                                         | LaTeX
