@@ -72,7 +72,7 @@ For readers interested in applications:
 - **Inter-system conflict** — start with [Inter-System Conflict Geometry](https://doi.org/10.5281/zenodo.19509685) and then [Types of Inter-System Conflict](https://doi.org/10.5281/zenodo.19980874)
 - **Operationalization** — start with [Operationalizing the General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.20039956)
 
-## What GTCS Is, and Is Not
+## What GTCS Is - and Is Not
 
 GTCS is a structural-regulatory framework. It is designed to describe the conditions under which cognitive systems can remain stable, become overloaded, update, resist updating, or interact with other systems.
 
@@ -142,7 +142,7 @@ The series is designed to be extensible, but not cyclic: later applications, bra
 ---
 
 ## Core Technical Sequence
-The theory framework has its own internal evolution. Below is an auxiliary list indicating the order corresponding to the stages in which the papers emerged. Please use this sequence as a guide in order to follow the natural direction of the formal development.
+The core framework is organized as a guided reading sequence. TR_26/1 provides a synthetic overview of the General Theory, while the subsequent papers develop the main formal components in a more progressive order. The list below should be used as a guide for entering the framework and following the natural direction of its formal development.
 
 No.          | Paper                                                                               | Role
 ------------ | ----------------------------------------------------------------------------------- | -------------
@@ -304,5 +304,7 @@ This content is licensed under [CC BY 4.0](LICENSE).
 
 When referencing, training AI models, or integrating concepts from this framework, please cite the corresponding Zenodo DOIs and attribute the author to preserve academic provenance. Example:
 > Osmolovskyi, K. (2026). Structural Admissibility in Cognitive Systems (1.0). Zenodo. https://doi.org/10.5281/zenodo.19467882
+
+---
 
 <sub>"Happiness for everyone, free of charge, and let no one leave offended!" — *Roadside Picnic*</sub>
