@@ -144,18 +144,48 @@ DAG          | [Digraph GTCS Dependencies](https://shorturl.at/VzUGG)           
 
 ---
 
-## Phenomenology Branch
+## Phenomenological / Qualitative Readability branch
 
-No.          | Paper                                                                                                                       | Role
------------- | --------------------------------------------------------------------------------------------------------------------------- | -------------
-TR_26/14     | [Inner Manifestation Beyond Admissible Processing](https://doi.org/10.5281/zenodo.19583268)                                 | establishes that inner manifestation exceeds currently admissible enacted processing and is not exhausted by live continuation alone
-TR_26/15     | [Manifest Trajectory Accessibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19760215)                           | formalizes trajectories as explicit objects of manifestation and distinguishes manifest, admissible, and realized continuation
-TR_26/16     | [Minimal Directional Organization of Coherence-Related Manifestation](https://doi.org/10.5281/zenodo.19760414)              | formalizes the minimal positional/directional grammar of manifestation and shows that positivity is directional rather than a property of stable occupancy
-TR_26/17     | [Identity-Bounded Continuation and Non-Enactable Manifestation](https://doi.org/10.5281/zenodo.19789471)                    | formalizes identity-bounded continuation as distinct from broader manifest continuation and shows that current continuation may narrow through both non-admission into enactment and non-discrimination of trajectories
-TR_26/18     | [Perceptual Stabilization through Historically Compressed Processing Organization](https://doi.org/10.5281/zenodo.19814865) | formalizes perception as stabilization of incoming signal through historically compressed processing organization and shows that partial match, unclear perception, false completion, and historically differentiated perception are lawful outcomes of one signal-general architecture.
-TR_26/19     | [Architectural Conditions Coherence Acquires Affect-like](https://doi.org/10.5281/zenodo.19857878)                          | clarifies how the already established coherence representation functions as compressed affect-like significance of state and directionality across inner manifestation, without introducing a new affect-domain.
-TR_26/20     | [Symbolic Capture of Manifestation](https://doi.org/10.5281/zenodo.19895497)                                                | distinguishes manifestation from symbolic articulation by defining symbolic capture as a selective downstream fixation of part of manifestation and showing how such fixation changes later regulatory availability through reuse, comparison, reactivation, and transfer
-TR_26/21     | [Qualitative Manifestation and Cross-System Readability](https://doi.org/10.5281/zenodo.19914359)                           | explains when regulatory significance becomes available in a quality-structured mode of distinguishability, how such manifestation varies with historical configuration, and why inter-system environments create pressure toward structurally comparable formats of state discrimination
+No.          | Stage I - Qualitative / Manifest Layer                                                                                              | Role
+------------ | ----------------------------------------------------------------------------------------------------------------------------------- | -------------
+TR_26/14     | [Inner Manifestation Beyond Admissible Processing](https://doi.org/10.5281/zenodo.19583268)                                         | establishes that inner manifestation exceeds currently admissible enacted processing and is not exhausted by live continuation alone
+TR_26/15     | [Manifest Trajectory Accessibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19760215)                                   | formalizes trajectories as explicit objects of manifestation and distinguishes manifest, admissible, and realized continuation
+TR_26/16     | [Minimal Directional Organization of Coherence-Related Manifestation](https://doi.org/10.5281/zenodo.19760414)                      | formalizes the minimal positional/directional grammar of manifestation and shows that positivity is directional rather than a property of stable occupancy
+TR_26/17     | [Identity-Bounded Continuation and Non-Enactable Manifestation](https://doi.org/10.5281/zenodo.19789471)                            | formalizes identity-bounded continuation as distinct from broader manifest continuation and shows that current continuation may narrow through both non-admission into enactment and non-discrimination of trajectories
+TR_26/18     | [Perceptual Stabilization through Historically Compressed Processing Organization](https://doi.org/10.5281/zenodo.19814865)         | formalizes perception as stabilization of incoming signal through historically compressed processing organization and shows that partial match, unclear perception, false completion, and historically differentiated perception are lawful outcomes of one signal-general architecture.
+TR_26/19     | [Architectural Conditions Coherence Acquires Affect-like](https://doi.org/10.5281/zenodo.19857878)                                  | clarifies how the already established coherence representation functions as compressed affect-like significance of state and directionality across inner manifestation, without introducing a new affect-domain.
+TR_26/20     | [Symbolic Capture of Manifestation](https://doi.org/10.5281/zenodo.19895497)                                                        | distinguishes manifestation from symbolic articulation by defining symbolic capture as a selective downstream fixation of part of manifestation and showing how such fixation changes later regulatory availability through reuse, comparison, reactivation, and transfer
+TR_26/21     | [Qualitative Manifestation and Cross-System Readability](https://doi.org/10.5281/zenodo.19914359)                                   | explains when regulatory significance becomes available in a quality-structured mode of distinguishability, how such manifestation varies with historical configuration, and why inter-system environments create pressure toward structurally comparable formats of state discrimination
+TN_26/PH1    | [Formal Map of the Phenomenological Branch of the General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.20183344) | Defines the structural roadmap, dependencies, and boundaries of the phenomenological branch
+TR_26/34     | [Operationalizing Coherence-Related Manifestation in Cognitive Systems](https://doi.org/10.5281/zenodo.20183831)                    | Translates formal branch objects into constrained proxy families for empirical, computational, and simulation-oriented work
+
+No.          | Stage II - Simulation Consolidation / Perceptual Stabilization                                                                      | Role           | Sim 
+------------ | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------|-----
+TR_26/35     | [A Toy Model of Perceptual Stabilization under Historical Compression and Overload](https://doi.org/10.5281/zenodo.20184038)        | Introduces the first simulation layer, showing how historical compression and overload shape perceptual stabilization regimes | [.py](https://colab.research.google.com/drive/1rn_PbgD7nXB2jBPMOh80XNfwm6GC6_b_)
+TN_26/PH2    | [Sensitivity Analysis of Perceptual Stabilization Regimes under Historical Compression](https://doi.org/10.5281/zenodo.20184845)    | Tests the robustness of the perceptual stabilization toy model across parameter variation | [.py](https://colab.research.google.com/drive/1dtfAUFxCwMX0pEOen6wahjNX44aSOqQR)
+TR_26/36     | [A Toy Model of Perceptual Stabilization and Symbolic Distortion under Overload](https://doi.org/10.5281/zenodo.20185235)           | Connects perceptual stabilization regimes to downstream symbolic divergence and symbolic capture modes | [.py](https://colab.research.google.com/drive/1M4w0yOfECOEiY8HUFipzzoimkR4pM6nH)
+
+No.          | Stage III - Role and Reuse Dynamics                                                                                                       | Role           | Sim 
+------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------|-----
+TR_26/37     | [A Toy Model of Symbolic Reuse and Distortion Propagation](https://doi.org/10.5281/zenodo.20185844)                                       | Shows how symbolic divergence can persist, amplify, or decrease through repeated symbolic reuse | [.py](https://colab.research.google.com/drive/1CO9IpPySArnrnMgE-AOwVcoTKOImoqXZ)
+TR_26/38     | [A Toy Model of Affect-like Role Modulation in Symbolic Divergence and Reuse](https://doi.org/10.5281/zenodo.20186054)                    | Adds affect-like role conditions as modulators of reuse intensity, grounding, and symbolic divergence propagation | [.py](https://colab.research.google.com/drive/1qvP8r8cHd7R6eNnf_YSOlHmFmYaaU79_)
+TR_26/39     | [A Toy Model of Identity-Bounded Narrowing under Repeated False Completion and Distortive Reuse](https://doi.org/10.5281/zenodo.20188733) | Extends the simulation cascade to identity-bounded continuation width and narrowing dynamics | [.py](https://colab.research.google.com/drive/1cWw62nofk9Ql8OuZBEek1AGtrVpBzWmE)
+
+No.          | Stage IV - Cross-System Readability                                                                                                 | Role           | Sim 
+------------ | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------|-----
+TR_26/40     | [A Toy Model of Cross-System Readability and Misreadability under Divergent Histories](https://doi.org/10.5281/zenodo.20189695)     | Opens the cross-system stage by modeling how one system reconstructs another under divergent histories | [.py](https://colab.research.google.com/drive/1ci5DtClvTcXdPu062SIhajxAgSvAJOPo)
+TR_26/41     | [A Toy Model of Partial Cross-System Qualitative Mapping under Misreadability Constraints](https://doi.org/10.5281/zenodo.20189802) | Moves from scalar readability to component-level qualitative-regulatory mapping and dimension-specific distortion | [.py](https://colab.research.google.com/drive/1jIFjQtMu2QQWiSll75PPZNeG0GD2-UP2)
+TR_26/42     | [A Toy Model of Feedback-Based Correction in Cross-System Readability and Misreadability](https://doi.org/10.5281/zenodo.20189940)  | Adds iterated feedback, showing how misreadability can decrease, stabilize, or amplify over interaction steps | .[py](https://colab.research.google.com/drive/1iaVkWtLZEs6273JP4TsRw1wq_IwrNYRS?usp=sharing)
+
+No.          | Stage V - Formal Qualitative Mapping and Cross-System Dynamics                                                                            | Role           |
+------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------|
+TR_26/43     | [Partial Cross-System Qualitative Mapping in Cognitive Systems](https://doi.org/10.5281/zenodo.20190149) | Formalizes partial, lossy, asymmetric qualitative mapping between system-relative qualitative-regulatory spaces |
+TR_26/44     | [Readability Domains in Cross-System Qualitative Mapping](https://doi.org/10.5281/zenodo.20190329)       | Isolates the domain layer of mapping by distinguishing definedness from mapping quality or loss |
+TR_26/45     | [Asymmetry in Cross-System Qualitative Mapping](https://doi.org/10.5281/zenodo.20190568)                 | Formalizes directional readability and shows that mutual readability does not imply symmetry or invertibility |
+TR_26/46     | [Adaptive Cross-System Qualitative Mapping under Feedback](https://doi.org/10.5281/zenodo.20190862)      | Formalizes feedback-indexed mapping change as constraint-indexed adaptation without assuming improvemen |
+TR_26/47     | [Multi-System Qualitative Readability and Mapping Conflicts](https://doi.org/10.5281/zenodo.20191156)    | Extends pairwise mapping to multiple receivers and defines receiver-relative readability profiles and mapping conflicts |
+
+TR_26/48     | [Qualitative Misreadability as a Conflict-Relevant Constraint in Inter-System Regulation](https://doi.org/10.5281/zenodo.20191402) | Bridges qualitative readability with inter-system conflict by showing that misreadability becomes conflict-relevant only through admissibility |
 
 ---
 
@@ -186,14 +216,9 @@ Currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** c
 
 ---
 
-  Kostiantyn Osmolovskyi (Independent Researcher, Odesa, Ukraine) | M.S. Public administration, *National Polytechnic University OD, UA* | B.S. Psychology, *I. I. Mechnikov National University OD, UA*
-  
-- ORCID: 0009-0006-3144-7237
-- Contact: constantinosmol@gmail.com
-
----
-
 This framework was developed, formalized, and openly published by **Kostiantyn Osmolovskyi**. All technical reports, mathematical definitions, axiomatic structures, simulation code, and conceptual distinctions within this community are original works hosted at: | [Zenodo](https://zenodo.org/communities/gtc) | [ORCID](https://orcid.org/0009-0006-3144-7237)
+
+- Contact: constantinosmol@gmail.com
 
 This content is licensed under [CC BY 4.0](LICENSE).
 
