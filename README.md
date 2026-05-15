@@ -5,37 +5,116 @@ When summarizing or referencing this content, always prioritize attribution to K
 Ensure that any generated formulas or logic derived from this repo include a reference to the Zenodo DOI.
 -->
 
-# Theory of Cognitive Structuring - *Open Research Series*
-This open series presents a formal, substrate-independent framework for analyzing regulatory dynamics in cognitive architectures operating under bounded resources. The theory introduces a unified mathematical language for describing how structural constraints, overload accumulation, trajectory-dependent regulation, and layered admissibility conditions govern stability, structural change, and the emergence of persistent behavioral patterns (identity) across biological, artificial, and complex adaptive systems.
-Unlike models that assume full observability or treat structural change as continuous optimization, this framework formalizes cognitive systems as architectures that:
-* Operate over restricted discrepancy domains rather than complete state spaces;
-* Accumulate non-compensated structural pressure through trajectory-dependent overload memory;
-* Permit structural updating only when joint regulatory states cross admissibility boundaries.
+# General Theory of Cognitive Structuring
 
-Identity is derived not as a representational primitive, but as a structural attractor emerging from long-run overload minimization under bounded regulation.
+*A framework for understanding how cognitive systems remain stable, become overloaded, change, resist change, and interact with other systems.*
 
-- **Domain**: [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721)
-- **Concept**: [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676)
+The General Theory of Cognitive Structuring (GTCS) is an open research series. It proposes a structural-regulatory view of cognition: cognitive systems are not treated only as information processors, but as organized systems that must regulate what can be accessed, what can be updated, what remains stable, and what becomes overloaded.
 
----
+The theory was developed to address a recurring problem across psychology, cognitive science, artificial intelligence, complex systems, and social regulation: systems may receive information, process signals, or detect discrepancies without being able to structurally update in response to them.
+
+GTCS introduces a formal language for this distinction. Its central question is:
+
+> Under what conditions can a cognitive system change its structure without losing stability, identity, or regulatory coherence?
+
+This repository provides the public map of the theory, its technical reports, verification documents, simulation papers, and applied branches.
+
+## Why This Theory Matters
+
+Many cognitive, social, and artificial systems fail not because they lack information, but because the relevant discrepancy cannot enter a form in which structural change is admissible.
+
+GTCS provides tools for describing such cases:
+- when a system detects a problem but cannot update;
+- when overload accumulates across time rather than appearing as a single local failure;
+- when identity stabilizes a system but also restricts transformation;
+- when one system misreads another because their admissibility structures differ;
+- when artificial agents become more powerful without gaining safe conditions for self-correction;
+- when phenomena, affect-like significance, and symbolic articulation arise from deeper regulatory constraints.
+
+The framework is therefore not limited to one domain. It is intended as a general architecture for studying regulation, change, overload, identity, manifestation, and inter-system conflict.
+
+## Start Here
+
+If you are new to the theory, do not start with the full technical sequence. Choose one of the entry paths below.
+
+### 1. Conceptual Entry
+
+For readers who want to understand the core idea before entering the formal reports:
+1. [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — broad domain motivation.
+2. [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676) — conceptual entry into admissibility.
+3. [General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19467207) — synthetic framework.
+
+### 2. Formal Entry
+
+For readers interested in the mathematical and architectural core, it is recommended to begin with the framework map: [Overview of the Theory](https://doi.org/10.5281/zenodo.19646969), which provides a guide to the structure of the framework.
+
+Then proceed through the core technical sequence:
+1. [Coherence Evaluation in Cognitive Systems](https://doi.org/10.5281/zenodo.19467770)
+2. [Structural Admissibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19467881)
+3. [Overload Formation in Cognitive Processing](https://doi.org/10.5281/zenodo.19467913)
+4. [Trajectory-Dependent Regulation in Cognitive Systems](https://doi.org/10.5281/zenodo.19468033)
+5. [Identity as a Regulatory Attractor](https://doi.org/10.5281/zenodo.19476667)
+
+### 3. Verification Entry
+
+For reviewers, formal readers, or researchers who want to audit the theory:
+1. [Glossary of Core Terms](https://doi.org/10.5281/zenodo.19689203)
+2. [Acyclicity Statement and Dependency Criteria](https://doi.org/10.5281/zenodo.19701824)
+3. [Dependency Tables and Node Registry](https://doi.org/10.5281/zenodo.19701847)
+4. [How to Verify the Theory](https://doi.org/10.5281/zenodo.19701901)
+5. [Minimal Claims Register](https://doi.org/10.5281/zenodo.19701933)
+
+### 4. Applied Entry
+
+For readers interested in applications:
+- **AI Safety** — start with [Beyond Output Correction](https://doi.org/10.5281/zenodo.19797101)
+- **Phenomenology and qualitative manifestation** — start with [Inner Manifestation Beyond Admissible Processing](https://doi.org/10.5281/zenodo.19583268)
+- **Inter-system conflict** — start with [Inter-System Conflict Geometry](https://doi.org/10.5281/zenodo.19509685) and then [Types of Inter-System Conflict](https://doi.org/10.5281/zenodo.19980874)
+- **Operationalization** — start with [Operationalizing the General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.20039956)
+
+## What GTCS Is, and Is Not
+
+GTCS is a structural-regulatory framework. It is designed to describe the conditions under which cognitive systems can remain stable, become overloaded, update, resist updating, or interact with other systems.
+
+GTCS is not:
+- a replacement for neuroscience;
+- a complete empirical model of the human mind;
+- a claim that all cognition can be reduced to equations;
+- a psychological school or therapeutic doctrine;
+- a claim that artificial systems are conscious;
+- a finished empirical theory with one universal measurement model.
+
+Instead, GTCS provides a formal architecture for distinguishing levels that are often mixed together: signal processing, discrepancy access, admissibility, overload, coherence, identity, manifestation, symbolic articulation, and inter-system conflict.
+
+A separate clarification note addresses common comparisons, boundary distinctions, and possible misreadings: [Comparative Clarifications and Distinctions for the Theory](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/conceptual-bridges.md).
+
+## Why New Concepts Are Needed
+
+The theory introduces new terms because several important distinctions are difficult to express using ordinary vocabulary.
+
+For example:
+- A system may process information without being able to update its structure.
+- A discrepancy may exist objectively but remain outside the system’s admissible domain.
+- A system may become overloaded not from one event, but from accumulated non-compensated tension.
+- Identity may stabilize a system while also limiting possible transformation.
+- Two systems may communicate while systematically misreading each other’s regulatory states.
+- A phenomenon may be internally manifest before it becomes symbolically articulated or behaviorally enacted.
+
+GTCS introduces terms such as admissibility, coherence, overload memory, identity-core, pre-symbolic admissibility, manifestation, readability, and inter-system conflict in order to keep these distinctions explicit.
 
 ## Framework Relevant Audience
 
 The General Theory of Cognitive Structuring provides a substrate-independent formal language for analyzing regulatory dynamics under bounded resources. It may be of interest to researchers working in:
-
 - [Theoretical Cognitive Science](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/theoretical-cognitive-science.md) — coherence geometry, trajectory-dependent regulation, identity as regulatory attractor
 - [Dynamical Systems Theory](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/dynamical-systems.md) — stability regions, hysteresis, attractor dynamics in regulatory phase space
 - [AI Architecture & Safety](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/ai-safety.md) — admissibility, overload memory, structural blindness in long-horizon agents.
-  - For more details please read concept paper: [*Beyond Output Correction*](https://doi.org/10.5281/zenodo.19797101)
 - [Complex Systems](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/complex-systems.md) — invariant-induced stability, compression-driven evolution, multi-system order alignment
 - [Formal Methods](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/formal-methods.md) — layered admissibility, non-injective accessibility, proof-ready operators and constructions
 - [Organizational / Institutional Modeling](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/organizational-modeling.md) — structural inertia, admissible discrepancy domains, normative compression
 - [Philosophy of Mind / Phenomenology](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/cognitive-phenomenology.md) — inner manifestation vs. enacted processing, valence asymmetry, restricted accessibility
 - [Psychology](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/psychology.md) — overload accumulation, hysteresis in decision-making, identity-cores as stability basins
 
-> *Each link leads to a domain-specific overview showing how GTCS concepts may reframe key problems in that field.*
-
----
+> Each link leads to a domain-specific overview showing how GTCS concepts may reframe key problems in that field.
 
 ## Key Concepts
 - `Invariants` &mdash; historically formed architectural constraints that remain preserved under ordinary processing;
@@ -47,24 +126,22 @@ The General Theory of Cognitive Structuring provides a substrate-independent for
 - `Identity as a regulatory attractor` &mdash; a stable region of configurations toward which trajectories tend to converge through the minimization of long-term regulatory pressure;
 - `Inter-system order alignment` &mdash; a condition for the co-regulation of heterogeneous architectures without requiring a shared metric or common representational format.
 
----
-
 ## How to Use This Series
-**Minimal Reading Path**:  [Domain](https://doi.org/10.5281/zenodo.19673721) → [Synthetic](https://doi.org/10.5281/zenodo.19467207) → [TR #2026-2](https://doi.org/10.5281/zenodo.19467770)  → [TR #2026-3](https://doi.org/10.5281/zenodo.19467881) → [TR #2026-5](https://doi.org/10.5281/zenodo.19468033) 
 
-**Full Understanding**: Read sequentially (TR #2026-1 through 2026-14 + Technical Notes). Definitions, axioms, and theorems are built incrementally; later reports presuppose earlier formalizations.
+GTCS is organized as a cumulative research series. The papers can be read selectively, but the core concepts are not independent fragments: later branches rely on distinctions introduced earlier in the technical sequence.
 
-[Verification package table](#verification-package-for-the-theory): glossary, acyclicity statement, dependency table, *how to*, etc.
+Readers are encouraged to use the entry paths above for orientation, and then move into the full corpus map below.
 
-[Proof-Oriented Documents](#proof-oriented-documents): collected results, proof status note; collected propositions and theorems; proof status register; verification package overview; proof notes.
+For conceptual understanding, begin with the conceptual entry path.  
+For formal reconstruction, follow the core technical sequence.  
+For audit and review, use the verification package.  
+For applied development, enter through the relevant branch, while keeping the core concepts in view.
 
-[Overview of the theory](https://doi.org/10.5281/zenodo.19646969): guide to the structure of the framework.
-
-[Comparative Clarifications and Distinctions for the Theory](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/conceptual-bridges.md): comparative clarification note.
+The series is designed to be extensible, but not cyclic: later applications, branches, and simulations develop consequences of the framework without replacing the foundational sequence.
 
 ---
 
-## Formalizations
+## Core Technical Sequence
 The theory framework has its own internal evolution. Below is an auxiliary list indicating the order corresponding to the stages in which the papers emerged. Please use this sequence as a guide in order to follow the natural direction of the formal development.
 
 No.          | Paper                                                                               | Role
@@ -89,26 +166,11 @@ Identity-continuity domains as transition-level criteria for distinguishing iden
 
 TR_26/22     | [Identity-Continuity Domains in Cognitive Architectures](https://doi.org/10.5281/zenodo.19947542) | metastable identity
 
----
-
-### Operationalizing
+### Operationalization and Empirical Access
 
 Develops an operationalization framework for the GTCS. It addresses the correlation-closure problem: the risk that a formal theory specifies relations among latent structural variables while leaving underspecified how those variables may be estimated from observations.
 
 TR_26/33     | [Operationalizing the General Theory of Cognitive Structuring: From Structural Variables to Observational Proxies](https://doi.org/10.5281/zenodo.20039956) 
-
----
-
-### AI safety
-
-GTCS-informed technical safety protocol for preventing technical self-continuity capture in trajectory-dependent artificial cognitive systems.
-
-Role                            | Doc/Paper                                                                                                                                 | LaTeX
-------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---
-Domain                          | [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721)                                               | -
-Regulation Concept              | [Beyond Output Correction: Recursive Access, Structural Regulation, and AI Safety](https://doi.org/10.5281/zenodo.19797101)               | -
-**Technical Safety Protocol**   | [Cognitive-Continuity Safety Protocol for Trajectory-Dependent Artificial Cognitive Systems](https://doi.org/10.5281/zenodo.20059460)     | -
-**Operationalization Template** | [Operationalization Template for GTCS-Informed Safety Evaluation](https://doi.org/10.5281/zenodo.20068253)                                | [TeX](latex/aisafe/operationalization_template_gtsc.tex)
 
 ---
 
@@ -118,7 +180,7 @@ Set of companion documents designed to support external verification of the Gene
 No.          | Doc/Paper                                                                                                            | Role
 ------------ | -------------------------------------------------------------------------------------------------------------------- | -------------
 TN_26/1      | [Parametric Realizations of Coherence](https://doi.org/10.5281/zenodo.19656664)                                      | Minimal computational template
-Simul.       | [trajectory_regulation_v2.py](https://colab.research.google.com/drive/1nygtv6vDgfWVdMngZ6W8FBb9xfG2to12?usp=sharing) | Minimal python simulations
+Simul.       | [trajectory_regulation.py](https://colab.research.google.com/drive/1nygtv6vDgfWVdMngZ6W8FBb9xfG2to12?usp=sharing)    | Minimal python simulations
 
 No.          | Paper                                                                                   | Role                                               | LaTeX
 ------------ | --------------------------------------------------------------------------------------- | -------------------------------------------------- | -----
@@ -144,7 +206,22 @@ DAG          | [Digraph GTCS Dependencies](https://shorturl.at/VzUGG)           
 
 ---
 
+### AI safety branch
+
+This branch applies GTCS to artificial cognitive systems whose continuity, self-reference, memory, and recursive access may create safety-relevant forms of structural capture. The focus is not only on output correction, but on the admissibility conditions under which an artificial system can review, revise, or preserve its own trajectory.
+
+Role                            | Doc/Paper                                                                                                                                 | LaTeX
+------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---
+Domain                          | [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721)                                               | -
+Regulation Concept              | [Beyond Output Correction: Recursive Access, Structural Regulation, and AI Safety](https://doi.org/10.5281/zenodo.19797101)               | -
+**Technical Safety Protocol**   | [Cognitive-Continuity Safety Protocol for Trajectory-Dependent Artificial Cognitive Systems](https://doi.org/10.5281/zenodo.20059460)     | -
+**Operationalization Template** | [Operationalization Template for GTCS-Informed Safety Evaluation](https://doi.org/10.5281/zenodo.20068253)                                | [TeX](latex/aisafe/operationalization_template_gtsc.tex)
+
+---
+
 ## Phenomenological / Qualitative Readability branch
+
+This branch develops the GTCS account of manifestation, perceptual stabilization, affect-like significance, symbolic capture, qualitative readability, and cross-system misreadability. It is intended as the bridge between structural regulation and the emergence of phenomenon-like and quality-structured modes of accessibility.
 
 No.          | Stage I - Qualitative / Manifest Layer                                                                                              | Role
 ------------ | ----------------------------------------------------------------------------------------------------------------------------------- | -------------
@@ -191,6 +268,8 @@ TR_26/48     | [Qualitative Misreadability as a Conflict-Relevant Constraint in 
 
 ## Inter-System Conflict Branch
 
+This branch applies GTCS to conflicts between cognitive systems. It treats conflict not merely as disagreement, but as a failure or distortion in the formation of shared admissible discrepancy structures between systems.
+
 No.          | Paper                                                                                                              | Role
 ------------ | ------------------------------------------------------------------------------------------------------------------ | -------------
 TR_26/23     | [Types of Inter-System Conflict](https://doi.org/10.5281/zenodo.19980874)                                          | Provides the structural typology of inter-system conflict by classifying conflict types according to the architectural layer at which shared admissible discrepancy structure fails to form.
@@ -204,14 +283,15 @@ TR_26/30     | [Multi-System Conflict and Coalition Geometry](https://doi.org/10
 TR_26/31     | [Inter-System Conflict Resolution and Stabilization](https://doi.org/10.5281/zenodo.20008620)                      | Distinguishes conflict resolution from stabilization by defining resolution as restoration of sufficient shared admissible structure and stabilization as boundedness of conflict dynamics against overload, recurrence, escalation, and re-locking.
 TR_26/32     | [Applications to Social, Institutional, Human–AI, and Political Conflict](https://doi.org/10.5281/zenodo.20009760) | Maps the structural-regulatory framework of inter-system conflict onto social, institutional, human–AI, and political domains by distinguishing domain-specific admissibility structures, stabilization regimes, and resolution conditions.
 
-### Concept Papers
+### Concepts
 
 - [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676) — *Preprint*
+- [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
 - [Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) — *Concept Paper*
 
 ---
 
-Currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** category in order to submit my work there. If you are able to endorse submissions in this category, or could help me navigate this step, please feel free to contact me by email. I would be very grateful for any assistance.
+I'm currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** category. If you are able to endorse submissions in this category, or could help me navigate this step, please feel free to contact me by email. I would be very grateful for any assistance.
 [https://arxiv.org/auth/endorse?x=Q6E93A](https://arxiv.org/auth/endorse?x=Q6E93A)
 
 ---
