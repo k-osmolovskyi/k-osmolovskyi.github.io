@@ -262,6 +262,8 @@ TR_26/45     | [Asymmetry in Cross-System Qualitative Mapping](https://doi.org/1
 TR_26/46     | [Adaptive Cross-System Qualitative Mapping under Feedback](https://doi.org/10.5281/zenodo.20190862)      | Formalizes feedback-indexed mapping change as constraint-indexed adaptation without assuming improvemen |
 TR_26/47     | [Multi-System Qualitative Readability and Mapping Conflicts](https://doi.org/10.5281/zenodo.20191156)    | Extends pairwise mapping to multiple receivers and defines receiver-relative readability profiles and mapping conflicts |
 
+---
+
 TR_26/48     | [Qualitative Misreadability as a Conflict-Relevant Constraint in Inter-System Regulation](https://doi.org/10.5281/zenodo.20191402) | Bridges qualitative readability with inter-system conflict by showing that misreadability becomes conflict-relevant only through admissibility |
 
 ---
@@ -287,6 +289,7 @@ TR_26/32     | [Applications to Social, Institutional, Human–AI, and Political
 
 - [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676) — *Preprint*
 - [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
+- [Significance Fields in Cognitive Systems: Continuation Selection under Admissibility Constraints](https://doi.org/10.5281/zenodo.20299239) — *Concept Paper*
 - [Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) — *Concept Paper*
 
 ---
