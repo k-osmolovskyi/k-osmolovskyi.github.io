@@ -288,10 +288,10 @@ TR_26/32     | [Applications to Social, Institutional, Human–AI, and Political
 ### Concepts
 
 #### Significance Layer 
-No. | Paper | Role |
---- | ----- | ---- |
-TR_26/49    | [Significance Fields in Cognitive Systems: Continuation Selection under Admissibility Constraints](https://doi.org/10.5281/zenodo.20299239) | Introduces significance fields as the continuation-weighting layer that explains how cognitive systems prioritize among admissible continuations |
-TN_26/InCf1 | [Significance Misreadability in Inter-System Conflict: A Constraint on Cross-System Regulation](https://doi.org/10.5281/zenodo.20318533) | Introduces significance misreadability as the failure to read the continuation-weight that signals, actions, or demands carry within another system’s regulatory architecture |
+No. | Paper | Role 
+--- | ----- | ---- 
+TR_26/49    | [Significance Fields in Cognitive Systems: Continuation Selection under Admissibility Constraints](https://doi.org/10.5281/zenodo.20299239) | Introduces significance fields as the continuation-weighting layer that explains how cognitive systems prioritize among admissible continuations 
+TN_26/InCf1 | [Significance Misreadability in Inter-System Conflict: A Constraint on Cross-System Regulation](https://doi.org/10.5281/zenodo.20318533) | Introduces significance misreadability as the failure to read the continuation-weight that signals, actions, or demands carry within another system’s regulatory architecture 
 
 #### Papers
 - [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676) — *Preprint*
