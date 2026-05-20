@@ -287,9 +287,10 @@ TR_26/32     | [Applications to Social, Institutional, Human–AI, and Political
 
 ### Concepts
 
+TR_26/49     | [Significance Fields in Cognitive Systems: Continuation Selection under Admissibility Constraints](https://doi.org/10.5281/zenodo.20299239) | Introduces significance fields as the continuation-weighting layer that explains how cognitive systems prioritize among admissible continuations |
+
 - [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676) — *Preprint*
 - [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
-- [Significance Fields in Cognitive Systems: Continuation Selection under Admissibility Constraints](https://doi.org/10.5281/zenodo.20299239) — *Concept Paper*
 - [Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) — *Concept Paper*
 
 ---
