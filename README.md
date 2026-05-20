@@ -43,7 +43,6 @@ For readers who want to understand the core idea before entering the formal repo
 1. [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) - broad domain motivation.
 2. [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676) - conceptual entry into admissibility.
 3. [General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19467207) - synthetic framework.
-4. [Significance Fields in Cognitive Systems](https://doi.org/10.5281/zenodo.20299239) - prioritize among admissible continuation.
 
 ### 2. Formal Entry
 
