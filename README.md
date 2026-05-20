@@ -288,6 +288,7 @@ TR_26/32     | [Applications to Social, Institutional, Human–AI, and Political
 ### Concepts
 
 #### Significance Layer 
+
 No. | Paper | Role 
 --- | ----- | ---- 
 TR_26/49    | [Significance Fields in Cognitive Systems: Continuation Selection under Admissibility Constraints](https://doi.org/10.5281/zenodo.20299239) | Introduces significance fields as the continuation-weighting layer that explains how cognitive systems prioritize among admissible continuations 
