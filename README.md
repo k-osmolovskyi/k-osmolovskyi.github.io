@@ -285,14 +285,26 @@ TR_26/30     | [Multi-System Conflict and Coalition Geometry](https://doi.org/10
 TR_26/31     | [Inter-System Conflict Resolution and Stabilization](https://doi.org/10.5281/zenodo.20008620)                      | Distinguishes conflict resolution from stabilization by defining resolution as restoration of sufficient shared admissible structure and stabilization as boundedness of conflict dynamics against overload, recurrence, escalation, and re-locking.
 TR_26/32     | [Applications to Social, Institutional, Human–AI, and Political Conflict](https://doi.org/10.5281/zenodo.20009760) | Maps the structural-regulatory framework of inter-system conflict onto social, institutional, human–AI, and political domains by distinguishing domain-specific admissibility structures, stabilization regimes, and resolution conditions.
 
+---
+
+## Human Psychic Processing / Psychological Architecture
+
+This branch develops a structural-regulatory account of human psychic processing within GTCS. It asks how psychic material becomes available, weighted, attended, symbolically reorganized, blocked, or transformed under admissibility constraints. Rather than treating the psyche as a linear sequence from perception to thought to action, it describes a recurrent architecture of manifestation, attention, significance, affect-like modulation, symbolic thinking, overload, identity, and admissibility.
+
+No.          | Paper                                                                                   | Role
+------------ | --------------------------------------------------------------------------------------- | -------------
+TN_26/HPP/01 | [A Structural Map of Human Psychic Processing](https://doi.org/10.5281/zenodo.20319960) | Provides a structural-regulatory map of human psychic processing by linking manifestation, attention, significance, affect-like modulation, symbolic thinking, admissibility, overload, and identity.
+
+---
+
 ### Concepts
 
 #### Significance Layer 
 
-No. | Paper | Role 
---- | ----- | ---- 
-TR_26/49    | [Significance Fields in Cognitive Systems: Continuation Selection under Admissibility Constraints](https://doi.org/10.5281/zenodo.20299239) | Introduces significance fields as the continuation-weighting layer that explains how cognitive systems prioritize among admissible continuations 
-TN_26/InCf1 | [Significance Misreadability in Inter-System Conflict: A Constraint on Cross-System Regulation](https://doi.org/10.5281/zenodo.20318533) | Introduces significance misreadability as the failure to read the continuation-weight that signals, actions, or demands carry within another system’s regulatory architecture 
+No.           | Paper | Role 
+------------- | ----- | ---- 
+TR_26/49      | [Significance Fields in Cognitive Systems: Continuation Selection under Admissibility Constraints](https://doi.org/10.5281/zenodo.20299239) | Introduces significance fields as the continuation-weighting layer that explains how cognitive systems prioritize among admissible continuations 
+TN_26/InCf/01 | [Significance Misreadability in Inter-System Conflict: A Constraint on Cross-System Regulation](https://doi.org/10.5281/zenodo.20318533) | Introduces significance misreadability as the failure to read the continuation-weight that signals, actions, or demands carry within another system’s regulatory architecture 
 
 #### Papers
 - [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676) — *Preprint*
