@@ -287,6 +287,15 @@ TR_26/32     | [Applications to Social, Institutional, Human–AI, and Political
 
 ---
 
+## Significance Layer 
+
+No.           | Paper | Role 
+------------- | ----- | ---- 
+TR_26/49      | [Significance Fields in Cognitive Systems: Continuation Selection under Admissibility Constraints](https://doi.org/10.5281/zenodo.20299239) | Introduces significance fields as the continuation-weighting layer that explains how cognitive systems prioritize among admissible continuations.
+TN_26/InCf/01 | [Significance Misreadability in Inter-System Conflict: A Constraint on Cross-System Regulation](https://doi.org/10.5281/zenodo.20318533)    | Introduces significance misreadability as the failure to read the continuation-weight that signals, actions, or demands carry within another system’s regulatory architecture.
+
+---
+
 ## Human Psychic Processing / Psychological Architecture
 
 This branch develops a structural-regulatory account of human psychic processing within GTCS. It asks how psychic material becomes available, weighted, attended, symbolically reorganized, blocked, or transformed under admissibility constraints. Rather than treating the psyche as a linear sequence from perception to thought to action, it describes a recurrent architecture of manifestation, attention, significance, affect-like modulation, symbolic thinking, overload, identity, and admissibility.
@@ -297,19 +306,12 @@ TN_26/HPP/01 | [A Structural Map of Human Psychic Processing](https://doi.org/10
 TN_26/HPP/02 | [Attention as Regulated Access in Human Psychic Processing](https://doi.org/10.5281/zenodo.20358591)   | Explains attention as regulated access rather than neutral focus, showing why attention can open, avoid, displace, or prepare psychic material for transformation.
 TN_26/HPP/03 | [Thinking as Symbolic Regulation in Human Psychic Processing](https://doi.org/10.5281/zenodo.20453779) | Maps thinking as symbolic holding and temporal configuration: how psychic material becomes thinkable, comparable, defensible, repeatable, or potentially transformable.
 TN_26/HPP/04 | [Admissible Transformation in Human Psychic Processing](https://doi.org/10.5281/zenodo.20477027)       | Distinguishes psychic access from admissible transformation and explains why awareness, attention, significance, or symbolic clarity do not by themselves guarantee psychic change.
+TN_26/HPP/05 | [Affect-like Modulation in Human Psychic Processing](https://doi.org/10.5281/zenodo.20480292)          | Maps affect-like modulation as the layer through which psychic material becomes tonally available for attention, symbolic work, and admissible transformation.
 
 ---
 
-### Concepts
+## Concepts
 
-#### Significance Layer 
-
-No.           | Paper | Role 
-------------- | ----- | ---- 
-TR_26/49      | [Significance Fields in Cognitive Systems: Continuation Selection under Admissibility Constraints](https://doi.org/10.5281/zenodo.20299239) | Introduces significance fields as the continuation-weighting layer that explains how cognitive systems prioritize among admissible continuations.
-TN_26/InCf/01 | [Significance Misreadability in Inter-System Conflict: A Constraint on Cross-System Regulation](https://doi.org/10.5281/zenodo.20318533)    | Introduces significance misreadability as the failure to read the continuation-weight that signals, actions, or demands carry within another system’s regulatory architecture.
-
-#### Papers
 - [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676) — *Preprint*
 - [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
 - [Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) — *Concept Paper*
