@@ -291,11 +291,12 @@ TR_26/32     | [Applications to Social, Institutional, Human–AI, and Political
 
 This branch develops a structural-regulatory account of human psychic processing within GTCS. It asks how psychic material becomes available, weighted, attended, symbolically reorganized, blocked, or transformed under admissibility constraints. Rather than treating the psyche as a linear sequence from perception to thought to action, it describes a recurrent architecture of manifestation, attention, significance, affect-like modulation, symbolic thinking, overload, identity, and admissibility.
 
-No.          | Paper                                                                                                | Role
------------- | ---------------------------------------------------------------------------------------------------- | -------------
-TN_26/HPP/01 | [A Structural Map of Human Psychic Processing](https://doi.org/10.5281/zenodo.20319960)              | Provides a structural-regulatory map of human psychic processing by linking manifestation, attention, significance, affect-like modulation, symbolic thinking, admissibility, overload, and identity.
-TN_26/HPP/02 | [Attention as Regulated Access in Human Psychic Processing](https://doi.org/10.5281/zenodo.20358591) | Explains attention as regulated access rather than neutral focus, showing why attention can open, avoid, displace, or prepare psychic material for transformation.
+No.          | Paper                                                                                                  | Role
+------------ | ------------------------------------------------------------------------------------------------------ | -------------
+TN_26/HPP/01 | [A Structural Map of Human Psychic Processing](https://doi.org/10.5281/zenodo.20319960)                | Provides a structural-regulatory map of human psychic processing by linking manifestation, attention, significance, affect-like modulation, symbolic thinking, admissibility, overload, and identity.
+TN_26/HPP/02 | [Attention as Regulated Access in Human Psychic Processing](https://doi.org/10.5281/zenodo.20358591)   | Explains attention as regulated access rather than neutral focus, showing why attention can open, avoid, displace, or prepare psychic material for transformation.
 TN_26/HPP/03 | [Thinking as Symbolic Regulation in Human Psychic Processing](https://doi.org/10.5281/zenodo.20453779) | Maps thinking as symbolic holding and temporal configuration: how psychic material becomes thinkable, comparable, defensible, repeatable, or potentially transformable.
+TN_26/HPP/04 | [Admissible Transformation in Human Psychic Processing](https://doi.org/10.5281/zenodo.20477027)       | Distinguishes psychic access from admissible transformation and explains why awareness, attention, significance, or symbolic clarity do not by themselves guarantee psychic change.
 
 ---
 
