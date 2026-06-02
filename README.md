@@ -302,13 +302,13 @@ This branch develops a structural-regulatory account of human psychic processing
 
 No.          | Paper                                                                                   | Role
 ------------ | --------------------------------------------------------------------------------------- | -------------
- **Block 1** | **Core Psychological Architecture of Human Psychic Processing**                         | * 
+ **Block 1** | *                                                                                       | **Core Psychological Architecture of Human Psychic Processing** 
 TN_26/HPP/01 | [A Structural Map of Human Psychic Processing](https://doi.org/10.5281/zenodo.20319960) | Provides a structural-regulatory map of human psychic processing by linking manifestation, attention, significance, affect-like modulation, symbolic thinking, admissibility, overload, and identity.
 TN_26/HPP/02 | [Attention as Regulated Access](https://doi.org/10.5281/zenodo.20358591)                | Explains attention as regulated access rather than neutral focus, showing why attention can open, avoid, displace, or prepare psychic material for transformation.
 TN_26/HPP/03 | [Thinking as Symbolic Regulation](https://doi.org/10.5281/zenodo.20453779)              | Maps thinking as symbolic holding and temporal configuration: how psychic material becomes thinkable, comparable, defensible, repeatable, or potentially transformable.
 TN_26/HPP/04 | [Admissible Transformation](https://doi.org/10.5281/zenodo.20477027)                    | Distinguishes psychic access from admissible transformation and explains why awareness, attention, significance, or symbolic clarity do not by themselves guarantee psychic change.
 TN_26/HPP/05 | [Affect-like Modulation](https://doi.org/10.5281/zenodo.20480292)                       | Maps affect-like modulation as the layer through which psychic material becomes tonally available for attention, symbolic work, and admissible transformation.
- **Block 2** | **Dynamics of Persistence and Transformation in Human Psychic Processing**              | * 
+ **Block 2** | *                                                                                       | **Dynamics of Persistence and Transformation in Human Psychic Processing** 
 TN_26/HPP/06 | [Repetition and Return](https://doi.org/10.5281/zenodo.20501006)                        | Defines return as repetition with regulatory relevance and shows how recurring material may reflect a repeated regulatory profile rather than the same explicit thought or content.
 
 ---
