@@ -310,6 +310,7 @@ TN_26/HPP/04 | [Admissible Transformation](https://doi.org/10.5281/zenodo.204770
 TN_26/HPP/05 | [Affect-like Modulation](https://doi.org/10.5281/zenodo.20480292)                       | Maps affect-like modulation as the layer through which psychic material becomes tonally available for attention, symbolic work, and admissible transformation.
  **Block 2** | *                                                                                       | **Dynamics of Persistence and Transformation in Human Psychic Processing** 
 TN_26/HPP/06 | [Repetition and Return](https://doi.org/10.5281/zenodo.20501006)                        | Defines return as repetition with regulatory relevance and shows how recurring material may reflect a repeated regulatory profile rather than the same explicit thought or content.
+TN_26/HPP/07 | [Avoidance and Displacement](https://doi.org/10.5281/zenodo.20518703)                   | Explains avoidance as regulated distance from direct access and displacement as shifted access toward a more admissible substitute under admissibility constraints.
 
 ---
 
