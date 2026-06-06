@@ -206,7 +206,11 @@ DAG          | [Digraph GTCS Dependencies](https://shorturl.at/VzUGG)           
 
 ---
 
-### AI safety branch
+# GTCS Branches
+
+---
+
+## AI safety branch
 
 This branch applies GTCS to artificial cognitive systems whose continuity, self-reference, memory, and recursive access may create safety-relevant forms of structural capture. The focus is not only on output correction, but on the admissibility conditions under which an artificial system can review, revise, or preserve its own trajectory.
 
