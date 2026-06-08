@@ -318,6 +318,7 @@ TN_26/HPP/07 | [Avoidance and Displacement](https://doi.org/10.5281/zenodo.20518
 TN_26/HPP/08 | [Restricted Psychic Accessibility](https://doi.org/10.5281/zenodo.20564198)             | Maps psychic accessibility as layered and admissibility-constrained, showing how material may be present, manifest, attended, symbolized, spoken, or acted upon while still remaining non-transformable.
 TN_26/HPP/09 | [Overload in Human Psychic Processing](https://doi.org/10.5281/zenodo.20585534)         | Explains overload as a restriction of psychic accessibility and transformability when the cost of holding, symbolizing, speaking, acting, or transforming material exceeds current regulatory capacity.
 TN_26/HPP/10 | [Symbolic Capture and Defensive Clarity](https://doi.org/10.5281/zenodo.20586952)       | Shows how symbolic clarity can reduce overload and stabilize access while still preventing transformation when the symbol becomes closed rather than revisable.
+TN_26/HPP/11 | [Partial Transformation and Gradual Updating](https://doi.org/10.5281/zenodo.20601110)  | Shows how psychic transformation can begin through partial, retained changes in accessibility, modulation, symbolization, actionability, and identity continuity before full structural reorganization occurs.
 
 ---
 
