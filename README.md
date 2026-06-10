@@ -210,19 +210,6 @@ DAG          | [Digraph GTCS Dependencies](https://shorturl.at/VzUGG)           
 
 ---
 
-## AI safety branch
-
-This branch applies GTCS to artificial cognitive systems whose continuity, self-reference, memory, and recursive access may create safety-relevant forms of structural capture. The focus is not only on output correction, but on the admissibility conditions under which an artificial system can review, revise, or preserve its own trajectory.
-
-Role                            | Doc/Paper                                                                                                                                 | LaTeX
-------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---
-Domain                          | [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721)                                               | -
-Regulation Concept              | [Beyond Output Correction: Recursive Access, Structural Regulation, and AI Safety](https://doi.org/10.5281/zenodo.19797101)               | -
-**Technical Safety Protocol**   | [Cognitive-Continuity Safety Protocol for Trajectory-Dependent Artificial Cognitive Systems](https://doi.org/10.5281/zenodo.20059460)     | -
-**Operationalization Template** | [Operationalization Template for GTCS-Informed Safety Evaluation](https://doi.org/10.5281/zenodo.20068253)                                | [TeX](latex/aisafe/operationalization_template_gtsc.tex)
-
----
-
 ## Phenomenological / Qualitative Readability branch
 
 This branch develops the GTCS account of manifestation, perceptual stabilization, affect-like significance, symbolic capture, qualitative readability, and cross-system misreadability. It is intended as the bridge between structural regulation and the emergence of phenomenon-like and quality-structured modes of accessibility.
@@ -320,6 +307,19 @@ TN_26/HPP/09 | [Overload in Human Psychic Processing](https://doi.org/10.5281/ze
 TN_26/HPP/10 | [Symbolic Capture and Defensive Clarity](https://doi.org/10.5281/zenodo.20586952)       | Shows how symbolic clarity can reduce overload and stabilize access while still preventing transformation when the symbol becomes closed rather than revisable.
 TN_26/HPP/11 | [Partial Transformation and Gradual Updating](https://doi.org/10.5281/zenodo.20601110)  | Shows how psychic transformation can begin through partial, retained changes in accessibility, modulation, symbolization, actionability, and identity continuity before full structural reorganization occurs.
 TN_26/HPP/12 | [Identity-Continuity](https://doi.org/10.5281/zenodo.20602169)                          | Shows how psychic transformation depends on continuity through change, distinguishing continuity bridges from continuity locks under identity constraints.
+
+---
+
+## AI safety branch
+
+This branch applies GTCS to artificial cognitive systems whose continuity, self-reference, memory, and recursive access may create safety-relevant forms of structural capture. The focus is not only on output correction, but on the admissibility conditions under which an artificial system can review, revise, or preserve its own trajectory.
+
+Role                            | Doc/Paper                                                                                                                                 | LaTeX
+------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---
+Domain                          | [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721)                                               | -
+Regulation Concept              | [Beyond Output Correction: Recursive Access, Structural Regulation, and AI Safety](https://doi.org/10.5281/zenodo.19797101)               | -
+**Technical Safety Protocol**   | [Cognitive-Continuity Safety Protocol for Trajectory-Dependent Artificial Cognitive Systems](https://doi.org/10.5281/zenodo.20059460)     | -
+**Operationalization Template** | [Operationalization Template for GTCS-Informed Safety Evaluation](https://doi.org/10.5281/zenodo.20068253)                                | [TeX](latex/aisafe/operationalization_template_gtsc.tex)
 
 ---
 
