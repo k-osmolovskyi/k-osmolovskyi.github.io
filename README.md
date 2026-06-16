@@ -308,6 +308,7 @@ TN_26/HPP/11 | [Partial Transformation and Gradual Updating](https://doi.org/10.
 TN_26/HPP/12 | [Identity-Continuity](https://doi.org/10.5281/zenodo.20602169)                          | Shows how psychic transformation depends on continuity through change, distinguishing continuity bridges from continuity locks under identity constraints.
  **Block 3** | **Doc**                                                                                                           | **Conflict, Therapy, and Applied Extensions** 
 TN_26/HPP/13 | [Intra-System Conflict under Significance and Admissibility Constraints](https://doi.org/10.5281/zenodo.20673960) | Shows how conflict emerges when several significant continuations matter but cannot yet be jointly admitted, coordinated, enacted, or transformed.
+TN_26/HPP/14 | [Therapeutic Setting as Support for Admissible Transformation](https://doi.org/10.5281/zenodo.20716123)           | Shows how therapeutic setting functions as part of the transformation conditions by supporting access, speech, symbolic holding, conflict differentiation, identity-continuity bridging, partial transformation, and retention.
 
 ---
 
