@@ -17,6 +17,8 @@ GTCS introduces a formal language for this distinction. Its central question is:
 
 > Under what conditions can a cognitive system change its structure without losing stability, identity, or regulatory coherence?
 
+**Scope note.** GTCS does not claim that one mechanism directly explains all cognitive, psychological, social, artificial, or civilizational phenomena. Its core formalism describes a minimal class of structural-regulatory relations: stability, admissibility, overload, invariant preservation, and constrained updating. Applications to specific domains require additional bridge assumptions, domain-specific variables, and independent operationalization.
+
 This repository provides the public map of the theory, its technical reports, verification documents, simulation papers, and applied branches.
 
 ## Why This Theory Matters
@@ -31,7 +33,7 @@ GTCS provides tools for describing such cases:
 - when artificial agents become more powerful without gaining safe conditions for self-correction;
 - when phenomena, affect-like significance, and symbolic articulation arise from deeper regulatory constraints.
 
-The framework is therefore not limited to one domain. It is intended as a general architecture for studying regulation, change, overload, identity, manifestation, and inter-system conflict.
+The framework is therefore not restricted to a single empirical domain. However, cross-domain use does not imply that the same mechanism operates at every scale. GTCS is intended as a general architecture for formulating structural-regulatory relations, while each application requires its own operational bridge.
 
 ## Start Here
 
@@ -82,7 +84,10 @@ GTCS is not:
 - a claim that all cognition can be reduced to equations;
 - a psychological school or therapeutic doctrine;
 - a claim that artificial systems are conscious;
-- a finished empirical theory with one universal measurement model.
+- a finished empirical theory with one universal measurement model;
+- a claim that formal similarity across scales implies empirical equivalence or a single shared mechanism.
+
+> Cross-scale extension in GTCS is treated as a separate modeling step, not as an automatic consequence of the formal vocabulary.
 
 Instead, GTCS provides a formal architecture for distinguishing levels that are often mixed together: signal processing, discrepancy access, admissibility, overload, coherence, identity, manifestation, symbolic articulation, and inter-system conflict.
 
