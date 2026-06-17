@@ -314,6 +314,7 @@ TN_26/HPP/12 | [Identity-Continuity](https://doi.org/10.5281/zenodo.20602169)   
  **Block 3** | **Doc**                                                                                                           | **Conflict, Therapy, and Applied Extensions** 
 TN_26/HPP/13 | [Intra-System Conflict under Significance and Admissibility Constraints](https://doi.org/10.5281/zenodo.20673960) | Shows how conflict emerges when several significant continuations matter but cannot yet be jointly admitted, coordinated, enacted, or transformed.
 TN_26/HPP/14 | [Therapeutic Setting as Support for Admissible Transformation](https://doi.org/10.5281/zenodo.20716123)           | Shows how therapeutic setting functions as part of the transformation conditions by supporting access, speech, symbolic holding, conflict differentiation, identity-continuity bridging, partial transformation, and retention.
+TN_26/HPP/15 | [Defensive Meaning and Symbolic Stabilization](https://doi.org/10.5281/zenodo.20729731)                           | Shows how meaning can protect admissibility by stabilizing material in a speakable and coherent form, while becoming defensive when this form limits transformability.
 
 ---
 
