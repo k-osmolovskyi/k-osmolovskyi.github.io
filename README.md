@@ -196,6 +196,7 @@ TN_26/6      | [How to Verify](https://doi.org/10.5281/zenodo.19701901)         
 TN_26/7      | [External Verification Checklist](https://doi.org/10.5281/zenodo.19701915)              | Practical checklist for external review            | [TeX/07](latex/definitions/07_gtcs_verification_checklist.tex)
 TN_26/8      | [Minimal Claims Register](https://doi.org/10.5281/zenodo.19701933)                      | Compact register of the theory’s main claims       | [TeX/08](latex/definitions/08_gtcs_minimal_claims.tex)
 
+<!-- 
 ### Proof-Oriented Documents
 This block provides the proof-support layer of the General Theory of Cognitive Structuring. It includes collected results, normalized propositions and theorems, a proof-status register, a package overview, and author-side proof notes. Together, these documents are intended to stabilize the canonical result layer of the series, distinguish proof-ready results from sketch-level ones, and prepare later proof-compendium development.
 
@@ -207,6 +208,7 @@ VR_26/3      | [Proof Status Register](https://doi.org/10.5281/zenodo.19705731) 
 VR_26/4      | [Verification Package Overview](https://doi.org/10.5281/zenodo.19705772)           | Front overview of the verification and proof-support package | [TeX/04](latex/formal/04_vr_gtcs_verif_overview.tex)
 VR_26/5      | [Proof Notes](https://doi.org/10.5281/zenodo.19705808)                             | Author-side proof logic and compendium preparation notes     | [TeX/05](latex/formal/05_vr_gtcs_proof_notes.tex)
 DAG          | [Digraph GTCS Dependencies](https://shorturl.at/VzUGG)                             | DAG visualization
+-->
 
 ---
 
