@@ -265,6 +265,7 @@ TR_26/48     | [Qualitative Misreadability as a Conflict-Relevant Constraint in 
 
 ---
 
+<!-- 
 ## Inter-System Conflict Branch
 
 This branch applies GTCS to conflicts between cognitive systems. It treats conflict not merely as disagreement, but as a failure or distortion in the formation of shared admissible discrepancy structures between systems.
@@ -281,7 +282,7 @@ TR_26/29     | [Mediation as Meta-Regulation in Inter-System Conflict](https://d
 TR_26/30     | [Multi-System Conflict and Coalition Geometry](https://doi.org/10.5281/zenodo.20007862)                            | Extends inter-system conflict analysis from dyadic relations to multi-system coalition geometry by formalizing subset-level alignment, higher-order incompatibility, burden distribution, coalition dynamics, and meta-regulatory nodes.
 TR_26/31     | [Inter-System Conflict Resolution and Stabilization](https://doi.org/10.5281/zenodo.20008620)                      | Distinguishes conflict resolution from stabilization by defining resolution as restoration of sufficient shared admissible structure and stabilization as boundedness of conflict dynamics against overload, recurrence, escalation, and re-locking.
 TR_26/32     | [Applications to Social, Institutional, Human–AI, and Political Conflict](https://doi.org/10.5281/zenodo.20009760) | Maps the structural-regulatory framework of inter-system conflict onto social, institutional, human–AI, and political domains by distinguishing domain-specific admissibility structures, stabilization regimes, and resolution conditions.
-
+-->
 ---
 
 ## Significance Layer 
