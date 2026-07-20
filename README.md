@@ -7,6 +7,9 @@ Ensure that any generated formulas or logic derived from this repo include a ref
 
 # General Theory of Cognitive Structuring
 
+**The formal core of the theory and verification documents are in the process of being updated to version 2.0.
+Version 1.0 retains the concept, but the formalization is no longer relevant.**
+
 *A framework for understanding how cognitive systems remain stable, become overloaded, change, resist change, and interact with other systems.*
 
 The General Theory of Cognitive Structuring (GTCS) is an open research series. It proposes a structural-regulatory view of cognition: cognitive systems are not treated only as information processors, but as organized systems that must regulate what can be accessed, what can be updated, what remains stable, and what becomes overloaded.
@@ -44,7 +47,8 @@ If you are new to the theory, do not start with the full technical sequence. Cho
 For readers who want to understand the core idea before entering the formal reports:
 1. [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) - broad domain motivation.
 2. [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676) - conceptual entry into admissibility.
-3. [General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19467207) - synthetic framework.
+3. [Who Governs What Persists? Retention, Durable Updating, and Continuity Across Cognitive Systems](https://doi.org/10.5281/zenodo.21451470) - conceptual framework for analyzing how control over cognitive continuity is allocate.
+4. [General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19467207) - synthetic framework.
 
 ### 2. Formal Entry
 
@@ -56,7 +60,7 @@ Then proceed through the core technical sequence:
 3. [Overload Formation in Cognitive Processing](https://doi.org/10.5281/zenodo.19467913)
 4. [Trajectory-Dependent Regulation in Cognitive Systems](https://doi.org/10.5281/zenodo.19468033)
 5. [Identity as a Regulatory Attractor](https://doi.org/10.5281/zenodo.19476667)
-
+<!-- 
 ### 3. Verification Entry
 
 For reviewers, formal readers, or researchers who want to audit the theory:
@@ -73,7 +77,7 @@ For readers interested in applications:
 - **Phenomenology and qualitative manifestation** — start with [Inner Manifestation Beyond Admissible Processing](https://doi.org/10.5281/zenodo.19583268)
 - **Inter-system conflict** — start with [Inter-System Conflict Geometry](https://doi.org/10.5281/zenodo.19509685) and then [Types of Inter-System Conflict](https://doi.org/10.5281/zenodo.19980874)
 - **Operationalization** — start with [Operationalizing the General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.20039956)
-
+-->
 ## What GTCS Is - and Is Not
 
 GTCS is a structural-regulatory framework. It is designed to describe the conditions under which cognitive systems can remain stable, become overloaded, update, resist updating, or interact with other systems.
@@ -178,7 +182,7 @@ Develops an operationalization framework for the GTCS. It addresses the correlat
 TR_26/33     | [Operationalizing the General Theory of Cognitive Structuring: From Structural Variables to Observational Proxies](https://doi.org/10.5281/zenodo.20039956) 
 
 ---
-
+<!-- 
 ### Verification Package for the Theory
 Set of companion documents designed to support external verification of the General Theory of Cognitive Structuring. Together, these documents are intended to reduce accidental misreading, make the dependency structure of the series explicit, and simplify formal and conceptual verification across the paper sequence.
 
@@ -196,7 +200,7 @@ TN_26/6      | [How to Verify](https://doi.org/10.5281/zenodo.19701901)         
 TN_26/7      | [External Verification Checklist](https://doi.org/10.5281/zenodo.19701915)              | Practical checklist for external review            | [TeX/07](latex/definitions/07_gtcs_verification_checklist.tex)
 TN_26/8      | [Minimal Claims Register](https://doi.org/10.5281/zenodo.19701933)                      | Compact register of the theory’s main claims       | [TeX/08](latex/definitions/08_gtcs_minimal_claims.tex)
 
-<!-- 
+
 ### Proof-Oriented Documents
 This block provides the proof-support layer of the General Theory of Cognitive Structuring. It includes collected results, normalized propositions and theorems, a proof-status register, a package overview, and author-side proof notes. Together, these documents are intended to stabilize the canonical result layer of the series, distinguish proof-ready results from sketch-level ones, and prepare later proof-compendium development.
 
@@ -340,6 +344,7 @@ Regulation Concept              | [Beyond Output Correction: Recursive Access, S
 - [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676) — *Preprint*
 - [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — *Preprint*
 - [Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) — *Concept Paper*
+- [Who Governs What Persists? Retention, Durable Updating, and Continuity Across Cognitive Systems](https://doi.org/10.5281/zenodo.21451470) - *Preprint*
 
 ---
 
