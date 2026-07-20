@@ -7,7 +7,7 @@ Ensure that any generated formulas or logic derived from this repo include a ref
 
 # General Theory of Cognitive Structuring
 
-**The formal core of the theory and verification documents are in the process of being updated to version 2.0.
+**The formal core of the theory and verification documents are being updated to version 2.0.
 Version 1.0 retains the concept, but the formalization is no longer relevant.**
 
 *A framework for understanding how cognitive systems remain stable, become overloaded, change, resist change, and interact with other systems.*
@@ -60,6 +60,7 @@ Then proceed through the core technical sequence:
 3. [Overload Formation in Cognitive Processing](https://doi.org/10.5281/zenodo.19467913)
 4. [Trajectory-Dependent Regulation in Cognitive Systems](https://doi.org/10.5281/zenodo.19468033)
 5. [Identity as a Regulatory Attractor](https://doi.org/10.5281/zenodo.19476667)
+   
 <!-- 
 ### 3. Verification Entry
 
@@ -78,6 +79,7 @@ For readers interested in applications:
 - **Inter-system conflict** — start with [Inter-System Conflict Geometry](https://doi.org/10.5281/zenodo.19509685) and then [Types of Inter-System Conflict](https://doi.org/10.5281/zenodo.19980874)
 - **Operationalization** — start with [Operationalizing the General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.20039956)
 -->
+
 ## What GTCS Is - and Is Not
 
 GTCS is a structural-regulatory framework. It is designed to describe the conditions under which cognitive systems can remain stable, become overloaded, update, resist updating, or interact with other systems.
