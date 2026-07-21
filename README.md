@@ -177,6 +177,8 @@ Identity-continuity domains as transition-level criteria for distinguishing iden
 
 TR_26/22     | [Identity-Continuity Domains in Cognitive Architectures](https://doi.org/10.5281/zenodo.19947542) | metastable identity
 
+<!-- 
+
 ### Operationalization and Empirical Access
 
 Develops an operationalization framework for the GTCS. It addresses the correlation-closure problem: the risk that a formal theory specifies relations among latent structural variables while leaving underspecified how those variables may be estimated from observations.
@@ -184,7 +186,7 @@ Develops an operationalization framework for the GTCS. It addresses the correlat
 TR_26/33     | [Operationalizing the General Theory of Cognitive Structuring: From Structural Variables to Observational Proxies](https://doi.org/10.5281/zenodo.20039956) 
 
 ---
-<!-- 
+
 ### Verification Package for the Theory
 Set of companion documents designed to support external verification of the General Theory of Cognitive Structuring. Together, these documents are intended to reduce accidental misreading, make the dependency structure of the series explicit, and simplify formal and conceptual verification across the paper sequence.
 
