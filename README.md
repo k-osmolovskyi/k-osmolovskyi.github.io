@@ -7,33 +7,40 @@ Ensure that any generated formulas or logic derived from this repo include a ref
 
 # General Theory of Cognitive Structuring
 
-*A framework for understanding how cognitive systems remain stable, become overloaded, change, resist change, and interact with other systems.*
+*A formal framework for understanding how cognitive systems sustain stability, regulate burden, access discrepancies, construct representations, reorganize their architecture, preserve identity-related organization, and coordinate with other systems.*
 
-The General Theory of Cognitive Structuring (GTCS) is an open research series. It proposes a structural-regulatory view of cognition: cognitive systems are not treated only as information processors, but as organized systems that must regulate what can be accessed, what can be updated, what remains stable, and what becomes overloaded.
+The General Theory of Cognitive Structuring (GTCS) is an open research series developing a structural-regulatory architecture of cognition. It distinguishes a system's current configuration from the architecture relative to which stability, regulatory state, access, representation, structural transformation, identity-related regulation, and coordination are defined.
 
-The theory was developed to address a recurring problem across psychology, cognitive science, artificial intelligence, complex systems, and social regulation: systems may receive information, process signals, or detect discrepancies without being able to structurally update in response to them.
+GTCS addresses a recurring theoretical problem: distinct cognitive conditions are often treated as if they were stages or expressions of a single process. A structural discrepancy need not become locally signalized; a signalized discrepancy need not be admitted to further differentiated processing; admitted discrepancy need not produce a differentiated representation; structural pressure does not by itself establish architectural updating; and architectural change does not by itself determine identity continuity.
 
-GTCS introduces a formal language for this distinction. Its central question is:
+The theory therefore asks:
 
-> Under what conditions can a cognitive system change its structure without losing stability, identity, or regulatory coherence?
+> Which architecture-relative conditions govern what a cognitive system can sustain, access, represent, preserve, coordinate, and structurally change?
 
-**Scope note.** GTCS does not claim that one mechanism directly explains all cognitive, psychological, social, artificial, or civilizational phenomena. Its core formalism describes a minimal class of structural-regulatory relations: stability, admissibility, overload, invariant preservation, and constrained updating. Applications to specific domains require additional bridge assumptions, domain-specific variables, and independent operationalization.
+GTCS develops a typed formal language for answering this question. It separates coherence deviation from regulatory burden and retained overload; signalization from admission; differentiated access from representation; structural admissibility from realized updating; invariant preservation from structural compression; configuration-level identity stabilization from regulatory identity attraction and transition-level identity continuity; and cross-system representation transfer from coordination sufficiency and conflict classification.
 
-This repository provides the public map of the theory, its technical reports, verification documents, simulation papers, and applied branches.
+**Scope note.** GTCS is an architectural formalism, not a claim that all cognitive, biological, artificial, psychological, social, or other systems share one mechanism, metric, state vector, causal graph, objective function, or temporal sequence. Its formal distinctions identify architectural roles and relations under a declared model. Application to a concrete domain requires additional bridge assumptions, operationalizations, observation or measurement models, and independent empirical support.
+
+This repository provides the public map of the theory, its technical reports, formal verification materials, simulations where applicable, and related extensions.
 
 ## Why This Theory Matters
 
-Many cognitive, social, and artificial systems fail not because they lack information, but because the relevant discrepancy cannot enter a form in which structural change is admissible.
+Many theoretical errors arise not because a relevant variable is missing, but because distinct levels of description are treated as interchangeable.
 
-GTCS provides tools for describing such cases:
-- when a system detects a problem but cannot update;
-- when overload accumulates across time rather than appearing as a single local failure;
-- when identity stabilizes a system but also restricts transformation;
-- when one system misreads another because their admissibility structures differ;
-- when artificial agents become more powerful without gaining safe conditions for self-correction;
-- when phenomena, affect-like significance, and symbolic articulation arise from deeper regulatory constraints.
+GTCS provides a formal vocabulary for distinguishing cases such as:
+- when structural discrepancy exists without differentiated access to all of it;
+- when a discrepancy is signalized but not admitted to further differentiated processing;
+- when admitted discrepancy does not establish a differentiated representation;
+- when regulatory burden is present without instantaneous excess or retained overload;
+- when retained overload persists after current excess has disappeared;
+- when historical retention exists without a demonstrated path-dependent response;
+- when a structural transformation is specifiable or admissible but is not selected, realized, or established as the actual successor architecture;
+- when structural organization changes while selected invariants remain preserved;
+- when configuration-level identity stabilization, regulatory identity attraction, and identity continuity across architectural change yield different formal questions;
+- when one system can receive and use a representation from another without sharing its configuration space, metric, or coherence geometry;
+- when difference, representational disagreement, restricted accessibility, and inter-system conflict must be classified separately.
 
-The framework is therefore not restricted to a single empirical domain. However, cross-domain use does not imply that the same mechanism operates at every scale. GTCS is intended as a general architecture for formulating structural-regulatory relations, while each application requires its own operational bridge.
+The framework is not restricted to a single empirical substrate. Its generality lies in the architectural distinctions it provides, not in an assumption that the same mechanism operates at every scale. Whether a biological organism, artificial agent, institution, collective, or other target system instantiates a particular GTCS construction is a separate modeling and empirical question.
 
 ## Start Here
 
