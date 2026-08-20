@@ -7,143 +7,75 @@ Ensure that any generated formulas or logic derived from this repo include a ref
 
 # General Theory of Cognitive Structuring
 
-*A formal framework for understanding how cognitive systems sustain stability, regulate burden, access discrepancies, construct representations, reorganize their architecture, preserve identity-related organization, and coordinate with other systems.*
+*A research program on how cognitive organization is sustained, transformed, preserved, and extended across time, architectures, and interacting systems.*
 
-The General Theory of Cognitive Structuring (GTCS) is an open research series developing a structural-regulatory architecture of cognition. It distinguishes a system's current configuration from the architecture relative to which stability, regulatory state, access, representation, structural transformation, identity-related regulation, and coordination are defined.
+The General Theory of Cognitive Structuring (GTCS) is an open research program concerned with the organization and continuity of cognitive systems under conditions of stability, constraint, overload, structural change, and interaction.
 
-GTCS addresses a recurring theoretical problem: distinct cognitive conditions are often treated as if they were stages or expressions of a single process. A structural discrepancy need not become locally signalized; a signalized discrepancy need not be admitted to further differentiated processing; admitted discrepancy need not produce a differentiated representation; structural pressure does not by itself establish architectural updating; and architectural change does not by itself determine identity continuity.
+At its broadest level, the project asks how cognitive organization persists and changes: what remains stable, what becomes accessible, what can be reorganized, what is preserved through transformation, how regulatory history constrains later possibilities, and how cognitive organization can extend beyond a single state, architecture, system, or individual life cycle.
 
-The theory therefore asks:
+This broader research program includes both a formal architectural core and conceptual branches. The formal core develops a typed structural-regulatory language for distinguishing stability, regulatory burden, discrepancy access, representation, structural transformation, invariant preservation, identity-related regulation, and multi-system coordination. The conceptual branches use these distinctions to examine wider questions of cognitive persistence, durable updating, continuity, cross-carrier organization, and the extension of cognition across time and systems.
 
-> Which architecture-relative conditions govern what a cognitive system can sustain, access, represent, preserve, coordinate, and structurally change?
+A recurring problem connects these levels: conditions that appear closely related are often not equivalent. A discrepancy may exist without differentiated access to it; access need not produce representation; structural pressure need not produce architectural change; architectural change need not destroy continuity; and information transfer between systems need not establish successful coordination.
 
-GTCS develops a typed formal language for answering this question. It separates coherence deviation from regulatory burden and retained overload; signalization from admission; differentiated access from representation; structural admissibility from realized updating; invariant preservation from structural compression; configuration-level identity stabilization from regulatory identity attraction and transition-level identity continuity; and cross-system representation transfer from coordination sufficiency and conflict classification.
+The project therefore asks, at two connected levels:
 
-**Scope note.** GTCS is an architectural formalism, not a claim that all cognitive, biological, artificial, psychological, social, or other systems share one mechanism, metric, state vector, causal graph, objective function, or temporal sequence. Its formal distinctions identify architectural roles and relations under a declared model. Application to a concrete domain requires additional bridge assumptions, operationalizations, observation or measurement models, and independent empirical support.
+> How is cognitive organization sustained, transformed, preserved, and continued across changing conditions?
 
-This repository provides the public map of the theory, its technical reports, formal verification materials, simulations where applicable, and related extensions.
+and, within the formal core:
 
-## Why This Theory Matters
+> Which architecture-relative conditions govern what a cognitive system can sustain, access, represent, preserve, coordinate, and structurally change — and which of those conditions must remain formally distinct?
 
-Many theoretical errors arise not because a relevant variable is missing, but because distinct levels of description are treated as interchangeable.
+## Why This Research Program Matters
 
-GTCS provides a formal vocabulary for distinguishing cases such as:
-- when structural discrepancy exists without differentiated access to all of it;
-- when a discrepancy is signalized but not admitted to further differentiated processing;
-- when admitted discrepancy does not establish a differentiated representation;
-- when regulatory burden is present without instantaneous excess or retained overload;
-- when retained overload persists after current excess has disappeared;
-- when historical retention exists without a demonstrated path-dependent response;
-- when a structural transformation is specifiable or admissible but is not selected, realized, or established as the actual successor architecture;
-- when structural organization changes while selected invariants remain preserved;
-- when configuration-level identity stabilization, regulatory identity attraction, and identity continuity across architectural change yield different formal questions;
-- when one system can receive and use a representation from another without sharing its configuration space, metric, or coherence geometry;
-- when difference, representational disagreement, restricted accessibility, and inter-system conflict must be classified separately.
+Cognitive change is often described primarily in terms of acquiring information, changing behavior, updating representations, or optimizing performance. GTCS focuses on a different problem: the structural conditions under which such changes can occur, persist, fail, accumulate, or propagate across time and systems.
 
-The framework is not restricted to a single empirical substrate. Its generality lies in the architectural distinctions it provides, not in an assumption that the same mechanism operates at every scale. Whether a biological organism, artificial agent, institution, collective, or other target system instantiates a particular GTCS construction is a separate modeling and empirical question.
+This makes it possible to distinguish cases such as:
+
+- structural discrepancy without differentiated access;
+- signalization without admission to further differentiated processing;
+- admitted discrepancy without a defined representation;
+- regulatory burden without retained overload;
+- retained history without demonstrated path-dependent response;
+- pressure for change without an available or admissible structural transformation;
+- admissible transformation without realized architectural updating;
+- architectural change with preservation of selected organization;
+- persistence of identity-related organization despite changing states or architectures;
+- transfer of cognitive organization or representation across heterogeneous systems without requiring identical internal structure;
+- continuity of cognitive organization beyond a single individual life cycle or carrier;
+- durable updating whose persistence depends on how control over retention, revision, and continuity is distributed.
+
+The purpose of the framework is therefore not only to model change. It is also to distinguish different forms of persistence, restriction, accessibility, transformation, and continuity that are easily collapsed into one another.
+
+## Formal Core and Wider Research Scope
+
+The formal core of GTCS is deliberately narrower than the research program as a whole.
+
+It provides a distinction-preserving architecture of typed objects, partial constructions, classifications, and transition conditions. It separates coherence deviation from regulatory burden; signalization from admission; differentiated access from representation; structural admissibility from realized updating; invariant preservation from compression; configuration-level identity stabilization from regulatory identity attraction and transition-level identity continuity; and cross-system representation transfer from coordination sufficiency and conflict classification.
+
+These formal distinctions do not by themselves establish a universal mechanism of cognition, a complete theory of consciousness or meaning, or an empirical account of every domain to which the broader research questions may be relevant.
+
+Conversely, the conceptual branches of the project may ask questions that extend beyond what the formal core currently defines. For example, they examine how cognitive organization can accumulate across generations and external carriers, how durable cognitive changes become governed and preserved, and how continuity may be distributed across interacting biological, social, and artificial systems. Such extensions do not become formal consequences of GTCS merely by being compatible with its architecture.
+
+**Scope note.** GTCS does not claim that all biological, psychological, artificial, social, or other systems share one mechanism, metric, state vector, causal graph, objective function, or temporal sequence. Its formal generality lies in the distinctions and interfaces it provides. Application to a concrete domain requires additional bridge assumptions, operationalizations, observation or measurement models, and independent empirical support.
+
+This repository provides the public map of the research program: its formal technical reports, conceptual papers, verification materials, simulations where applicable, and applied or exploratory branches.
 
 ## Start Here
 
-If you are new to the theory, do not start with the full technical sequence. Choose one of the entry paths below.
+There are two useful ways to enter the project.
 
-### 1. Conceptual Entry
+### Conceptual Orientation
 
-For readers who want to understand the core idea before entering the formal reports:
-1. [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) - broad domain motivation.
-2. [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676) - conceptual entry into admissibility.
-3. [Who Governs What Persists? Retention, Durable Updating, and Continuity Across Cognitive Systems](https://doi.org/10.5281/zenodo.21451470) - conceptual framework for analyzing how control over cognitive continuity is allocate.
-4. [General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19467207) - synthetic framework.
+For readers interested first in the broader questions of cognitive persistence, change, and continuity:
 
-### 2. Formal Entry
+1. [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721) — examines how cognitive organization can accumulate and persist beyond the developmental cycle of a single individual.
+2. [Structural Updating and the Limits of Cognitive Change](https://doi.org/10.5281/zenodo.19545676) — introduces the distinction between processing information and being able to structurally update in response to it.
+3. [Who Governs What Persists? Retention, Durable Updating, and Continuity Across Cognitive Systems](https://doi.org/10.5281/zenodo.21451470) — examines how control over retention, durable updating, and cognitive continuity may be distributed across systems.
+4. [General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19467207) — integrates the formal architecture underlying the core GTCS constructions.
 
-<!--
-For readers interested in the mathematical and architectural core, it is recommended to begin with the framework map: [Overview of the Theory](https://doi.org/10.5281/zenodo.19646969), which provides a guide to the structure of the framework.
--->
+### Formal Route
 
-Proceed through the core technical sequence:
-1. [Coherence Evaluation in Cognitive Systems](https://doi.org/10.5281/zenodo.19467770)
-2. [Architecture of Structural Transformation in Cognitive Systems ](https://doi.org/10.5281/zenodo.19467881)
-3. [Overload Formation in Cognitive Processing](https://doi.org/10.5281/zenodo.19467913)
-4. [Trajectory-Dependent Regulation in Cognitive Systems](https://doi.org/10.5281/zenodo.19468033)
-5. [Identity as a Regulatory Attractor](https://doi.org/10.5281/zenodo.19476667)
-   
-<!-- 
-### 3. Verification Entry
-
-For reviewers, formal readers, or researchers who want to audit the theory:
-1. [Glossary of Core Terms](https://doi.org/10.5281/zenodo.19689203)
-2. [Acyclicity Statement and Dependency Criteria](https://doi.org/10.5281/zenodo.19701824)
-3. [Dependency Tables and Node Registry](https://doi.org/10.5281/zenodo.19701847)
-4. [How to Verify the Theory](https://doi.org/10.5281/zenodo.19701901)
-5. [Minimal Claims Register](https://doi.org/10.5281/zenodo.19701933)
-
-### 4. Applied Entry
-
-For readers interested in applications:
-- **AI Safety** — start with [Beyond Output Correction](https://doi.org/10.5281/zenodo.19797101)
-- **Phenomenology and qualitative manifestation** — start with [Inner Manifestation Beyond Admissible Processing](https://doi.org/10.5281/zenodo.19583268)
-- **Inter-system conflict** — start with [Inter-System Conflict Geometry](https://doi.org/10.5281/zenodo.19509685) and then [Types of Inter-System Conflict](https://doi.org/10.5281/zenodo.19980874)
-- **Operationalization** — start with [Operationalizing the General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.20039956)
--->
-
-## What GTCS Is - and Is Not
-
-GTCS is a structural-regulatory framework. It is designed to describe the conditions under which cognitive systems can remain stable, become overloaded, update, resist updating, or interact with other systems.
-
-GTCS is not:
-- a replacement for neuroscience;
-- a complete empirical model of the human mind;
-- a claim that all cognition can be reduced to equations;
-- a psychological school or therapeutic doctrine;
-- a claim that artificial systems are conscious;
-- a finished empirical theory with one universal measurement model;
-- a claim that formal similarity across scales implies empirical equivalence or a single shared mechanism.
-
-> Cross-scale extension in GTCS is treated as a separate modeling step, not as an automatic consequence of the formal vocabulary.
-
-Instead, GTCS provides a formal architecture for distinguishing levels that are often mixed together: signal processing, discrepancy access, admissibility, overload, coherence, identity, manifestation, symbolic articulation, and inter-system conflict.
-
-<!--
-A separate clarification note addresses common comparisons, boundary distinctions, and possible misreadings: [Comparative Clarifications and Distinctions for the Theory](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/conceptual-bridges.md).
--->
-
-## Why New Concepts Are Needed
-
-The theory introduces new terms because several important distinctions are difficult to express using ordinary vocabulary.
-
-For example:
-- A system may process information without being able to update its structure.
-- A discrepancy may exist objectively but remain outside the system’s admissible domain.
-- A system may become overloaded not from one event, but from accumulated non-compensated tension.
-- Identity may stabilize a system while also limiting possible transformation.
-- Two systems may communicate while systematically misreading each other’s regulatory states.
-- A phenomenon may be internally manifest before it becomes symbolically articulated or behaviorally enacted.
-
-GTCS introduces terms such as admissibility, coherence, overload memory, identity-core, pre-symbolic admissibility, manifestation, readability, and inter-system conflict in order to keep these distinctions explicit.
-
-## Framework Relevant Audience
-
-The General Theory of Cognitive Structuring provides a substrate-independent formal language for analyzing regulatory dynamics under bounded resources. It may be of interest to researchers working in:
-- Theoretical Cognitive Science — coherence geometry, trajectory-dependent regulation, identity as regulatory attractor
-- Dynamical Systems Theory — stability regions, hysteresis, attractor dynamics in regulatory phase space
-- AI Architecture & Safety — admissibility, overload memory, structural blindness in long-horizon agents.
-- Complex Systems — invariant-induced stability, compression-driven evolution, multi-system order alignment
-- Formal Methods — layered admissibility, non-injective accessibility, proof-ready operators and constructions
-- Organizational / Institutional Modeling — structural inertia, admissible discrepancy domains, normative compression
-- Philosophy of Mind / Phenomenology — inner manifestation vs. enacted processing, valence asymmetry, restricted accessibility
-- Psychology — overload accumulation, hysteresis in decision-making, identity-cores as stability basins
-
-## Key Concepts
-- `Invariants` &mdash; historically formed architectural constraints that remain preserved under ordinary processing;
-- `Coherence` &mdash; the geometric distance between the current configuration and the region of structural stability induced by the active invariants;
-- `Structural tension and overload` &mdash; immediate regulatory pressure and its accumulated memory, making system dynamics trajectory-dependent rather than reducible to the present state alone;
-- `Structural admissibility` &mdash; a multi-level condition determining which discrepancies enter the regulatory domain and under what conditions structural updating becomes possible;
-- `Pre-symbolic admissibility` &mdash; a filter operating prior to representation, determining which signals can participate in regulation at all;
-- `Compression` &mdash; a mechanism through which new invariants are formed, reducing expected overload and potentially transforming the geometry of admissibility;
-- `Identity as a regulatory attractor` &mdash; a stable region of configurations toward which trajectories tend to converge through the minimization of long-term regulatory pressure;
-- `Inter-system order alignment` &mdash; a condition for the co-regulation of heterogeneous architectures without requiring a shared metric or common representational format.
-
----
+For readers interested in the formal architecture, proceed through the **Core Technical Sequence** below. Each technical report isolates a specific construction and its inferential boundaries; the synthesis then integrates these constructions without collapsing their distinct roles.
 
 ## Core Technical Sequence
 
