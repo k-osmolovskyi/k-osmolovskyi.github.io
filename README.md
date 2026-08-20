@@ -53,7 +53,7 @@ For readers interested in the mathematical and architectural core, it is recomme
 
 Then proceed through the core technical sequence:
 1. [Coherence Evaluation in Cognitive Systems](https://doi.org/10.5281/zenodo.19467770)
-2. [Structural Admissibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19467881)
+2. [Architecture of Structural Transformation in Cognitive Systems ](https://doi.org/10.5281/zenodo.19467881)
 3. [Overload Formation in Cognitive Processing](https://doi.org/10.5281/zenodo.19467913)
 4. [Trajectory-Dependent Regulation in Cognitive Systems](https://doi.org/10.5281/zenodo.19468033)
 5. [Identity as a Regulatory Attractor](https://doi.org/10.5281/zenodo.19476667)
@@ -94,7 +94,9 @@ GTCS is not:
 
 Instead, GTCS provides a formal architecture for distinguishing levels that are often mixed together: signal processing, discrepancy access, admissibility, overload, coherence, identity, manifestation, symbolic articulation, and inter-system conflict.
 
+<!--
 A separate clarification note addresses common comparisons, boundary distinctions, and possible misreadings: [Comparative Clarifications and Distinctions for the Theory](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/conceptual-bridges.md).
+-->
 
 ## Why New Concepts Are Needed
 
@@ -113,16 +115,14 @@ GTCS introduces terms such as admissibility, coherence, overload memory, identit
 ## Framework Relevant Audience
 
 The General Theory of Cognitive Structuring provides a substrate-independent formal language for analyzing regulatory dynamics under bounded resources. It may be of interest to researchers working in:
-- [Theoretical Cognitive Science](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/theoretical-cognitive-science.md) — coherence geometry, trajectory-dependent regulation, identity as regulatory attractor
-- [Dynamical Systems Theory](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/dynamical-systems.md) — stability regions, hysteresis, attractor dynamics in regulatory phase space
-- [AI Architecture & Safety](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/ai-safety.md) — admissibility, overload memory, structural blindness in long-horizon agents.
-- [Complex Systems](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/complex-systems.md) — invariant-induced stability, compression-driven evolution, multi-system order alignment
-- [Formal Methods](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/formal-methods.md) — layered admissibility, non-injective accessibility, proof-ready operators and constructions
-- [Organizational / Institutional Modeling](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/organizational-modeling.md) — structural inertia, admissible discrepancy domains, normative compression
-- [Philosophy of Mind / Phenomenology](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/cognitive-phenomenology.md) — inner manifestation vs. enacted processing, valence asymmetry, restricted accessibility
-- [Psychology](https://github.com/k-osmolovskyi/k-osmolovskyi.github.io/blob/main/ref/psychology.md) — overload accumulation, hysteresis in decision-making, identity-cores as stability basins
-
-> Each link leads to a domain-specific overview showing how GTCS concepts may reframe key problems in that field.
+- Theoretical Cognitive Science — coherence geometry, trajectory-dependent regulation, identity as regulatory attractor
+- Dynamical Systems Theory — stability regions, hysteresis, attractor dynamics in regulatory phase space
+- AI Architecture & Safety — admissibility, overload memory, structural blindness in long-horizon agents.
+- Complex Systems — invariant-induced stability, compression-driven evolution, multi-system order alignment
+- Formal Methods — layered admissibility, non-injective accessibility, proof-ready operators and constructions
+- Organizational / Institutional Modeling — structural inertia, admissible discrepancy domains, normative compression
+- Philosophy of Mind / Phenomenology — inner manifestation vs. enacted processing, valence asymmetry, restricted accessibility
+- Psychology — overload accumulation, hysteresis in decision-making, identity-cores as stability basins
 
 ## Key Concepts
 - `Invariants` &mdash; historically formed architectural constraints that remain preserved under ordinary processing;
