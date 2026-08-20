@@ -134,19 +134,6 @@ The General Theory of Cognitive Structuring provides a substrate-independent for
 - `Identity as a regulatory attractor` &mdash; a stable region of configurations toward which trajectories tend to converge through the minimization of long-term regulatory pressure;
 - `Inter-system order alignment` &mdash; a condition for the co-regulation of heterogeneous architectures without requiring a shared metric or common representational format.
 
-## How to Use This Series
-
-GTCS is organized as a cumulative research series. The papers can be read selectively, but the core concepts are not independent fragments: later branches rely on distinctions introduced earlier in the technical sequence.
-
-Readers are encouraged to use the entry paths above for orientation, and then move into the full corpus map below.
-
-For conceptual understanding, begin with the conceptual entry path.  
-For formal reconstruction, follow the core technical sequence.  
-For audit and review, use the verification package.  
-For applied development, enter through the relevant branch, while keeping the core concepts in view.
-
-The series is designed to be extensible, but not cyclic: later applications, branches, and simulations develop consequences of the framework without replacing the foundational sequence.
-
 ---
 
 ## Core Technical Sequence
