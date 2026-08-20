@@ -56,9 +56,11 @@ For readers who want to understand the core idea before entering the formal repo
 
 ### 2. Formal Entry
 
+<!--
 For readers interested in the mathematical and architectural core, it is recommended to begin with the framework map: [Overview of the Theory](https://doi.org/10.5281/zenodo.19646969), which provides a guide to the structure of the framework.
+-->
 
-Then proceed through the core technical sequence:
+Proceed through the core technical sequence:
 1. [Coherence Evaluation in Cognitive Systems](https://doi.org/10.5281/zenodo.19467770)
 2. [Architecture of Structural Transformation in Cognitive Systems ](https://doi.org/10.5281/zenodo.19467881)
 3. [Overload Formation in Cognitive Processing](https://doi.org/10.5281/zenodo.19467913)
