@@ -7,9 +7,6 @@ Ensure that any generated formulas or logic derived from this repo include a ref
 
 # General Theory of Cognitive Structuring
 
-**The formal core of the theory and verification documents are being updated to version 2.0.
-Version 1.0 retains the concept, but the formalization is no longer relevant.**
-
 *A framework for understanding how cognitive systems remain stable, become overloaded, change, resist change, and interact with other systems.*
 
 The General Theory of Cognitive Structuring (GTCS) is an open research series. It proposes a structural-regulatory view of cognition: cognitive systems are not treated only as information processors, but as organized systems that must regulate what can be accessed, what can be updated, what remains stable, and what becomes overloaded.
@@ -153,29 +150,25 @@ The series is designed to be extensible, but not cyclic: later applications, bra
 ---
 
 ## Core Technical Sequence
-The core framework is organized as a guided reading sequence. TR_26/1 provides a synthetic overview of the General Theory, while the subsequent papers develop the main formal components in a more progressive order. The list below should be used as a guide for entering the framework and following the natural direction of its formal development.
 
-No.          | Paper                                                                               | Role
------------- | ----------------------------------------------------------------------------------- | -------------
-TR_26/1      | [General Theory](https://doi.org/10.5281/zenodo.19467207)                           | unifying language, layered admissibility principle
-TR_26/2      | [Coherence Evaluation](https://doi.org/10.5281/zenodo.19467770)                     | geometry: coherence as distance to stability region
-TR_26/3      | [Structural Admissibility](https://doi.org/10.5281/zenodo.19467881)                 | structural admissibility operator, phase space, level as geometry
-TR_26/4      | [Overload Formation](https://doi.org/10.5281/zenodo.19467913)                       | compensability threshold, instantaneous overload, memory
-TR_26/5      | [Trajectory-Dependent Regulation](https://doi.org/10.5281/zenodo.19468033)          | hysteresis, drift to boundary, concentration near minimal overload. [min py sim](https://colab.research.google.com/drive/1nygtv6vDgfWVdMngZ6W8FBb9xfG2to12?usp=sharing)
-TR_26/6      | [Identity as a Regulatory Attractor](https://doi.org/10.5281/zenodo.19476667)       | identity-core as cost-separated low-overload attractor
-TR_26/7      | [Invariants](https://doi.org/10.5281/zenodo.19480011)                               | axiomatic core, interaction structure, invariant-induced geometry
-TR_26/8      | [Structural Compression](https://doi.org/10.5281/zenodo.19481795)                   | compression vs. simplification; level-preserving vs. level-forming
-TR_26/9      | [Emergence of Coherence Representation](https://doi.org/10.5281/zenodo.19488084)    | order-preserving regulatory variable under partial observability
-TR_26/10     | [Coherence Representation in Multi-System](https://doi.org/10.5281/zenodo.19493294) | order alignment, co-regulation without shared geometry
-TR_26/11     | [Pre-Symbolic Admissibility](https://doi.org/10.5281/zenodo.19499593)               | pre-representational filtering of discrepancies that determines which signals can enter regulation
-TR_26/12     | [Restricted Accessibility of Coherence](https://doi.org/10.5281/zenodo.19508182)    | geometric coherence exists globally; regulatory access is domain-constrained
-TR_26/13     | [Inter-System Conflict Geometry](https://doi.org/10.5281/zenodo.19509685)           | conflict as incompatibility of admissibility structures
+ Paper                                                                                                    | Role 
+--------------------------------------------------------------------------------------------------------- | ------------- 
+[Coherence Evaluation in Cognitive Systems](https://doi.org/10.5281/zenodo.19467770)                      | Defines architecture-relative coherence deviation and separates it from regulatory burden.
+[Architecture of Structural Transformation in Cognitive Systems](https://doi.org/10.5281/zenodo.19467881) | Defines the conditions and status structure of architectural change.
+[Overload Formation in Cognitive Processing](https://doi.org/10.5281/zenodo.19467913)                     | Formalizes how uncompensated regulatory burden becomes retained overload.
+[Trajectory-Dependent Regulation in Cognitive Systems](https://doi.org/10.5281/zenodo.19468033)           | Shows how historically conditioned regulatory state can alter later transitions.
+[Identity as a Regulatory Attractor](https://doi.org/10.5281/zenodo.19476667)                             | Formalizes identity as regulatory attraction across changing states.
+[Invariants in Cognitive Architectures](https://doi.org/10.5281/zenodo.19480011)                          | Defines architecture-relative structural preservation across declared transitions.
+[Structural Compression in Cognitive Architectures](https://doi.org/10.5281/zenodo.19481795)              | Defines valid compression of invariant organization under preservation constraints.
+[Emergence of Coherence Representation](https://doi.org/10.5281/zenodo.19488084)                          | Formalizes the construction of differentiated coherence representations from admitted discrepancy.
+[Coherence Representation in Multi-System Regulation](https://doi.org/10.5281/zenodo.19493294)            | Defines directional transfer and use of coherence representations across heterogeneous systems.
+[Pre-Symbolic Admissibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19499593)                | Formalizes selective access from structural discrepancy to differentiated processing.
+[Restricted Accessibility of Coherence in Cognitive Systems](https://doi.org/10.5281/zenodo.19508182)     | Defines incomplete discrepancy access under non-zero coherence deviation.
+[Inter-System Conflict Classification in Cognitive Systems](https://doi.org/10.5281/zenodo.19509685)      | Defines conflict as task- and context-relative coordination insufficiency between systems.
+[Identity-Continuity Domains in Cognitive Architectures](https://doi.org/10.5281/zenodo.19947542)         | Defines identity-continuity classification across ordered architectural transitions.
+[General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19467207)                        | Integrates the framework into a typed, distinction-preserving architecture of cognitive structuring.
 
 ---
-
-Identity-continuity domains as transition-level criteria for distinguishing identity-preserving architectural transformation from identity-disrupting structural change.
-
-TR_26/22     | [Identity-Continuity Domains in Cognitive Architectures](https://doi.org/10.5281/zenodo.19947542) | metastable identity
 
 <!-- 
 
