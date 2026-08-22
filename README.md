@@ -79,71 +79,50 @@ For readers interested in the formal architecture, proceed through the **Core Te
 
 ## Core Technical Sequence
 
- Paper                                                                                                    | Role 
---------------------------------------------------------------------------------------------------------- | ------------- 
-[Coherence Evaluation in Cognitive Systems](https://doi.org/10.5281/zenodo.19467770)                      | Defines architecture-relative coherence deviation and separates it from regulatory burden.
-[Architecture of Structural Transformation in Cognitive Systems](https://doi.org/10.5281/zenodo.19467881) | Defines the conditions and status structure of architectural change.
-[Overload Formation in Cognitive Processing](https://doi.org/10.5281/zenodo.19467913)                     | Formalizes how uncompensated regulatory burden becomes retained overload.
-[Trajectory-Dependent Regulation in Cognitive Systems](https://doi.org/10.5281/zenodo.19468033)           | Shows how historically conditioned regulatory state can alter later transitions.
-[Identity as a Regulatory Attractor](https://doi.org/10.5281/zenodo.19476667)                             | Formalizes identity as regulatory attraction across changing states.
-[Invariants in Cognitive Architectures](https://doi.org/10.5281/zenodo.19480011)                          | Defines architecture-relative structural preservation across declared transitions.
-[Structural Compression in Cognitive Architectures](https://doi.org/10.5281/zenodo.19481795)              | Defines valid compression of invariant organization under preservation constraints.
-[Emergence of Coherence Representation](https://doi.org/10.5281/zenodo.19488084)                          | Formalizes the construction of differentiated coherence representations from admitted discrepancy.
-[Coherence Representation in Multi-System Regulation](https://doi.org/10.5281/zenodo.19493294)            | Defines directional transfer and use of coherence representations across heterogeneous systems.
-[Pre-Symbolic Admissibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19499593)                | Formalizes selective access from structural discrepancy to differentiated processing.
-[Restricted Accessibility of Coherence in Cognitive Systems](https://doi.org/10.5281/zenodo.19508182)     | Defines incomplete discrepancy access under non-zero coherence deviation.
-[Inter-System Conflict Classification in Cognitive Systems](https://doi.org/10.5281/zenodo.19509685)      | Defines conflict as task- and context-relative coordination insufficiency between systems.
-[Identity-Continuity Domains in Cognitive Architectures](https://doi.org/10.5281/zenodo.19947542)         | Defines identity-continuity classification across ordered architectural transitions.
-[General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19467207)                        | Integrates the framework into a typed, distinction-preserving architecture of cognitive structuring.
+| Paper                                                                                                     | Role                                                                                                 |
+| --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [Coherence Evaluation in Cognitive Systems](https://doi.org/10.5281/zenodo.19467770)                      | Defines architecture-relative coherence deviation and separates it from regulatory burden.           |
+| [Architecture of Structural Transformation in Cognitive Systems](https://doi.org/10.5281/zenodo.19467881) | Defines the conditions and status structure of architectural change.                                 |
+| [Overload Formation in Cognitive Processing](https://doi.org/10.5281/zenodo.19467913)                     | Formalizes how uncompensated regulatory burden becomes retained overload.                            |
+| [Trajectory-Dependent Regulation in Cognitive Systems](https://doi.org/10.5281/zenodo.19468033)           | Shows how historically conditioned regulatory state can alter later transitions.                     |
+| [Identity as a Regulatory Attractor](https://doi.org/10.5281/zenodo.19476667)                             | Formalizes identity as regulatory attraction across changing states.                                 |
+| [Invariants in Cognitive Architectures](https://doi.org/10.5281/zenodo.19480011)                          | Defines architecture-relative structural preservation across declared transitions.                   |
+| [Structural Compression in Cognitive Architectures](https://doi.org/10.5281/zenodo.19481795)              | Defines valid compression of invariant organization under preservation constraints.                  |
+| [Emergence of Coherence Representation](https://doi.org/10.5281/zenodo.19488084)                          | Formalizes the construction of differentiated coherence representations from admitted discrepancy.   |
+| [Coherence Representation in Multi-System Regulation](https://doi.org/10.5281/zenodo.19493294)            | Defines directional transfer and use of coherence representations across heterogeneous systems.      |
+| [Pre-Symbolic Admissibility in Cognitive Systems](https://doi.org/10.5281/zenodo.19499593)                | Formalizes selective access from structural discrepancy to differentiated processing.                |
+| [Restricted Accessibility of Coherence in Cognitive Systems](https://doi.org/10.5281/zenodo.19508182)     | Defines incomplete discrepancy access under non-zero coherence deviation.                            |
+| [Inter-System Conflict Classification in Cognitive Systems](https://doi.org/10.5281/zenodo.19509685)      | Defines conflict as task- and context-relative coordination insufficiency between systems.           |
+| [Identity-Continuity Domains in Cognitive Architectures](https://doi.org/10.5281/zenodo.19947542)         | Defines identity-continuity classification across ordered architectural transitions.                 |
+| [General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19467207)                        | Integrates the framework into a typed, distinction-preserving architecture of cognitive structuring. |
 
----
+### Verification Package for the Theory
+
+| Document                                                                                | Role                                                                                                                       |
+| --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [Glossary of Core Terms](https://doi.org/10.5281/zenodo.19689203)                       | Canonical terminology, notation, and non-equivalence boundaries.                                                           |
+| [Acyclicity Statement and Dependency Criteria](https://doi.org/10.5281/zenodo.19701824) | Defines registered dependency criteria and the acyclicity interpretation of the dependency graph.                          |
+| [Dependency Tables and Node Registry](https://doi.org/10.5281/zenodo.19701847)          | Canonical node registry and typed direct, support, and synthesis-integration dependency map.                               |
+| [Technical Appendix](https://doi.org/10.5281/zenodo.19701876)                           | Typed objects, interfaces, assumptions, definedness/partiality rules, notation, result references, and transfer ceilings.  |
+| [Collected Propositions and Theorems](https://doi.org/10.5281/zenodo.19705677)          | Stable GTCS-RES identifiers and normalized owner-qualified result statements with their formal classes.                    |
+| [Proof Notes](https://doi.org/10.5281/zenodo.19705808)                                  | Proof and derivation routes, assumptions, boundary cases, verification hooks, and transfer ceilings.                       |
+| [Proof Status Register](https://doi.org/10.5281/zenodo.19705731)                        | Orthogonal projection of formal class, proof status, closure state, evidence status, and theorem status.                   |
+| [Collected Results and Proof Status Note](https://doi.org/10.5281/zenodo.19705593)      | Reader-facing map of result families, formal strength, and the main scope ceilings.                                        |
+| [Verification Package Overview](https://doi.org/10.5281/zenodo.19705772)                | Front map of the package: document roles, authority hierarchy, reading routes, and package boundaries.                     |
+| [How to Verify the GTCS](https://doi.org/10.5281/zenodo.19701901)                       | Step-by-step external verification procedure and routing from a verification question to the correct authority.            |
+| [External Verification Checklist](https://doi.org/10.5281/zenodo.19701915)              | Reviewer-facing checklist for recording source checks, acceptance conditions, prohibited inferences, and bounded outcomes. |
+| [Minimal Claims Register](https://doi.org/10.5281/zenodo.19701933)                      | Minimal public claims and their verification domains; deliberately narrower than the full result inventory.                |
 
 <!-- 
-
 ### Operationalization and Empirical Access
 
 Develops an operationalization framework for the GTCS. It addresses the correlation-closure problem: the risk that a formal theory specifies relations among latent structural variables while leaving underspecified how those variables may be estimated from observations.
 
 TR_26/33     | [Operationalizing the General Theory of Cognitive Structuring: From Structural Variables to Observational Proxies](https://doi.org/10.5281/zenodo.20039956) 
-
----
-
-### Verification Package for the Theory
-Set of companion documents designed to support external verification of the General Theory of Cognitive Structuring. Together, these documents are intended to reduce accidental misreading, make the dependency structure of the series explicit, and simplify formal and conceptual verification across the paper sequence.
-
-No.          | Doc/Paper                                                                                                            | Role
------------- | -------------------------------------------------------------------------------------------------------------------- | -------------
-TN_26/1      | [Parametric Realizations of Coherence](https://doi.org/10.5281/zenodo.19656664)                                      | Minimal computational template
-
-No.          | Paper                                                                                   | Role                                               | LaTeX
------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------- | -----
-TN_26/2      | [Glossary of Core Terms](https://doi.org/10.5281/zenodo.19689203)                       | Interpretive glossary for core terms               | [TeX/02](latex/definitions/02_gtcs_glossary.tex)
-TN_26/3      | [Acyclicity Statement and Dependency Criteria](https://doi.org/10.5281/zenodo.19701824) | Dependency criteria and non-circularity statement  | [TeX/03](latex/definitions/03_gtcs_acyclicity_statement.tex)
-TN_26/4      | [Dependency Tables and Node Registry](https://doi.org/10.5281/zenodo.19701847)          | Node registry and paper-level dependency map       | [TeX/04](latex/definitions/04_gtcs_dependency_tables_node.tex)
-TN_26/5      | [Technical Appendix](https://doi.org/10.5281/zenodo.19701876)                           | Notation, assumptions, and formal traceability     | [TeX/05](latex/definitions/05_gtcs_technical_appendix.tex)
-TN_26/6      | [How to Verify](https://doi.org/10.5281/zenodo.19701901)                                | Reading order and verification roadmap             | [TeX/06](latex/definitions/06_gtcs_how_to_verify.tex)
-TN_26/7      | [External Verification Checklist](https://doi.org/10.5281/zenodo.19701915)              | Practical checklist for external review            | [TeX/07](latex/definitions/07_gtcs_verification_checklist.tex)
-TN_26/8      | [Minimal Claims Register](https://doi.org/10.5281/zenodo.19701933)                      | Compact register of the theory’s main claims       | [TeX/08](latex/definitions/08_gtcs_minimal_claims.tex)
-
-
-### Proof-Oriented Documents
-This block provides the proof-support layer of the General Theory of Cognitive Structuring. It includes collected results, normalized propositions and theorems, a proof-status register, a package overview, and author-side proof notes. Together, these documents are intended to stabilize the canonical result layer of the series, distinguish proof-ready results from sketch-level ones, and prepare later proof-compendium development.
-
-No.          | Doc/Paper                                                                          | Role                                                         | LaTeX
------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------ | -----
-VR_26/1      | [Collected Results and Proof Status Note](https://doi.org/10.5281/zenodo.19705593) | Collected result layer with proof-status classification      | [TeX/01](latex/formal/01_vr_gtcs_results_status_note.tex)
-VR_26/2      | [Collected Propositions and Theorems](https://doi.org/10.5281/zenodo.19705677)     | Normalized collection of propositions and theorems           | [TeX/02](latex/formal/02_vr_gtcs_propositions_theorems.tex)
-VR_26/3      | [Proof Status Register](https://doi.org/10.5281/zenodo.19705731)                   | Compact register of proof readiness and consolidation status | [TeX/03](latex/formal/03_vr_gtcs_proof_status.tex)
-VR_26/4      | [Verification Package Overview](https://doi.org/10.5281/zenodo.19705772)           | Front overview of the verification and proof-support package | [TeX/04](latex/formal/04_vr_gtcs_verif_overview.tex)
-VR_26/5      | [Proof Notes](https://doi.org/10.5281/zenodo.19705808)                             | Author-side proof logic and compendium preparation notes     | [TeX/05](latex/formal/05_vr_gtcs_proof_notes.tex)
-DAG          | [Digraph GTCS Dependencies](https://shorturl.at/VzUGG)                             | DAG visualization
 -->
 
----
 
 # GTCS Branches
-
----
 
 ## Phenomenological / Qualitative Readability branch
 
