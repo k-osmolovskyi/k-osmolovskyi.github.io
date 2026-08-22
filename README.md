@@ -113,14 +113,7 @@ For readers interested in the formal architecture, proceed through the **Core Te
 | [External Verification Checklist](https://doi.org/10.5281/zenodo.19701915)              | Reviewer-facing checklist for recording source checks, acceptance conditions, prohibited inferences, and bounded outcomes. |
 | [Minimal Claims Register](https://doi.org/10.5281/zenodo.19701933)                      | Minimal public claims and their verification domains; deliberately narrower than the full result inventory.                |
 
-<!-- 
-### Operationalization and Empirical Access
-
-Develops an operationalization framework for the GTCS. It addresses the correlation-closure problem: the risk that a formal theory specifies relations among latent structural variables while leaving underspecified how those variables may be estimated from observations.
-
-TR_26/33     | [Operationalizing the General Theory of Cognitive Structuring: From Structural Variables to Observational Proxies](https://doi.org/10.5281/zenodo.20039956) 
--->
-
+| [Operationalizing GTCS: From Structural Variables to Observational Proxies](https://doi.org/10.5281/zenodo.20039956) | Develops an operationalization framework for the GTCS |
 
 # GTCS Branches
 
