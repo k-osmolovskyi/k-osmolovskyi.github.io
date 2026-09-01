@@ -109,6 +109,8 @@ For readers interested in the formal architecture, proceed through the **Core Te
 
 | [Operationalizing GTCS: From Structural Variables to Observational Proxies](https://doi.org/10.5281/zenodo.20039956) | Develops an operationalization framework for the GTCS |
 
+| [Integrated GTCS Ablation Benchmark] | Reviewed non-core computational adjuncts for the GTCS |
+
 # GTCS Branches
 
 ## Phenomenological / Qualitative Readability branch
