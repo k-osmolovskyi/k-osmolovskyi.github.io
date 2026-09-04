@@ -115,7 +115,7 @@ For readers interested in the formal architecture, proceed through the **Core Te
 
 ## Phenomenological / Qualitative Readability branch
 
-The **Phenomenological / Qualitative Readability Branch** is a formal branch of the **General Theory of Cognitive Structuring (GTCS)** developed by **Kostiantyn Osmolovskyi**.
+The **Phenomenological / Qualitative Readability Branch** is a formal branch of the **General Theory of Cognitive Structuring (GTCS)** developed by *Kostiantyn Osmolovskyi*.
 
 The branch studies how already established cognitive organization can become internally manifest, acquire trajectory and directional organization, remain compatible or incompatible with candidate continuation, stabilize perceptually through historically organized processing, acquire affect-like regulatory roles, become symbolically captured, and support qualitative structuring and receiver-relative readability.
 
@@ -291,12 +291,60 @@ Together, these works develop the **Inter-System Conflict Branch of GTCS** as a 
 
 ---
 
-## Significance Layer 
+## Significance Layer
 
-No.           | Paper | Role 
-------------- | ----- | ---- 
-TR_26/49      | [Significance Fields in Cognitive Systems: Continuation Selection under Admissibility Constraints](https://doi.org/10.5281/zenodo.20299239) | Introduces significance fields as the continuation-weighting layer that explains how cognitive systems prioritize among admissible continuations.
-TN_26/InCf/01 | [Significance Misreadability in Inter-System Conflict: A Constraint on Cross-System Regulation](https://doi.org/10.5281/zenodo.20318533)    | Introduces significance misreadability as the failure to read the continuation-weight that signals, actions, or demands carry within another system’s regulatory architecture.
+The **Significance Layer** of the **General Theory of Cognitive Structuring (GTCS)** introduces a distinct formal question: not only which continuations are currently available or eligible, but which continuation-relevant items carry different weight for the future organization of a cognitive system.
+
+The layer separates **significance** from admissibility, accessibility, regulatory priority, selection, realization, affect, phenomenological manifestation, conflict, and agency. Significance is therefore not treated as a universal scalar of importance or as a hidden action-selection variable. It is represented as a typed, system-relative, and potentially partial assessment structure whose outputs may contribute to later selection only through explicit bridges and model-local rules.
+
+The second work extends this architecture across systems. It distinguishes a system’s own significance assessment from another system’s reconstruction of that assessment and formalizes **significance misreadability** without identifying it with semantic misunderstanding, qualitative reconstruction failure, or Inter-System Conflict.
+
+### Suggested reading path
+
+**Significance Fields** → **Significance Misreadability and Inter-System Conflict**
+
+The first paper defines the significance object itself. The second should be read as a cross-system extension and bridge rather than as a redefinition of significance or conflict.
+
+| Work | Role in the layer |
+|---|---|
+| [**Significance Fields in Cognitive Systems: Differential Continuation-Weight and Its Relation to Selection**](https://doi.org/10.5281/zenodo.20299239) | Introduces the formal **significance field** as a typed, system-relative assessment structure for differential continuation-weight. Significance-bearing items need not themselves be candidate continuations, significance weights may be partial and non-scalar, and comparison need not form a total order. When significance is used in a continuation-selection claim, an explicit association must connect significance-bearing items to candidate continuations, while selection additionally requires a ready candidate-appropriate eligibility status and a separately declared model-local rule. The paper therefore preserves the distinctions **significance weight ≠ regulatory priority ≠ selection ≠ realization** and keeps significance separate from attention, motivation, value, reward, affect, coherence, overload, identity, phenomenological manifestation, Inter-System Conflict, artificial agency, and AI-safety status. |
+| [**Significance Misreadability and Inter-System Conflict: A Typed Bridge from Cross-System Significance Reconstruction to Conflict-Side Relevance**](https://doi.org/10.5281/zenodo.20318533) | Extends the significance architecture to directional cross-system reconstruction. A source system’s own significance assessment, a receiver’s own significance assessment, and the receiver’s reconstruction of the source assessment remain distinct formal objects. Under-reading, over-reading, mislocation, flattening, and ordering inversion are represented as criterion-relative and non-exhaustive forms of significance misreadability under a declared bridge policy. A positive significance-misreadability record does not imply Inter-System Conflict, and current conflict does not imply significance misreadability. Only after conflict has independently been established may a separate post-classification bridge assess whether a significance-misreadability record is relevant to the current conflict-side basis. Relevance remains distinct from source attribution, causation, persistence, escalation, locking, mediation effectiveness, transformation, resolution, and stabilization. |
+
+### Architectural boundaries
+
+The Significance Layer is organized around several protected distinctions:
+
+- **significance assessment ≠ selection eligibility**
+- **significance weight ≠ regulatory priority**
+- **regulatory priority ≠ selection**
+- **selection ≠ realization**
+- **source significance ≠ receiver-own significance**
+- **source significance ≠ receiver reconstruction of source significance**
+- **significance misreadability ≠ qualitative reconstruction failure**
+- **significance misreadability ≠ Inter-System Conflict**
+- **conflict-side significance relevance ≠ source attribution ≠ physical causation**
+
+The layer therefore does not define a mandatory pipeline from “importance” to action. A significance assessment may exist without a ready selection claim, and a candidate continuation may be eligible without having a ready significance profile.
+
+Likewise, cross-system significance misreadability is not a generic conflict mechanism. A system may correctly identify what another system communicates while reconstructing incorrectly what the communicated item weighs for the source system; whether that mismatch is relevant to a current conflict requires an additional, independently assessed bridge.
+
+### Interfaces to neighboring GTCS branches
+
+The Significance Layer is intentionally cross-cutting.
+
+Its first paper may use trajectory, identity, overload, environmental dependence, vulnerability, or related GTCS records as model-specific conditioning inputs, but none of these is a universal source of significance.
+
+The layer also remains formally separate from the phenomenological architecture:
+
+**significance ≠ manifestation ≠ phenomenological directional organization ≠ affect-like role organization**
+
+and from the Inter-System Conflict architecture:
+
+**significance difference or misreadability ≠ conflict ≠ conflict source ≠ conflict dynamics**
+
+A separate qualitative-reconstruction bridge already connects cross-system qualitative mapping to Inter-System Conflict. Significance misreadability forms a second, distinct bridge family: the two architectures share disciplines of partiality, provenance, and current-instance alignment, but neither reconstruction-failure object entails the other.
+
+Together, the two papers define the **Significance Layer of GTCS** as an architecture for differential continuation-weight and its cross-system reconstruction while preserving strict separation from eligibility, selection, phenomenology, conflict, causality, and agency.
 
 ---
 
