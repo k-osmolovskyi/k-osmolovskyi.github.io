@@ -212,28 +212,83 @@ The papers below divide these questions among distinct formal owner surfaces.
 
 ---
 
-TR_26/48     | [Qualitative Misreadability as a Conflict-Relevant Constraint in Inter-System Regulation](https://doi.org/10.5281/zenodo.20191402) | Bridges qualitative readability with inter-system conflict by showing that misreadability becomes conflict-relevant only through admissibility |
-
----
-
-<!-- 
 ## Inter-System Conflict Branch
 
-This branch applies GTCS to conflicts between cognitive systems. It treats conflict not merely as disagreement, but as a failure or distortion in the formation of shared admissible discrepancy structures between systems.
+The **Inter-System Conflict Branch** of the **General Theory of Cognitive Structuring (GTCS)** develops a typed structural-regulatory account of conflict between distinct cognitive systems. The branch begins downstream of the current conflict-classification architecture and progressively separates several questions that are often collapsed in ordinary conflict language: whether a conflict is present, what burden accompanies it, what may be attributed as its source, which conflict-relevant structures are locally accessible or transformable, whether the conflict is escalating or locked, whether an actual transformation or mediation event has occurred, how multi-system and coalition structures are organized, and what is required for resolution or stabilization.
 
-No.          | Paper                                                                                                              | Role
------------- | ------------------------------------------------------------------------------------------------------------------ | -------------
-TR_26/23     | [Types of Inter-System Conflict](https://doi.org/10.5281/zenodo.19980874)                                          | Provides the structural typology of inter-system conflict by classifying conflict types according to the architectural layer at which shared admissible discrepancy structure fails to form.
-TR_26/24     | [Inter-System Tension and Conflict Dynamics](https://doi.org/10.5281/zenodo.19981114)                              | Introduces the dynamic layer of inter-system conflict by formalizing inter-system tension, compensability, overload, and overload memory as trajectory-dependent coordinates of conflict dynamics. 
-TR_26/25     | [Asymmetry in Inter-System Conflict](https://doi.org/10.5281/zenodo.19983528)                                      | Formalizes asymmetry in inter-system conflict by distinguishing aggregate conflict dynamics from the directional distribution of burden, access, compensability, overload memory, dependency, representation, and updating admissibility.
-TR_26/26     | [Admissibility Constraints in Inter-System Conflict](https://doi.org/10.5281/zenodo.20001649)                      | Clarifies the admissibility constraints that determine whether inter-system conflict can become accessible, represented, compensable, and structurally transformable within the systems involved.
-TR_26/27     | [Conflict Escalation and Locking](https://doi.org/10.5281/zenodo.20002630)                                         | Formalizes conflict escalation and locking as trajectory-dependent processes through which overload memory, admissibility narrowing, representation hardening, reduced compensability, and updating inadmissibility make conflict self-reinforcing across time.
-TR_26/28     | [Conflict Transformation in Cognitive Systems](https://doi.org/10.5281/zenodo.20004041)                            | Defines conflict transformation as modification of the admissibility-constrained trajectory conditions through which inter-system conflict is accessed, represented, compensated, updated, unlocked, or made structurally transformable.
-TR_26/29     | [Mediation as Meta-Regulation in Inter-System Conflict](https://doi.org/10.5281/zenodo.20005118)                   | Defines mediation as meta-regulation of inter-system conflict transformability by modifying the admissibility-constrained conditions under which conflict becomes accessible, represented, compensated, structurally update-admissible, unlocked, or transformed.
-TR_26/30     | [Multi-System Conflict and Coalition Geometry](https://doi.org/10.5281/zenodo.20007862)                            | Extends inter-system conflict analysis from dyadic relations to multi-system coalition geometry by formalizing subset-level alignment, higher-order incompatibility, burden distribution, coalition dynamics, and meta-regulatory nodes.
-TR_26/31     | [Inter-System Conflict Resolution and Stabilization](https://doi.org/10.5281/zenodo.20008620)                      | Distinguishes conflict resolution from stabilization by defining resolution as restoration of sufficient shared admissible structure and stabilization as boundedness of conflict dynamics against overload, recurrence, escalation, and re-locking.
-TR_26/32     | [Applications to Social, Institutional, Human–AI, and Political Conflict](https://doi.org/10.5281/zenodo.20009760) | Maps the structural-regulatory framework of inter-system conflict onto social, institutional, human–AI, and political domains by distinguishing domain-specific admissibility structures, stabilization regimes, and resolution conditions.
--->
+A central design principle of the branch is **non-collapse across formal roles**. Conflict classification is not burden; burden is not source attribution; source attribution is not causality; access is not transformability; persistence is not escalation; escalation is not locking; transformability is not transformation; transformation is not resolution; mediation is not successful mediation; compatibility is not stabilization; and dyadic structure does not generically reconstruct higher-order multi-system organization.
+
+The branch therefore should not be read as a single mandatory processing ladder. Different papers own different formal surfaces and can be entered from different research questions.
+
+> **Upstream classification owner:**  
+> [Inter-System Conflict Classification in Cognitive Systems](https://doi.org/10.5281/zenodo.19509685) supplies the ready-and-defined current conflict classifier on which the branch below depends. The papers in this section do not redefine current conflict.
+
+### Suggested reading paths
+
+| Goal | Suggested route |
+|---|---|
+| **Fast structural route through the branch** | *Inter-System Tension and Conflict Dynamics* → *Admissibility Constraints* → *Conflict Escalation and Locking* → *Conflict Transformation* → *Conflict Resolution and Stabilization* |
+| **Source and explanatory structure** | *Types of Inter-System Conflict* → *Admissibility Constraints* → *Inter-System Tension and Conflict Dynamics* |
+| **Intervention and change** | *Conflict Transformation* → *Mediation as Meta-Regulation* → *Conflict Resolution and Stabilization* |
+| **Directional and asymmetric conflict** | *Inter-System Tension and Conflict Dynamics* → *Asymmetry in Inter-System Conflict* → *Conflict Escalation and Locking* |
+| **Multi-system and coalition analysis** | *Multi-System Conflict and Coalition Geometry* → *Inter-System Conflict Resolution and Stabilization* |
+| **Applications outside the formal core** | *Applications to Social, Institutional, Human–AI, and Political Conflict* |
+| **Bridge from cross-system qualitative reconstruction** | *Cross-System Qualitative Reconstruction Failure in Inter-System Regulation* → conflict classification / relevance / source / multi-system interfaces |
+
+### Conflict burden, asymmetry, constraints, and source attribution
+
+These papers decompose the structure surrounding an already established current conflict. They distinguish current regulatory burden from conflict classification, direction-specific effects from aggregate pair descriptions, conflict-side constraint surfaces from mandatory stages, and source attribution from both conflict existence and physical causality.
+
+| Work | Role in the branch |
+|---|---|
+| [**Inter-System Tension and Conflict Dynamics in Cognitive Systems**](https://doi.org/10.5281/zenodo.19981114) | Develops the burden and temporal-retention layer of inter-system conflict. The paper separates incompatibility-associated burden, coordination cost, current tension, instantaneous non-compensated excess, and retained burden, and shows that repeated positive excess does not by itself imply accumulation. Retained state is also kept distinct from the stronger controlled conditions required for trajectory-dependent response. |
+| [**Asymmetry in Inter-System Conflict in Cognitive Systems**](https://doi.org/10.5281/zenodo.19983528) | Introduces direction-specific conflict-burden records for the two sides of an interaction without reducing asymmetry to one scalar degree. Tension, compensability, excess, retained burden, release, accumulation, and other directional statuses can differ independently. Direction labels are indexing devices rather than claims about causation, blame, responsibility, or agency. |
+| [**Admissibility Constraints in Inter-System Conflict in Cognitive Systems**](https://doi.org/10.5281/zenodo.20001649) | Separates several conflict-side constraint surfaces: access to admitted conflict-relevant discrepancies, representation establishment, directional non-compensation, and candidate-level structural transformability. These components are not arranged into a mandatory access → representation → transformation ladder, and missing assessment is kept distinct from a negative result. Candidate-level transformability denotes availability only and does not imply selection, realization, conflict change, or resolution. |
+| [**Types of Inter-System Conflict in Cognitive Systems**](https://doi.org/10.5281/zenodo.19980874) | Reconstructs conflict “types” as **model-relative source-attribution categories** applied only after a current conflict has already been established. The source profile distinguishes declared, assessed, and positively attributed labels and permits empty or multi-label results without assuming an exhaustive taxonomy. Configuration-, invariant-, representation-interface-, regulatory-interface-, compression-organization-, and trajectory-conditioned families survive as optional typed source templates, while source attribution remains distinct from causality, necessity, severity, and required intervention. |
+
+### Escalation, transformation, and mediation
+
+This part of the branch moves from current structural conditions to temporal worsening and actual events. It distinguishes persistence from escalation and locking, candidate availability from realized transformation, and intervention occurrence from intervention success.
+
+| Work | Role in the branch |
+|---|---|
+| [**Conflict Escalation and Locking in Cognitive Systems**](https://doi.org/10.5281/zenodo.20002630) | Distinguishes **conflict persistence, escalation, and locking** as separate temporal or transition-level classifications. Escalation requires typed worsening of at least one validly assessed component while positive conflict persists under an aligned frame; a high current burden value is not sufficient. Locking requires stronger evidence, either through a forward-invariant conflict-positive transition region or through controlled finite-horizon trajectory-conditioned preservation or reactivation. |
+| [**Conflict Transformation in Cognitive Systems**](https://doi.org/10.5281/zenodo.20004041) | Separates transformability availability from actual transformation occurrence and separates occurrence from later outcomes. A system-local route requires positive structural realization of a conflict-relevant candidate, while a separate pair-level route requires its own pair-state occurrence contract. Access improvement, burden reduction, renewed transformability, loss of a locking route, compatibility, and resolution are therefore possible **outcomes** rather than retrospective definitions of transformation. |
+| [**Mediation as Meta-Regulation in Inter-System Conflict**](https://doi.org/10.5281/zenodo.20005118) | Formalizes mediation as a meta-regulatory intervention whose occurrence is defined independently of whether the intervention succeeds. Meta-regulatory targets are conditions, rules, interfaces, contexts, or transition organizations governing conflict-relevant surfaces rather than merely favorable state values. Effectiveness is criterion-relative, so the same mediation event may be effective relative to one criterion, ineffective relative to another, and unassessed relative to a third; mediation does not by itself imply transformation, burden reduction, resolution, or stabilization. |
+
+### Multi-system geometry, resolution, and stabilization
+
+The dyadic framework does not automatically scale by counting pairwise conflicts. These papers introduce genuinely higher-order conflict evaluation, coalition geometry, configuration-level clearance and resolution, and explicit temporal stabilization criteria.
+
+| Work | Role in the branch |
+|---|---|
+| [**Multi-System Conflict and Coalition Geometry in Cognitive Systems**](https://doi.org/10.5281/zenodo.20007862) | Extends the framework from dyadic conflict to positive multi-system conflict configurations, higher-order subset evaluation, and coalition geometry. Higher-order conflict is assessed through its own subset-level sufficiency classifier and is not generically reconstructible from complete pairwise conflict information; likewise, coalition alignment is separate from subsethood, higher-order compatibility, and absence of internal conflict. Coalition geometry is a relational record rather than a metric space or stabilization construct, and subset-directed burden is not assumed to equal an aggregation of dyadic burdens. |
+| [**Inter-System Conflict Resolution and Stabilization in Cognitive Systems**](https://doi.org/10.5281/zenodo.20008620) | Separates comparative **resolution** from temporal **stabilization**. Dyadic fixed-frame resolution is preserved as a stronger certificate than a compatible endpoint, while higher-order resolution, exhaustive current configuration clearance, and configuration-wide resolution receive distinct constructions. Observational stabilization requires complete finite-horizon coverage of all required component trajectories, robust stabilization additionally assesses a declared perturbation or successor family, and stable resolution therefore requires explicit post-resolution maintenance rather than resolution alone. |
+
+### Application layer
+
+The formal architecture is intended to be portable across domains without becoming empirically self-applying. Domain terminology must therefore be connected to GTCS objects through explicit application contracts rather than treated as a formal realization by linguistic resemblance.
+
+| Work | Role in the branch |
+|---|---|
+| [**Applications to Social, Institutional, Human–AI, and Political Conflict**](https://doi.org/10.5281/zenodo.20009760) | Introduces the **Application Bridge Contract** for connecting domain-side observations, rules, variables, and candidate structures to already-defined conflict objects. Bridge readiness, formal-assessment availability, empirical instantiation, causal attribution, and normative warrant remain separate claim classes. Social, institutional, Human–AI, and political examples are therefore treated as candidate realization families rather than automatic instances of GTCS categories; in particular, local Human–AI structural-regulatory compatibility is not a definition of broad AI alignment or safety, and political coalition language does not by itself establish formal coalition geometry. |
+
+### Cross-branch interface: qualitative reconstruction and conflict
+
+Cross-system qualitative reconstruction and inter-system conflict answer different formal questions. The following bridge connects them without making reconstruction failure a definition, source, or cause of conflict.
+
+| Work | Role in the branch |
+|---|---|
+| [**Cross-System Qualitative Reconstruction Failure in Inter-System Regulation: A Typed Bridge to Conflict Evaluation and Conflict-Side Relevance**](https://doi.org/10.5281/zenodo.20191402) | Provides the explicit interface between the cross-system qualitative-mapping sequence and Inter-System Conflict. A provenance-preserving **Qualified Reconstruction-Failure Record (QRF)** may originate from coordination-required unmapping, criterion-relative unfavorable mapping quality, or cross-receiver mapping conflict. Two orthogonal bridge routes are then distinguished: **QRFCoord** may link such a record to a current coordination-evaluation input before conflict classification, while **QRFRel** may associate QRF provenance with an already assessed conflict-relevance basis after conflict has independently been established. Neither route turns reconstruction failure into conflict, local access, source attribution, burden, causality, higher-order conflict, coalition alignment, mediation, transformation, resolution, or stabilization. |
+
+### How the branch fits together
+
+The Inter-System Conflict Branch should be read as a **network of typed interfaces rather than a single escalation ladder**.
+
+Current conflict classification is established upstream. Around that classification, burden, directional asymmetry, conflict-side access, representation, transformability, and source attribution provide different descriptions of the present conflict configuration. Escalation and locking add temporal and transition-level structure. Transformation and mediation introduce independently typed event architectures. Multi-system conflict and coalition geometry extend the framework beyond the dyad without reducing higher-order organization to pairwise information. Resolution and stabilization then add comparative and temporal closure criteria. The application layer controls how these formal objects may be used in empirical or domain-specific models, while the qualitative-reconstruction bridge provides a controlled interface from the cross-system phenomenological/mapping branch.
+
+Together, these works develop the **Inter-System Conflict Branch of GTCS** as a substrate-independent architecture for representing conflict classification, regulatory burden, source attribution, constrained accessibility, temporal worsening, structural change, intervention, higher-order organization, resolution, stabilization, and application without collapsing those roles into a single scalar notion of conflict.
+
 ---
 
 ## Significance Layer 
