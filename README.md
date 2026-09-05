@@ -350,29 +350,141 @@ Together, the two papers define the **Significance Layer of GTCS** as an archite
 
 ## Human Psychic Processing / Psychological Architecture
 
-This branch develops a structural-regulatory account of human psychic processing within GTCS. It asks how psychic material becomes available, weighted, attended, symbolically reorganized, blocked, or transformed under admissibility constraints. Rather than treating the psyche as a linear sequence from perception to thought to action, it describes a recurrent architecture of manifestation, attention, significance, affect-like modulation, symbolic thinking, overload, identity, and admissibility.
+The **Human Psychic Processing / Psychological Architecture** branch develops a human-specific application layer of the General Theory of Cognitive Structuring. Its purpose is not to construct a single linear model of the human psyche, nor to translate the Core architecture into ordinary psychological vocabulary. Instead, it introduces a set of typed human-processing surfaces through which attention, symbolic regulation, structural transformation, affect-like modulation, recurrence, avoidance, accessibility, overload, updating, identity continuity, conflict, setting-related support, symbolic stabilization, and interaction-level significance reconstruction can be represented without collapsing their distinct formal owners.
 
-No.          | Paper                                                                                   | Role
------------- | --------------------------------------------------------------------------------------- | -------------
- **Block 1** | **Doc**                                                                                 | **Core Psychological Architecture of Human Psychic Processing** 
-TN_26/HPP/01 | [A Structural Map of Human Psychic Processing](https://doi.org/10.5281/zenodo.20319960) | Provides a structural-regulatory map of human psychic processing by linking manifestation, attention, significance, affect-like modulation, symbolic thinking, admissibility, overload, and identity.
-TN_26/HPP/02 | [Attention as Regulated Access](https://doi.org/10.5281/zenodo.20358591)                | Explains attention as regulated access rather than neutral focus, showing why attention can open, avoid, displace, or prepare psychic material for transformation.
-TN_26/HPP/03 | [Thinking as Symbolic Regulation](https://doi.org/10.5281/zenodo.20453779)              | Maps thinking as symbolic holding and temporal configuration: how psychic material becomes thinkable, comparable, defensible, repeatable, or potentially transformable.
-TN_26/HPP/04 | [Admissible Transformation](https://doi.org/10.5281/zenodo.20477027)                    | Distinguishes psychic access from admissible transformation and explains why awareness, attention, significance, or symbolic clarity do not by themselves guarantee psychic change.
-TN_26/HPP/05 | [Affect-like Modulation](https://doi.org/10.5281/zenodo.20480292)                       | Maps affect-like modulation as the layer through which psychic material becomes tonally available for attention, symbolic work, and admissible transformation.
- **Block 2** | **Doc**                                                                                 | **Dynamics of Persistence and Transformation in Human Psychic Processing** 
-TN_26/HPP/06 | [Repetition and Return](https://doi.org/10.5281/zenodo.20501006)                        | Defines return as repetition with regulatory relevance and shows how recurring material may reflect a repeated regulatory profile rather than the same explicit thought or content.
-TN_26/HPP/07 | [Avoidance and Displacement](https://doi.org/10.5281/zenodo.20518703)                   | Explains avoidance as regulated distance from direct access and displacement as shifted access toward a more admissible substitute under admissibility constraints.
-TN_26/HPP/08 | [Restricted Psychic Accessibility](https://doi.org/10.5281/zenodo.20564198)             | Maps psychic accessibility as layered and admissibility-constrained, showing how material may be present, manifest, attended, symbolized, spoken, or acted upon while still remaining non-transformable.
-TN_26/HPP/09 | [Overload in Human Psychic Processing](https://doi.org/10.5281/zenodo.20585534)         | Explains overload as a restriction of psychic accessibility and transformability when the cost of holding, symbolizing, speaking, acting, or transforming material exceeds current regulatory capacity.
-TN_26/HPP/10 | [Symbolic Capture and Defensive Clarity](https://doi.org/10.5281/zenodo.20586952)       | Shows how symbolic clarity can reduce overload and stabilize access while still preventing transformation when the symbol becomes closed rather than revisable.
-TN_26/HPP/11 | [Partial Transformation and Gradual Updating](https://doi.org/10.5281/zenodo.20601110)  | Shows how psychic transformation can begin through partial, retained changes in accessibility, modulation, symbolization, actionability, and identity continuity before full structural reorganization occurs.
-TN_26/HPP/12 | [Identity-Continuity](https://doi.org/10.5281/zenodo.20602169)                          | Shows how psychic transformation depends on continuity through change, distinguishing continuity bridges from continuity locks under identity constraints.
- **Block 3** | **Doc**                                                                                                           | **Conflict, Therapy, and Applied Extensions** 
-TN_26/HPP/13 | [Intra-System Conflict under Significance and Admissibility Constraints](https://doi.org/10.5281/zenodo.20673960) | Shows how conflict emerges when several significant continuations matter but cannot yet be jointly admitted, coordinated, enacted, or transformed.
-TN_26/HPP/14 | [Therapeutic Setting as Support for Admissible Transformation](https://doi.org/10.5281/zenodo.20716123)           | Shows how therapeutic setting functions as part of the transformation conditions by supporting access, speech, symbolic holding, conflict differentiation, identity-continuity bridging, partial transformation, and retention.
-TN_26/HPP/15 | [Defensive Meaning and Symbolic Stabilization](https://doi.org/10.5281/zenodo.20729731)                           | Shows how meaning can protect admissibility by stabilizing material in a speakable and coherent form, while becoming defensive when this form limits transformability.
-TN_26/HPP/16 | [Significance Readability and Misreadability in Human Interaction](https://doi.org/10.5281/zenodo.20763451)       | Formalizes partial significance readability and misreadability across human systems, including their roles in conflict, therapy, and response adequacy.
+The branch is deliberately **non-sequential**. The ordering of the papers is useful for navigation, but it should not be read as a processing pipeline, developmental ladder, clinical progression, or universal temporal sequence. A relation between two surfaces is asserted only where an explicit typed interface is supplied. Attention is not automatically followed by symbolic regulation; symbolic regulation does not automatically produce transformation; recurrence does not imply avoidance; avoidance does not imply restricted accessibility; accessibility does not imply transformability; identity continuity does not gate transformation; conflict does not imply therapeutic need; and symbolic stabilization does not imply protective or clinical function.
+
+Several papers in the branch consume already established objects from the Core GTCS architecture, the Phenomenological / Qualitative Readability branch, the Inter-System Conflict branch, and the Significance layer. In such cases, the upstream object remains owned by its source construction. The HPP paper contributes a human application, alignment, evidence, comparison, readout, or downstream qualification rather than silently redefining the upstream concept.
+
+### Suggested reading paths
+
+**For a branch-level orientation:** begin with [A Structural Map of Human Psychic Processing](https://doi.org/10.5281/zenodo.20319960), then move through the branch according to the problem of interest rather than treating the numbered order as a process sequence.
+
+**For attention, symbolic processing, transformation, and affect-like organization:** read HPP02–HPP05.
+
+**For recurrence, avoidance, accessibility, overload, symbolic closure, and cross-observation updating:** read HPP06–HPP11.
+
+**For identity continuity, within-human conflict, setting-related support, persistent defensive meaning, and human interaction:** read HPP12–HPP16.
+
+**For cross-branch interfaces:** HPP04 connects human transformation targets to the Core structural-transformation architecture; HPP13 applies the Core coordination-conflict classifier within one human host; and HPP16 realizes the Significance / cross-system reconstruction architecture in human–human interaction.
+
+---
+
+### Branch Orientation
+
+#### [A Structural Map of Human Psychic Processing](https://doi.org/10.5281/zenodo.20319960)
+
+The branch-level orientation paper maps the main HPP owner surfaces and their dependencies without turning them into stages of one psychic process. It distinguishes the local objects introduced by HPP02–HPP16, identifies where upstream GTCS objects are imported, and treats paper order as a navigation aid rather than a causal or developmental sequence.
+
+The map is intentionally conservative: no unlabeled arrow implies a transition, no shared vocabulary implies object identity, and no branch-wide global psychic-state variable is introduced.
+
+---
+
+### Attention, Symbolic Regulation, Transformation, and Affect-Like Modulation
+
+#### [Attention as Regulated Focal Access in Human Psychic Processing](https://doi.org/10.5281/zenodo.20358591)
+
+This paper defines focal attention as a **regulated, target-specific access application** rather than as a universal winner-selection mechanism or a scalar amount of attention. Positive focal attention, negative focal attention, undefined assessment, and attention holding remain separate objects.
+
+The construction does not equate attention with pre-symbolic admission, manifestation, symbolic capture, significance, structural transformation, consciousness, or reportability. Attention may supply provenance to later HPP surfaces, but it does not generate their statuses by itself.
+
+#### [Thinking as Symbolic Regulation in Human Psychic Processing](https://doi.org/10.5281/zenodo.20453779)
+
+This paper gives “thinking” a deliberately narrow formal meaning: a **completed symbolic-regulation application** over independently qualified symbolic input. It distinguishes symbolic inputs, symbolic operations, completed symbolic-regulation applications, outputs, and optional symbolic proposals.
+
+A symbolic proposal is not thereby a structural-transformation candidate, selected continuation, action alternative, or realized successor. Symbolic regulation can feed later HPP constructions while remaining distinct from attention, significance, coherence evaluation, conflict, and structural transformation.
+
+#### [Admissible Transformation in Human Psychic Processing](https://doi.org/10.5281/zenodo.20477027)
+
+This paper provides the principal human interface to the generic **Architecture of Structural Transformation**. It does not introduce a second admissibility classifier. Instead, it distinguishes human transformation targets from Core structural-transformation candidates and supplies an explicit alignment between them.
+
+The construction preserves the full candidate-relative transformation architecture: operational availability, feasibility, viability, structural admissibility, selection, initiation, completion, realization, and later sustainability remain separate. Human attention, symbolic proposals, affect-like records, significance, overload, or identity-related evidence may condition an application without determining transformation status.
+
+#### [Affect-like Modulation in Human Psychic Processing](https://doi.org/10.5281/zenodo.20480292)
+
+This paper does not redefine the upstream affect-like role architecture. It supplies a **human target-application interface** through which already established burden-like, relief-like, threat-like, and attraction-like role applications can be related to exact HPP targets.
+
+A positive human affect-modulation application is a local target-relative applicability result rather than an emotion, intensity, valence, causal effect, action tendency, or transformation status. Multiple affect-like roles may coexist when independently supported, and no common affective scalar is introduced.
+
+---
+
+### Recurrence, Avoidance, Accessibility, Overload, Symbolic Closure, and Updating
+
+#### [Repetition and Return in Human Psychic Processing](https://doi.org/10.5281/zenodo.20501006)
+
+This paper separates **repetition** from **return**. Repetition is assessed over ordered provenance-bearing observations under an explicit recurrence specification; return is a distinct qualification available only over an already positive repetition application.
+
+Recurrence does not imply persistence, rigidity, significance, defense, unresolvedness, or trajectory-dependent regulation. The construction therefore provides a typed recurrence layer without turning repeated human-processing records into a generic theory of why they recur or what function recurrence serves.
+
+#### [Avoidance and Displacement in Human Psychic Processing](https://doi.org/10.5281/zenodo.20518703)
+
+Avoidance is defined as a positive target-specific assessment over an independently established primary target, a declared avoidance criterion, context, and positively aligned evidence. It is not inferred from negative attention, restricted accessibility, structural inadmissibility, recurrence, overload, or pathology.
+
+Displacement is narrower. It requires an already positive avoidance application, a distinct substitute target, and explicit same-pair relation evidence. The substitute cannot be used to reconstruct a hidden primary, and neither avoidance nor displacement receives protective, rigid, defensive, clinical, or transformative meaning by definition.
+
+#### [Restricted Psychic Accessibility in Human Psychic Processing](https://doi.org/10.5281/zenodo.20564198)
+
+This paper distinguishes **human interface-relative accessibility** from the generic Core restricted-access construction. A target can be independently accessible at one human-processing interface and negatively assessed at another without implying a universal hierarchy among interfaces.
+
+A second relation, restricted psychic accessibility, is available only over a complete negative interface-accessibility application and requires independent limitation evidence. The paper also introduces a narrowly defined **speakability** interface: availability for explicit verbal-symbolic formulation in a declared communicative context, not actual speech, disclosure, consciousness, recipient uptake, or therapeutic effect.
+
+#### [Overload in Human Psychic Processing](https://doi.org/10.5281/zenodo.20585534)
+
+This paper does not redefine overload. It begins from the existing distinction among current tension, instantaneous non-compensated excess, and retained overload, and asks how exact overload records may be related to exact human-processing outcomes.
+
+Four evidential strengths are separated: overload-to-human relevance alignment, evidence-based association, matched overload–human difference, and effect qualification supported by an independent identification warrant. Their ordering is epistemic rather than temporal. The paper therefore blocks the common shortcut from overload co-occurrence to assumed causal effects on attention, symbolic processing, avoidance, accessibility, identity, or transformation.
+
+#### [Symbolic Capture and Defensive Clarity in Human Psychic Processing](https://doi.org/10.5281/zenodo.20586952)
+
+This paper introduces three current symbolic-status surfaces: **symbolic clarity**, **challenge-conditioned symbolic closure**, and **defensive clarity**. Symbolic clarity concerns formulation determinacy or sufficiency under a declared criterion. Symbolic closure requires an independently applicable revision or differentiation challenge and evidence about the current symbolic response.
+
+Defensive clarity is a stronger same-target composite requiring positive clarity, positive closure, and explicit compatibility between the two applications. The term *defensive* is structural rather than functional: it does not imply unconscious defense, protection, overload reduction, identity preservation, rigidity, persistence, or transformation.
+
+#### [Local and Gradual Updating in Human Psychic Processing](https://doi.org/10.5281/zenodo.20601110)
+
+This paper replaces the earlier idea of “partial structural transformation” with a more precise architecture of **local and gradual updating**. Local difference compares two ordered, same-target observations under one source-specific surface; local update is a stronger independent qualification of such a difference.
+
+Retention and reuse are optional later relations rather than parts of the definition of updating, and retention does not imply continuous persistence. Gradual updating requires at least two distinct positive local updates in a compatible ordered same-target sequence, but it does not imply monotonic progress, common-scale accumulation, stabilization, trajectory-dependent regulation, or structural realization.
+
+---
+
+### Identity, Conflict, Setting-Related Support, Defensive Persistence, and Human Interaction
+
+#### [Identity-Continuity in Human Psychic Transformation](https://doi.org/10.5281/zenodo.20602169)
+
+This paper provides a human application layer around the transition-level identity-continuity classifier defined in **Identity-Continuity Domains in Cognitive Architectures**. The Core readiness, definedness, candidate-versus-realized stage, and identity-continuity value are imported unchanged.
+
+The HPP contribution is an explicit alignment between an exact human transformation or updating referent and the Core identity-evaluation record, followed by a separate human evidence/readout layer. Human self-referential, role-related, narrative, moral, or future-oriented evidence may agree with or diverge from the Core value without overwriting it. Identity continuity is not a universal gate for structural transformation or local updating.
+
+#### [Intra-System Conflict under Significance and Admissibility Constraints](https://doi.org/10.5281/zenodo.20673960)
+
+This paper develops a within-human application of the existing **Inter-System Conflict Classification** architecture. One human host and two distinct model-declared internal system roles must first be mapped to the ordered Core coordination interface; only a ready-and-defined Core compatibility/conflict value is then imported into the human application.
+
+Significance and transformation-side admissibility are optional conditioning/readout surfaces rather than definitions of conflict. Historical labels such as symbolic, moral, displaced, role, relational, action, or identity-bound conflict are therefore not retained as one flat formal taxonomy. Current conflict remains distinct from burden, persistence, transformation, resolution, stabilization, and therapeutic need.
+
+#### [Therapeutic Setting as Support for Admissible Transformation](https://doi.org/10.5281/zenodo.20716123)
+
+This paper represents a therapeutic setting as an **exact model-declared context configuration**, not as evidence of benefit. A setting is aligned to an exact human referent and to an owner-specific outcome surface before any support claim can be assessed.
+
+Setting presence, setting–outcome association, matched difference, directional support, and effect qualification remain distinct. In the title-level case, “support for admissible transformation” refers specifically to an exact candidate-relative structural-admissibility outcome. It does not imply realization, safety, clinical efficacy, persistence, or overall therapeutic benefit.
+
+#### [Defensive Meaning and Symbolic Stabilization in Human Psychic Processing](https://doi.org/10.5281/zenodo.20729731)
+
+This paper introduces a multi-observation persistence layer for symbolic organization. **Symbolic stabilization** requires exact source-bound observations, an explicit cross-observation symbolic-organization identity relation, source-native order, a declared stabilization window, and a multi-observation completion criterion.
+
+**Persistent defensive meaning** is a stronger challenge-conditioned qualification available only over a positive stabilization application and independent challenge or revision-opportunity evidence. Defensive meaning is therefore not inferred from assumed overload reduction, identity preservation, conflict narrowing, or blocked transformation. The paper also permits a narrowly typed restabilization event without treating return as regression or current symbolic closure as a persistent symbolic lock.
+
+#### [Significance Readability and Misreadability in Human Interaction](https://doi.org/10.5281/zenodo.20763451)
+
+This paper realizes the generic source-to-receiver significance-reconstruction architecture in **human–human interaction**. It introduces ordered human source–receiver roles, exact interaction traces or exposure records, receiver-side reconstruction evidence, bindings into the generic reconstruction frame, and a finite coverage architecture.
+
+Its use of *readability* is deliberately narrow: readability means **assessability for significance reconstruction**, not accuracy or successful understanding. A source-significance item may therefore be readable and simultaneously carry an imported positive mismatch such as under-reconstruction, over-reconstruction, mislocation, flattening, or order inversion. Misreadability itself is not reclassified locally; the human application can issue a positive misreadability record only by reference to the corresponding ready positive generic significance-misreadability result.
+
+---
+
+Taken together, the Human Psychic Processing / Psychological Architecture branch provides a **typed human application architecture rather than a unified stage model of the psyche**. Its papers make humanly recognizable phenomena formally addressable while preserving the distinctions inherited from the wider GTCS corpus: current access is not structural admissibility, recurrence is not persistence, symbolic closure is not stabilization, identity continuity is not transformation, significance is not conflict, conflict is not therapeutic need, therapeutic setting is not benefit, and readable interaction evidence is not accurate reconstruction.
+
+The branch is therefore best read as a network of interoperable but non-substitutable owner surfaces. Each paper introduces only the additional human-domain structure required for its own question and leaves stronger causal, functional, temporal, clinical, and cross-domain claims to separately typed constructions.
 
 ---
 
