@@ -1,2 +1,34 @@
-title: Kostiantyn Osmolovskyi
+# Site identity
+title: "Kostiantyn Osmolovskyi"
+tagline: "Research Program on Cognitive Structuring, Change, and Continuity"
+description: >-
+  Research program by Kostiantyn Osmolovskyi on cognitive structuring,
+  structural updating, persistence, cross-carrier continuity, and GTCS.
+
+url: "https://k-osmolovskyi.github.io"
+baseurl: ""
+locale: "en_US"
+
+# Author identity
+author:
+  name: "Kostiantyn Osmolovskyi"
+  url: "https://orcid.org/0009-0006-3144-7237"
+
+# Identity links used by jekyll-seo-tag for structured metadata
+social:
+  name: "Kostiantyn Osmolovskyi"
+  links:
+    - "https://orcid.org/0009-0006-3144-7237"
+    - "https://github.com/k-osmolovskyi"
+
+# Build / theme
 remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# The research map itself provides navigation.
+minima:
+  hide_site_feed_link: true
