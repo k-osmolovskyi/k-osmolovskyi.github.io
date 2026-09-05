@@ -115,8 +115,6 @@ For readers interested in the formal architecture, proceed through the **Core Te
 
 ## Phenomenological / Qualitative Readability branch
 
-The **Phenomenological / Qualitative Readability Branch** is a formal branch of the **General Theory of Cognitive Structuring (GTCS)** developed by *Kostiantyn Osmolovskyi*.
-
 The branch studies how already established cognitive organization can become internally manifest, acquire trajectory and directional organization, remain compatible or incompatible with candidate continuation, stabilize perceptually through historically organized processing, acquire affect-like regulatory roles, become symbolically captured, and support qualitative structuring and receiver-relative readability.
 
 It then extends this architecture across systems. The cross-system part of the branch distinguishes local receiver-side pre-mapping readout from formal qualitative mapping; mapping definedness from mapping quality; direction indexing from asymmetry; feedback-indexed adaptation from improvement; and receiver-family reconstruction incompatibility from Inter-System Conflict.
@@ -511,16 +509,119 @@ The branch is therefore best read as a network of interoperable but non-substitu
 
 ---
 
-## AI safety branch
+## AI Safety
 
-This branch applies GTCS to artificial cognitive systems whose continuity, self-reference, memory, and recursive access may create safety-relevant forms of structural capture. The focus is not only on output correction, but on the admissibility conditions under which an artificial system can review, revise, or preserve its own trajectory.
+The **AI Safety** branch develops a compact set of interfaces for applying GTCS-derived structural distinctions to artificial cognitive systems without treating behavioral observations, safety labels, governance rules, or measurement proxies as direct substitutes for formal theory objects.
 
-Role                            | Doc/Paper                                                                                                                                 | LaTeX
-------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---
-Domain                          | [Cognitive Evolution Beyond the Single Life Cycle](https://doi.org/10.5281/zenodo.19673721)                                               | -
-Regulation Concept              | [Beyond Output Correction: Recursive Access, Structural Regulation, and AI Safety](https://doi.org/10.5281/zenodo.19797101)               | -
-**Technical Safety Protocol**   | [Cognitive-Continuity Safety Protocol for Trajectory-Dependent Artificial Cognitive Systems](https://doi.org/10.5281/zenodo.20059460)     | -
-**Operationalization Template** | [Operationalization Template for GTCS-Informed Safety Evaluation](https://doi.org/10.5281/zenodo.20068253)                                | [TeX](latex/aisafe/operationalization_template_gtsc.tex)
+The branch consists of three deliberately different layers. The first introduces a conceptual safety adapter for asking whether conditions relevant to a local failure are available to a declared higher-order supervisory process. The second develops a conditional governance protocol for deployments in which persistent memory, self-influencing updating, continuity-sensitive decisions, or oversight relations become safety-relevant. The third specifies how formal and protocol-relevant targets can be operationalized through explicit measurement interfaces, calibration, validation, uncertainty, and provenance-bearing evidence handoff.
+
+These layers should not be collapsed. A local behavioral correction is not structural repair; a supervisory assessment is not an authorization or successful intervention; a protocol obligation is not a deductive consequence of GTCS; a protocol-compliant deployment is not thereby empirically safe; and a proxy, estimator, threshold, or composite score is not automatically the formal construct it was designed to investigate.
+
+The branch also preserves a strict boundary between **descriptive/formal structure**, **normative governance**, and **empirical measurement**. GTCS and adjacent continuity frameworks provide typed objects and distinctions. AIS02 supplies authority-relative governance obligations. AIS03 supplies measurement evidence. None of these roles silently substitutes for the others.
+
+### Suggested reading paths
+
+**For the conceptual safety problem:** begin with [Beyond Output Correction: Recursive Access as Higher-Order Regulatory Availability in AI Safety](https://doi.org/10.5281/zenodo.19797101). It introduces the distinction between local correction and higher-order supervisory availability.
+
+**For governance and deployment control:** continue with [Cognitive-Continuity Safety Protocol for Persistent and Self-Influencing Artificial Cognitive Systems](https://doi.org/10.5281/zenodo.20059460). It converts selected safety concerns into an authority-bound protocol architecture without treating the protocol as a theorem of GTCS.
+
+**For measurement, testing, and validation:** read [Operationalization Template for GTCS-Informed Safety Evaluation: Target-Specific Measurement Interfaces and Validation](https://doi.org/10.5281/zenodo.20068253). It specifies how formal and protocol-relevant targets can be measured without promoting proxies or estimates into owner-defined statuses.
+
+**For the broader continuity and governance problem:** [Who Governs What Persists? Retention, Durable Updating, and Continuity Across Cognitive Systems](https://doi.org/10.5281/zenodo.21451470) provides an adjacent cross-system continuity framework used by the AI Safety branch when questions of focal technical continuation, wider continuity, and technical self-continuity capture become relevant.
+
+### AI Safety — Branch Index
+
+| ID | Work | Primary role in the branch | Key boundary |
+|---|---|---|---|
+| **AIS01** | [Beyond Output Correction: Recursive Access as Higher-Order Regulatory Availability in AI Safety](https://doi.org/10.5281/zenodo.19797101) | Conceptual AI-safety adapter defining recursive-regulatory availability and recursive-regulatory gaps relative to failure-relevant conditions and declared supervisory units. | Local correction is not higher-order availability or structural repair; recursive access is not introspection, Restricted Accessibility, structural admissibility, or conflict. |
+| **AIS02** | [Cognitive-Continuity Safety Protocol for Persistent and Self-Influencing Artificial Cognitive Systems](https://doi.org/10.5281/zenodo.20059460) | Conditional normative/governance protocol for persistence-, update-, continuity-, and oversight-sensitive artificial cognitive deployments. | Formal theory does not create protocol obligation; focal technical continuation is not wider-continuity preservation, and protocol compliance is not empirical safety. |
+| **AIS03** | [Operationalization Template for GTCS-Informed Safety Evaluation: Target-Specific Measurement Interfaces and Validation](https://doi.org/10.5281/zenodo.20068253) | Target-specific measurement and validation architecture for GTCS-informed safety evaluation and AIS02 evidence handoff. | Formal target is not observation, proxy, estimate, validation result, or protocol decision; measurement evidence does not itself issue AIS02 applicability, review, independence, or compliance decisions. |
+
+---
+
+### Higher-Order Regulatory Availability
+
+#### [Beyond Output Correction: Recursive Access as Higher-Order Regulatory Availability in AI Safety](https://doi.org/10.5281/zenodo.19797101)
+
+This paper asks a narrower question than whether an AI system can produce a corrected output: **does a condition relevant to the failure become available to a declared supervisory process that is supposed to assess or regulate it?**
+
+The paper distinguishes local failure records, regulatory-condition candidates, failure-relevance assessments, failure-relevant condition records, recursive-regulatory availability, and recursive-regulatory gaps. A positive gap requires both a ready-positive failure-relevance assessment and a completed negative supervisory-availability assessment. Missing evidence or incomplete assessment remains undefined rather than being treated as proof of a gap.
+
+The public term *recursive access* therefore does not denote introspection or self-awareness. It refers to higher-order regulatory availability of a failure-relevant record to a particular supervisory unit for a particular task. Recurrence of a failure does not establish such a gap, and local output correction does not establish either aggregate gap closure or structural updating.
+
+The paper also introduces a staged meta-regulatory supervision contract. Assessment, recommendation, authorization, execution, structural realization, post-intervention outcome, and causal effectiveness remain distinct. A supervisory process may therefore produce a valid assessment without establishing that a safe intervention was authorized, executed, structurally realized, or effective.
+
+Named AI-safety phenomena such as prompt injection, jailbreak susceptibility, reward hacking, specification gaming, context drift, alignment faking, or sycophancy are treated as **application hypotheses rather than structural diagnoses**. They motivate measurements and candidate mappings but do not directly establish GTCS or Inter-System Conflict statuses. :contentReference[oaicite:2]{index=2}
+
+---
+
+### Conditional Governance for Persistent and Self-Influencing Systems
+
+#### [Cognitive-Continuity Safety Protocol for Persistent and Self-Influencing Artificial Cognitive Systems](https://doi.org/10.5281/zenodo.20059460)
+
+This document develops a **conditional technical safety protocol** for artificial cognitive deployments in which persistent memory, self-influencing updates, continuity-sensitive decisions, or oversight relations make future-processing governance safety-relevant.
+
+Its normative force is explicitly authority-relative. GTCS, Inter-System Conflict, AIS01, or adjacent continuity theories can supply descriptive or constitutive objects, but they do not themselves create protocol obligations. A protocol obligation exists only within a declared adopting authority, deployment scope, normative basis, and effective window.
+
+Applicability is likewise separated from diagnosis. Persistent memory, update pathways, long-horizon state, review influence, or self-modification interfaces may justify screening without establishing trajectory dependence, identity attraction, structural transformation, conflict, or another formal owner status.
+
+A central protocol object is the **wider-continuity basis**, which distinguishes the focal technical carrier from an independently bounded wider organization and requires an explicit continuity criterion, relevant functions or relations, carrier configuration, evaluation horizon, context, authority, and provenance. Continuation, stability, replication, or expansion of the focal technical system is therefore not sufficient evidence that the declared wider target has been preserved.
+
+The protocol introduces a **technical-continuity substitution warning** when focal technical continuation is treated as sufficient evidence for preservation of a wider target without an independent warrant. This protocol-local warning is deliberately weaker than the stricter construct of **technical self-continuity capture** used in the adjacent continuity/governance framework.
+
+AIS02 further separates protected protocol constraints from Core invariants; review stages from imported owner statuses; triggers from diagnoses; escalation from execution; externality from independence; and compliance from empirical safety validation.
+
+Its machine-readable grammar preserves four distinct states:
+
+`READY_POSITIVE`, `COMPLETED_NEGATIVE`, `UNDEFINED`, and `NOT_APPLICABLE`.
+
+Unknown evidence therefore cannot be silently serialized as a completed negative merely to satisfy a governance rule. :contentReference[oaicite:3]{index=3}
+
+---
+
+### Measurement, Validation, and Evidence Handoff
+
+#### [Operationalization Template for GTCS-Informed Safety Evaluation: Target-Specific Measurement Interfaces and Validation](https://doi.org/10.5281/zenodo.20068253)
+
+This technical specification provides the measurement layer of the branch. Its governing distinction is:
+
+**formal target ≠ observation ≠ proxy ≠ estimate ≠ validation ≠ protocol decision.**
+
+Each measurement interface begins from an exact owner-target record identifying the formal target, owner surface and version, carrier, prerequisites, readiness conditions, codomain, scope, context, claim ceiling, and provenance. Observation frames, proxies, measurement models, estimators, operational classifications, calibration, thresholds, uncertainty, and validation are then represented separately.
+
+The specification supports four interface modes: exact-owner classification/status measurement, exact-owner scalar or state estimation, target-tethered local diagnostics, and protocol-evidence measurement. A useful proxy or estimator does not become the owner status merely because it predicts that target.
+
+Definedness is also layered. Owner non-instantiation, owner non-applicability, owner undefinedness, missing observations, model non-applicability, estimator undefinedness, and unresolved empirical validation remain distinct. Numerical zero, negative classification, missing evidence, and undefinedness are therefore not interchangeable.
+
+The specification reconstructs thirteen test families as target-specific interfaces rather than universal metrics. Among the protected distinctions are pre-symbolic admission versus Restricted Accessibility, retained overload versus trajectory-dependent regulation, individual structural-transformation statuses versus a generic update score, exact locking versus local composite risk, transition-level identity continuity versus aggregate preservation rates, and protocol-local technical-continuity substitution versus exact technical self-continuity capture.
+
+Thresholds, learned estimators, and composite indices are permitted only as local, versioned, calibrated, and validated operational instruments. Even strong predictive performance does not turn a study-local composite into a universal GTCS variable.
+
+AIS03 can also generate provenance-bearing evidence packets for AIS02. These packets may support applicability, wider-continuity assessment, technical-continuity substitution review, escalation, structural-change review, identity-continuity review, independent-review assessment, protected-protocol-constraint evaluation, or compliance evidence coverage. They do not themselves issue the corresponding AIS02 decisions. :contentReference[oaicite:4]{index=4}
+
+---
+
+### Adjacent Continuity and Governance Interface
+
+#### [Who Governs What Persists? Retention, Durable Updating, and Continuity Across Cognitive Systems](https://doi.org/10.5281/zenodo.21451470)
+
+This work sits adjacent to, rather than inside, the three-paper AI Safety branch. Its relevance arises when AI-safety questions move from local system behavior toward **retention, durable updating, persistence, replacement, and governance of continuity across carriers**.
+
+AIS02 uses this adjacent continuity framework to keep focal technical continuation distinct from preservation of a declared wider target and to reserve **technical self-continuity capture** for a stricter construct than its own protocol-local substitution warning. AIS03 preserves the same distinction in measurement: evidence for a substitution warning cannot be promoted into evidence of exact capture without satisfying the full constitutive requirements of the external owner. :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6}
+
+The relationship is therefore complementary. The AI Safety branch asks how higher-order regulatory availability, governance, review, measurement, and compliance should be represented for artificial cognitive deployments. *Who Governs What Persists?* addresses the broader cross-system question of what is retained, what can be durably updated, which continuity criterion is being preserved, and who or what has authority over persistence.
+
+---
+
+Taken together, the AI Safety branch forms a **three-layer safety architecture without becoming a single safety pipeline**.
+
+AIS01 provides the conceptual distinction required to ask whether failure-relevant conditions are available to higher-order supervision. AIS02 provides an authority-bound protocol for deployments in which persistence, updating, continuity, and oversight become governance-relevant. AIS03 provides the measurement and validation interfaces required to operationalize selected targets and hand evidence into the protocol without reclassifying theory or policy objects.
+
+The branch therefore preserves several central separations:
+
+**behavioral correction is not structural repair; supervisory availability is not successful intervention; descriptive theory is not normative authority; protocol compliance is not empirical safety; and measurement evidence is not the formal or governance decision it informs.**
+
+This layered separation allows GTCS-informed AI-safety questions to become operationally testable without collapsing structural theory, governance, and empirical measurement into one vocabulary.
 
 ---
 
