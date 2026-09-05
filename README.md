@@ -1,8 +1,10 @@
+**EN** · [UKR](https://k-osmolovskyi.github.io/uk/)
+
 # Research Program on Cognitive Structuring, Change, and Continuity
 
 *Research on structural updating, persistence, continuity, and the distribution of cognitive organization across time, architectures, carriers, and interacting systems.*
 
-**Author:** Kostiantyn Osmolovskyi
+**Author:** Kostiantyn Osmolovskyi  
 **ORCID:** [0009-0006-3144-7237](https://orcid.org/0009-0006-3144-7237)  
 **Canonical formal framework:** [General Theory of Cognitive Structuring (GTCS)](#general-theory-of-cognitive-structuring-gtcs)  
 **Research-status note updated:** 5 September 2026
