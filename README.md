@@ -551,7 +551,7 @@ The public term *recursive access* therefore does not denote introspection or se
 
 The paper also introduces a staged meta-regulatory supervision contract. Assessment, recommendation, authorization, execution, structural realization, post-intervention outcome, and causal effectiveness remain distinct. A supervisory process may therefore produce a valid assessment without establishing that a safe intervention was authorized, executed, structurally realized, or effective.
 
-Named AI-safety phenomena such as prompt injection, jailbreak susceptibility, reward hacking, specification gaming, context drift, alignment faking, or sycophancy are treated as **application hypotheses rather than structural diagnoses**. They motivate measurements and candidate mappings but do not directly establish GTCS or Inter-System Conflict statuses. :contentReference[oaicite:2]{index=2}
+Named AI-safety phenomena such as prompt injection, jailbreak susceptibility, reward hacking, specification gaming, context drift, alignment faking, or sycophancy are treated as **application hypotheses rather than structural diagnoses**. They motivate measurements and candidate mappings but do not directly establish GTCS or Inter-System Conflict statuses.
 
 ---
 
@@ -575,7 +575,7 @@ Its machine-readable grammar preserves four distinct states:
 
 `READY_POSITIVE`, `COMPLETED_NEGATIVE`, `UNDEFINED`, and `NOT_APPLICABLE`.
 
-Unknown evidence therefore cannot be silently serialized as a completed negative merely to satisfy a governance rule. :contentReference[oaicite:3]{index=3}
+Unknown evidence therefore cannot be silently serialized as a completed negative merely to satisfy a governance rule.
 
 ---
 
@@ -597,7 +597,7 @@ The specification reconstructs thirteen test families as target-specific interfa
 
 Thresholds, learned estimators, and composite indices are permitted only as local, versioned, calibrated, and validated operational instruments. Even strong predictive performance does not turn a study-local composite into a universal GTCS variable.
 
-AIS03 can also generate provenance-bearing evidence packets for AIS02. These packets may support applicability, wider-continuity assessment, technical-continuity substitution review, escalation, structural-change review, identity-continuity review, independent-review assessment, protected-protocol-constraint evaluation, or compliance evidence coverage. They do not themselves issue the corresponding AIS02 decisions. :contentReference[oaicite:4]{index=4}
+AIS03 can also generate provenance-bearing evidence packets for AIS02. These packets may support applicability, wider-continuity assessment, technical-continuity substitution review, escalation, structural-change review, identity-continuity review, independent-review assessment, protected-protocol-constraint evaluation, or compliance evidence coverage. They do not themselves issue the corresponding AIS02 decisions.
 
 ---
 
@@ -607,7 +607,7 @@ AIS03 can also generate provenance-bearing evidence packets for AIS02. These pac
 
 This work sits adjacent to, rather than inside, the three-paper AI Safety branch. Its relevance arises when AI-safety questions move from local system behavior toward **retention, durable updating, persistence, replacement, and governance of continuity across carriers**.
 
-AIS02 uses this adjacent continuity framework to keep focal technical continuation distinct from preservation of a declared wider target and to reserve **technical self-continuity capture** for a stricter construct than its own protocol-local substitution warning. AIS03 preserves the same distinction in measurement: evidence for a substitution warning cannot be promoted into evidence of exact capture without satisfying the full constitutive requirements of the external owner. :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6}
+AIS02 uses this adjacent continuity framework to keep focal technical continuation distinct from preservation of a declared wider target and to reserve **technical self-continuity capture** for a stricter construct than its own protocol-local substitution warning. AIS03 preserves the same distinction in measurement: evidence for a substitution warning cannot be promoted into evidence of exact capture without satisfying the full constitutive requirements of the external owner.
 
 The relationship is therefore complementary. The AI Safety branch asks how higher-order regulatory availability, governance, review, measurement, and compliance should be represented for artificial cognitive deployments. *Who Governs What Persists?* addresses the broader cross-system question of what is retained, what can be durably updated, which continuity criterion is being preserved, and who or what has authority over persistence.
 
