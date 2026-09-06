@@ -4,10 +4,9 @@
 
 *Research on structural updating, persistence, continuity, and the distribution of cognitive organization across time, architectures, carriers, and interacting systems.*
 
-**Author:** Kostiantyn Osmolovskyi  
-**ORCID:** [0009-0006-3144-7237](https://orcid.org/0009-0006-3144-7237)  
-**Canonical formal framework:** [General Theory of Cognitive Structuring (GTCS)](#general-theory-of-cognitive-structuring-gtcs)  
-**Research-status note updated:** 5 September 2026
+*Author:* Kostiantyn Osmolovskyi  
+*ORCID:* [0009-0006-3144-7237](https://orcid.org/0009-0006-3144-7237)  
+*Canonical formal framework:* [General Theory of Cognitive Structuring (GTCS)](#general-theory-of-cognitive-structuring-gtcs)  
 
 This repository is the canonical public landing page and complete research map for a research program on how cognitive organization is sustained, constrained, structurally revised, preserved through change, continued across carriers, and distributed across interacting systems.
 
@@ -31,7 +30,7 @@ The repository is intended to serve both as a public orientation page and as a d
 
 The following three papers currently provide the most direct journal-facing entry into the broader research program. They are related, but they are not interchangeable summaries of GTCS and they do not depend on every technical branch below.
 
-| Research paper | Current status | Program-level role |
+| Research paper | Current status (1 Sep 2026) | Program-level role |
 |---|---|---|
 | [**Structural Updating and the Limits of Inference in Cognitive Change**](https://doi.org/10.5281/zenodo.19545676) | *Integrative Psychological and Behavioral Science* — under peer review | Develops the distinction between informational or behavioral change and warranted inference to structural updating. It provides the conceptual entry point to the problem of when observed change warrants an inference to structural reorganization rather than merely to information processing or behavioral change. |
 | [**Cognitive Evolution Beyond the Single Life Cycle: A Framework for Cross-Carrier Continuity and Distributed Processing**](https://doi.org/10.5281/zenodo.19673721) | *New Ideas in Psychology* — under peer review | Extends the continuity problem beyond one organismal life cycle and asks how cognitive organization can accumulate, persist, and remain distributed across changing carriers and external structures. |
