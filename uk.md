@@ -6,11 +6,11 @@ lang: uk
 
 [**EN**](https://k-osmolovskyi.github.io/) · **UKR**
 
-# Kostiantyn Osmolovskyi — Дослідницька програма когнітивного структурування, змін і збереження тяглості
+# Дослідницька програма когнітивного структурування, змін і збереження тяглості
 
 *Дослідження структурного оновлення, збереження організації, тяглості та розподілу когнітивної організації в часі, між архітектурами, носіями й взаємодіючими системами.*
 
-**Автор:** Kostiantyn Osmolovskyi — незалежний дослідник  
+**Автор:** Костінтин Осмоловський   
 **ORCID:** [0009-0006-3144-7237](https://orcid.org/0009-0006-3144-7237)  
 **Канонічний формальний каркас:** [General Theory of Cognitive Structuring (GTCS)](#general-theory-of-cognitive-structuring-gtcs)  
 **Примітку про статус досліджень оновлено:** 5 вересня 2026 року
@@ -331,14 +331,14 @@ Inter-System Conflict Branch розвиває типізований струк�
 
 ## Автор і контакт
 
-**Kostiantyn Osmolovskyi**  
+**Костянтин Осмоловський**  
 Незалежний дослідник, Україна  
 ORCID: [0009-0006-3144-7237](https://orcid.org/0009-0006-3144-7237)  
 Контакт: constantinosmol@gmail.com
 
 ### Поточне практичне прохання: arXiv endorsement
 
-Наразі я шукаю endorsement для arXiv у категорії **cs.AI (Artificial Intelligence)**. Якщо ви можете endorse submissions у цій категорії або допомогти мені пройти цей крок, ось посилання:
+Наразі я шукаю endorsement для arXiv у категорії **cs.AI (Artificial Intelligence)**. Якщо у вас є можливість endorse submissions у цій категорії, ось посилання:
 
 [https://arxiv.org/auth/endorse?x=Q6E93A](https://arxiv.org/auth/endorse?x=Q6E93A)
 
