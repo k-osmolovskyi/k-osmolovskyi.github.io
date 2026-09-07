@@ -7,7 +7,7 @@
 ## Errors
 - Typo, broken link, LaTeX compilation error?
 - Create New Issue with the template:
-  - Файл: `latex/core/axioms.tex`
+  - File: `src/*.tex`
   - Description: what's wrong
   - Suggestion: how to fix
 
@@ -16,7 +16,7 @@
 - Create New Issue tagged `enhancement`
 
 ## Paperwork
-- Text: Use English quotation marks `''`, mathematics — in `$...$` or `$$...$$`
+- Text: Use English quotation marks `''`, mathematics — in `$...$`
 - References: DOI or arXiv ID preferred
 
 ## License
