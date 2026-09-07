@@ -117,10 +117,10 @@ The Verification Package makes terminology, dependency structure, result ownersh
 | [External Verification Checklist](https://doi.org/10.5281/zenodo.19701915)              | Reviewer-facing checklist for recording source checks, acceptance conditions, prohibited inferences, and bounded outcomes. |
 | [Minimal Claims Register](https://doi.org/10.5281/zenodo.19701933)                      | Minimal public claims and their verification domains; deliberately narrower than the full result inventory.                |
 
-| Operationalization / computational adjunct | Role |
-|---|---|
-| [Operationalizing GTCS: From Structural Variables to Observational Proxies](https://doi.org/10.5281/zenodo.20039956) | Develops an operationalization framework that connects formal GTCS variables and statuses to observation, proxy, calibration, and validation interfaces without equating measurements with owner-defined constructs. |
-| [Integrated GTCS Ablation Benchmark](https://doi.org/10.5281/zenodo.22633809) | Reviewed non-core computational adjunct for inspecting selected GTCS operational or computational distinctions. |
+| Operationalization / computational adjunct | Role | Supplement |
+|---|---|---|
+| [Operationalizing GTCS: From Structural Variables to Observational Proxies](https://doi.org/10.5281/zenodo.20039956) | Develops an operationalization framework that connects formal GTCS variables and statuses to observation, proxy, calibration, and validation interfaces without equating measurements with owner-defined constructs. | _ |
+| [Integrated GTCS Ablation Benchmark](https://doi.org/10.5281/zenodo.22633809) | Reviewed non-core computational adjunct for inspecting selected GTCS operational or computational distinctions. | [Supp_Zip](/src/Integrated_GTCS_Ablation_Benchmark_Public_Supplement_v1.zip) |
 
 ---
 
