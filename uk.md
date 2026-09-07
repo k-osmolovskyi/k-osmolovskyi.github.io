@@ -128,7 +128,7 @@ Verification Package робить термінологію, структуру �
 | Операціоналізація / обчислювальний додаток | Роль |
 |---|---|
 | [Operationalizing GTCS: From Structural Variables to Observational Proxies](https://doi.org/10.5281/zenodo.20039956) | Розвиває каркас операціоналізації, що пов’язує формальні змінні та статуси GTCS зі спостереженнями, проксі-змінними, калібруванням та інтерфейсами валідації без ототожнення вимірювань із конструкціями, визначеними їхнім формальним власником. |
-| **Integrated GTCS Ablation Benchmark** | Перевірений неядерний обчислювальний додаток для інспекції вибраних операціональних або обчислювальних розрізнень GTCS. |
+| [Integrated GTCS Ablation Benchmark](https://doi.org/10.5281/zenodo.22633809) | Перевірений неядерний обчислювальний додаток для інспекції вибраних операціональних або обчислювальних розрізнень GTCS. |
 
 ---
 
@@ -291,14 +291,6 @@ Inter-System Conflict Branch розвиває типізований струк�
 | **AIS03** | [Operationalization Template for GTCS-Informed Safety Evaluation: Target-Specific Measurement Interfaces and Validation](https://doi.org/10.5281/zenodo.20068253) | Target-specific measurement and validation architecture для GTCS-informed safety evaluation та AIS02 evidence handoff. | Formal target не є observation, proxy, estimate, validation result або protocol decision; measurement evidence саме по собі не видає AIS02 applicability, review, independence чи compliance decisions. |
 
 Ширші питання тяглості та врядування, розглянуті в *Who Governs What Persists?*, є суміжними з цією гілкою. Вони стають релевантними, коли аналіз безпеки ШІ переходить від локальної поведінки до утримання, стійкого оновлення, заміни, персистентної пам’яті, продовження носія та контролю над ширшою тяглістю. Гілка AI Safety не зводить ці ширші питання до однієї технічної метрики безпеки.
-
----
-
-### Додаткова / дослідницько-концептуальна робота
-
-| Робота | Роль |
-|---|---|
-| [Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) | Концептуальна робота, що досліджує можливий зв’язок між coherence-evaluation architecture та felt regulatory organization. Її слід читати як концептуальне дослідження, а не як заміну формального Core або пізнішої аудитованої Phenomenological / Qualitative Readability branch. |
 
 ---
 
