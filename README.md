@@ -120,7 +120,7 @@ The Verification Package makes terminology, dependency structure, result ownersh
 | Operationalization / computational adjunct | Role |
 |---|---|
 | [Operationalizing GTCS: From Structural Variables to Observational Proxies](https://doi.org/10.5281/zenodo.20039956) | Develops an operationalization framework that connects formal GTCS variables and statuses to observation, proxy, calibration, and validation interfaces without equating measurements with owner-defined constructs. |
-| **Integrated GTCS Ablation Benchmark** | Reviewed non-core computational adjunct for inspecting selected GTCS operational or computational distinctions. |
+| [Integrated GTCS Ablation Benchmark](https://doi.org/10.5281/zenodo.22633809) | Reviewed non-core computational adjunct for inspecting selected GTCS operational or computational distinctions. |
 
 ---
 
@@ -283,14 +283,6 @@ A local behavioral correction is not structural repair; a supervisory assessment
 | **AIS03** | [Operationalization Template for GTCS-Informed Safety Evaluation: Target-Specific Measurement Interfaces and Validation](https://doi.org/10.5281/zenodo.20068253) | Target-specific measurement and validation architecture for GTCS-informed safety evaluation and AIS02 evidence handoff. | Formal target is not observation, proxy, estimate, validation result, or protocol decision; measurement evidence does not itself issue AIS02 applicability, review, independence, or compliance decisions. |
 
 The broader continuity and governance questions addressed in *Who Governs What Persists?* are adjacent to this branch. They become relevant when AI-safety analysis moves from local behavior toward retention, durable updating, replacement, persistent memory, carrier continuation, and control over wider continuity. The AI Safety branch does not collapse these wider questions into one technical safety metric.
-
----
-
-### Additional / Exploratory Conceptual Work
-
-| Work | Role |
-|---|---|
-| [Coherence Evaluation, Feelings, and Emotions: The Felt Layer of Regulation](https://doi.org/10.5281/zenodo.19588489) | Concept paper exploring a possible relation between coherence-evaluation architecture and felt regulatory organization. It should be read as conceptual exploration rather than as a replacement for the formal Core or the later audited Phenomenological / Qualitative Readability branch. |
 
 ---
 
