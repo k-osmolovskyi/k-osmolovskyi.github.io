@@ -30,10 +30,14 @@ The repository is intended to serve both as a public orientation page and as a d
 
 The following papers currently provide the most direct journal-facing entry into the broader research program. They are related, but they are not interchangeable summaries of GTCS and they do not depend on every technical branch below.
 
-1. Osmolovskyi, K. Structural Updating and the Limits of Inference in Cognitive Change. *Integr. psych. behav.* **60**, 65 (2026).  
-[DOI: 10.1007/s12124-026-10028-x](https://doi.org/10.1007/s12124-026-10028-x)  
-Read full text via [Springer SharedIt](https://rdcu.be/9gwp55vaicya)  
-Develops the distinction between informational or behavioral change and warranted inference to structural updating. It provides the conceptual entry point to the problem of when observed change warrants an inference to structural reorganization rather than merely to information processing or behavioral change
+**Structural Updating and the Limits of Inference in Cognitive Change**  
+*Integrative Psychological and Behavioral Science*  
+DOI: 10.1007/s12124-026-10028-x [Version of Record](https://doi.org/10.1007/s12124-026-10028-x)  
+Read full text via [Springer SharedIt](SHAREDIT_LINK)
+
+> *Structural Updating and the Limits of Inference in Cognitive Change* develops the distinction between informational or behavioral change and warranted inference to structural updating. It provides the conceptual entry point to the problem of when observed change warrants an inference to structural reorganization rather than merely to information processing or behavioral change
+
+---
 
 
 | Research paper pending | Current status<br>(11 Sep 2026) | Program-level role |
