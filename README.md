@@ -33,7 +33,7 @@ The following papers currently provide the most direct journal-facing entry into
 **Structural Updating and the Limits of Inference in Cognitive Change**  
 *Integrative Psychological and Behavioral Science*  
 DOI: 10.1007/s12124-026-10028-x [Version of Record](https://doi.org/10.1007/s12124-026-10028-x)  
-Read full text via [Springer SharedIt](SHAREDIT_LINK)
+Read full text via [Springer SharedIt](https://rdcu.be/9gwp55vaicya)
 
 > *Structural Updating and the Limits of Inference in Cognitive Change* develops the distinction between informational or behavioral change and warranted inference to structural updating. It provides the conceptual entry point to the problem of when observed change warrants an inference to structural reorganization rather than merely to information processing or behavioral change
 
