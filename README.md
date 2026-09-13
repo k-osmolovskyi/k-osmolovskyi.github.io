@@ -10,7 +10,7 @@
 
 This repository is the canonical public landing page and complete research map for a research program on how cognitive organization is sustained, constrained, structurally revised, preserved through change, continued across carriers, and distributed across interacting systems.
 
-The **General Theory of Cognitive Structuring (GTCS)** is the principal formal-architectural component of the program, but the research program is broader than GTCS alone. It also includes primary journal-facing papers on structural updating, cross-carrier continuity, retention, durable updating, and continuity-relevant control; specialized GTCS branches; human-specific applications; AI-safety and governance interfaces; verification materials; operationalization frameworks; and computational or toy realizations.
+The **General Theory of Cognitive Structuring (GTCS)** is the principal formal-architectural component of the program, but the research program is broader than GTCS alone. It also includes program-level conceptual work preserving the wider historical horizon of the research; primary journal-facing papers on structural updating, cross-carrier continuity, retention, durable updating, and continuity-relevant control; specialized GTCS branches; human-specific applications; AI-safety and governance interfaces; verification materials; operationalization frameworks; and computational or toy realizations.
 
 A recurring methodological commitment across the program is that conditions that often appear together should not be treated as identical merely because they co-occur. Information processing is not structural updating; discrepancy is not differentiated access; access is not representation; pressure for change is not an available transformation; transformation is not continuity loss; persistence is not stability; transfer is not coordination; significance is not selection; and local technical continuation is not by itself preservation of a wider cognitive organization.
 
@@ -23,6 +23,18 @@ The program therefore asks a connected family of questions:
 - Which formal distinctions must remain separate if these questions are to be investigated without collapsing different architectural roles into one vocabulary?
 
 The repository is intended to serve both as a public orientation page and as a durable navigation map of the complete research corpus. For that reason, the full titles and public links of the works are retained below even when a branch is summarized compactly.
+
+---
+
+## Program-Level Conceptual Orientation
+
+[**The Historical Horizon of Cognitive Structuring: From Emergent Constraint to Cross-Carrier Continuation**](https://doi.org/10.5281/zenodo.22738979)
+
+This programmatic conceptual note preserves the broader historical intuition connecting structural updating, durable retention, cross-carrier continuity, distributed processing, and the long-term revisability of cognitive organization. It asks how organization formed earlier can alter the starting conditions of later cognition, remain consequential across changes of carrier, become distributed across wider arrangements, and sometimes constrain the capacity for further revision.
+
+The note is deliberately broader than the current formal GTCS Core. It does not propose a global ontology of cognition or treat historical continuation as persistence of one unchanged cognitive system. Instead, it provides an accessible map of the wider research horizon and motivates the more limited hypothesis that, for some phenomena, local-carrier analysis may need to be supplemented by a lineage-scale account of how organization is retained, reconstructed, redistributed, transformed, and branched across time.
+
+For readers approaching the research program as a whole rather than one specific technical problem, this is the broadest conceptual orientation document.
 
 ---
 
@@ -78,7 +90,7 @@ Likewise, compatibility with GTCS does not by itself make a wider conceptual pro
 
 ### Start here
 
-For a **conceptual entry**, begin with the three journal-facing papers above. For a **formal entry**, begin with the GTCS synthesis and then use the Core Technical Sequence and Verification Package below. For a **specialized question**, use the branch index in the Complete Research Map.
+For a **broad program-level orientation**, begin with [*The Historical Horizon of Cognitive Structuring*](https://doi.org/10.5281/zenodo.22738979). For a **journal-facing conceptual entry**, use the three primary papers above. For a **formal entry**, begin with the GTCS synthesis and then use the Core Technical Sequence and Verification Package below. For a **specialized question**, use the branch index in the Complete Research Map.
 
 ---
 
@@ -299,6 +311,8 @@ The broader continuity and governance questions addressed in *Who Governs What P
 
 The program is best understood as a set of connected levels rather than as one linear theory sequence.
 
+**The program-level conceptual orientation** preserves the widest historical question connecting the different parts of the research: how previously formed organization can shape later cognitive possibility, remain consequential across changing carriers, become distributed across wider arrangements, and preserve or reduce the capacity for further revision. [*The Historical Horizon of Cognitive Structuring*](https://doi.org/10.5281/zenodo.22738979) states this horizon without treating it as a theorem of GTCS or as a claim that all cognition constitutes one historical system.
+
 **The primary journal-facing papers** ask broad questions about structural updating, cross-carrier continuity, retention, durable updating, and continuity-relevant control. They are intended to be readable and assessable without requiring the reader to traverse the full GTCS technical corpus.
 
 **GTCS** provides the main formal architecture for separating structural-regulatory objects that can otherwise be conflated: coherence deviation, burden, retained overload, admission, representation, transformation, invariants, identity-related regulation, continuity, and coordination/conflict.
@@ -307,7 +321,7 @@ The program is best understood as a set of connected levels rather than as one l
 
 **Verification and operationalization materials** make the formal architecture externally inspectable and provide controlled interfaces to measurement and computation. Toy models and benchmarks are downstream realizations of selected structures, not compact substitutes for the research program as a whole.
 
-This organization also protects against a common interpretive error: finding one technically narrow paper, simulation, or branch document should not be treated as sufficient evidence about the scope of the whole program. The canonical hierarchy is **research program → primary journal-facing papers and GTCS formal framework → specialized branches and interfaces → operational/computational realizations**.
+This organization also protects against a common interpretive error: finding one technically narrow paper, simulation, or branch document should not be treated as sufficient evidence about the scope of the whole program. The canonical hierarchy is **research program → program-level conceptual orientation → primary journal-facing papers and GTCS formal framework → specialized branches and interfaces → operational/computational realizations**.
 
 ---
 
