@@ -10,7 +10,7 @@
 
 This repository is the canonical public landing page and complete research map for a research program on how cognitive organization is sustained, constrained, structurally revised, preserved through change, continued across carriers, and distributed across interacting systems.
 
-The **General Theory of Cognitive Structuring (GTCS)** is the principal formal-architectural component of the program, but the research program is broader than GTCS alone. It also includes program-level conceptual work preserving the wider historical horizon of the research; primary journal-facing papers on structural updating, cross-carrier continuity, retention, durable updating, and continuity-relevant control; specialized GTCS branches; human-specific applications; AI-safety and governance interfaces; verification materials; operationalization frameworks; and computational or toy realizations.
+The **General Theory of Cognitive Structuring (GTCS)** is the principal formal-architectural component of the program, but the research program is broader than GTCS alone. It also includes program-level conceptual work preserving the wider historical horizon of the research; primary journal-facing papers on structural updating, cross-carrier continuity, retention, durable updating, and continuity-relevant control; the **Architecture of Self-Regulating Cognitive Systems**, a substrate-independent candidate architecture for sufficiently complex self-regulating cognitive systems; specialized GTCS branches; human-specific applications; AI-safety and governance interfaces; verification materials; operationalization frameworks; and computational or toy realizations.
 
 A recurring methodological commitment across the program is that conditions that often appear together should not be treated as identical merely because they co-occur. Information processing is not structural updating; discrepancy is not differentiated access; access is not representation; pressure for change is not an available transformation; transformation is not continuity loss; persistence is not stability; transfer is not coordination; significance is not selection; and local technical continuation is not by itself preservation of a wider cognitive organization.
 
@@ -90,7 +90,7 @@ Likewise, compatibility with GTCS does not by itself make a wider conceptual pro
 
 ### Start here
 
-For a **broad program-level orientation**, begin with [*The Historical Horizon of Cognitive Structuring*](https://doi.org/10.5281/zenodo.22738979). For a **journal-facing conceptual entry**, use the three primary papers above. For a **formal entry**, begin with the GTCS synthesis and then use the Core Technical Sequence and Verification Package below. For a **specialized question**, use the branch index in the Complete Research Map.
+For a **broad program-level orientation**, begin with [*The Historical Horizon of Cognitive Structuring*](https://doi.org/10.5281/zenodo.22738979). For a **journal-facing conceptual entry**, use the three primary papers above. For a **formal entry**, begin with the GTCS synthesis and then use the Core Technical Sequence and Verification Package below. For an **architecture-level entry above the Core minimum**, use the *Architecture of Self-Regulating Cognitive Systems* series, which develops a candidate organization for sufficiently complex self-regulating systems without making that organization a universal GTCS requirement. For a **specialized question**, use the branch index in the Complete Research Map.
 
 ---
 
@@ -118,6 +118,25 @@ The Core Technical Sequence isolates the main formal owner surfaces before the s
 | [Inter-System Conflict Classification in Cognitive Systems](https://doi.org/10.5281/zenodo.19509685)      | Defines conflict as task- and context-relative coordination insufficiency between systems.           |
 | [Identity-Continuity Domains in Cognitive Architectures](https://doi.org/10.5281/zenodo.19947542)         | Defines identity-continuity classification across ordered architectural transitions.                 |
 | [General Theory of Cognitive Structuring](https://doi.org/10.5281/zenodo.19467207)                        | Integrates the framework into a typed, distinction-preserving architecture of cognitive structuring. |
+
+### Architecture of Self-Regulating Cognitive Systems
+
+The **Architecture of Self-Regulating Cognitive Systems (ASRCS)** develops a more elaborate substrate-independent candidate organization for sufficiently complex self-regulating cognitive systems. It occupies an intermediate level between the universal structural minimum formalized by GTCS Core and domain-specific realizations such as Human Psychic Processing / Psychological Architecture.
+
+The series is **not part of the universal GTCS Core** and does not claim that every cognitive system must instantiate its full organization. Its four principal projections—**Structural Organization, Historical Formation, Processing-and-Control Availability, and Episode-Level Regulatory Routing**—are complementary analytic views rather than modules, developmental stages, intelligence levels, or a mandatory processing sequence.
+
+Across the series, several distinctions remain central: current processing organization is not the same object as the governance of structural updating; historical formation is not GTCS Trajectory-Dependent Regulation or cognitive lineage; structural support is not current availability; current availability is not invocation; route invocation is not structural updating; and architecture-level roles are not silently identified with human-specific, phenomenological, significance, continuity-governance, or GTCS Core constructions.
+
+| ID | Work | Role in the architecture |
+|---|---|---|
+| ASRCS-01 | [**Architecture of Self-Regulating Cognitive Systems: Structural Organization, Historical Formation, Processing-and-Control Availability, and Episode-Level Regulatory Routing**](https://doi.org/10.5281/zenodo.22828049) | Introduces the architecture, fixes its scope and epistemic ceiling, and defines the four complementary projections without treating them as stages, modules, or a universal processing sequence. |
+| ASRCS-02 | [**Structural Organization and Structural-Update Governance in Self-Regulating Cognitive Systems: A Candidate Functional Decomposition**](https://doi.org/10.5281/zenodo.22828796) | Separates current **Processing Organization** from **Structural-Update Governance**, develops candidate functional decompositions for both, and preserves boundaries with GTCS, significance, human attention, and continuity governance. |
+| ASRCS-03 | [**Historical Formation in Self-Regulating Cognitive Systems: A Non-Stage Architecture of Processing Organization, Recursive Re-Entry, Structural-Update Governance, and Stable Structural Constraints**](https://doi.org/10.5281/zenodo.22829139) | Develops a non-stage account of how processing organization, recursive re-entry, update governance, and relatively persistent structural constraints can form while remaining distinct from GTCS TDR, cognitive lineage, runtime availability, and human ontogenesis. |
+| ASRCS-04 | [**Processing-and-Control Availability in Self-Regulating Cognitive Systems: Current Availability Profiles between Structural Support and Episode-Level Invocation**](https://doi.org/10.5281/zenodo.22829491) | Defines current availability as a frame-relative profile between structural support and invocation. It rejects scalar availability ladders and keeps availability distinct from focal attention, accessibility, PSA, GTCS meta-availability, manifestation, symbolic articulation, and route invocation. |
+| ASRCS-05 | [**Episode-Level Regulatory Routing in Self-Regulating Cognitive Systems: Candidate Route Families between Current Availability and Realized Consequence**](https://doi.org/10.5281/zenodo.22829723) | Develops four non-exhaustive sibling route families—Local Non-Focal Regulation, Short Selectively Focused Regulation, Extended Regulation, and Fast Execution—while separating route availability, invocation, execution, structural updating, and temporal feedback. |
+| ASRCS-06 | [**Formal Architecture Map of Self-Regulating Cognitive Systems: Conceptual Provenance, Compatibility Relations, and Protected Non-Equivalences**](https://doi.org/10.5281/zenodo.22830245) | Provides the public conceptual map of defining frameworks, compatibility and bridge relations, and protected non-equivalences across the architecture and its neighboring GTCS, HPP, phenomenological, significance, lineage, and continuity-governance constructions. |
+
+The six-paper sequence is useful as a **publication and dependency route**, not as a temporal model of cognition. ASRCS-06 functions as the compact conceptual reference for the retained architecture: it records how the architecture's public concepts relate to neighboring frameworks while preserving their independent definitions and claim boundaries.
 
 ### Verification, Proof Status, and Operationalization
 
@@ -317,11 +336,13 @@ The program is best understood as a set of connected levels rather than as one l
 
 **GTCS** provides the main formal architecture for separating structural-regulatory objects that can otherwise be conflated: coherence deviation, burden, retained overload, admission, representation, transformation, invariants, identity-related regulation, continuity, and coordination/conflict.
 
-**The specialized branches** extend selected distinctions into manifestation and qualitative readability, inter-system conflict, significance, human psychic processing, and AI-safety/governance questions. A branch may consume Core objects without becoming a redefinition of the Core.
+**The Architecture of Self-Regulating Cognitive Systems** occupies a more specific but still substrate-independent level above that Core minimum. It asks how sufficiently complex self-regulating systems may organize current processing, constrain structural updating, acquire historically formed organization, vary the current availability of processing/control possibilities, and instantiate episode-level regulatory routes. Compatibility with GTCS does not make this candidate architecture a theorem or universal requirement of the Core.
+
+**The specialized branches** extend selected distinctions into manifestation and qualitative readability, inter-system conflict, significance, human psychic processing, and AI-safety/governance questions. A branch may consume Core or architecture-level objects without becoming a redefinition of either.
 
 **Verification and operationalization materials** make the formal architecture externally inspectable and provide controlled interfaces to measurement and computation. Toy models and benchmarks are downstream realizations of selected structures, not compact substitutes for the research program as a whole.
 
-This organization also protects against a common interpretive error: finding one technically narrow paper, simulation, or branch document should not be treated as sufficient evidence about the scope of the whole program. The canonical hierarchy is **research program → program-level conceptual orientation → primary journal-facing papers and GTCS formal framework → specialized branches and interfaces → operational/computational realizations**.
+This organization also protects against a common interpretive error: finding one technically narrow paper, simulation, or branch document should not be treated as sufficient evidence about the scope of the whole program. The canonical hierarchy is **research program → program-level conceptual orientation → primary journal-facing papers and GTCS formal framework → candidate complex-system architecture (ASRCS) → specialized branches and interfaces → operational/computational realizations**.
 
 ---
 
@@ -329,7 +350,7 @@ This organization also protects against a common interpretive error: finding one
 
 This repository aggregates many independently citable works. When referring to a specific definition, formal construction, result, branch object, toy realization, or protocol, please cite the corresponding work and Zenodo DOI rather than citing only the repository landing page.
 
-**Canonical context:** this repository documents **Kostiantyn Osmolovskyi's research program on cognitive structuring, change, persistence, and continuity**. The **General Theory of Cognitive Structuring (GTCS)** is its principal formal-architectural framework. Individual branch papers, verification documents, operationalization templates, simulations, and toy models are specialized or downstream components and should not be interpreted as standalone definitions of the whole research program or of GTCS.
+**Canonical context:** this repository documents **Kostiantyn Osmolovskyi's research program on cognitive structuring, change, persistence, and continuity**. The **General Theory of Cognitive Structuring (GTCS)** is its principal formal-architectural framework. The **Architecture of Self-Regulating Cognitive Systems** is a distinct candidate complex-system architecture compatible with, but not constitutive of, the universal GTCS Core. Individual branch papers, verification documents, operationalization templates, simulations, and toy models are specialized or downstream components and should not be interpreted as standalone definitions of the whole research program, GTCS, or the ASRCS series.
 
 Where a formula, definition, logical construction, or formal distinction is derived from a specific paper in this corpus, the most informative attribution is **Osmolovskyi, K.** together with the DOI of that paper.
 
