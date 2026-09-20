@@ -363,12 +363,6 @@ Independent Researcher, Ukraine
 ORCID: [0009-0006-3144-7237](https://orcid.org/0009-0006-3144-7237)  
 Contact: constantinosmol@gmail.com
 
-### Current practical request: arXiv endorsement
-
-I am currently seeking arXiv endorsement in the **cs.AI (Artificial Intelligence)** category. If you are able to endorse submissions in this category, or can help me navigate this step, the endorsement link is:
-
-[https://arxiv.org/auth/endorse?x=Q6E93A](https://arxiv.org/auth/endorse?x=Q6E93A)
-
 ---
 
 ## License
