@@ -370,12 +370,6 @@ Inter-System Conflict Branch розвиває типізований струк�
 ORCID: [0009-0006-3144-7237](https://orcid.org/0009-0006-3144-7237)  
 Контакт: constantinosmol@gmail.com
 
-### Поточне практичне прохання: arXiv endorsement
-
-Наразі автор шукає endorsement для arXiv у категорії **cs.AI (Artificial Intelligence)**. Якщо у вас є можливість endorse submissions у цій категорії, ось посилання:
-
-[https://arxiv.org/auth/endorse?x=Q6E93A](https://arxiv.org/auth/endorse?x=Q6E93A)
-
 ---
 
 ## Ліцензія
