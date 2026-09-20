@@ -6,7 +6,7 @@
 
 *Author:* Kostiantyn Osmolovskyi  
 *ORCID:* [0009-0006-3144-7237](https://orcid.org/0009-0006-3144-7237)  
-*Canonical formal framework:* [General Theory of Cognitive Structuring (GTCS)](#general-theory-of-cognitive-structuring-gtcs)  
+*Canonical formal framework:* General Theory of Cognitive Structuring (GTCS)
 
 This repository is the canonical public landing page and complete research map for a research program on how cognitive organization is sustained, constrained, structurally revised, preserved through change, continued across carriers, and distributed across interacting systems.
 
