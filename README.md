@@ -310,6 +310,20 @@ Taken together, the HPP papers provide a network of interoperable but non-substi
 
 ---
 
+### Applied Discrepancy–Intervention Framework
+
+The **Applied Discrepancy–Intervention Framework** is a separate applied methodological layer for supported human regulation. It translates distinction-preserving commitments from the upstream research program into a prospective discrimination architecture for asking whether intervention is indicated, which current relation may be limiting continuation, what evidence separates that relation from nearby rivals, what operation is being applied, and what level of result is actually supported.
+
+The framework is designed to remain usable without requiring acceptance of GTCS as an established theory. Its central methodological requirement is to keep observation, source, limiting relation, operation, and result analytically separate, and to treat unresolved or non-discriminated cases as legitimate outcomes rather than forcing a mechanism assignment.
+
+| Work | Role | Key boundary |
+|---|---|---|
+| [**A Prospective Operational Validation Framework for the Applied Discrepancy–Intervention Map**](https://doi.org/10.5281/zenodo.23025862) | Defines a rival-based prospective validation framework for the Applied Discrepancy–Intervention Map. It uses `[C]` / `[S]` / `[D]` evidence states, predeclared primary rivals, prerequisite checks, manipulation-fidelity records, node-specific readouts, temporal ordering, and explicit `NO DISCRIMINATION` outcomes. The report also provides a fully specified N7/N8 implementation analogue (SSRPT) with reproducibility materials. | **External calibration is not empirical validation; operational discriminability is not clinical prevalence; and a task analogue is not a clinical bridge.** The framework is not a diagnostic taxonomy, a clinically validated treatment-selection system, an active-study preregistration, or evidence that one procedure uniquely identifies one mechanism. |
+
+The N7/N8 SSRPT exemplar is deliberately narrower than the full framework. It demonstrates how a prospective discrimination contract can be frozen before participant data are collected, including skill and plan prerequisites, manipulation-contamination rules, decision thresholds, executable analysis logic, and explicit downgrade conditions. Its synthetic integrity tests assess implementation consistency of the frozen rules, not empirical validity of the N7/N8 distinction.
+
+---
+
 ### AI Safety Branch
 
 The AI Safety branch develops three different interfaces for applying GTCS-derived distinctions to artificial cognitive systems: higher-order regulatory availability, authority-bound governance for persistence and self-influencing systems, and target-specific measurement/validation. These layers are intentionally distinct.
@@ -340,9 +354,11 @@ The program is best understood as a set of connected levels rather than as one l
 
 **The specialized branches** extend selected distinctions into manifestation and qualitative readability, inter-system conflict, significance, human psychic processing, and AI-safety/governance questions. A branch may consume Core or architecture-level objects without becoming a redefinition of either.
 
+**Applied methodological frameworks** translate selected distinctions into bounded procedures for formulation, prospective discrimination, intervention targeting, and empirical testing. The Applied Discrepancy–Intervention Framework occupies this layer: it uses upstream distinctions as provenance while requiring its node assignments and discrimination claims to stand on their own operational evidence rather than on theoretical compatibility alone.
+
 **Verification and operationalization materials** make the formal architecture externally inspectable and provide controlled interfaces to measurement and computation. Toy models and benchmarks are downstream realizations of selected structures, not compact substitutes for the research program as a whole.
 
-This organization also protects against a common interpretive error: finding one technically narrow paper, simulation, or branch document should not be treated as sufficient evidence about the scope of the whole program. The canonical hierarchy is **research program → program-level conceptual orientation → primary journal-facing papers and GTCS formal framework → candidate complex-system architecture (ASRCS) → specialized branches and interfaces → operational/computational realizations**.
+This organization also protects against a common interpretive error: finding one technically narrow paper, simulation, or branch document should not be treated as sufficient evidence about the scope of the whole program. The canonical hierarchy is **research program → program-level conceptual orientation → primary journal-facing papers and GTCS formal framework → candidate complex-system architecture (ASRCS) → specialized branches and interfaces → applied methodological frameworks → operational/computational realizations**.
 
 ---
 
