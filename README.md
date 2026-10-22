@@ -52,7 +52,7 @@ Read full text via [Springer SharedIt](https://rdcu.be/9gwp55vaicya)
 ---
 
 
-| Research paper pending | Current status<br>(11 Sep 2026) | Program-level role |
+| Research paper pending | Current status | Program-level role |
 |---|---|---|
 | [**Cognitive Evolution Beyond the Single Life Cycle: A Framework for Cross-Carrier Continuity and Distributed Processing**](https://doi.org/10.5281/zenodo.19673721) | *New Ideas in Psychology* — under peer review | Extends the continuity problem beyond one organismal life cycle and asks how cognitive organization can accumulate, persist, and remain distributed across changing carriers and external structures. |
 | **Who Governs What Persists? Continuity-Relevant Control in Distributed Cognitive Organizations** | *Review of Philosophy and Psychology* — initial editorial assessment | Compact journal-facing reconstruction of the wider framework [*Who Governs What Persists? Retention, Durable Updating, and Continuity Across Cognitive Systems*](https://doi.org/10.5281/zenodo.21451470). It asks how control over retention, durable updating, replacement, and continuity can be distributed across systems rather than assumed to reside in one carrier. |
