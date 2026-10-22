@@ -59,7 +59,7 @@ DOI: 10.1007/s12124-026-10028-x [Офіційна версія](https://doi.org/
 
 ---
 
-| Дослідницька робота | Поточний статус (09.09.26) | Роль на рівні програми |
+| Дослідницька робота | Поточний статус | Роль на рівні програми |
 |---|---|---|
 | [**Cognitive Evolution Beyond the Single Life Cycle: A Framework for Cross-Carrier Continuity and Distributed Processing**](https://doi.org/10.5281/zenodo.19673721) | *New Ideas in Psychology* — на рецензуванні | Розширює проблему тяглості за межі одного життєвого циклу організму та ставить питання про те, як когнітивна організація може накопичуватися, зберігатися й залишатися розподіленою між змінними носіями та зовнішніми структурами. |
 | **Who Governs What Persists? Continuity-Relevant Control in Distributed Cognitive Organizations** | *Review of Philosophy and Psychology* — первинний редакторський розгляд | Компактна журнально орієнтована реконструкція ширшого каркасу [*Who Governs What Persists? Retention, Durable Updating, and Continuity Across Cognitive Systems*](https://doi.org/10.5281/zenodo.21451470). Робота ставить питання про те, як контроль над утриманням, стійким оновленням, заміною й тяглістю може бути розподілений між системами, а не апріорно приписаний одному носієві. |
